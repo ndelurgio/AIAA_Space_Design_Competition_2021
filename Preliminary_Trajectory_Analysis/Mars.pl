@@ -12,7 +12,7 @@ BEGIN Planet
 
         BEGIN EphemerisData
 
-            EphemerisSource		 None
+            EphemerisSource		 JplDE
 
             JplIndex		 3
 
@@ -72,15 +72,84 @@ BEGIN Planet
         END AccessConstraints
 
         BEGIN Desc
-            BEGIN ShortText
-
-            END ShortText
-            BEGIN LongText
-
-            END LongText
         END Desc
 
         BEGIN Crdn
+            BEGIN AXES
+                Type		 AXES_GENALIGNED
+                Name		 Inertial3
+                Description		 <Enter description (up to 300 chars)>
+                Alignment		
+                 0.0000000000000000e+00
+                 0.0000000000000000e+00
+                 1.0000000000000000e+00
+                AlignmentUiSequence		 123
+                AlignmentUiCoordType		 4
+                AlignmentReference		
+                BEGIN VECTOR
+                    Type		 VECTOR_LINKTO
+                    Name		 EclipticNormal
+                    RelativePath		 Planet/Deimos
+                END VECTOR
+                AlignmentLimit		  0.0000000000000000e+00
+                Constraint		
+                 1.0000000000000004e+00
+                 0.0000000000000000e+00
+                 0.0000000000000000e+00
+                ConstraintUiSequence		 123
+                ConstraintUiCoordType		 4
+                ConstraintReference		
+                BEGIN VECTOR
+                    Type		 VECTOR_LINKTO
+                    Name		 Sun
+                END VECTOR
+                ConstraintLimit		  0.0000000000000000e+00
+                BodySpin		 Yes
+                UniDirConstraint		 No
+                LabelX		 X
+                LabelY		 Y
+                LabelZ		 Z
+            END AXES
+            BEGIN SYSTEM
+                Type		 SYSTEM_ASSEMBLED
+                Name		 Inertial
+                Description		 <Enter description (up to 300 chars)>
+                Origin		
+                BEGIN POINT
+                    Type		 POINT_LINKTO
+                    Name		 Center
+                END POINT
+                Axes		
+                BEGIN AXES
+                    Type		 AXES_LINKTO
+                    Name		 MeanEclpJ2000
+                    RelativePath		 Planet/Phobos
+                END AXES
+            END SYSTEM
+            BEGIN SYSTEM
+                Type		 SYSTEM_SURFACE
+                Name		 Inertial2
+                Description		 <Enter description (up to 300 chars)>
+                CentralBody		 Mars
+                UseMSL		 No
+                LLA		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
+                ClockAngle		  0.0000000000000000e+00
+            END SYSTEM
+            BEGIN SYSTEM
+                Type		 SYSTEM_ASSEMBLED
+                Name		 Inertial3
+                Description		 <Enter description (up to 300 chars)>
+                Origin		
+                BEGIN POINT
+                    Type		 POINT_LINKTO
+                    Name		 Center
+                END POINT
+                Axes		
+                BEGIN AXES
+                    Type		 AXES_LINKTO
+                    Name		 Inertial3
+                END AXES
+            END SYSTEM
         END Crdn
 
         BEGIN Graphics
@@ -107,7 +176,7 @@ BEGIN Planet
                 ShowSubPlanetLabel		 Off
                 ShowOrbit		 On
                 NumOrbitPoints		 360
-                OrbitTime		  0.0000000000000000e+00
+                OrbitTime		  5.9352808371655308e+07
                 OrbitDisplay		                OneOrbit		
                 TransformTrajectory		 On
 

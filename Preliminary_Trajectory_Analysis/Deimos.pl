@@ -71,12 +71,6 @@ BEGIN Planet
         END AccessConstraints
 
         BEGIN Desc
-            BEGIN ShortText
-
-            END ShortText
-            BEGIN LongText
-
-            END LongText
         END Desc
 
         BEGIN Crdn
@@ -106,7 +100,7 @@ BEGIN Planet
                 ShowSubPlanetLabel		 Off
                 ShowOrbit		 On
                 NumOrbitPoints		 360
-                OrbitTime		  0.0000000000000000e+00
+                OrbitTime		  1.0908674456827815e+05
                 OrbitDisplay		                OneOrbit		
                 TransformTrajectory		 On
 
