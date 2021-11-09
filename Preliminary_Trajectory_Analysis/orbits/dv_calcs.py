@@ -39,3 +39,26 @@ dv_EEV_deimos_phobos_DST = dv_EEV_deimos + dv_deimos_phobos + dv_EEV_phobos
 dv_EEV_phobos_deimos_DST = dv_EEV_phobos + dv_phobos_deimos + dv_EEV_deimos
 print("Delta-V for first planet of Deimos: " + str(dv_EEV_deimos_phobos_DST) + " m/s")
 print("Delta-V for first planet of Phobos: " + str(dv_EEV_phobos_deimos_DST) + " m/s")
+
+dv_d_dst_p_dst = 2*dv_EEV_phobos
+print("Delta-V for starting at deimos and refueling at DST: " + str(dv_d_dst_p_dst) + " m/s")
+
+v_deimos_io = np.sqrt(mu_mars*(2/r_deimos-1/a_io))
+dv_EEV_deimos_eccentric = v_deimos_io - v_deimos
+print("Delta-V to get to deimos from eccentric orbit with periapsis at deimos altitude: " + str(dv_EEV_deimos_eccentric) + " m/s")
+
+r_a = 2*a_io-r_deimos
+v_a_io = np.sqrt(mu_mars*(2/r_a-1/a_io))
+print("Velocity as initial orbit apoapsis: " + str(v_a_io) + " m/s")
+v_a_2phobos = np.sqrt(mu_mars*(2/r_a-1/((r_phobos+r_a)/2)))#np.sqrt(2*(mu_mars/r_a - mu_mars/(2*((r_phobos+r_a)/2))))
+a_phobos_transfer = (r_phobos+r_a)/2
+dv_EEV_phobos_transfer = v_a_io - v_a_2phobos
+print("Delta-V to get to phobos transfer orbit: " + str(dv_EEV_phobos_transfer) + " m/s")
+v_p_phobos_transfer = np.sqrt(mu_mars*(2/r_phobos - 1/a_phobos_transfer))
+dv_2phobos = v_p_phobos_transfer - v_phobos
+dv_EEV_phobos_eccentric = 2*(dv_EEV_phobos_transfer+dv_2phobos)
+
+print("Delta-V to phobos and back in elliptical orbit: " + str(dv_EEV_phobos_eccentric) + " m/s")
+print("Delta-V starting in elliptical orbit and refueling: " + str(dv_EEV_phobos_eccentric) + " m/s")
+dv_EEV_phobos_deimos_eccentric = dv_EEV_deimos_eccentric + dv_deimos_phobos + dv_EEV_phobos_transfer + dv_2phobos
+print("Delta-V starting in an elliptical orbit with no refueling: " + str(dv_EEV_phobos_deimos_eccentric) + " m/s")
