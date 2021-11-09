@@ -102,7 +102,6 @@ class param{
             std::cout << "Radial Fraction: " << f << std::endl;
 
             if(ha != hd){
-                std::cout << "Radial Fraction: " << f << std::endl;
                 std::cout << "Convergence Angle (theta) [Degrees]: " << theta*180/PI << std::endl;
             }
         };  
