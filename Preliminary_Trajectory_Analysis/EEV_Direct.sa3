@@ -485,7 +485,7 @@ BEGIN AttitudeSphere
             BEGIN AXES
                 Type		 AXES_LINKTO
                 Name		 VVLH
-                RelativePath		 Satellite/EEV
+                RelativePath		 Satellite/EEV_Rendevous
             END AXES
         END
     END
