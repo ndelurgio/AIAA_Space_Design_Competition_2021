@@ -329,6 +329,29 @@ BEGIN Scenario
         END ConnectReportUnits
 
         BEGIN ReportFavorites
+            BEGIN Class
+                Name		 Satellite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Segment Summary
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 MCS Summary
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Astrogator Script Summary
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Astrogator Log
+                END Favorite
+            END Class
         END ReportFavorites
 
         BEGIN ADFFileData
@@ -1360,7 +1383,8 @@ BEGIN Scenario
 
         Class Satellite
 
-            EEV		
+            EEV_Direct		
+            EEV_Rendevous		
 
         END Class
 
@@ -1379,8 +1403,11 @@ BEGIN Scenario
         Instance Planet/Phobos
             Planet/Phobos		
         END Instance
-        Instance Satellite/EEV
-            Satellite/EEV		
+        Instance Satellite/EEV_Direct
+            Satellite/EEV_Direct		
+        END Instance
+        Instance Satellite/EEV_Rendevous
+            Satellite/EEV_Rendevous		
         END Instance
     END References
 

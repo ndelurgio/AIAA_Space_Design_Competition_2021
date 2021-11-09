@@ -12,7 +12,7 @@ BEGIN Planet
 
         BEGIN EphemerisData
 
-            EphemerisSource		 JplDE
+            EphemerisSource		 None
 
             JplIndex		 3
 
@@ -72,6 +72,12 @@ BEGIN Planet
         END AccessConstraints
 
         BEGIN Desc
+            BEGIN ShortText
+
+            END ShortText
+            BEGIN LongText
+
+            END LongText
         END Desc
 
         BEGIN Crdn
@@ -148,6 +154,22 @@ BEGIN Planet
                 BEGIN AXES
                     Type		 AXES_LINKTO
                     Name		 Inertial3
+                END AXES
+            END SYSTEM
+            BEGIN SYSTEM
+                Type		 SYSTEM_ASSEMBLED
+                Name		 Inertial4
+                Description		 <Enter description (up to 300 chars)>
+                Origin		
+                BEGIN POINT
+                    Type		 POINT_LINKTO
+                    Name		 Center
+                END POINT
+                Axes		
+                BEGIN AXES
+                    Type		 AXES_LINKTO
+                    Name		 Inertial
+                    AbsolutePath		 CentralBody/Mars
                 END AXES
             END SYSTEM
         END Crdn

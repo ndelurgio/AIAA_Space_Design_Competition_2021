@@ -12,19 +12,19 @@ ptn_Child1=MainFrame
 ptn_Child2=ChildFrames
 [WorkState_v1_2.Frames.MainFrame]
 WindowPlacement=MCAAAAAACAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAPPPPPPPPPPPPPPPPLEAAAAAACAAAAAAALJFAAAAAGDDAAAAA
-Title=OrbitPlanner - STK 12 - EEV : Basic Orbit
+Title=OrbitPlanner - STK 12 - EEV_Rendevous : Basic Orbit
 [WorkState_v1_2.Frames.ChildFrames]
 ptn_Child1=Document-0
 ptn_Child2=Document-1
 ptn_Child3=Document-2
 ptn_Child4=Document-3
 ptn_Child5=Document-4
+ptn_Child6=Document-5
+ptn_Child7=Document-6
 [WorkState_v1_2.Frames.ChildFrames.Document-0]
 ptn_Child1=ViewFrame-0
-ptn_Child2=ViewFrame-1
-ptn_Child3=ViewFrame-2
 [WorkState_v1_2.Frames.ChildFrames.Document-0.ViewFrame-0]
-DocPathName=\\austin.utexas.edu\disk\engrstu\ase\npd429\My Documents\AIAA_Space_Design_Competition_2021\Preliminary_Trajectory_Analysis\AgUi3DGfxView12.AgUiPi3DGfxView.1
+DocPathName=C:\WINDOWS\system32\AgUi3DGfxView12.AgUiPi3DGfxView.1
 DocumentString=AgUi3DGfxView.AgUiPi3DGfxView.1
 DocTemplateIndex=0
 WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPFPPPPPPPINPPPPPPBAAAAAAABAAAAAAANKEAAAAABAEAAAAA
@@ -34,32 +34,36 @@ ptn_Child1=AGI Custom Node Data
 [WorkState_v1_2.Frames.ChildFrames.Document-0.ViewFrame-0.AGI Custom Node Data]
 MapID=1
 SceneType=1
-[WorkState_v1_2.Frames.ChildFrames.Document-0.ViewFrame-1]
-DocPathName=\\austin.utexas.edu\disk\engrstu\ase\npd429\My Documents\AIAA_Space_Design_Competition_2021\Preliminary_Trajectory_Analysis\AgUi3DGfxView12.AgUiPi3DGfxView.1
-DocumentString=AgUi3DGfxView.AgUiPi3DGfxView.1
-DocTemplateIndex=0
-WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPIKEAAAAANPPPPPPPBBJAAAAAEBCAAAAA
-IsActiveChildFrame=False
-IsFrameVisible=True
-ptn_Child1=AGI Custom Node Data
-[WorkState_v1_2.Frames.ChildFrames.Document-0.ViewFrame-1.AGI Custom Node Data]
-MapID=2
-SceneType=1
-[WorkState_v1_2.Frames.ChildFrames.Document-0.ViewFrame-2]
-DocPathName=\\austin.utexas.edu\disk\engrstu\ase\npd429\My Documents\AIAA_Space_Design_Competition_2021\Preliminary_Trajectory_Analysis\AgUi3DGfxView12.AgUiPi3DGfxView.1
-DocumentString=AgUi3DGfxView.AgUiPi3DGfxView.1
-DocTemplateIndex=0
-WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPEKEAAAAANMBAAAAABBJAAAAAAAEAAAAA
-IsActiveChildFrame=False
-IsFrameVisible=True
-ptn_Child1=AGI Custom Node Data
-[WorkState_v1_2.Frames.ChildFrames.Document-0.ViewFrame-2.AGI Custom Node Data]
-MapID=3
-SceneType=1
 [WorkState_v1_2.Frames.ChildFrames.Document-1]
 ptn_Child1=ViewFrame-0
 [WorkState_v1_2.Frames.ChildFrames.Document-1.ViewFrame-0]
-DocPathName=\\austin.utexas.edu\disk\engrstu\ase\npd429\My Documents\AIAA_Space_Design_Competition_2021\Preliminary_Trajectory_Analysis\AgUiAttrBrowser12.AgUiPiAttrBrowser.1
+DocPathName=C:\WINDOWS\system32\AgUi3DGfxView12.AgUiPi3DGfxView.1
+DocumentString=AgUi3DGfxView.AgUiPi3DGfxView.1
+DocTemplateIndex=0
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPJKEAAAAAPPPPPPPPCBJAAAAAGBCAAAAA
+IsActiveChildFrame=False
+IsFrameVisible=True
+ptn_Child1=AGI Custom Node Data
+[WorkState_v1_2.Frames.ChildFrames.Document-1.ViewFrame-0.AGI Custom Node Data]
+MapID=2
+SceneType=1
+[WorkState_v1_2.Frames.ChildFrames.Document-2]
+ptn_Child1=ViewFrame-0
+[WorkState_v1_2.Frames.ChildFrames.Document-2.ViewFrame-0]
+DocPathName=C:\WINDOWS\system32\AgUi3DGfxView12.AgUiPi3DGfxView.1
+DocumentString=AgUi3DGfxView.AgUiPi3DGfxView.1
+DocTemplateIndex=0
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPJKEAAAAABNBAAAAAGBJAAAAAEAEAAAAA
+IsActiveChildFrame=False
+IsFrameVisible=True
+ptn_Child1=AGI Custom Node Data
+[WorkState_v1_2.Frames.ChildFrames.Document-2.ViewFrame-0.AGI Custom Node Data]
+MapID=3
+SceneType=1
+[WorkState_v1_2.Frames.ChildFrames.Document-3]
+ptn_Child1=ViewFrame-0
+[WorkState_v1_2.Frames.ChildFrames.Document-3.ViewFrame-0]
+DocPathName=C:\WINDOWS\system32\AgUiAttrBrowser12.AgUiPiAttrBrowser.1
 DocumentString=AgUiAttrBrowser.AgUiPiAttrBrowser.1
 DocTemplateIndex=0
 WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAALNAAAAAAHAEAAAAA
@@ -67,10 +71,10 @@ IsActiveChildFrame=False
 IsFrameVisible=True
 ProfUISBarID=63000
 ptn_Child1=AGI Custom Node Data
-[WorkState_v1_2.Frames.ChildFrames.Document-3]
+[WorkState_v1_2.Frames.ChildFrames.Document-6]
 ptn_Child1=ViewFrame-0
-[WorkState_v1_2.Frames.ChildFrames.Document-3.ViewFrame-0]
-DocPathName=\\austin.utexas.edu\disk\engrstu\ase\npd429\My Documents\AIAA_Space_Design_Competition_2021\Preliminary_Trajectory_Analysis\AgUiTimelineView12.AgUiPiTimelineView.1
+[WorkState_v1_2.Frames.ChildFrames.Document-6.ViewFrame-0]
+DocPathName=C:\WINDOWS\system32\AgUiTimelineView12.AgUiPiTimelineView.1
 DocumentString=AgUiTimelineView.AgUiPiTimelineView.1
 DocTemplateIndex=0
 WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAAAAKAAAAAIJAAAAAA
@@ -78,7 +82,7 @@ IsActiveChildFrame=False
 IsFrameVisible=True
 ProfUISBarID=63001
 ptn_Child1=AGI Custom Node Data
-[WorkState_v1_2.Frames.ChildFrames.Document-3.ViewFrame-0.AGI Custom Node Data]
+[WorkState_v1_2.Frames.ChildFrames.Document-6.ViewFrame-0.AGI Custom Node Data]
 ComponentWellWidth=200.000000000000
 CurrentContentView=Scenario Availability
 CurrentTimeView=Scenario Analysis Period

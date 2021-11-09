@@ -3,7 +3,7 @@ WrittenBy    STK_v12.0.1
 
 BEGIN Satellite
 
-    Name		 EEV
+    Name		 EEV_Direct
 
     BEGIN VehiclePath
         CentralBody		 Earth
@@ -501,6 +501,201 @@ BEGIN Satellite
             <OBJECT Class = "string" Name = "UserComment"> &quot;EEV trajectory&quot; </OBJECT>
             <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
         </OBJECT>
+        <OBJECT Class = "MCSSegment" Name = "EEV_No_Rendevous">
+            <OBJECT Class = "bool" Name = "BeenRun"> False </OBJECT>
+            <OBJECT Class = "container" Name = "BPlanes" />
+            <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
+            <OBJECT Class = "container" Name = "ChildrenSelected" />
+            <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
+            <OBJECT Class = "string" Name = "Description"> &quot;New Sequence&quot; </OBJECT>
+            <OBJECT Class = "link" Name = "DisplayCoordSystem">
+                <OBJECT Class = "string" Name = ""> &quot;CentralBody/Earth Inertial&quot; </OBJECT>
+            </OBJECT>
+            <OBJECT Class = "AttrCon" Name = "FinalState">
+                <OBJECT Class = "Orbit_State" Name = "Orbit_State">
+                    <OBJECT Class = "container" Name = "Cartesian">
+                        <OBJECT Class = "double" Name = "X"> 6678137 m </OBJECT>
+                        <OBJECT Class = "double" Name = "Y"> 0 m </OBJECT>
+                        <OBJECT Class = "double" Name = "Z"> 0 m </OBJECT>
+                        <OBJECT Class = "double" Name = "Vx"> 0 m*sec^-1 </OBJECT>
+                        <OBJECT Class = "double" Name = "Vy"> 6789.530300272665 m*sec^-1 </OBJECT>
+                        <OBJECT Class = "double" Name = "Vz"> 3686.414174400911 m*sec^-1 </OBJECT>
+                    </OBJECT>
+                    <OBJECT Class = "double" Name = "Cd"> 2.2 &quot;&quot; </OBJECT>
+                    <OBJECT Class = "link" Name = "CoordSysRep">
+                        <OBJECT Class = "string" Name = ""> &quot;None&quot; </OBJECT>
+                    </OBJECT>
+                    <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
+                    <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
+                    <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
+                    <OBJECT Class = "date" Name = "Epoch"> &quot;1 Jul 2009 15:00:34.000000000&quot; TAIG </OBJECT>
+                    <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
+                    <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
+                    <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
+                    <OBJECT Class = "double" Name = "K2"> 1 &quot;&quot; </OBJECT>
+                    <OBJECT Class = "double" Name = "RadPressureArea"> 20 m^2 </OBJECT>
+                    <OBJECT Class = "double" Name = "RadPressureCoeff"> 1 &quot;&quot; </OBJECT>
+                    <OBJECT Class = "double" Name = "SRPArea"> 20 m^2 </OBJECT>
+                    <OBJECT Class = "double" Name = "TankPressure"> 5000 Pa </OBJECT>
+                    <OBJECT Class = "double" Name = "TankTemperature"> 293.15 K </OBJECT>
+                    <OBJECT Class = "container" Name = "UserVariables" />
+                </OBJECT>
+            </OBJECT>
+            <OBJECT Class = "bool" Name = "GenerateEphemeris"> True </OBJECT>
+            <OBJECT Class = "AttrCon" Name = "InitialState">
+                <OBJECT Class = "Orbit_State" Name = "Orbit_State">
+                    <OBJECT Class = "container" Name = "Cartesian">
+                        <OBJECT Class = "double" Name = "X"> 6678137 m </OBJECT>
+                        <OBJECT Class = "double" Name = "Y"> 0 m </OBJECT>
+                        <OBJECT Class = "double" Name = "Z"> 0 m </OBJECT>
+                        <OBJECT Class = "double" Name = "Vx"> 0 m*sec^-1 </OBJECT>
+                        <OBJECT Class = "double" Name = "Vy"> 6789.530300272665 m*sec^-1 </OBJECT>
+                        <OBJECT Class = "double" Name = "Vz"> 3686.414174400911 m*sec^-1 </OBJECT>
+                    </OBJECT>
+                    <OBJECT Class = "double" Name = "Cd"> 2.2 &quot;&quot; </OBJECT>
+                    <OBJECT Class = "link" Name = "CoordSysRep">
+                        <OBJECT Class = "string" Name = ""> &quot;None&quot; </OBJECT>
+                    </OBJECT>
+                    <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
+                    <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
+                    <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
+                    <OBJECT Class = "date" Name = "Epoch"> &quot;1 Jul 2009 15:00:34.000000000&quot; TAIG </OBJECT>
+                    <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
+                    <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
+                    <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
+                    <OBJECT Class = "double" Name = "K2"> 1 &quot;&quot; </OBJECT>
+                    <OBJECT Class = "double" Name = "RadPressureArea"> 20 m^2 </OBJECT>
+                    <OBJECT Class = "double" Name = "RadPressureCoeff"> 1 &quot;&quot; </OBJECT>
+                    <OBJECT Class = "double" Name = "SRPArea"> 20 m^2 </OBJECT>
+                    <OBJECT Class = "double" Name = "TankPressure"> 5000 Pa </OBJECT>
+                    <OBJECT Class = "double" Name = "TankTemperature"> 293.15 K </OBJECT>
+                    <OBJECT Class = "container" Name = "UserVariables" />
+                </OBJECT>
+            </OBJECT>
+            <OBJECT Class = "string" Name = "InputDirection"> &quot;Forward&quot; </OBJECT>
+            <OBJECT Class = "string" Name = "LastRunCode"> &quot;Marching&quot; </OBJECT>
+            <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
+            <OBJECT Class = "int" Name = "RepeatCount"> 1 </OBJECT>
+            <OBJECT Class = "container" Name = "ResultsSelected" />
+            <OBJECT Class = "ListLink" Name = "Results" />
+            <OBJECT Class = "string" Name = "RunDirection"> &quot;Forward&quot; </OBJECT>
+            <OBJECT Class = "link" Name = "ScriptingTool">
+                <OBJECT Class = "TargeterProfile" Name = "Scripting_Tool">
+                    <OBJECT Class = "ListLink" Name = "Attributes" />
+                    <OBJECT Class = "bool" Name = "BeenRun"> False </OBJECT>
+                    <OBJECT Class = "ListLink" Name = "CalcObjects" />
+                    <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
+                    <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
+                    <OBJECT Class = "string" Name = "Description"> &quot;-Scripting Tool-&quot; </OBJECT>
+                    <OBJECT Class = "string" Name = "Language"> &quot;JScript&quot; </OBJECT>
+                    <OBJECT Class = "string" Name = "Mode"> &quot;Not Active&quot; </OBJECT>
+                    <OBJECT Class = "ListLink" Name = "Parameters" />
+                    <OBJECT Class = "bool" Name = "PreIterate"> False </OBJECT>
+                    <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
+                    <OBJECT Class = "string" Name = "ScriptStatements"> &quot;&quot; </OBJECT>
+                    <OBJECT Class = "container" Name = "ShooterControls" />
+                    <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+                    <OBJECT Class = "string" Name = "Type"> &quot;ScriptingTool&quot; </OBJECT>
+                    <OBJECT Class = "string" Name = "UserComment"> &quot;-Scripting Tool-&quot; </OBJECT>
+                    <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
+                </OBJECT>
+            </OBJECT>
+            <OBJECT Class = "int" Name = "SegmentColor"> 65280 </OBJECT>
+            <OBJECT Class = "container" Name = "SegmentListSelected" />
+            <OBJECT Class = "ListLink" Name = "SegmentList">
+                <OBJECT Class = "MCSSegment" Name = "-">
+                    <OBJECT Class = "bool" Name = "BeenRun"> False </OBJECT>
+                    <OBJECT Class = "container" Name = "BPlanes" />
+                    <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
+                    <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
+                    <OBJECT Class = "string" Name = "Description"> &quot;End Of Sequence&quot; </OBJECT>
+                    <OBJECT Class = "link" Name = "DisplayCoordSystem">
+                        <OBJECT Class = "string" Name = ""> &quot;CentralBody/Earth Inertial&quot; </OBJECT>
+                    </OBJECT>
+                    <OBJECT Class = "AttrCon" Name = "FinalState">
+                        <OBJECT Class = "Orbit_State" Name = "Orbit_State">
+                            <OBJECT Class = "container" Name = "Cartesian">
+                                <OBJECT Class = "double" Name = "X"> 6678137 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Y"> 0 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Z"> 0 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Vx"> 0 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "Vy"> 6789.530300272665 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "Vz"> 3686.414174400911 m*sec^-1 </OBJECT>
+                            </OBJECT>
+                            <OBJECT Class = "double" Name = "Cd"> 2.2 &quot;&quot; </OBJECT>
+                            <OBJECT Class = "link" Name = "CoordSysRep">
+                                <OBJECT Class = "string" Name = ""> &quot;None&quot; </OBJECT>
+                            </OBJECT>
+                            <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
+                            <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
+                            <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;1 Jul 2009 15:00:34.000000000&quot; TAIG </OBJECT>
+                            <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
+                            <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
+                            <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
+                            <OBJECT Class = "double" Name = "K2"> 1 &quot;&quot; </OBJECT>
+                            <OBJECT Class = "double" Name = "RadPressureArea"> 20 m^2 </OBJECT>
+                            <OBJECT Class = "double" Name = "RadPressureCoeff"> 1 &quot;&quot; </OBJECT>
+                            <OBJECT Class = "double" Name = "SRPArea"> 20 m^2 </OBJECT>
+                            <OBJECT Class = "double" Name = "TankPressure"> 5000 Pa </OBJECT>
+                            <OBJECT Class = "double" Name = "TankTemperature"> 293.15 K </OBJECT>
+                            <OBJECT Class = "container" Name = "UserVariables" />
+                        </OBJECT>
+                    </OBJECT>
+                    <OBJECT Class = "AttrCon" Name = "InitialState">
+                        <OBJECT Class = "Orbit_State" Name = "Orbit_State">
+                            <OBJECT Class = "container" Name = "Cartesian">
+                                <OBJECT Class = "double" Name = "X"> 6678137 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Y"> 0 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Z"> 0 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Vx"> 0 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "Vy"> 6789.530300272665 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "Vz"> 3686.414174400911 m*sec^-1 </OBJECT>
+                            </OBJECT>
+                            <OBJECT Class = "double" Name = "Cd"> 2.2 &quot;&quot; </OBJECT>
+                            <OBJECT Class = "link" Name = "CoordSysRep">
+                                <OBJECT Class = "string" Name = ""> &quot;None&quot; </OBJECT>
+                            </OBJECT>
+                            <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
+                            <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
+                            <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;1 Jul 2009 15:00:34.000000000&quot; TAIG </OBJECT>
+                            <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
+                            <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
+                            <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
+                            <OBJECT Class = "double" Name = "K2"> 1 &quot;&quot; </OBJECT>
+                            <OBJECT Class = "double" Name = "RadPressureArea"> 20 m^2 </OBJECT>
+                            <OBJECT Class = "double" Name = "RadPressureCoeff"> 1 &quot;&quot; </OBJECT>
+                            <OBJECT Class = "double" Name = "SRPArea"> 20 m^2 </OBJECT>
+                            <OBJECT Class = "double" Name = "TankPressure"> 5000 Pa </OBJECT>
+                            <OBJECT Class = "double" Name = "TankTemperature"> 293.15 K </OBJECT>
+                            <OBJECT Class = "container" Name = "UserVariables" />
+                        </OBJECT>
+                    </OBJECT>
+                    <OBJECT Class = "string" Name = "LastRunCode"> &quot;Marching&quot; </OBJECT>
+                    <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
+                    <OBJECT Class = "container" Name = "ResultsSelected" />
+                    <OBJECT Class = "ListLink" Name = "Results" />
+                    <OBJECT Class = "string" Name = "RunDirection"> &quot;Forward&quot; </OBJECT>
+                    <OBJECT Class = "int" Name = "SegmentColor"> 65280 </OBJECT>
+                    <OBJECT Class = "container" Name = "ShooterControls" />
+                    <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+                    <OBJECT Class = "bool" Name = "TreeNodeExpanded"> False </OBJECT>
+                    <OBJECT Class = "string" Name = "Type"> &quot;End&quot; </OBJECT>
+                    <OBJECT Class = "bool" Name = "UpdateAnimationTimeAfterRunning"> False </OBJECT>
+                    <OBJECT Class = "string" Name = "UserComment"> &quot;End Of Sequence&quot; </OBJECT>
+                    <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
+                </OBJECT>
+            </OBJECT>
+            <OBJECT Class = "container" Name = "ShooterControls" />
+            <OBJECT Class = "string" Name = "StateToPass"> &quot;Final&quot; </OBJECT>
+            <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+            <OBJECT Class = "bool" Name = "TreeNodeExpanded"> False </OBJECT>
+            <OBJECT Class = "string" Name = "Type"> &quot;Sequence&quot; </OBJECT>
+            <OBJECT Class = "bool" Name = "UpdateAnimationTimeAfterRunning"> False </OBJECT>
+            <OBJECT Class = "string" Name = "UserComment"> &quot;New Sequence&quot; </OBJECT>
+            <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
+        </OBJECT>
     </OBJECT>
     <OBJECT Class = "container" Name = "AuxSequenceListSelected" />
     <OBJECT Class = "container" Name = "CalculationGraphs" />
@@ -530,7 +725,7 @@ BEGIN Satellite
     </OBJECT>
     <OBJECT Class = "bool" Name = "GenerateEphemeris"> True </OBJECT>
     <OBJECT Class = "string" Name = "GenPathMode"> &quot;RunMissionControlSequence&quot; </OBJECT>
-    <OBJECT Class = "string" Name = "InstName"> &quot;EEV&quot; </OBJECT>
+    <OBJECT Class = "string" Name = "InstName"> &quot;EEV_Direct&quot; </OBJECT>
     <OBJECT Class = "link" Name = "MainSEQUENCE">
         <OBJECT Class = "MCSSegment" Name = "Mission_Control_Sequence">
             <OBJECT Class = "bool" Name = "BeenRun"> True </OBJECT>
@@ -1336,36 +1531,7 @@ BEGIN Satellite
                                             <OBJECT Class = "string" Name = "Description"> &quot;Finite maneuver pointing definitions&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EngineDirection"> &quot;+X&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EulerSequence"> &quot;313&quot; </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "double" Name = "LastRunAttFileTimeOffset"> 0 sec </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeControl"> &quot;Along Velocity Vector&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeFile"> &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeRep"> &quot;Quaternion&quot; </OBJECT>
-                                                <OBJECT Class = "AttrCon" Name = "LastRunBodyConstraintVector">
-                                                    <OBJECT Class = "container" Name = "Cartesian">
-                                                        <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunZ"> 1 &quot;&quot; </OBJECT>
-                                                    </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunCartesian">
-                                                    <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunZ"> 0 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunConstraintSign"> &quot;+&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunCoordType"> &quot;Cartesian&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunEulerSequence"> &quot;313&quot; </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunQuaternion">
-                                                    <OBJECT Class = "double" Name = "LastRunQx"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQy"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQz"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQs"> 1 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrustAxes">
-                                                    <OBJECT Class = "string" Name = ""> &quot;None&quot; </OBJECT>
-                                                </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "container" Name = "Quaternion">
                                                 <OBJECT Class = "double" Name = "qx"> 0 &quot;&quot; </OBJECT>
                                                 <OBJECT Class = "double" Name = "qy"> 0 &quot;&quot; </OBJECT>
@@ -1438,28 +1604,7 @@ BEGIN Satellite
                                             <OBJECT Class = "link" Name = "EngineModel">
                                                 <OBJECT Class = "string" Name = ""> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
                                             </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "container" Name = "LastRunEngineInfo">
-                                                    <OBJECT Class = "string" Name = "EngineName"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineDescription"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineComment"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialThrust"> 0 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalThrust"> 0 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialIsp"> 0 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalIsp"> 0 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialMdot"> 0 kg*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalMdot"> 0 kg*sec^-1 </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunEngineModel">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunPropulsionType"> &quot;Engine Model&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunThrustEfficiencyMode"> &quot;Affects Accel Only&quot; </OBJECT>
-                                                <OBJECT Class = "double" Name = "LastRunThrustEfficiency"> 1 &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrusterSet">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
-                                                </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "string" Name = "PressureMode"> &quot;Pressure-Regulated&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "PropulsionType"> &quot;Engine Model&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
@@ -1676,36 +1821,7 @@ BEGIN Satellite
                                             <OBJECT Class = "string" Name = "Description"> &quot;Finite maneuver pointing definitions&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EngineDirection"> &quot;+X&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EulerSequence"> &quot;313&quot; </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "double" Name = "LastRunAttFileTimeOffset"> 0 sec </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeControl"> &quot;Along Velocity Vector&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeFile"> &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeRep"> &quot;Quaternion&quot; </OBJECT>
-                                                <OBJECT Class = "AttrCon" Name = "LastRunBodyConstraintVector">
-                                                    <OBJECT Class = "container" Name = "Cartesian">
-                                                        <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunZ"> 1 &quot;&quot; </OBJECT>
-                                                    </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunCartesian">
-                                                    <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunZ"> 0 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunConstraintSign"> &quot;+&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunCoordType"> &quot;Cartesian&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunEulerSequence"> &quot;313&quot; </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunQuaternion">
-                                                    <OBJECT Class = "double" Name = "LastRunQx"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQy"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQz"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQs"> 1 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrustAxes">
-                                                    <OBJECT Class = "string" Name = ""> &quot;None&quot; </OBJECT>
-                                                </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "container" Name = "Quaternion">
                                                 <OBJECT Class = "double" Name = "qx"> 0 &quot;&quot; </OBJECT>
                                                 <OBJECT Class = "double" Name = "qy"> 0 &quot;&quot; </OBJECT>
@@ -1833,28 +1949,7 @@ BEGIN Satellite
                                             <OBJECT Class = "link" Name = "EngineModel">
                                                 <OBJECT Class = "string" Name = ""> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
                                             </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "container" Name = "LastRunEngineInfo">
-                                                    <OBJECT Class = "string" Name = "EngineName"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineDescription"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineComment"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialThrust"> 0 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalThrust"> 0 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialIsp"> 0 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalIsp"> 0 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialMdot"> 0 kg*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalMdot"> 0 kg*sec^-1 </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunEngineModel">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunPropulsionType"> &quot;Engine Model&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunThrustEfficiencyMode"> &quot;Affects Accel Only&quot; </OBJECT>
-                                                <OBJECT Class = "double" Name = "LastRunThrustEfficiency"> 1 &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrusterSet">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
-                                                </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "string" Name = "PressureMode"> &quot;Pressure-Regulated&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "PropulsionType"> &quot;Engine Model&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
@@ -2018,36 +2113,7 @@ BEGIN Satellite
                                             <OBJECT Class = "string" Name = "Description"> &quot;Impulsive maneuver pointing definitions&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EngineDirection"> &quot;+X&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EulerSequence"> &quot;313&quot; </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "double" Name = "LastRunAttFileTimeOffset"> 0 sec </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeControl"> &quot;AntiVelocity Vector&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeFile"> &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeRep"> &quot;Quaternion&quot; </OBJECT>
-                                                <OBJECT Class = "AttrCon" Name = "LastRunBodyConstraintVector">
-                                                    <OBJECT Class = "container" Name = "Cartesian">
-                                                        <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunZ"> 1 &quot;&quot; </OBJECT>
-                                                    </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunCartesian">
-                                                    <OBJECT Class = "double" Name = "LastRunX"> 350 m*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunY"> 0 m*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunZ"> 0 m*sec^-1 </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunConstraintSign"> &quot;+&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunCoordType"> &quot;Cartesian&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunEulerSequence"> &quot;313&quot; </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunQuaternion">
-                                                    <OBJECT Class = "double" Name = "LastRunQx"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQy"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQz"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQs"> 1 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrustAxes">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Satellite VNC(Earth)&quot; </OBJECT>
-                                                </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "container" Name = "Quaternion">
                                                 <OBJECT Class = "double" Name = "qx"> 0 &quot;&quot; </OBJECT>
                                                 <OBJECT Class = "double" Name = "qy"> 0 &quot;&quot; </OBJECT>
@@ -2088,27 +2154,7 @@ BEGIN Satellite
                                             <OBJECT Class = "link" Name = "EngineModel">
                                                 <OBJECT Class = "string" Name = ""> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
                                             </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "container" Name = "LastRunEngineInfo">
-                                                    <OBJECT Class = "string" Name = "EngineName"> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineDescription"> &quot;Engine that has a constant Thrust and Isp&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineComment"> &quot;Engine that has a constant Thrust and Isp&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialThrust"> 500 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalThrust"> 500 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialIsp"> 300 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalIsp"> 300 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialMdot"> -0.1699527021629881 kg*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalMdot"> -0.1699527021629881 kg*sec^-1 </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunEngineModel">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunPropulsionType"> &quot;Engine Model&quot; </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrusterSet">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Single_Thruster&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "bool" Name = "LastRunUpdateMass"> False </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "string" Name = "PropulsionType"> &quot;Engine Model&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                             <OBJECT Class = "container" Name = "ShooterControls" />
@@ -3026,9 +3072,30 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "pEqUpperBound"> 7.991588500628498e-312 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "link" Name = "Pointing">
                                         <OBJECT Class = "ManeuverPointing" Name = "ManeuverPointingOFM">
+                                            <OBJECT Class = "double" Name = "AttFileTimeOffset"> 0 sec </OBJECT>
+                                            <OBJECT Class = "int" Name = "AttInterpOrder"> 1 </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeControl"> &quot;Along Velocity Vector&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeFile"> &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "AttitudeLeadDuration"> 0 sec </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeRep"> &quot;Quaternion&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "AttitudeTrailDuration"> 0 sec </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeUpdate"> &quot;Update during burn&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "AttitudeUse"> &quot;Apply&quot; </OBJECT>
+                                            <OBJECT Class = "link" Name = "AttPlugin">
+                                                <OBJECT Class = "AttCtrlPlugin" Name = "Plugin_Attitude_Controller">
+                                                    <OBJECT Class = "string" Name = "Category"> &quot;@Top&quot; </OBJECT>
+                                                    <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
+                                                    <OBJECT Class = "string" Name = "Description"> &quot;Attitude controller that uses a COM interface to compute attitude&quot; </OBJECT>
+                                                    <OBJECT Class = "AttrCon" Name = "PluginConfig" />
+                                                    <OBJECT Class = "string" Name = "PluginIdentifier"> &quot;&lt;servername&gt;.&lt;objectname&gt;.&lt;version&gt;&quot; </OBJECT>
+                                                    <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
+                                                    <OBJECT Class = "container" Name = "ShooterControls" />
+                                                    <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+                                                    <OBJECT Class = "string" Name = "Type"> &quot;AttCtrlPlugin&quot; </OBJECT>
+                                                    <OBJECT Class = "string" Name = "UserComment"> &quot;Attitude controller that uses a COM interface to compute attitude&quot; </OBJECT>
+                                                    <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
+                                                </OBJECT>
+                                            </OBJECT>
                                             <OBJECT Class = "bool" Name = "BeenRun"> False </OBJECT>
                                             <OBJECT Class = "string" Name = "BodyConstraintVectorRepresentation"> &quot;Cartesian&quot; </OBJECT>
                                             <OBJECT Class = "AttrCon" Name = "BodyConstraintVector">
@@ -3039,50 +3106,53 @@ BEGIN Satellite
                                                 </OBJECT>
                                                 <OBJECT Class = "container" Name = "Spherical" />
                                             </OBJECT>
-                                            <OBJECT Class = "container" Name = "Cartesian" />
+                                            <OBJECT Class = "container" Name = "Cartesian">
+                                                <OBJECT Class = "double" Name = "X"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "Y"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "Z"> 0 &quot;&quot; </OBJECT>
+                                            </OBJECT>
                                             <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                             <OBJECT Class = "string" Name = "ConstraintSign"> &quot;+&quot; </OBJECT>
                                             <OBJECT Class = "link" Name = "ConstraintVector">
                                                 <OBJECT Class = "string" Name = ""> &quot;CentralBody/Earth ICRF-X&quot; </OBJECT>
                                             </OBJECT>
+                                            <OBJECT Class = "string" Name = "CoordType"> &quot;Cartesian&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "Description"> &quot;Finite maneuver pointing definitions&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EngineDirection"> &quot;+X&quot; </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "double" Name = "LastRunAttFileTimeOffset"> 0 sec </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeControl"> &quot;Along Velocity Vector&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeFile"> &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeRep"> &quot;Quaternion&quot; </OBJECT>
-                                                <OBJECT Class = "AttrCon" Name = "LastRunBodyConstraintVector">
-                                                    <OBJECT Class = "container" Name = "Cartesian">
-                                                        <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunZ"> 1 &quot;&quot; </OBJECT>
-                                                    </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunCartesian">
-                                                    <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunZ"> 0 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunConstraintSign"> &quot;+&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunCoordType"> &quot;Cartesian&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunEulerSequence"> &quot;313&quot; </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunQuaternion">
-                                                    <OBJECT Class = "double" Name = "LastRunQx"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQy"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQz"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQs"> 1 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrustAxes">
-                                                    <OBJECT Class = "string" Name = ""> &quot;None&quot; </OBJECT>
-                                                </OBJECT>
+                                            <OBJECT Class = "string" Name = "EulerSequence"> &quot;313&quot; </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
+                                            <OBJECT Class = "container" Name = "Quaternion">
+                                                <OBJECT Class = "double" Name = "qx"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "qy"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "qz"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "qs"> 1 &quot;&quot; </OBJECT>
                                             </OBJECT>
-                                            <OBJECT Class = "container" Name = "Quaternion" />
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                             <OBJECT Class = "container" Name = "ShooterControls" />
                                             <OBJECT Class = "container" Name = "Spherical" />
                                             <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+                                            <OBJECT Class = "link" Name = "ThrustAxes">
+                                                <OBJECT Class = "string" Name = ""> &quot;Satellite VNC(Earth)&quot; </OBJECT>
+                                            </OBJECT>
+                                            <OBJECT Class = "container" Name = "TimeVarying">
+                                                <OBJECT Class = "double" Name = "Az0"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az1"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az2"> 0 rad*sec^-2 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az3"> 0 rad*sec^-3 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az4"> 0 rad*sec^-4 </OBJECT>
+                                                <OBJECT Class = "double" Name = "AzA"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "AzF"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "AzP"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "El0"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "El1"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "El2"> 0 rad*sec^-2 </OBJECT>
+                                                <OBJECT Class = "double" Name = "El3"> 0 rad*sec^-3 </OBJECT>
+                                                <OBJECT Class = "double" Name = "El4"> 0 rad*sec^-4 </OBJECT>
+                                                <OBJECT Class = "double" Name = "ElA"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "ElF"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "ElP"> 0 rad </OBJECT>
+                                            </OBJECT>
                                             <OBJECT Class = "string" Name = "Type"> &quot;ManeuverPointingFinite&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "UserComment"> &quot;Finite maneuver pointing definitions&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
@@ -3124,28 +3194,7 @@ BEGIN Satellite
                                             <OBJECT Class = "link" Name = "EngineModel">
                                                 <OBJECT Class = "string" Name = ""> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
                                             </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "container" Name = "LastRunEngineInfo">
-                                                    <OBJECT Class = "string" Name = "EngineName"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineDescription"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineComment"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialThrust"> 0 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalThrust"> 0 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialIsp"> 0 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalIsp"> 0 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialMdot"> 0 kg*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalMdot"> 0 kg*sec^-1 </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunEngineModel">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunPropulsionType"> &quot;Engine Model&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunThrustEfficiencyMode"> &quot;Affects Accel Only&quot; </OBJECT>
-                                                <OBJECT Class = "double" Name = "LastRunThrustEfficiency"> 1 &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrusterSet">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
-                                                </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "string" Name = "PressureMode"> &quot;Pressure-Regulated&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "PropulsionType"> &quot;Engine Model&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
@@ -3304,7 +3353,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "LargestStep"> 0 sec </OBJECT>
                                     <OBJECT Class = "string" Name = "LastRunCode"> &quot;Marching&quot; </OBJECT>
                                     <OBJECT Class = "link" Name = "LastRunPropagator">
-                                        <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
+                                        <OBJECT Class = "string" Name = ""> &quot;Earth_HPOP_Default_v10&quot; </OBJECT>
                                     </OBJECT>
                                     <OBJECT Class = "AttrCon" Name = "LastRun">
                                         <OBJECT Class = "bool" Name = "LastRunAutoCenterBurn"> False </OBJECT>
@@ -3362,36 +3411,7 @@ BEGIN Satellite
                                             <OBJECT Class = "string" Name = "Description"> &quot;Finite maneuver pointing definitions&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EngineDirection"> &quot;+X&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EulerSequence"> &quot;313&quot; </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "double" Name = "LastRunAttFileTimeOffset"> 0 sec </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeControl"> &quot;Along Velocity Vector&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeFile"> &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeRep"> &quot;Quaternion&quot; </OBJECT>
-                                                <OBJECT Class = "AttrCon" Name = "LastRunBodyConstraintVector">
-                                                    <OBJECT Class = "container" Name = "Cartesian">
-                                                        <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunZ"> 1 &quot;&quot; </OBJECT>
-                                                    </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunCartesian">
-                                                    <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunZ"> 0 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunConstraintSign"> &quot;+&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunCoordType"> &quot;Cartesian&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunEulerSequence"> &quot;313&quot; </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunQuaternion">
-                                                    <OBJECT Class = "double" Name = "LastRunQx"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQy"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQz"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQs"> 1 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrustAxes">
-                                                    <OBJECT Class = "string" Name = ""> &quot;None&quot; </OBJECT>
-                                                </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "container" Name = "Quaternion">
                                                 <OBJECT Class = "double" Name = "qx"> 0 &quot;&quot; </OBJECT>
                                                 <OBJECT Class = "double" Name = "qy"> 0 &quot;&quot; </OBJECT>
@@ -3519,28 +3539,7 @@ BEGIN Satellite
                                             <OBJECT Class = "link" Name = "EngineModel">
                                                 <OBJECT Class = "string" Name = ""> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
                                             </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "container" Name = "LastRunEngineInfo">
-                                                    <OBJECT Class = "string" Name = "EngineName"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineDescription"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineComment"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialThrust"> 0 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalThrust"> 0 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialIsp"> 0 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalIsp"> 0 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialMdot"> 0 kg*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalMdot"> 0 kg*sec^-1 </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunEngineModel">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunPropulsionType"> &quot;Engine Model&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunThrustEfficiencyMode"> &quot;Affects Accel Only&quot; </OBJECT>
-                                                <OBJECT Class = "double" Name = "LastRunThrustEfficiency"> 1 &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrusterSet">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
-                                                </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "string" Name = "PressureMode"> &quot;Pressure-Regulated&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "PropulsionType"> &quot;Engine Model&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
@@ -3704,36 +3703,7 @@ BEGIN Satellite
                                             <OBJECT Class = "string" Name = "Description"> &quot;Impulsive maneuver pointing definitions&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EngineDirection"> &quot;+X&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EulerSequence"> &quot;313&quot; </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "double" Name = "LastRunAttFileTimeOffset"> 0 sec </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeControl"> &quot;AntiVelocity Vector&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeFile"> &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeRep"> &quot;Quaternion&quot; </OBJECT>
-                                                <OBJECT Class = "AttrCon" Name = "LastRunBodyConstraintVector">
-                                                    <OBJECT Class = "container" Name = "Cartesian">
-                                                        <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunZ"> 1 &quot;&quot; </OBJECT>
-                                                    </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunCartesian">
-                                                    <OBJECT Class = "double" Name = "LastRunX"> 325 m*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunY"> 0 m*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunZ"> 0 m*sec^-1 </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunConstraintSign"> &quot;+&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunCoordType"> &quot;Cartesian&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunEulerSequence"> &quot;313&quot; </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunQuaternion">
-                                                    <OBJECT Class = "double" Name = "LastRunQx"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQy"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQz"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQs"> 1 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrustAxes">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Satellite VNC(Earth)&quot; </OBJECT>
-                                                </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "container" Name = "Quaternion">
                                                 <OBJECT Class = "double" Name = "qx"> 0 &quot;&quot; </OBJECT>
                                                 <OBJECT Class = "double" Name = "qy"> 0 &quot;&quot; </OBJECT>
@@ -3774,27 +3744,7 @@ BEGIN Satellite
                                             <OBJECT Class = "link" Name = "EngineModel">
                                                 <OBJECT Class = "string" Name = ""> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
                                             </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "container" Name = "LastRunEngineInfo">
-                                                    <OBJECT Class = "string" Name = "EngineName"> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineDescription"> &quot;Engine that has a constant Thrust and Isp&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineComment"> &quot;Engine that has a constant Thrust and Isp&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialThrust"> 500 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalThrust"> 500 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialIsp"> 300 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalIsp"> 300 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialMdot"> -0.1699527021629881 kg*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalMdot"> -0.1699527021629881 kg*sec^-1 </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunEngineModel">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunPropulsionType"> &quot;Engine Model&quot; </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrusterSet">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Single_Thruster&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "bool" Name = "LastRunUpdateMass"> False </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "string" Name = "PropulsionType"> &quot;Engine Model&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                             <OBJECT Class = "container" Name = "ShooterControls" />
@@ -4233,9 +4183,30 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "pEqUpperBound"> 7.991588500628498e-312 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "link" Name = "Pointing">
                                         <OBJECT Class = "ManeuverPointing" Name = "ManeuverPointingOFM">
+                                            <OBJECT Class = "double" Name = "AttFileTimeOffset"> 0 sec </OBJECT>
+                                            <OBJECT Class = "int" Name = "AttInterpOrder"> 1 </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeControl"> &quot;Along Velocity Vector&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeFile"> &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "AttitudeLeadDuration"> 0 sec </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeRep"> &quot;Quaternion&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "AttitudeTrailDuration"> 0 sec </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeUpdate"> &quot;Update during burn&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "AttitudeUse"> &quot;Apply&quot; </OBJECT>
+                                            <OBJECT Class = "link" Name = "AttPlugin">
+                                                <OBJECT Class = "AttCtrlPlugin" Name = "Plugin_Attitude_Controller">
+                                                    <OBJECT Class = "string" Name = "Category"> &quot;@Top&quot; </OBJECT>
+                                                    <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
+                                                    <OBJECT Class = "string" Name = "Description"> &quot;Attitude controller that uses a COM interface to compute attitude&quot; </OBJECT>
+                                                    <OBJECT Class = "AttrCon" Name = "PluginConfig" />
+                                                    <OBJECT Class = "string" Name = "PluginIdentifier"> &quot;&lt;servername&gt;.&lt;objectname&gt;.&lt;version&gt;&quot; </OBJECT>
+                                                    <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
+                                                    <OBJECT Class = "container" Name = "ShooterControls" />
+                                                    <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+                                                    <OBJECT Class = "string" Name = "Type"> &quot;AttCtrlPlugin&quot; </OBJECT>
+                                                    <OBJECT Class = "string" Name = "UserComment"> &quot;Attitude controller that uses a COM interface to compute attitude&quot; </OBJECT>
+                                                    <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
+                                                </OBJECT>
+                                            </OBJECT>
                                             <OBJECT Class = "bool" Name = "BeenRun"> False </OBJECT>
                                             <OBJECT Class = "string" Name = "BodyConstraintVectorRepresentation"> &quot;Cartesian&quot; </OBJECT>
                                             <OBJECT Class = "AttrCon" Name = "BodyConstraintVector">
@@ -4246,50 +4217,53 @@ BEGIN Satellite
                                                 </OBJECT>
                                                 <OBJECT Class = "container" Name = "Spherical" />
                                             </OBJECT>
-                                            <OBJECT Class = "container" Name = "Cartesian" />
+                                            <OBJECT Class = "container" Name = "Cartesian">
+                                                <OBJECT Class = "double" Name = "X"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "Y"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "Z"> 0 &quot;&quot; </OBJECT>
+                                            </OBJECT>
                                             <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                             <OBJECT Class = "string" Name = "ConstraintSign"> &quot;+&quot; </OBJECT>
                                             <OBJECT Class = "link" Name = "ConstraintVector">
                                                 <OBJECT Class = "string" Name = ""> &quot;CentralBody/Earth ICRF-X&quot; </OBJECT>
                                             </OBJECT>
+                                            <OBJECT Class = "string" Name = "CoordType"> &quot;Cartesian&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "Description"> &quot;Finite maneuver pointing definitions&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EngineDirection"> &quot;+X&quot; </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "double" Name = "LastRunAttFileTimeOffset"> 0 sec </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeControl"> &quot;Along Velocity Vector&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeFile"> &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeRep"> &quot;Quaternion&quot; </OBJECT>
-                                                <OBJECT Class = "AttrCon" Name = "LastRunBodyConstraintVector">
-                                                    <OBJECT Class = "container" Name = "Cartesian">
-                                                        <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunZ"> 1 &quot;&quot; </OBJECT>
-                                                    </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunCartesian">
-                                                    <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunZ"> 0 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunConstraintSign"> &quot;+&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunCoordType"> &quot;Cartesian&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunEulerSequence"> &quot;313&quot; </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunQuaternion">
-                                                    <OBJECT Class = "double" Name = "LastRunQx"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQy"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQz"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQs"> 1 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrustAxes">
-                                                    <OBJECT Class = "string" Name = ""> &quot;None&quot; </OBJECT>
-                                                </OBJECT>
+                                            <OBJECT Class = "string" Name = "EulerSequence"> &quot;313&quot; </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
+                                            <OBJECT Class = "container" Name = "Quaternion">
+                                                <OBJECT Class = "double" Name = "qx"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "qy"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "qz"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "qs"> 1 &quot;&quot; </OBJECT>
                                             </OBJECT>
-                                            <OBJECT Class = "container" Name = "Quaternion" />
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                             <OBJECT Class = "container" Name = "ShooterControls" />
                                             <OBJECT Class = "container" Name = "Spherical" />
                                             <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+                                            <OBJECT Class = "link" Name = "ThrustAxes">
+                                                <OBJECT Class = "string" Name = ""> &quot;Satellite VNC(Earth)&quot; </OBJECT>
+                                            </OBJECT>
+                                            <OBJECT Class = "container" Name = "TimeVarying">
+                                                <OBJECT Class = "double" Name = "Az0"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az1"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az2"> 0 rad*sec^-2 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az3"> 0 rad*sec^-3 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az4"> 0 rad*sec^-4 </OBJECT>
+                                                <OBJECT Class = "double" Name = "AzA"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "AzF"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "AzP"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "El0"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "El1"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "El2"> 0 rad*sec^-2 </OBJECT>
+                                                <OBJECT Class = "double" Name = "El3"> 0 rad*sec^-3 </OBJECT>
+                                                <OBJECT Class = "double" Name = "El4"> 0 rad*sec^-4 </OBJECT>
+                                                <OBJECT Class = "double" Name = "ElA"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "ElF"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "ElP"> 0 rad </OBJECT>
+                                            </OBJECT>
                                             <OBJECT Class = "string" Name = "Type"> &quot;ManeuverPointingFinite&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "UserComment"> &quot;Finite maneuver pointing definitions&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
@@ -4331,28 +4305,7 @@ BEGIN Satellite
                                             <OBJECT Class = "link" Name = "EngineModel">
                                                 <OBJECT Class = "string" Name = ""> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
                                             </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "container" Name = "LastRunEngineInfo">
-                                                    <OBJECT Class = "string" Name = "EngineName"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineDescription"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineComment"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialThrust"> 0 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalThrust"> 0 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialIsp"> 0 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalIsp"> 0 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialMdot"> 0 kg*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalMdot"> 0 kg*sec^-1 </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunEngineModel">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunPropulsionType"> &quot;Engine Model&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunThrustEfficiencyMode"> &quot;Affects Accel Only&quot; </OBJECT>
-                                                <OBJECT Class = "double" Name = "LastRunThrustEfficiency"> 1 &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrusterSet">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
-                                                </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "string" Name = "PressureMode"> &quot;Pressure-Regulated&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "PropulsionType"> &quot;Engine Model&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
@@ -4511,7 +4464,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "LargestStep"> 0 sec </OBJECT>
                                     <OBJECT Class = "string" Name = "LastRunCode"> &quot;Marching&quot; </OBJECT>
                                     <OBJECT Class = "link" Name = "LastRunPropagator">
-                                        <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
+                                        <OBJECT Class = "string" Name = ""> &quot;Earth_HPOP_Default_v10&quot; </OBJECT>
                                     </OBJECT>
                                     <OBJECT Class = "AttrCon" Name = "LastRun">
                                         <OBJECT Class = "bool" Name = "LastRunAutoCenterBurn"> False </OBJECT>
@@ -4569,36 +4522,7 @@ BEGIN Satellite
                                             <OBJECT Class = "string" Name = "Description"> &quot;Finite maneuver pointing definitions&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EngineDirection"> &quot;+X&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EulerSequence"> &quot;313&quot; </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "double" Name = "LastRunAttFileTimeOffset"> 0 sec </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeControl"> &quot;Along Velocity Vector&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeFile"> &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeRep"> &quot;Quaternion&quot; </OBJECT>
-                                                <OBJECT Class = "AttrCon" Name = "LastRunBodyConstraintVector">
-                                                    <OBJECT Class = "container" Name = "Cartesian">
-                                                        <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunZ"> 1 &quot;&quot; </OBJECT>
-                                                    </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunCartesian">
-                                                    <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunZ"> 0 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunConstraintSign"> &quot;+&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunCoordType"> &quot;Cartesian&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunEulerSequence"> &quot;313&quot; </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunQuaternion">
-                                                    <OBJECT Class = "double" Name = "LastRunQx"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQy"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQz"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQs"> 1 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrustAxes">
-                                                    <OBJECT Class = "string" Name = ""> &quot;None&quot; </OBJECT>
-                                                </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "container" Name = "Quaternion">
                                                 <OBJECT Class = "double" Name = "qx"> 0 &quot;&quot; </OBJECT>
                                                 <OBJECT Class = "double" Name = "qy"> 0 &quot;&quot; </OBJECT>
@@ -4726,28 +4650,7 @@ BEGIN Satellite
                                             <OBJECT Class = "link" Name = "EngineModel">
                                                 <OBJECT Class = "string" Name = ""> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
                                             </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "container" Name = "LastRunEngineInfo">
-                                                    <OBJECT Class = "string" Name = "EngineName"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineDescription"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineComment"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialThrust"> 0 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalThrust"> 0 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialIsp"> 0 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalIsp"> 0 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialMdot"> 0 kg*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalMdot"> 0 kg*sec^-1 </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunEngineModel">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunPropulsionType"> &quot;Engine Model&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunThrustEfficiencyMode"> &quot;Affects Accel Only&quot; </OBJECT>
-                                                <OBJECT Class = "double" Name = "LastRunThrustEfficiency"> 1 &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrusterSet">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
-                                                </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "string" Name = "PressureMode"> &quot;Pressure-Regulated&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "PropulsionType"> &quot;Engine Model&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
@@ -4911,36 +4814,7 @@ BEGIN Satellite
                                             <OBJECT Class = "string" Name = "Description"> &quot;Impulsive maneuver pointing definitions&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EngineDirection"> &quot;+X&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EulerSequence"> &quot;313&quot; </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "double" Name = "LastRunAttFileTimeOffset"> 0 sec </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeControl"> &quot;AntiVelocity Vector&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeFile"> &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeRep"> &quot;Quaternion&quot; </OBJECT>
-                                                <OBJECT Class = "AttrCon" Name = "LastRunBodyConstraintVector">
-                                                    <OBJECT Class = "container" Name = "Cartesian">
-                                                        <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunZ"> 1 &quot;&quot; </OBJECT>
-                                                    </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunCartesian">
-                                                    <OBJECT Class = "double" Name = "LastRunX"> 425 m*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunY"> 0 m*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunZ"> 0 m*sec^-1 </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunConstraintSign"> &quot;+&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunCoordType"> &quot;Cartesian&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunEulerSequence"> &quot;313&quot; </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunQuaternion">
-                                                    <OBJECT Class = "double" Name = "LastRunQx"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQy"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQz"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQs"> 1 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrustAxes">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Satellite VNC(Earth)&quot; </OBJECT>
-                                                </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "container" Name = "Quaternion">
                                                 <OBJECT Class = "double" Name = "qx"> 0 &quot;&quot; </OBJECT>
                                                 <OBJECT Class = "double" Name = "qy"> 0 &quot;&quot; </OBJECT>
@@ -4981,27 +4855,7 @@ BEGIN Satellite
                                             <OBJECT Class = "link" Name = "EngineModel">
                                                 <OBJECT Class = "string" Name = ""> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
                                             </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "container" Name = "LastRunEngineInfo">
-                                                    <OBJECT Class = "string" Name = "EngineName"> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineDescription"> &quot;Engine that has a constant Thrust and Isp&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineComment"> &quot;Engine that has a constant Thrust and Isp&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialThrust"> 500 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalThrust"> 500 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialIsp"> 300 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalIsp"> 300 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialMdot"> -0.1699527021629881 kg*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalMdot"> -0.1699527021629881 kg*sec^-1 </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunEngineModel">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunPropulsionType"> &quot;Engine Model&quot; </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrusterSet">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Single_Thruster&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "bool" Name = "LastRunUpdateMass"> False </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "string" Name = "PropulsionType"> &quot;Engine Model&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                             <OBJECT Class = "container" Name = "ShooterControls" />
@@ -5861,9 +5715,30 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "pEqUpperBound"> 7.991588500628498e-312 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "link" Name = "Pointing">
                                         <OBJECT Class = "ManeuverPointing" Name = "ManeuverPointingOFM">
+                                            <OBJECT Class = "double" Name = "AttFileTimeOffset"> 0 sec </OBJECT>
+                                            <OBJECT Class = "int" Name = "AttInterpOrder"> 1 </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeControl"> &quot;Along Velocity Vector&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeFile"> &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "AttitudeLeadDuration"> 0 sec </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeRep"> &quot;Quaternion&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "AttitudeTrailDuration"> 0 sec </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeUpdate"> &quot;Update during burn&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "AttitudeUse"> &quot;Apply&quot; </OBJECT>
+                                            <OBJECT Class = "link" Name = "AttPlugin">
+                                                <OBJECT Class = "AttCtrlPlugin" Name = "Plugin_Attitude_Controller">
+                                                    <OBJECT Class = "string" Name = "Category"> &quot;@Top&quot; </OBJECT>
+                                                    <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
+                                                    <OBJECT Class = "string" Name = "Description"> &quot;Attitude controller that uses a COM interface to compute attitude&quot; </OBJECT>
+                                                    <OBJECT Class = "AttrCon" Name = "PluginConfig" />
+                                                    <OBJECT Class = "string" Name = "PluginIdentifier"> &quot;&lt;servername&gt;.&lt;objectname&gt;.&lt;version&gt;&quot; </OBJECT>
+                                                    <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
+                                                    <OBJECT Class = "container" Name = "ShooterControls" />
+                                                    <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+                                                    <OBJECT Class = "string" Name = "Type"> &quot;AttCtrlPlugin&quot; </OBJECT>
+                                                    <OBJECT Class = "string" Name = "UserComment"> &quot;Attitude controller that uses a COM interface to compute attitude&quot; </OBJECT>
+                                                    <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
+                                                </OBJECT>
+                                            </OBJECT>
                                             <OBJECT Class = "bool" Name = "BeenRun"> False </OBJECT>
                                             <OBJECT Class = "string" Name = "BodyConstraintVectorRepresentation"> &quot;Cartesian&quot; </OBJECT>
                                             <OBJECT Class = "AttrCon" Name = "BodyConstraintVector">
@@ -5874,50 +5749,53 @@ BEGIN Satellite
                                                 </OBJECT>
                                                 <OBJECT Class = "container" Name = "Spherical" />
                                             </OBJECT>
-                                            <OBJECT Class = "container" Name = "Cartesian" />
+                                            <OBJECT Class = "container" Name = "Cartesian">
+                                                <OBJECT Class = "double" Name = "X"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "Y"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "Z"> 0 &quot;&quot; </OBJECT>
+                                            </OBJECT>
                                             <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                             <OBJECT Class = "string" Name = "ConstraintSign"> &quot;+&quot; </OBJECT>
                                             <OBJECT Class = "link" Name = "ConstraintVector">
                                                 <OBJECT Class = "string" Name = ""> &quot;CentralBody/Earth ICRF-X&quot; </OBJECT>
                                             </OBJECT>
+                                            <OBJECT Class = "string" Name = "CoordType"> &quot;Cartesian&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "Description"> &quot;Finite maneuver pointing definitions&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EngineDirection"> &quot;+X&quot; </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "double" Name = "LastRunAttFileTimeOffset"> 0 sec </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeControl"> &quot;Along Velocity Vector&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeFile"> &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeRep"> &quot;Quaternion&quot; </OBJECT>
-                                                <OBJECT Class = "AttrCon" Name = "LastRunBodyConstraintVector">
-                                                    <OBJECT Class = "container" Name = "Cartesian">
-                                                        <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunZ"> 1 &quot;&quot; </OBJECT>
-                                                    </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunCartesian">
-                                                    <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunZ"> 0 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunConstraintSign"> &quot;+&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunCoordType"> &quot;Cartesian&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunEulerSequence"> &quot;313&quot; </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunQuaternion">
-                                                    <OBJECT Class = "double" Name = "LastRunQx"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQy"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQz"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQs"> 1 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrustAxes">
-                                                    <OBJECT Class = "string" Name = ""> &quot;None&quot; </OBJECT>
-                                                </OBJECT>
+                                            <OBJECT Class = "string" Name = "EulerSequence"> &quot;313&quot; </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
+                                            <OBJECT Class = "container" Name = "Quaternion">
+                                                <OBJECT Class = "double" Name = "qx"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "qy"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "qz"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "qs"> 1 &quot;&quot; </OBJECT>
                                             </OBJECT>
-                                            <OBJECT Class = "container" Name = "Quaternion" />
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                             <OBJECT Class = "container" Name = "ShooterControls" />
                                             <OBJECT Class = "container" Name = "Spherical" />
                                             <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+                                            <OBJECT Class = "link" Name = "ThrustAxes">
+                                                <OBJECT Class = "string" Name = ""> &quot;Satellite VNC(Earth)&quot; </OBJECT>
+                                            </OBJECT>
+                                            <OBJECT Class = "container" Name = "TimeVarying">
+                                                <OBJECT Class = "double" Name = "Az0"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az1"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az2"> 0 rad*sec^-2 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az3"> 0 rad*sec^-3 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az4"> 0 rad*sec^-4 </OBJECT>
+                                                <OBJECT Class = "double" Name = "AzA"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "AzF"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "AzP"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "El0"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "El1"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "El2"> 0 rad*sec^-2 </OBJECT>
+                                                <OBJECT Class = "double" Name = "El3"> 0 rad*sec^-3 </OBJECT>
+                                                <OBJECT Class = "double" Name = "El4"> 0 rad*sec^-4 </OBJECT>
+                                                <OBJECT Class = "double" Name = "ElA"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "ElF"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "ElP"> 0 rad </OBJECT>
+                                            </OBJECT>
                                             <OBJECT Class = "string" Name = "Type"> &quot;ManeuverPointingFinite&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "UserComment"> &quot;Finite maneuver pointing definitions&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
@@ -5959,28 +5837,7 @@ BEGIN Satellite
                                             <OBJECT Class = "link" Name = "EngineModel">
                                                 <OBJECT Class = "string" Name = ""> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
                                             </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "container" Name = "LastRunEngineInfo">
-                                                    <OBJECT Class = "string" Name = "EngineName"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineDescription"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineComment"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialThrust"> 0 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalThrust"> 0 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialIsp"> 0 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalIsp"> 0 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialMdot"> 0 kg*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalMdot"> 0 kg*sec^-1 </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunEngineModel">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunPropulsionType"> &quot;Engine Model&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunThrustEfficiencyMode"> &quot;Affects Accel Only&quot; </OBJECT>
-                                                <OBJECT Class = "double" Name = "LastRunThrustEfficiency"> 1 &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrusterSet">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
-                                                </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "string" Name = "PressureMode"> &quot;Pressure-Regulated&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "PropulsionType"> &quot;Engine Model&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
@@ -6139,7 +5996,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "LargestStep"> 0 sec </OBJECT>
                                     <OBJECT Class = "string" Name = "LastRunCode"> &quot;Marching&quot; </OBJECT>
                                     <OBJECT Class = "link" Name = "LastRunPropagator">
-                                        <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
+                                        <OBJECT Class = "string" Name = ""> &quot;Earth_HPOP_Default_v10&quot; </OBJECT>
                                     </OBJECT>
                                     <OBJECT Class = "AttrCon" Name = "LastRun">
                                         <OBJECT Class = "bool" Name = "LastRunAutoCenterBurn"> False </OBJECT>
@@ -6197,36 +6054,7 @@ BEGIN Satellite
                                             <OBJECT Class = "string" Name = "Description"> &quot;Finite maneuver pointing definitions&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EngineDirection"> &quot;+X&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EulerSequence"> &quot;313&quot; </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "double" Name = "LastRunAttFileTimeOffset"> 0 sec </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeControl"> &quot;Along Velocity Vector&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeFile"> &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeRep"> &quot;Quaternion&quot; </OBJECT>
-                                                <OBJECT Class = "AttrCon" Name = "LastRunBodyConstraintVector">
-                                                    <OBJECT Class = "container" Name = "Cartesian">
-                                                        <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunZ"> 1 &quot;&quot; </OBJECT>
-                                                    </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunCartesian">
-                                                    <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunZ"> 0 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunConstraintSign"> &quot;+&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunCoordType"> &quot;Cartesian&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunEulerSequence"> &quot;313&quot; </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunQuaternion">
-                                                    <OBJECT Class = "double" Name = "LastRunQx"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQy"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQz"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQs"> 1 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrustAxes">
-                                                    <OBJECT Class = "string" Name = ""> &quot;None&quot; </OBJECT>
-                                                </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "container" Name = "Quaternion">
                                                 <OBJECT Class = "double" Name = "qx"> 0 &quot;&quot; </OBJECT>
                                                 <OBJECT Class = "double" Name = "qy"> 0 &quot;&quot; </OBJECT>
@@ -6354,28 +6182,7 @@ BEGIN Satellite
                                             <OBJECT Class = "link" Name = "EngineModel">
                                                 <OBJECT Class = "string" Name = ""> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
                                             </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "container" Name = "LastRunEngineInfo">
-                                                    <OBJECT Class = "string" Name = "EngineName"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineDescription"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineComment"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialThrust"> 0 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalThrust"> 0 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialIsp"> 0 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalIsp"> 0 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialMdot"> 0 kg*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalMdot"> 0 kg*sec^-1 </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunEngineModel">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunPropulsionType"> &quot;Engine Model&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunThrustEfficiencyMode"> &quot;Affects Accel Only&quot; </OBJECT>
-                                                <OBJECT Class = "double" Name = "LastRunThrustEfficiency"> 1 &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrusterSet">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
-                                                </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "string" Name = "PressureMode"> &quot;Pressure-Regulated&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "PropulsionType"> &quot;Engine Model&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
@@ -6539,36 +6346,7 @@ BEGIN Satellite
                                             <OBJECT Class = "string" Name = "Description"> &quot;Impulsive maneuver pointing definitions&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EngineDirection"> &quot;+X&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EulerSequence"> &quot;313&quot; </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "double" Name = "LastRunAttFileTimeOffset"> 0 sec </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeControl"> &quot;Along Velocity Vector&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeFile"> &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeRep"> &quot;Quaternion&quot; </OBJECT>
-                                                <OBJECT Class = "AttrCon" Name = "LastRunBodyConstraintVector">
-                                                    <OBJECT Class = "container" Name = "Cartesian">
-                                                        <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunZ"> 1 &quot;&quot; </OBJECT>
-                                                    </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunCartesian">
-                                                    <OBJECT Class = "double" Name = "LastRunX"> 415 m*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunY"> 0 m*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunZ"> 0 m*sec^-1 </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunConstraintSign"> &quot;+&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunCoordType"> &quot;Cartesian&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunEulerSequence"> &quot;313&quot; </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunQuaternion">
-                                                    <OBJECT Class = "double" Name = "LastRunQx"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQy"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQz"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQs"> 1 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrustAxes">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Satellite VNC(Earth)&quot; </OBJECT>
-                                                </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "container" Name = "Quaternion">
                                                 <OBJECT Class = "double" Name = "qx"> 0 &quot;&quot; </OBJECT>
                                                 <OBJECT Class = "double" Name = "qy"> 0 &quot;&quot; </OBJECT>
@@ -6609,27 +6387,7 @@ BEGIN Satellite
                                             <OBJECT Class = "link" Name = "EngineModel">
                                                 <OBJECT Class = "string" Name = ""> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
                                             </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "container" Name = "LastRunEngineInfo">
-                                                    <OBJECT Class = "string" Name = "EngineName"> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineDescription"> &quot;Engine that has a constant Thrust and Isp&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineComment"> &quot;Engine that has a constant Thrust and Isp&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialThrust"> 500 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalThrust"> 500 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialIsp"> 300 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalIsp"> 300 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialMdot"> -0.1699527021629881 kg*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalMdot"> -0.1699527021629881 kg*sec^-1 </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunEngineModel">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunPropulsionType"> &quot;Engine Model&quot; </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrusterSet">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Single_Thruster&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "bool" Name = "LastRunUpdateMass"> False </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "string" Name = "PropulsionType"> &quot;Engine Model&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                             <OBJECT Class = "container" Name = "ShooterControls" />
@@ -7052,9 +6810,30 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "pEqUpperBound"> 7.991588500628498e-312 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "link" Name = "Pointing">
                                         <OBJECT Class = "ManeuverPointing" Name = "ManeuverPointingOFM">
+                                            <OBJECT Class = "double" Name = "AttFileTimeOffset"> 0 sec </OBJECT>
+                                            <OBJECT Class = "int" Name = "AttInterpOrder"> 1 </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeControl"> &quot;Along Velocity Vector&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeFile"> &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "AttitudeLeadDuration"> 0 sec </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeRep"> &quot;Quaternion&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "AttitudeTrailDuration"> 0 sec </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeUpdate"> &quot;Update during burn&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "AttitudeUse"> &quot;Apply&quot; </OBJECT>
+                                            <OBJECT Class = "link" Name = "AttPlugin">
+                                                <OBJECT Class = "AttCtrlPlugin" Name = "Plugin_Attitude_Controller">
+                                                    <OBJECT Class = "string" Name = "Category"> &quot;@Top&quot; </OBJECT>
+                                                    <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
+                                                    <OBJECT Class = "string" Name = "Description"> &quot;Attitude controller that uses a COM interface to compute attitude&quot; </OBJECT>
+                                                    <OBJECT Class = "AttrCon" Name = "PluginConfig" />
+                                                    <OBJECT Class = "string" Name = "PluginIdentifier"> &quot;&lt;servername&gt;.&lt;objectname&gt;.&lt;version&gt;&quot; </OBJECT>
+                                                    <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
+                                                    <OBJECT Class = "container" Name = "ShooterControls" />
+                                                    <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+                                                    <OBJECT Class = "string" Name = "Type"> &quot;AttCtrlPlugin&quot; </OBJECT>
+                                                    <OBJECT Class = "string" Name = "UserComment"> &quot;Attitude controller that uses a COM interface to compute attitude&quot; </OBJECT>
+                                                    <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
+                                                </OBJECT>
+                                            </OBJECT>
                                             <OBJECT Class = "bool" Name = "BeenRun"> False </OBJECT>
                                             <OBJECT Class = "string" Name = "BodyConstraintVectorRepresentation"> &quot;Cartesian&quot; </OBJECT>
                                             <OBJECT Class = "AttrCon" Name = "BodyConstraintVector">
@@ -7065,50 +6844,53 @@ BEGIN Satellite
                                                 </OBJECT>
                                                 <OBJECT Class = "container" Name = "Spherical" />
                                             </OBJECT>
-                                            <OBJECT Class = "container" Name = "Cartesian" />
+                                            <OBJECT Class = "container" Name = "Cartesian">
+                                                <OBJECT Class = "double" Name = "X"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "Y"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "Z"> 0 &quot;&quot; </OBJECT>
+                                            </OBJECT>
                                             <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                             <OBJECT Class = "string" Name = "ConstraintSign"> &quot;+&quot; </OBJECT>
                                             <OBJECT Class = "link" Name = "ConstraintVector">
                                                 <OBJECT Class = "string" Name = ""> &quot;CentralBody/Earth ICRF-X&quot; </OBJECT>
                                             </OBJECT>
+                                            <OBJECT Class = "string" Name = "CoordType"> &quot;Cartesian&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "Description"> &quot;Finite maneuver pointing definitions&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EngineDirection"> &quot;+X&quot; </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "double" Name = "LastRunAttFileTimeOffset"> 0 sec </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeControl"> &quot;Along Velocity Vector&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeFile"> &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeRep"> &quot;Quaternion&quot; </OBJECT>
-                                                <OBJECT Class = "AttrCon" Name = "LastRunBodyConstraintVector">
-                                                    <OBJECT Class = "container" Name = "Cartesian">
-                                                        <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunZ"> 1 &quot;&quot; </OBJECT>
-                                                    </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunCartesian">
-                                                    <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunZ"> 0 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunConstraintSign"> &quot;+&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunCoordType"> &quot;Cartesian&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunEulerSequence"> &quot;313&quot; </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunQuaternion">
-                                                    <OBJECT Class = "double" Name = "LastRunQx"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQy"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQz"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQs"> 1 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrustAxes">
-                                                    <OBJECT Class = "string" Name = ""> &quot;None&quot; </OBJECT>
-                                                </OBJECT>
+                                            <OBJECT Class = "string" Name = "EulerSequence"> &quot;313&quot; </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
+                                            <OBJECT Class = "container" Name = "Quaternion">
+                                                <OBJECT Class = "double" Name = "qx"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "qy"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "qz"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "qs"> 1 &quot;&quot; </OBJECT>
                                             </OBJECT>
-                                            <OBJECT Class = "container" Name = "Quaternion" />
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                             <OBJECT Class = "container" Name = "ShooterControls" />
                                             <OBJECT Class = "container" Name = "Spherical" />
                                             <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+                                            <OBJECT Class = "link" Name = "ThrustAxes">
+                                                <OBJECT Class = "string" Name = ""> &quot;Satellite VNC(Earth)&quot; </OBJECT>
+                                            </OBJECT>
+                                            <OBJECT Class = "container" Name = "TimeVarying">
+                                                <OBJECT Class = "double" Name = "Az0"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az1"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az2"> 0 rad*sec^-2 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az3"> 0 rad*sec^-3 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az4"> 0 rad*sec^-4 </OBJECT>
+                                                <OBJECT Class = "double" Name = "AzA"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "AzF"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "AzP"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "El0"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "El1"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "El2"> 0 rad*sec^-2 </OBJECT>
+                                                <OBJECT Class = "double" Name = "El3"> 0 rad*sec^-3 </OBJECT>
+                                                <OBJECT Class = "double" Name = "El4"> 0 rad*sec^-4 </OBJECT>
+                                                <OBJECT Class = "double" Name = "ElA"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "ElF"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "ElP"> 0 rad </OBJECT>
+                                            </OBJECT>
                                             <OBJECT Class = "string" Name = "Type"> &quot;ManeuverPointingFinite&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "UserComment"> &quot;Finite maneuver pointing definitions&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
@@ -7150,28 +6932,7 @@ BEGIN Satellite
                                             <OBJECT Class = "link" Name = "EngineModel">
                                                 <OBJECT Class = "string" Name = ""> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
                                             </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "container" Name = "LastRunEngineInfo">
-                                                    <OBJECT Class = "string" Name = "EngineName"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineDescription"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineComment"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialThrust"> 0 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalThrust"> 0 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialIsp"> 0 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalIsp"> 0 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialMdot"> 0 kg*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalMdot"> 0 kg*sec^-1 </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunEngineModel">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunPropulsionType"> &quot;Engine Model&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunThrustEfficiencyMode"> &quot;Affects Accel Only&quot; </OBJECT>
-                                                <OBJECT Class = "double" Name = "LastRunThrustEfficiency"> 1 &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrusterSet">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
-                                                </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "string" Name = "PressureMode"> &quot;Pressure-Regulated&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "PropulsionType"> &quot;Engine Model&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
@@ -7330,7 +7091,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "LargestStep"> 0 sec </OBJECT>
                                     <OBJECT Class = "string" Name = "LastRunCode"> &quot;Marching&quot; </OBJECT>
                                     <OBJECT Class = "link" Name = "LastRunPropagator">
-                                        <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
+                                        <OBJECT Class = "string" Name = ""> &quot;Earth_HPOP_Default_v10&quot; </OBJECT>
                                     </OBJECT>
                                     <OBJECT Class = "AttrCon" Name = "LastRun">
                                         <OBJECT Class = "bool" Name = "LastRunAutoCenterBurn"> False </OBJECT>
@@ -7388,36 +7149,7 @@ BEGIN Satellite
                                             <OBJECT Class = "string" Name = "Description"> &quot;Finite maneuver pointing definitions&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EngineDirection"> &quot;+X&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EulerSequence"> &quot;313&quot; </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "double" Name = "LastRunAttFileTimeOffset"> 0 sec </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeControl"> &quot;Along Velocity Vector&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeFile"> &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeRep"> &quot;Quaternion&quot; </OBJECT>
-                                                <OBJECT Class = "AttrCon" Name = "LastRunBodyConstraintVector">
-                                                    <OBJECT Class = "container" Name = "Cartesian">
-                                                        <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunZ"> 1 &quot;&quot; </OBJECT>
-                                                    </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunCartesian">
-                                                    <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunZ"> 0 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunConstraintSign"> &quot;+&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunCoordType"> &quot;Cartesian&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunEulerSequence"> &quot;313&quot; </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunQuaternion">
-                                                    <OBJECT Class = "double" Name = "LastRunQx"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQy"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQz"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQs"> 1 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrustAxes">
-                                                    <OBJECT Class = "string" Name = ""> &quot;None&quot; </OBJECT>
-                                                </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "container" Name = "Quaternion">
                                                 <OBJECT Class = "double" Name = "qx"> 0 &quot;&quot; </OBJECT>
                                                 <OBJECT Class = "double" Name = "qy"> 0 &quot;&quot; </OBJECT>
@@ -7545,28 +7277,7 @@ BEGIN Satellite
                                             <OBJECT Class = "link" Name = "EngineModel">
                                                 <OBJECT Class = "string" Name = ""> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
                                             </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "container" Name = "LastRunEngineInfo">
-                                                    <OBJECT Class = "string" Name = "EngineName"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineDescription"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineComment"> &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialThrust"> 0 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalThrust"> 0 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialIsp"> 0 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalIsp"> 0 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialMdot"> 0 kg*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalMdot"> 0 kg*sec^-1 </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunEngineModel">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunPropulsionType"> &quot;Engine Model&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunThrustEfficiencyMode"> &quot;Affects Accel Only&quot; </OBJECT>
-                                                <OBJECT Class = "double" Name = "LastRunThrustEfficiency"> 1 &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrusterSet">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
-                                                </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "string" Name = "PressureMode"> &quot;Pressure-Regulated&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "PropulsionType"> &quot;Engine Model&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
@@ -7730,36 +7441,7 @@ BEGIN Satellite
                                             <OBJECT Class = "string" Name = "Description"> &quot;Impulsive maneuver pointing definitions&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EngineDirection"> &quot;+X&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EulerSequence"> &quot;313&quot; </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "double" Name = "LastRunAttFileTimeOffset"> 0 sec </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeControl"> &quot;Along Velocity Vector&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeFile"> &quot;&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunAttitudeRep"> &quot;Quaternion&quot; </OBJECT>
-                                                <OBJECT Class = "AttrCon" Name = "LastRunBodyConstraintVector">
-                                                    <OBJECT Class = "container" Name = "Cartesian">
-                                                        <OBJECT Class = "double" Name = "LastRunX"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunY"> 0 &quot;&quot; </OBJECT>
-                                                        <OBJECT Class = "double" Name = "LastRunZ"> 1 &quot;&quot; </OBJECT>
-                                                    </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunCartesian">
-                                                    <OBJECT Class = "double" Name = "LastRunX"> 688 m*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunY"> 0 m*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunZ"> 0 m*sec^-1 </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunConstraintSign"> &quot;+&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunCoordType"> &quot;Cartesian&quot; </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunEulerSequence"> &quot;313&quot; </OBJECT>
-                                                <OBJECT Class = "container" Name = "LastRunQuaternion">
-                                                    <OBJECT Class = "double" Name = "LastRunQx"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQy"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQz"> 0 &quot;&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "LastRunQs"> 1 &quot;&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrustAxes">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Satellite VNC(Earth)&quot; </OBJECT>
-                                                </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "container" Name = "Quaternion">
                                                 <OBJECT Class = "double" Name = "qx"> 0 &quot;&quot; </OBJECT>
                                                 <OBJECT Class = "double" Name = "qy"> 0 &quot;&quot; </OBJECT>
@@ -7800,27 +7482,7 @@ BEGIN Satellite
                                             <OBJECT Class = "link" Name = "EngineModel">
                                                 <OBJECT Class = "string" Name = ""> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
                                             </OBJECT>
-                                            <OBJECT Class = "AttrCon" Name = "LastRun">
-                                                <OBJECT Class = "container" Name = "LastRunEngineInfo">
-                                                    <OBJECT Class = "string" Name = "EngineName"> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineDescription"> &quot;Engine that has a constant Thrust and Isp&quot; </OBJECT>
-                                                    <OBJECT Class = "string" Name = "EngineComment"> &quot;Engine that has a constant Thrust and Isp&quot; </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialThrust"> 500 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalThrust"> 500 N </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialIsp"> 300 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalIsp"> 300 s </OBJECT>
-                                                    <OBJECT Class = "double" Name = "InitialMdot"> -0.1699527021629881 kg*sec^-1 </OBJECT>
-                                                    <OBJECT Class = "double" Name = "FinalMdot"> -0.1699527021629881 kg*sec^-1 </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunEngineModel">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Constant_Thrust_and_Isp&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "string" Name = "LastRunPropulsionType"> &quot;Engine Model&quot; </OBJECT>
-                                                <OBJECT Class = "link" Name = "LastRunThrusterSet">
-                                                    <OBJECT Class = "string" Name = ""> &quot;Single_Thruster&quot; </OBJECT>
-                                                </OBJECT>
-                                                <OBJECT Class = "bool" Name = "LastRunUpdateMass"> False </OBJECT>
-                                            </OBJECT>
+                                            <OBJECT Class = "AttrCon" Name = "LastRun" />
                                             <OBJECT Class = "string" Name = "PropulsionType"> &quot;Engine Model&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                             <OBJECT Class = "container" Name = "ShooterControls" />
@@ -8705,7 +8367,7 @@ BEGIN Satellite
             LaunchWindowTrajMETStart		 0
             LaunchWindowTrajMETStop		 900
             LaunchWindowStart		 0
-            LaunchWindowStop		 -932000
+            LaunchWindowStop		 -1318949.207005005
             LaunchMETOffset		 0
             LaunchWindowUseSecEphem		 No 
             LaunchWindowUseScenFolderForSecEphem		 Yes
@@ -8899,12 +8561,6 @@ BEGIN Satellite
         END ObjectCoverage
 
         BEGIN Desc
-            BEGIN ShortText
-
-            END ShortText
-            BEGIN LongText
-
-            END LongText
         END Desc
 
         BEGIN RadarCrossSection
