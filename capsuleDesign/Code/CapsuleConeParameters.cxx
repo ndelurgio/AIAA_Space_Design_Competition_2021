@@ -99,6 +99,7 @@ class param{
             std::cout << "Desk height [uL]: " << hd << std::endl;
             std::cout << "Smaller Radius [uL]: " << f*r << std::endl;
             std::cout << "Larger Radius [uL]: " << r << std::endl;
+            std::cout << "Radial Fraction: " << f << std::endl;
 
             if(ha != hd){
                 std::cout << "Radial Fraction: " << f << std::endl;
