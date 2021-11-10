@@ -12,7 +12,7 @@ ptn_Child1=MainFrame
 ptn_Child2=ChildFrames
 [WorkState_v1_2.Frames.MainFrame]
 WindowPlacement=MCAAAAAACAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAPPPPPPPPPPPPPPPPLEAAAAAACAAAAAAALJFAAAAAGDDAAAAA
-Title=OrbitPlanner - STK 12 - 3D Graphics 1 - Mars
+Title=OrbitPlanner - STK 12 - EEV : Basic Orbit
 [WorkState_v1_2.Frames.ChildFrames]
 ptn_Child1=Document-0
 ptn_Child2=Document-1
@@ -24,8 +24,8 @@ ptn_Child1=ViewFrame-0
 DocPathName=C:\WINDOWS\system32\AgUi3DGfxView12.AgUiPi3DGfxView.1
 DocumentString=AgUi3DGfxView.AgUiPi3DGfxView.1
 DocTemplateIndex=0
-WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPFPPPPPPPINPPPPPPBAAAAAAAAAAAAAAAJEDAAAAAMPDAAAAA
-IsActiveChildFrame=True
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPFPPPPPPPINPPPPPPBAAAAAAAAAAAAAAAPJDAAAAAMPDAAAAA
+IsActiveChildFrame=False
 IsFrameVisible=True
 ptn_Child1=AGI Custom Node Data
 [WorkState_v1_2.Frames.ChildFrames.Document-0.ViewFrame-0.AGI Custom Node Data]
