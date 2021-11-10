@@ -6,7 +6,7 @@
 
 class param{
     private:
-        double ha, theta, f, r;
+        double ha, hd, hc, theta, f, r;
         int type;
     public:
         param(){
@@ -15,6 +15,14 @@ class param{
                 std::cin >> ha;
                 std::endl(std::cout);
             }while(ha<=0);
+
+            do{
+                std::cout << "Desk Height [uL]:";
+                std::cin >> hd;
+                std::endl(std::cout);
+            }while(hd<0 || hd>ha);
+
+            hc = ha-hd;
 
             do{
                 std::cout << "Input Type:" << std::endl;
@@ -48,12 +56,12 @@ class param{
             return;
         }
 
-        double get_ha(){
-            return ha;
+        double get_hc(){
+            return hc;
         };
 
-        double get_type(){
-            return type;
+        double get_hd(){
+            return hd;
         };
 
         double taneq(){
@@ -62,7 +70,7 @@ class param{
                     return tan(theta);
                     break;
                 case 1:
-                    return ha/(r*(1-f));
+                    return hc/(r*(1-f));
                     break;    
                 default:
                     throw("Invalid Type: Choose 0 or 1");
@@ -74,7 +82,7 @@ class param{
         void solve_secondary(){
             switch (type){
                 case 0:
-                    f = 1 - (ha/(r*taneq()));
+                    f = 1 - (hc/(r*taneq()));
                     break;
                 case 1:
                     theta = atan(taneq());
@@ -88,10 +96,14 @@ class param{
         void print_param(){
             solve_secondary();
             std::cout << "Allowable height [uL]: " << ha << std::endl;
+            std::cout << "Desk height [uL]: " << hd << std::endl;
             std::cout << "Smaller Radius [uL]: " << f*r << std::endl;
             std::cout << "Larger Radius [uL]: " << r << std::endl;
             std::cout << "Radial Fraction: " << f << std::endl;
-            std::cout << "Convergence Angle (theta) [Degrees]: " << theta*180/PI << std::endl;
+
+            if(ha != hd){
+                std::cout << "Convergence Angle (theta) [Degrees]: " << theta*180/PI << std::endl;
+            }
         };  
 
 };
@@ -99,9 +111,10 @@ class param{
 
 double SolvePartialCone(double ri, param param1, double Vexp){
     param1.set_r(ri);
-    double ha = param1.get_ha();
+    double hc = param1.get_hc();
+    double hd = param1.get_hd();
     double taneqi = param1.taneq(); 
-    double V = (PI*ha/3) * ( (3*(pow(ri,2))) - (3*ha*ri/taneqi) + (pow(ha,2)/pow(taneqi,2))) ;
+    double V = PI * ( ((hc/3) * ( (3*(pow(ri,2))) - (3*hc*ri/taneqi) + (pow(hc,2)/pow(taneqi,2)))) + (pow(ri,2)*hd) );
     return(V-Vexp);
 };
 
