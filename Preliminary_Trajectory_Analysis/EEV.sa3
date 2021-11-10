@@ -16,11 +16,11 @@ BEGIN ModelReflectionEnvironment
     Resolution		 256
 END ModelReflectionEnvironment
 IsSwapped		 Yes
-Level0SwapDistance		 3162.277660168379
-Level1SwapDistance		 1000000000000000
-Level2SwapDistance		 1000000000000000
-Level3SwapDistance		 1000000000000000
-Level4SwapDistance		 1000000000000000
+Level0SwapDistance		 700.0000000000001
+Level1SwapDistance		 31622776601.68379
+Level2SwapDistance		 31622776601.68379
+Level3SwapDistance		 31622776601.68379
+Level4SwapDistance		 31622776601.68379
 ShowMarker		 Yes
 BEGIN Marker
     Show		 Yes
@@ -32,7 +32,7 @@ BEGIN Marker
     Angle		 0
     HorizOrigin		 Center
     VertOrigin		 Center
-    MinSize		 30
+    MinSize		 8
     SizeInMeters		 No
     RotateRelToNorth		 No
     UseDirectionAngle		 No

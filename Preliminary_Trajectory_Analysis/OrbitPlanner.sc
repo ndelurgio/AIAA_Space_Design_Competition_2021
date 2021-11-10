@@ -334,12 +334,7 @@ BEGIN Scenario
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 Install
-                    Style		 Segment Summary
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
-                    BaseDir		 Install
-                    Style		 MCS Summary
+                    Style		 Astrogator Log
                 END Favorite
                 BEGIN Favorite
                     Type		 Report
@@ -349,7 +344,12 @@ BEGIN Scenario
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 Install
-                    Style		 Astrogator Log
+                    Style		 MCS Summary
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Segment Summary
                 END Favorite
             END Class
         END ReportFavorites
@@ -891,9 +891,9 @@ BEGIN Scenario
 
                 StartTime		 1 Jan 2040 00:00:00.000000000
                 EndTime		 31 Jan 2040 00:00:00.000000000
-                CurrentTime		 1 Jan 2040 00:00:00.000000000
+                CurrentTime		 6 Jan 2040 09:54:00.000000000
                 Direction		 Forward
-                UpdateDelta		 10
+                UpdateDelta		 60
                 RefreshDelta		 0.010000
                 XRealTimeMult		 1
                 RealTimeOffset		 0
@@ -1383,6 +1383,8 @@ BEGIN Scenario
 
         Class Satellite
 
+            DST		
+            EEV		
             EEV_Direct		
             EEV_Rendevous		
 
@@ -1402,6 +1404,12 @@ BEGIN Scenario
         END Instance
         Instance Planet/Phobos
             Planet/Phobos		
+        END Instance
+        Instance Satellite/DST
+            Satellite/DST		
+        END Instance
+        Instance Satellite/EEV
+            Satellite/EEV		
         END Instance
         Instance Satellite/EEV_Direct
             Satellite/EEV_Direct		

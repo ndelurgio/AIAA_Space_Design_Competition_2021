@@ -1,0 +1,110 @@
+Astrogator Log File; DriverMCS: Mission_Control_Sequence
+-------------------------------------------------------------
+
+
+----------------------------------------------
+Begin targeter profile Target_Sequence.Delta_RA_and_Dec
+
+Initial control parameters:
+
+Unscaled Controls:
+Name                                                          Current Value           Last Update         Total Correction
+Propagate3 : StoppingConditions.Duration.TripValue      267731.994199986279 sec    0.000000000000 sec    2731.994199986265 sec  
+Maneuver1 : ImpulsiveMnvr.Pointing.Cartesian.X            -249.951061976665 m/sec  0.000000000000 m/sec     0.048938023335 m/sec
+Maneuver1 : ImpulsiveMnvr.Pointing.Cartesian.Y             -26.594115365876 m/sec  0.000000000000 m/sec   -26.594115365876 m/sec
+Maneuver1 : ImpulsiveMnvr.Pointing.Cartesian.Z              -0.000407835766 m/sec  0.000000000000 m/sec    -0.000407835766 m/sec
+Maneuver1 : ImpulsiveMnvr.Pointing.Spherical.Magnitude     249.276334300940 m/sec  0.000000000000 m/sec    -0.723665699060 m/sec
+Propagate1 : StoppingConditions.Duration.TripValue      147832.726076724328 sec    0.000000000000 sec   -2167.273923275678 sec  
+Maneuver2 : ImpulsiveMnvr.Pointing.Cartesian.X            -139.941672064299 m/sec  0.000000000000 m/sec     0.058327935701 m/sec
+Maneuver2 : ImpulsiveMnvr.Pointing.Cartesian.Y             -28.725195181077 m/sec  0.000000000000 m/sec   -28.725195181077 m/sec
+Maneuver2 : ImpulsiveMnvr.Pointing.Cartesian.Z               0.000381668847 m/sec  0.000000000000 m/sec     0.000381668847 m/sec
+Maneuver2 : ImpulsiveMnvr.Pointing.Spherical.Magnitude     154.018214844182 m/sec  0.000000000000 m/sec    14.018214844182 m/sec
+Propagate2 : StoppingConditions.Duration.TripValue       93278.360042549903 sec    0.000000000000 sec   -6721.639957450101 sec  
+
+
+Homotopy step   1 of   1
+
+Intermediate Goals Desired:
+Propagate2 : Vx  0.000000000000 km/sec
+Propagate2 : Vy  0.000000000000 km/sec
+Propagate2 : Vz  0.000000000000 km/sec
+Propagate2 : X   0.000000000000 km    
+Propagate2 : Y   0.000000000000 km    
+Propagate2 : Z   0.000000000000 km    
+
+
+
+---Running one step of the differential corrector...
+
+--------------------------------------------------------
+
+<<< Targeting Finished >>>
+    [Goals met]
+
+
+--------------------------------------------------------
+
+---Done. (running one step of the differential corrector.)
+
+Params from single diff corr
+
+Unscaled Controls:
+Name                                                          Current Value           Last Update         Total Correction
+Propagate3 : StoppingConditions.Duration.TripValue      267731.994199986279 sec    0.000000000000 sec    2731.994199986265 sec  
+Maneuver1 : ImpulsiveMnvr.Pointing.Cartesian.X            -249.951061976665 m/sec  0.000000000000 m/sec     0.048938023335 m/sec
+Maneuver1 : ImpulsiveMnvr.Pointing.Cartesian.Y             -26.594115365876 m/sec  0.000000000000 m/sec   -26.594115365876 m/sec
+Maneuver1 : ImpulsiveMnvr.Pointing.Cartesian.Z              -0.000407835766 m/sec  0.000000000000 m/sec    -0.000407835766 m/sec
+Maneuver1 : ImpulsiveMnvr.Pointing.Spherical.Magnitude     249.276334300940 m/sec  0.000000000000 m/sec    -0.723665699060 m/sec
+Propagate1 : StoppingConditions.Duration.TripValue      147832.726076724328 sec    0.000000000000 sec   -2167.273923275678 sec  
+Maneuver2 : ImpulsiveMnvr.Pointing.Cartesian.X            -139.941672064299 m/sec  0.000000000000 m/sec     0.058327935701 m/sec
+Maneuver2 : ImpulsiveMnvr.Pointing.Cartesian.Y             -28.725195181077 m/sec  0.000000000000 m/sec   -28.725195181077 m/sec
+Maneuver2 : ImpulsiveMnvr.Pointing.Cartesian.Z               0.000381668847 m/sec  0.000000000000 m/sec     0.000381668847 m/sec
+Maneuver2 : ImpulsiveMnvr.Pointing.Spherical.Magnitude     154.018214844182 m/sec  0.000000000000 m/sec    14.018214844182 m/sec
+Propagate2 : StoppingConditions.Duration.TripValue       93278.360042549903 sec    0.000000000000 sec   -6721.639957450101 sec  
+
+
+Unscaled Intermediate Constraints:
+Name               Current Value                Desired              Difference                Tolerance
+Propagate2 : Vx   0.001513765615 km/sec  0.000000000000 km/sec   0.001513765615 km/sec    0.010000000000 km/sec
+Propagate2 : Vy  -0.005098885324 km/sec  0.000000000000 km/sec  -0.005098885324 km/sec    0.010000000000 km/sec
+Propagate2 : Vz  -0.001325714017 km/sec  0.000000000000 km/sec  -0.001325714017 km/sec    0.010000000000 km/sec
+Propagate2 : X  -57.971735023264 km      0.000000000000 km     -57.971735023264 km      100.000000000000 km    
+Propagate2 : Y  -43.783649628907 km      0.000000000000 km     -43.783649628907 km      100.000000000000 km    
+Propagate2 : Z   51.062703587392 km      0.000000000000 km      51.062703587392 km      100.000000000000 km    
+
+
+
+----------------------------------------------
+Final Params from Homotopy Diff Corr
+
+Unscaled Controls:
+Name                                                          Current Value           Last Update         Total Correction
+Propagate3 : StoppingConditions.Duration.TripValue      267731.994199986279 sec    0.000000000000 sec    2731.994199986265 sec  
+Maneuver1 : ImpulsiveMnvr.Pointing.Cartesian.X            -249.951061976665 m/sec  0.000000000000 m/sec     0.048938023335 m/sec
+Maneuver1 : ImpulsiveMnvr.Pointing.Cartesian.Y             -26.594115365876 m/sec  0.000000000000 m/sec   -26.594115365876 m/sec
+Maneuver1 : ImpulsiveMnvr.Pointing.Cartesian.Z              -0.000407835766 m/sec  0.000000000000 m/sec    -0.000407835766 m/sec
+Maneuver1 : ImpulsiveMnvr.Pointing.Spherical.Magnitude     249.276334300940 m/sec  0.000000000000 m/sec    -0.723665699060 m/sec
+Propagate1 : StoppingConditions.Duration.TripValue      147832.726076724328 sec    0.000000000000 sec   -2167.273923275678 sec  
+Maneuver2 : ImpulsiveMnvr.Pointing.Cartesian.X            -139.941672064299 m/sec  0.000000000000 m/sec     0.058327935701 m/sec
+Maneuver2 : ImpulsiveMnvr.Pointing.Cartesian.Y             -28.725195181077 m/sec  0.000000000000 m/sec   -28.725195181077 m/sec
+Maneuver2 : ImpulsiveMnvr.Pointing.Cartesian.Z               0.000381668847 m/sec  0.000000000000 m/sec     0.000381668847 m/sec
+Maneuver2 : ImpulsiveMnvr.Pointing.Spherical.Magnitude     154.018214844182 m/sec  0.000000000000 m/sec    14.018214844182 m/sec
+Propagate2 : StoppingConditions.Duration.TripValue       93278.360042549903 sec    0.000000000000 sec   -6721.639957450101 sec  
+
+
+Unscaled Intermediate Constraints:
+Name               Current Value                Desired              Difference                Tolerance
+Propagate2 : Vx   0.001513765615 km/sec  0.000000000000 km/sec   0.001513765615 km/sec    0.010000000000 km/sec
+Propagate2 : Vy  -0.005098885324 km/sec  0.000000000000 km/sec  -0.005098885324 km/sec    0.010000000000 km/sec
+Propagate2 : Vz  -0.001325714017 km/sec  0.000000000000 km/sec  -0.001325714017 km/sec    0.010000000000 km/sec
+Propagate2 : X  -57.971735023264 km      0.000000000000 km     -57.971735023264 km      100.000000000000 km    
+Propagate2 : Y  -43.783649628907 km      0.000000000000 km     -43.783649628907 km      100.000000000000 km    
+Propagate2 : Z   51.062703587392 km      0.000000000000 km      51.062703587392 km      100.000000000000 km    
+
+
+
+----------------------------------------------
+
+*********** Done Targeting************************
+
+End targeter profile Target_Sequence.Delta_RA_and_Dec
