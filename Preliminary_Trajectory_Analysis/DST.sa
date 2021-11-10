@@ -11,7 +11,7 @@ BEGIN Satellite
         BEGIN Interval
 
             StartTime		 1 Jan 2040 00:00:00.000000000
-            StopTime		 6 Jan 2040 18:53:20.000000000
+            StopTime		 31 Jan 2040 00:00:00.000000000
 
         END Interval
 
@@ -350,12 +350,12 @@ BEGIN Satellite
             <OBJECT Class = "AttrCon" Name = "FinalState">
                 <OBJECT Class = "Orbit_State" Name = "Orbit_State">
                     <OBJECT Class = "container" Name = "Cartesian">
-                        <OBJECT Class = "double" Name = "X"> -104481328.9485691 m </OBJECT>
-                        <OBJECT Class = "double" Name = "Y"> -13733560.47467745 m </OBJECT>
-                        <OBJECT Class = "double" Name = "Z"> 717.8341913421839 m </OBJECT>
-                        <OBJECT Class = "double" Name = "Vx"> 204.0993790701602 m*sec^-1 </OBJECT>
-                        <OBJECT Class = "double" Name = "Vy"> -234.0950015876905 m*sec^-1 </OBJECT>
-                        <OBJECT Class = "double" Name = "Vz"> 0.06293580379600811 m*sec^-1 </OBJECT>
+                        <OBJECT Class = "double" Name = "X"> -100912062.4637235 m </OBJECT>
+                        <OBJECT Class = "double" Name = "Y"> 17034616.65314946 m </OBJECT>
+                        <OBJECT Class = "double" Name = "Z"> -40080.62419702583 m </OBJECT>
+                        <OBJECT Class = "double" Name = "Vx"> -263.6588932042437 m*sec^-1 </OBJECT>
+                        <OBJECT Class = "double" Name = "Vy"> -226.9406387500762 m*sec^-1 </OBJECT>
+                        <OBJECT Class = "double" Name = "Vz"> 0.2210899749671695 m*sec^-1 </OBJECT>
                     </OBJECT>
                     <OBJECT Class = "double" Name = "Cd"> 2.2 &quot;&quot; </OBJECT>
                     <OBJECT Class = "link" Name = "CoordSysRep">
@@ -364,7 +364,7 @@ BEGIN Satellite
                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                    <OBJECT Class = "date" Name = "Epoch"> &quot;6 Jan 2040 18:53:57.000000000&quot; TAIG </OBJECT>
+                    <OBJECT Class = "date" Name = "Epoch"> &quot;31 Jan 2040 00:00:37.000000000&quot; TAIG </OBJECT>
                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -542,7 +542,7 @@ BEGIN Satellite
                     <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
                 </OBJECT>
                 <OBJECT Class = "MCSSegment" Name = "Propagate">
-                    <OBJECT Class = "double" Name = "AverageStep"> 3249.116506578947 sec </OBJECT>
+                    <OBJECT Class = "double" Name = "AverageStep"> 3146.767398294764 sec </OBJECT>
                     <OBJECT Class = "bool" Name = "BeenRun"> True </OBJECT>
                     <OBJECT Class = "container" Name = "BPlanes" />
                     <OBJECT Class = "string" Name = "Category"> &quot;@Top&quot; </OBJECT>
@@ -558,12 +558,12 @@ BEGIN Satellite
                     <OBJECT Class = "AttrCon" Name = "FinalState">
                         <OBJECT Class = "Orbit_State" Name = "Orbit_State">
                             <OBJECT Class = "container" Name = "Cartesian">
-                                <OBJECT Class = "double" Name = "X"> -104481328.9485691 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Y"> -13733560.47467745 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Z"> 717.8341913421839 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Vx"> 204.0993790701602 m*sec^-1 </OBJECT>
-                                <OBJECT Class = "double" Name = "Vy"> -234.0950015876905 m*sec^-1 </OBJECT>
-                                <OBJECT Class = "double" Name = "Vz"> 0.06293580379600811 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "X"> -100912062.4637235 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Y"> 17034616.65314946 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Z"> -40080.62419702583 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Vx"> -263.6588932042437 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "Vy"> -226.9406387500762 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "Vz"> 0.2210899749671695 m*sec^-1 </OBJECT>
                             </OBJECT>
                             <OBJECT Class = "double" Name = "Cd"> 2.2 &quot;&quot; </OBJECT>
                             <OBJECT Class = "link" Name = "CoordSysRep">
@@ -572,7 +572,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;6 Jan 2040 18:53:57.000000000&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;31 Jan 2040 00:00:37.000000000&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -615,14 +615,14 @@ BEGIN Satellite
                             <OBJECT Class = "container" Name = "UserVariables" />
                         </OBJECT>
                     </OBJECT>
-                    <OBJECT Class = "double" Name = "LargestStep"> 9626.982 sec </OBJECT>
+                    <OBJECT Class = "double" Name = "LargestStep"> 11675.125 sec </OBJECT>
                     <OBJECT Class = "string" Name = "LastRunCode"> &quot;Marching&quot; </OBJECT>
                     <OBJECT Class = "link" Name = "LastRunPropagator">
                         <OBJECT Class = "string" Name = ""> &quot;Mars_HPOP&quot; </OBJECT>
                     </OBJECT>
                     <OBJECT Class = "double" Name = "MaxPropTime"> 8640000 sec </OBJECT>
                     <OBJECT Class = "double" Name = "MinPropTime"> 0 sec </OBJECT>
-                    <OBJECT Class = "int" Name = "NumSteps"> 152 </OBJECT>
+                    <OBJECT Class = "int" Name = "NumSteps"> 821 </OBJECT>
                     <OBJECT Class = "bool" Name = "OverrideMaxPropTime"> True </OBJECT>
                     <OBJECT Class = "link" Name = "Propagator">
                         <OBJECT Class = "string" Name = ""> &quot;Mars_HPOP&quot; </OBJECT>
@@ -669,7 +669,7 @@ BEGIN Satellite
                             <OBJECT Class = "container" Name = "ShooterControls" />
                             <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
                             <OBJECT Class = "double" Name = "Tolerance"> 1e-08 sec </OBJECT>
-                            <OBJECT Class = "double" Name = "TripValue"> 500000 sec </OBJECT>
+                            <OBJECT Class = "double" Name = "TripValue"> 2592000 sec </OBJECT>
                             <OBJECT Class = "string" Name = "Type"> &quot;Duration&quot; </OBJECT>
                             <OBJECT Class = "string" Name = "UserComment"> &quot;Stop after a specified duration&quot; </OBJECT>
                             <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
@@ -682,7 +682,7 @@ BEGIN Satellite
                             <OBJECT Class = "bool" Name = "CausedTermination"> True </OBJECT>
                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                             <OBJECT Class = "string" Name = "Description"> &quot;Trigger Log Information&quot; </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;6 Jan 2040 18:53:57.000000000&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;31 Jan 2040 00:00:37.000000000&quot; TAIG </OBJECT>
                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                             <OBJECT Class = "container" Name = "ShooterControls" />
                             <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
@@ -712,12 +712,12 @@ BEGIN Satellite
                     <OBJECT Class = "AttrCon" Name = "FinalState">
                         <OBJECT Class = "Orbit_State" Name = "Orbit_State">
                             <OBJECT Class = "container" Name = "Cartesian">
-                                <OBJECT Class = "double" Name = "X"> -104481328.9485691 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Y"> -13733560.47467745 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Z"> 717.8341913421839 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Vx"> 204.0993790701602 m*sec^-1 </OBJECT>
-                                <OBJECT Class = "double" Name = "Vy"> -234.0950015876905 m*sec^-1 </OBJECT>
-                                <OBJECT Class = "double" Name = "Vz"> 0.06293580379600811 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "X"> -100912062.4637235 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Y"> 17034616.65314946 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Z"> -40080.62419702583 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Vx"> -263.6588932042437 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "Vy"> -226.9406387500762 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "Vz"> 0.2210899749671695 m*sec^-1 </OBJECT>
                             </OBJECT>
                             <OBJECT Class = "double" Name = "Cd"> 2.2 &quot;&quot; </OBJECT>
                             <OBJECT Class = "link" Name = "CoordSysRep">
@@ -726,7 +726,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;6 Jan 2040 18:53:57.000000000&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;31 Jan 2040 00:00:37.000000000&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -742,12 +742,12 @@ BEGIN Satellite
                     <OBJECT Class = "AttrCon" Name = "InitialState">
                         <OBJECT Class = "Orbit_State" Name = "Orbit_State">
                             <OBJECT Class = "container" Name = "Cartesian">
-                                <OBJECT Class = "double" Name = "X"> -104481328.9485691 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Y"> -13733560.47467745 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Z"> 717.8341913421839 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Vx"> 204.0993790701602 m*sec^-1 </OBJECT>
-                                <OBJECT Class = "double" Name = "Vy"> -234.0950015876905 m*sec^-1 </OBJECT>
-                                <OBJECT Class = "double" Name = "Vz"> 0.06293580379600811 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "X"> -100912062.4637235 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Y"> 17034616.65314946 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Z"> -40080.62419702583 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Vx"> -263.6588932042437 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "Vy"> -226.9406387500762 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "Vz"> 0.2210899749671695 m*sec^-1 </OBJECT>
                             </OBJECT>
                             <OBJECT Class = "double" Name = "Cd"> 2.2 &quot;&quot; </OBJECT>
                             <OBJECT Class = "link" Name = "CoordSysRep">
@@ -756,7 +756,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;6 Jan 2040 18:53:57.000000000&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;31 Jan 2040 00:00:37.000000000&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -838,7 +838,7 @@ BEGIN Satellite
             ScenarioEpoch		 1 Jan 2040 00:00:00.000000
             Periods
                 Rev		 1 0 0 0 0 0 0 1 0 1 0
-                 0.0000000000000000e+00  5.0000000000000000e+05  0.0000000000000000e+00  5.0000000000000000e+05
+                 0.0000000000000000e+00  2.5920000000000000e+06  0.0000000000000000e+00  2.5920000000000000e+06
             END Periods
         END PassDefn
 
@@ -1142,6 +1142,12 @@ BEGIN Satellite
         END ObjectCoverage
 
         BEGIN Desc
+            BEGIN ShortText
+
+            END ShortText
+            BEGIN LongText
+
+            END LongText
         END Desc
 
         BEGIN RadarCrossSection
@@ -1288,7 +1294,7 @@ BEGIN Satellite
                     END DefaultAttributes
                     BEGIN GraphicsInterval
                         StartTime		  0.0000000000000000e+00
-                        StopTime		  5.0000000000000000e+05
+                        StopTime		  2.5920000000000000e+06
                         BEGIN Attributes
                             AllColors		 #ff6a6a
                         END Attributes

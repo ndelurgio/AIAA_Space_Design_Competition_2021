@@ -4,7 +4,7 @@ Title=OrbitPlanner
 Description=
 ApplicationVersion=12.0.1
 Scenario=YES
-ActiveMDIState=TRUE
+ActiveMDIState=FALSE
 [WorkState_v1_2]
 ptn_Child1=Frames
 [WorkState_v1_2.Frames]
@@ -12,7 +12,7 @@ ptn_Child1=MainFrame
 ptn_Child2=ChildFrames
 [WorkState_v1_2.Frames.MainFrame]
 WindowPlacement=MCAAAAAACAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAPPPPPPPPPPPPPPPPLEAAAAAACAAAAAAALJFAAAAAGDDAAAAA
-Title=OrbitPlanner - STK 12 - [3D Graphics 1 - Mars]
+Title=OrbitPlanner - STK 12 - 3D Graphics 1 - Mars
 [WorkState_v1_2.Frames.ChildFrames]
 ptn_Child1=Document-0
 ptn_Child2=Document-1
@@ -24,7 +24,7 @@ ptn_Child1=ViewFrame-0
 DocPathName=C:\WINDOWS\system32\AgUi3DGfxView12.AgUiPi3DGfxView.1
 DocumentString=AgUi3DGfxView.AgUiPi3DGfxView.1
 DocTemplateIndex=0
-WindowPlacement=MCAAAAAACAAAAAAADAAAAAAAPPPPPPPPPPPPPPPPGPPPPPPPPNPPPPPPBAAAAAAAAAAAAAAANGCAAAAAILCAAAAA
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPFPPPPPPPINPPPPPPBAAAAAAAAAAAAAAAJEDAAAAAMPDAAAAA
 IsActiveChildFrame=True
 IsFrameVisible=True
 ptn_Child1=AGI Custom Node Data
@@ -37,7 +37,7 @@ ptn_Child1=ViewFrame-0
 DocPathName=C:\WINDOWS\system32\AgUiAttrBrowser12.AgUiPiAttrBrowser.1
 DocumentString=AgUiAttrBrowser.AgUiPiAttrBrowser.1
 DocTemplateIndex=0
-WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAADEBAAAAACMCAAAAA
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAADEBAAAAAHAEAAAAA
 IsActiveChildFrame=False
 IsFrameVisible=True
 ProfUISBarID=63000
@@ -48,7 +48,7 @@ ptn_Child1=ViewFrame-0
 DocPathName=C:\WINDOWS\system32\AgUiTimelineView12.AgUiPiTimelineView.1
 DocumentString=AgUiTimelineView.AgUiPiTimelineView.1
 DocTemplateIndex=0
-WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAAAIHAAAAAOJAAAAAA
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAAAAKAAAAAIJAAAAAA
 IsActiveChildFrame=False
 IsFrameVisible=True
 ProfUISBarID=63001
