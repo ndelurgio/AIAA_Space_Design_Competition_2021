@@ -334,12 +334,7 @@ BEGIN Scenario
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 Install
-                    Style		 Astrogator Log
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
-                    BaseDir		 Install
-                    Style		 Astrogator Script Summary
+                    Style		 Segment Summary
                 END Favorite
                 BEGIN Favorite
                     Type		 Report
@@ -349,7 +344,12 @@ BEGIN Scenario
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 Install
-                    Style		 Segment Summary
+                    Style		 Astrogator Script Summary
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Astrogator Log
                 END Favorite
             END Class
         END ReportFavorites
@@ -891,7 +891,7 @@ BEGIN Scenario
 
                 StartTime		 1 Jan 2040 00:00:00.000000000
                 EndTime		 31 Jan 2040 00:00:00.000000000
-                CurrentTime		 19 Jan 2040 09:30:19.271105191
+                CurrentTime		 24 Jan 2040 23:18:00.000000000
                 Direction		 Forward
                 UpdateDelta		 180
                 RefreshDelta		 0.010000

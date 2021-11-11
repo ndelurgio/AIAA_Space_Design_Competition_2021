@@ -150,9 +150,9 @@ BEGIN SceneWindow
             OutputFormat		 WMV
             SdfSelected		 No
             Directory		 \\austin.utexas.edu\disk\engrstu\ase\npd429\My Documents\STK 12\Scenario1
-            BaseName		 VOsnap
+            BaseName		 Trajectory1
             Digits		 4
-            Frame		 3283
+            Frame		 14790
             LastAnimTime		 0
             OutputMode		 Normal
             HiResAssembly		 Assemble
@@ -190,52 +190,6 @@ BEGIN SceneWindow
 
         BEGIN Globe
             AA		 Yes
-            BeginCentralBody "Earth"
-                Show		 Yes
-                Textured		 Yes
-                AltOffset		 0
-                Color		 #0000ff
-                SpecularColor		 #545454
-                Shininess		 40
-                ShowWater		 Yes
-                _AGI_PIBEGINTERRAINCALLDATA "USER"
-                    AgiTrnSvr		 "world"
-                    AltOffset		 0
-                    AltScale		 1
-                    TerrainTilerID		 ""
-                    BeginImageSetDefOn
-                    END
-                    InBase		 Yes
-                    BaseOn		 Yes
-                END
-                _AGI_PIBEGINTERRAINIMAGECALLDATA "SRC"
-                    BlendMode		 Value
-                    BlendFactor		 1
-                    BlendAltitudeLowerFactor		 1
-                    BlendAltitudeUpperFactor		 0
-                    BlendAltitudeLowerAltitude		 10000
-                    BlendAltitudeUpperAltitude		 100000
-                    TextureRole		 Day
-                    URI		 "file:///Earth_PE_b.jp2"
-                    BeginImageSetDefOn
-                    END
-                    InBase		 Yes
-                    BaseOn		 Yes
-                END
-                _AGI_PIBEGINTERRAINIMAGECALLDATA "USER"
-                    BlendMode		 Altitude
-                    BlendFactor		 1
-                    BlendAltitudeLowerFactor		 1
-                    BlendAltitudeUpperFactor		 0
-                    BlendAltitudeLowerAltitude		 500000
-                    BlendAltitudeUpperAltitude		 2500000
-                    URI		 "virtual_earth://virtualearth.net/Aerial.ve"
-                    BeginImageSetDefOn
-                    END
-                    InBase		 Yes
-                    BaseOn		 Yes
-                END
-            EndCentralBody
             BeginCentralBody "Sun"
                 Show		 Yes
                 Textured		 No
@@ -276,6 +230,52 @@ BEGIN SceneWindow
                     BlendAltitudeUpperAltitude		 2500000
                     TextureRole		 Day
                     URI		 "file:///Moon.jp2"
+                    BeginImageSetDefOn
+                    END
+                    InBase		 Yes
+                    BaseOn		 Yes
+                END
+            EndCentralBody
+            BeginCentralBody "Earth"
+                Show		 Yes
+                Textured		 Yes
+                AltOffset		 0
+                Color		 #0000ff
+                SpecularColor		 #545454
+                Shininess		 40
+                ShowWater		 Yes
+                _AGI_PIBEGINTERRAINCALLDATA "USER"
+                    AgiTrnSvr		 "world"
+                    AltOffset		 0
+                    AltScale		 1
+                    TerrainTilerID		 ""
+                    BeginImageSetDefOn
+                    END
+                    InBase		 Yes
+                    BaseOn		 Yes
+                END
+                _AGI_PIBEGINTERRAINIMAGECALLDATA "SRC"
+                    BlendMode		 Value
+                    BlendFactor		 1
+                    BlendAltitudeLowerFactor		 1
+                    BlendAltitudeUpperFactor		 0
+                    BlendAltitudeLowerAltitude		 10000
+                    BlendAltitudeUpperAltitude		 100000
+                    TextureRole		 Day
+                    URI		 "file:///Earth_PE_b.jp2"
+                    BeginImageSetDefOn
+                    END
+                    InBase		 Yes
+                    BaseOn		 Yes
+                END
+                _AGI_PIBEGINTERRAINIMAGECALLDATA "USER"
+                    BlendMode		 Altitude
+                    BlendFactor		 1
+                    BlendAltitudeLowerFactor		 1
+                    BlendAltitudeUpperFactor		 0
+                    BlendAltitudeLowerAltitude		 500000
+                    BlendAltitudeUpperAltitude		 2500000
+                    URI		 "virtual_earth://virtualearth.net/Aerial.ve"
                     BeginImageSetDefOn
                     END
                     InBase		 Yes
@@ -388,16 +388,16 @@ BEGIN SceneWindow
         END
         BEGIN CentralBodyOpts
             BeginCentralBody
-                Name		 "Earth"
-                ShowLabel		 No
-            EndCentralBody
-            BeginCentralBody
                 Name		 "Sun"
                 ShowLabel		 No
             EndCentralBody
             BeginCentralBody
                 Name		 "Moon"
                 ShowLabel		 Yes
+            EndCentralBody
+            BeginCentralBody
+                Name		 "Earth"
+                ShowLabel		 No
             EndCentralBody
             BeginCentralBody
                 Name		 "Mars"
@@ -758,9 +758,9 @@ BEGIN SceneWindow
             UseLayer		 Yes
             FromName		 "Mars"
             FromRegPosAttView		 "Point"
-            FromPosition		  2.4874511483164096e+08 -5.0460172332955599e+07  1.6862408179916388e+08
-            FromOffset		  2.4874511483164096e+08 -5.0460172332955599e+07  1.6862408179916388e+08
-            FromOffsetLLR		  5.8640880233759973e-01 -2.0014303091097541e-01  3.0472026861875945e+08
+            FromPosition		  1.6725409486167043e+08 -1.6896352069835642e+08  1.8558060754210079e+08
+            FromOffset		  1.6725409486167043e+08 -1.6896352069835642e+08  1.8558060754210079e+08
+            FromOffsetLLR		  6.6279137092251372e-01 -7.9048240356894151e-01  3.0160034063388556e+08
             ToName		 "Mars"
             ToRegPosAttView		 "Point"
             ToPosition		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
@@ -768,9 +768,9 @@ BEGIN SceneWindow
             ToOffsetLLR		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
             ConstantDistanceType		 None
             ConstantDistanceValue		 1
-            UpVector		 -5.4232701438486020e-01  1.1001588764949016e-01  8.3293331901965517e-01
-            ViewRad		  3.0472026861875951e+08
-            ViewQuat		  9.5640912244687820e-02 -2.8757538240545361e-01  2.8874554966779618e-02  9.5253318861593028e-01
+            UpVector		 -4.3287892721437066e-01  4.3730318016285108e-01  7.8827771945754788e-01
+            ViewRad		  3.0160034063388556e+08
+            ViewQuat		  3.6408095649336036e-01 -3.0027880637779658e-01  1.2527481275799932e-01  8.7268775449621949e-01
             ViewCoordSystem		 From
             ViewFromToMode		 FromTo
             ViewToCBIMtx		  1.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  1.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  1.0000000000000000e+00
@@ -784,7 +784,7 @@ BEGIN SceneWindow
             MinAngleToUpAxis		  8.7266462599716477e-03
             InitUpAxisUp		 Yes
             TempUpAxisUp		 Yes
-            CrossAxis		 -1.9880950857785559e-01 -9.8003815196094857e-01  0.0000000000000000e+00
+            CrossAxis		 -7.1069272724240096e-01 -7.0350255681465601e-01  0.0000000000000000e+00
             DefaultOffset		  1.8679045000000000e+07
             BaseDefaultOffset		  3.3961900000000000e+06
         END View
