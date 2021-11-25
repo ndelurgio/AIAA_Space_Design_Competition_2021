@@ -891,7 +891,7 @@ BEGIN Scenario
 
                 StartTime		 1 Jan 2040 00:00:00.000000000
                 EndTime		 31 Jan 2040 00:00:00.000000000
-                CurrentTime		 1 Jan 2040 00:00:00.000000000
+                CurrentTime		 16 Jan 2040 18:29:29.337386053
                 Direction		 Forward
                 UpdateDelta		 180
                 RefreshDelta		 0.010000
