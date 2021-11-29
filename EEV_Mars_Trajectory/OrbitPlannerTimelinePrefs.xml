@@ -1,0 +1,87 @@
+<?xml version = "1.0" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "12.0.1">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-EEV-To-Satellite-DST AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/OrbitPlanner/Satellite/EEV;/Application/STK/Scenario/OrbitPlanner/Satellite/DST" Type = "IntervalList">
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "1 Jan 2040 00:00:00.000" StopTime = "6 Jan 2040 04:05:12.739" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "6 Jan 2040 06:34:55.801" StopTime = "6 Jan 2040 09:00:57.712" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "6 Jan 2040 12:15:43.220" StopTime = "8 Jan 2040 08:19:53.743" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "8 Jan 2040 10:06:16.491" StopTime = "9 Jan 2040 15:55:25.952" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "9 Jan 2040 17:44:43.567" StopTime = "11 Jan 2040 01:47:09.746" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "11 Jan 2040 03:20:04.262" StopTime = "16 Jan 2040 18:48:20.808" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "16 Jan 2040 19:55:05.795" StopTime = "17 Jan 2040 02:45:53.534" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "17 Jan 2040 03:48:13.991" StopTime = "17 Jan 2040 10:35:21.105" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "17 Jan 2040 11:36:04.879" StopTime = "17 Jan 2040 18:21:54.246" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "17 Jan 2040 19:21:49.856" StopTime = "18 Jan 2040 02:07:02.951" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "18 Jan 2040 03:06:32.732" StopTime = "18 Jan 2040 09:51:26.685" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "18 Jan 2040 10:50:43.008" StopTime = "18 Jan 2040 17:35:25.806" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "18 Jan 2040 18:34:37.813" StopTime = "19 Jan 2040 01:19:15.355" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "19 Jan 2040 02:18:30.613" StopTime = "19 Jan 2040 09:03:07.431" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "19 Jan 2040 10:02:33.291" StopTime = "19 Jan 2040 16:47:14.426" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "19 Jan 2040 17:47:00.716" StopTime = "20 Jan 2040 00:31:54.048" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "20 Jan 2040 01:32:14.010" StopTime = "20 Jan 2040 08:17:34.776" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "20 Jan 2040 09:18:51.957" StopTime = "20 Jan 2040 16:05:18.029" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "20 Jan 2040 17:08:23.805" StopTime = "20 Jan 2040 23:58:04.724" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "21 Jan 2040 01:05:46.732" StopTime = "21 Jan 2040 08:18:53.070" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "21 Jan 2040 13:42:55.285" StopTime = "21 Jan 2040 21:14:12.479" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "21 Jan 2040 22:21:29.250" StopTime = "22 Jan 2040 05:12:47.001" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "22 Jan 2040 06:15:14.884" StopTime = "22 Jan 2040 13:02:32.138" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "22 Jan 2040 14:03:18.035" StopTime = "22 Jan 2040 20:49:12.972" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "22 Jan 2040 21:49:08.720" StopTime = "23 Jan 2040 04:34:25.779" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "23 Jan 2040 05:33:54.634" StopTime = "23 Jan 2040 12:18:51.712" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "23 Jan 2040 13:18:06.398" StopTime = "23 Jan 2040 20:02:51.936" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "23 Jan 2040 21:02:01.863" StopTime = "24 Jan 2040 03:46:41.814" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "24 Jan 2040 04:45:54.458" StopTime = "24 Jan 2040 11:30:33.304" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "24 Jan 2040 12:29:56.063" StopTime = "24 Jan 2040 19:14:38.921" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "24 Jan 2040 20:14:21.433" StopTime = "25 Jan 2040 02:59:15.750" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "25 Jan 2040 03:59:30.800" StopTime = "25 Jan 2040 10:44:51.115" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "25 Jan 2040 11:46:01.406" StopTime = "25 Jan 2040 18:32:23.230" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "25 Jan 2040 19:35:17.019" StopTime = "26 Jan 2040 02:24:37.676" />
+                <Interval Name = "Satellite-EEV-To-Satellite-DST AccessIntervals" StartTime = "26 Jan 2040 03:24:58.963" StopTime = "27 Jan 2040 02:24:18.480" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-EEV-To-Planet-Sun AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/OrbitPlanner/Satellite/EEV;/Application/STK/Scenario/OrbitPlanner/Planet/Sun" Type = "IntervalList">
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "1 Jan 2040 00:00:00.000" StopTime = "1 Jan 2040 00:40:07.508" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "1 Jan 2040 01:25:59.096" StopTime = "6 Jan 2040 19:26:13.544" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "6 Jan 2040 19:33:17.346" StopTime = "8 Jan 2040 14:06:59.385" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "8 Jan 2040 15:05:28.147" StopTime = "9 Jan 2040 20:28:53.174" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "9 Jan 2040 21:24:47.615" StopTime = "11 Jan 2040 01:50:10.853" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "11 Jan 2040 03:05:27.455" StopTime = "16 Jan 2040 09:55:33.120" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "16 Jan 2040 10:47:46.129" StopTime = "16 Jan 2040 21:11:16.904" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "16 Jan 2040 21:59:31.812" StopTime = "17 Jan 2040 04:50:43.763" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "17 Jan 2040 05:38:54.048" StopTime = "17 Jan 2040 12:30:10.810" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "17 Jan 2040 13:18:16.221" StopTime = "17 Jan 2040 20:09:37.581" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "17 Jan 2040 20:57:38.399" StopTime = "18 Jan 2040 03:49:04.547" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "18 Jan 2040 04:37:00.583" StopTime = "18 Jan 2040 11:28:31.435" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "18 Jan 2040 12:16:22.592" StopTime = "18 Jan 2040 19:07:58.417" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "18 Jan 2040 19:55:44.906" StopTime = "19 Jan 2040 02:47:25.395" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "19 Jan 2040 03:35:06.958" StopTime = "19 Jan 2040 10:26:52.186" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "19 Jan 2040 11:14:28.914" StopTime = "19 Jan 2040 18:06:19.383" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "19 Jan 2040 18:53:51.280" StopTime = "20 Jan 2040 01:45:46.297" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "20 Jan 2040 02:33:13.196" StopTime = "20 Jan 2040 09:25:13.126" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "20 Jan 2040 10:12:35.177" StopTime = "20 Jan 2040 17:04:40.444" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "20 Jan 2040 17:51:57.461" StopTime = "21 Jan 2040 00:44:07.303" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "21 Jan 2040 01:31:19.320" StopTime = "21 Jan 2040 08:23:34.262" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "21 Jan 2040 09:10:41.345" StopTime = "21 Jan 2040 16:03:01.557" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "21 Jan 2040 16:50:03.447" StopTime = "21 Jan 2040 23:42:28.447" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "22 Jan 2040 00:29:25.355" StopTime = "22 Jan 2040 07:21:55.551" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "22 Jan 2040 08:08:47.385" StopTime = "22 Jan 2040 15:01:22.710" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "22 Jan 2040 15:48:09.284" StopTime = "22 Jan 2040 22:40:49.757" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "22 Jan 2040 23:27:31.327" StopTime = "23 Jan 2040 06:20:16.929" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "23 Jan 2040 07:06:53.271" StopTime = "23 Jan 2040 13:59:43.946" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "23 Jan 2040 14:46:15.047" StopTime = "23 Jan 2040 21:39:11.220" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "23 Jan 2040 22:25:37.205" StopTime = "24 Jan 2040 05:18:38.360" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "24 Jan 2040 06:04:59.003" StopTime = "24 Jan 2040 12:58:05.339" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "24 Jan 2040 13:44:20.770" StopTime = "24 Jan 2040 20:37:32.802" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "24 Jan 2040 21:23:42.920" StopTime = "25 Jan 2040 04:16:59.867" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "25 Jan 2040 05:03:04.612" StopTime = "25 Jan 2040 11:56:26.941" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "25 Jan 2040 12:42:26.421" StopTime = "25 Jan 2040 19:35:54.457" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "25 Jan 2040 20:21:48.440" StopTime = "26 Jan 2040 03:13:53.532" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "26 Jan 2040 03:51:51.345" StopTime = "26 Jan 2040 15:43:13.059" />
+                <Interval Name = "Satellite-EEV-To-Planet-Sun AccessIntervals" StartTime = "26 Jan 2040 16:19:03.224" StopTime = "27 Jan 2040 02:24:18.480" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/OrbitPlanner" GlobalStartOffset = "0.000000" GlobalStartTime = "1 Jan 2040 00:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "31 Jan 2040 00:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>
