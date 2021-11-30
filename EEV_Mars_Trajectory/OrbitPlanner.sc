@@ -170,7 +170,37 @@ BEGIN Scenario
             WindowRectLeft		 332
             WindowRectTop		 1115
             WindowRectRight		 531
-            WindowRectBottom		 1149
+            WindowRectBottom		 1162
+        END Report
+
+        BEGIN Report
+            Name		 Access2
+            Type		 Report
+            BaseDir		 Install
+            Style		 Access
+            AGIViewer		 Yes
+            Instance		 Satellite/EEV
+            BEGIN InstanceList
+                Instance		 Satellite/DST
+            END InstanceList
+            BEGIN TimeData
+                BEGIN Section
+                    SectionNumber		 1
+                    SectionType		 4
+                    ShowIntervals		 No
+                    TimeType		 Availability
+                    SamplingType		 Default
+                    TimeBound		 0
+                END Section
+            END TimeData
+            DisplayOnLoad		 Yes
+            FrameType		 0
+            DockCircleID		 0
+            DockID		 0
+            WindowRectLeft		 531
+            WindowRectTop		 1119
+            WindowRectRight		 730
+            WindowRectBottom		 1153
         END Report
     END QuickReports
 
@@ -406,12 +436,7 @@ BEGIN Scenario
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 Install
-                    Style		 Segment Summary
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
-                    BaseDir		 Install
-                    Style		 MCS Summary
+                    Style		 Astrogator Log
                 END Favorite
                 BEGIN Favorite
                     Type		 Report
@@ -421,7 +446,12 @@ BEGIN Scenario
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 Install
-                    Style		 Astrogator Log
+                    Style		 MCS Summary
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Segment Summary
                 END Favorite
             END Class
         END ReportFavorites
@@ -1820,6 +1850,7 @@ BEGIN Scenario
         Class Planet
 
             Deimos		
+            Earth		
             Mars		
             Phobos		
             Sun		
@@ -1855,6 +1886,9 @@ BEGIN Scenario
         END Instance
         Instance Planet/Deimos
             Planet/Deimos		
+        END Instance
+        Instance Planet/Earth
+            Planet/Earth		
         END Instance
         Instance Planet/Mars
             Planet/Mars		

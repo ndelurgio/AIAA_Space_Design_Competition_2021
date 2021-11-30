@@ -1045,6 +1045,7 @@ BEGIN Satellite
 
         BEGIN AccessConstraints
             LineOfSight IncludeIntervals
+            CbObstruction Sun,Mars,Phobos,Deimos IncludeIntervals
 
             UsePreferredMaxStep No
             PreferredMaxStep 360
@@ -1142,6 +1143,12 @@ BEGIN Satellite
         END ObjectCoverage
 
         BEGIN Desc
+            BEGIN ShortText
+
+            END ShortText
+            BEGIN LongText
+
+            END LongText
         END Desc
 
         BEGIN RadarCrossSection

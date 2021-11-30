@@ -33,7 +33,7 @@ BEGIN Target
 
         BEGIN AccessConstraints
             LineOfSight IncludeIntervals
-            CbObstruction Mars IncludeIntervals
+            CbObstruction Mars,Phobos IncludeIntervals
 
             UsePreferredMaxStep No
             PreferredMaxStep 360
