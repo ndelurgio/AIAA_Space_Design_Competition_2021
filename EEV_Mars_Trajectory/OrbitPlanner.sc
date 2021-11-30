@@ -133,7 +133,7 @@ BEGIN Scenario
                     TimeBound		 0
                 END Section
             END TimeData
-            DisplayOnLoad		 Yes
+            DisplayOnLoad		 No
             FrameType		 0
             DockCircleID		 0
             DockID		 0
@@ -141,6 +141,36 @@ BEGIN Scenario
             WindowRectTop		 183
             WindowRectRight		 1787
             WindowRectBottom		 673
+        END Report
+
+        BEGIN Report
+            Name		 Access1
+            Type		 Report
+            BaseDir		 Install
+            Style		 Access
+            AGIViewer		 Yes
+            Instance		 Target/GulliverCrater
+            BEGIN InstanceList
+                Instance		 Satellite/DST
+            END InstanceList
+            BEGIN TimeData
+                BEGIN Section
+                    SectionNumber		 1
+                    SectionType		 4
+                    ShowIntervals		 No
+                    TimeType		 Availability
+                    SamplingType		 Default
+                    TimeBound		 0
+                END Section
+            END TimeData
+            DisplayOnLoad		 Yes
+            FrameType		 0
+            DockCircleID		 0
+            DockID		 0
+            WindowRectLeft		 332
+            WindowRectTop		 1115
+            WindowRectRight		 531
+            WindowRectBottom		 1149
         END Report
     END QuickReports
 
@@ -376,12 +406,7 @@ BEGIN Scenario
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 Install
-                    Style		 Astrogator Log
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
-                    BaseDir		 Install
-                    Style		 Astrogator Script Summary
+                    Style		 Segment Summary
                 END Favorite
                 BEGIN Favorite
                     Type		 Report
@@ -391,7 +416,12 @@ BEGIN Scenario
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 Install
-                    Style		 Segment Summary
+                    Style		 Astrogator Script Summary
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Astrogator Log
                 END Favorite
             END Class
         END ReportFavorites
@@ -933,9 +963,9 @@ BEGIN Scenario
 
                 StartTime		 1 Jan 2040 00:00:00.000000000
                 EndTime		 31 Jan 2040 00:00:00.000000000
-                CurrentTime		 1 Jan 2040 00:00:00.000000000
-                Direction		 Forward
-                UpdateDelta		 600
+                CurrentTime		 22 Jan 2040 23:16:00.000000000
+                Direction		 Reverse
+                UpdateDelta		 300
                 RefreshDelta		 0.010000
                 XRealTimeMult		 1
                 RealTimeOffset		 0
@@ -1007,6 +1037,378 @@ BEGIN Scenario
                 TextShadowStyle		 Dark
                 TextShadowColor		 #000000
                 BingLevelOfDetailScale		 2
+                BEGIN Map
+                    MapNum		 1
+                    TrackingMode		 LatLon
+                    PickEnabled		 On
+                    PanEnabled		 On
+
+                    BEGIN MapAttributes
+                        PrimaryBody		 Phobos
+                        SecondaryBody		 Sun
+                        CenterLatitude		 0
+                        CenterLongitude		 6.918254777724712
+                        ProjectionAltitude		 63621860
+                        FieldOfView		 35
+                        OrthoDisplayDistance		 20000000
+                        TransformTrajectory		 On
+                        EquatorialRadius		 13000
+                        BackgroundColor		 #000000
+                        LatLonLines		 On
+                        LatSpacing		 30
+                        LonSpacing		 30
+                        LatLonLineColor		 #999999
+                        LatLonLineStyle		 2
+                        ShowOrthoDistGrid		 Off
+                        OrthoGridXSpacing		 5
+                        OrthoGridYSpacing		 5
+                        OrthoGridColor		 #ffffff
+                        ShowImageExtents		 Off
+                        ImageExtentLineColor		 #ffffff
+                        ImageExtentLineStyle		 0
+                        ImageExtentLineWidth		 1
+                        ShowImageNames		 Off
+                        ImageNameFont		 0
+                        Projection		 EquidistantCylindrical
+                        Resolution		 VeryLow
+                        CoordinateSys		 ECF
+                        UseBackgroundImage		 On
+                        UseBingForBackground		 Off
+                        BingType		 Aerial
+                        BingLogoHorizAlign		 Right
+                        BingLogoVertAlign		 Bottom
+                        BackgroundImageFile		 Phobos.bmp
+                        UseNightLights		 Off
+                        NightLightsFactor		 3.5
+                        UseCloudsFile		 Off
+                        BEGIN ZoomLocations
+                            BEGIN ZoomLocation
+                                CenterLat		 0
+                                CenterLon		 6.918254777724712
+                                ZoomWidth		 360
+                                ZoomHeight		 180
+                            END ZoomLocation
+                        END ZoomLocations
+                        UseVarAspectRatio		 No
+                        SwapMapResolution		 Yes
+                        NoneToVLowSwapDist		 2000000
+                        VLowToLowSwapDist		 20000
+                        LowToMediumSwapDist		 10000
+                        MediumToHighSwapDist		 5000
+                        HighToVHighSwapDist		 1000
+                        VHighToSHighSwapDist		 100
+                        BEGIN Axes
+                            DisplayAxes		 no
+                            CoordSys		 CBI
+                            2aryCB		 Sun
+                            Display+x		 yes
+                            Label+x		 yes
+                            Color+x		 #ffffff
+                            Scale+x		 3
+                            Display-x		 yes
+                            Label-x		 yes
+                            Color-x		 #ffffff
+                            Scale-x		 3
+                            Display+y		 yes
+                            Label+y		 yes
+                            Color+y		 #ffffff
+                            Scale+y		 3
+                            Display-y		 yes
+                            Label-y		 yes
+                            Color-y		 #ffffff
+                            Scale-y		 3
+                            Display+z		 yes
+                            Label+z		 yes
+                            Color+z		 #ffffff
+                            Scale+z		 3
+                            Display-z		 yes
+                            Label-z		 yes
+                            Color-z		 #ffffff
+                            Scale-z		 3
+                        END Axes
+
+                    END MapAttributes
+
+                    BEGIN MapList
+                    END MapList
+
+
+                    BEGIN MapAnnotations
+                    END MapAnnotations
+
+                    BEGIN DisplayFlags
+                        ShowLabels		 On
+                        ShowPassLabel		 Off
+                        ShowElsetNum		 Off
+                        ShowGndTracks		 On
+                        ShowGndMarkers		 On
+                        ShowOrbitMarkers		 On
+                        ShowPlanetOrbits		 Off
+                        ShowPlanetCBIPos		 On
+                        ShowPlanetCBILabel		 On
+                        ShowPlanetGndPos		 On
+                        ShowPlanetGndLabel		 On
+                        ShowSensors		 On
+                        ShowWayptMarkers		 Off
+                        ShowWayptTurnMarkers		 Off
+                        ShowOrbits		 On
+                        ShowDtedRegions		 Off
+                        ShowAreaTgtCentroids		 On
+                        ShowToolBar		 On
+                        ShowStatusBar		 On
+                        ShowScrollBars		 On
+                        AllowAnimUpdate		 Off
+                        AccShowLine		 On
+                        AccAnimHigh		 On
+                        AccStatHigh		 On
+                        ShowPrintButton		 On
+                        ShowAnimButtons		 On
+                        ShowAnimModeButtons		 On
+                        ShowZoomMsrButtons		 On
+                        ShowMapCbButton		 Off
+                    END DisplayFlags
+
+                    BEGIN RecordMovie
+                        OutputFormat		 WMV
+                        SdfSelected		 No
+                        BaseName		 Frame
+                        Digits		 4
+                        Frame		 0
+                        LastAnimTime		 0
+                        OutputMode		 Normal
+                        HiResAssembly		 Assemble
+                        HRWidth		 6000
+                        HRHeight		 4500
+                        HRDPI		 600
+                        UseSnapInterval		 No
+                        SnapInterval		 0
+                        WmvCodec		 "Windows Media Video 9"
+                        Framerate		 30
+                        Bitrate		 3000000
+                    END RecordMovie
+
+
+                    BEGIN TimeDisplay
+                        Show		 0
+                        TextColor		 #ffffff
+                        TextTranslucency		 0
+                        ShowBackground		 0
+                        BackColor		 #4d4d4d
+                        BackTranslucency		 0.4
+                        XPosition		 20
+                        YPosition		 -20
+                    END TimeDisplay
+
+                    BEGIN LightingData
+                        DisplayAltitude		 0
+                        SubsolarPoint		 Off
+                        SubsolarPointColor		 #ffff00
+                        SubsolarPointMarkerStyle		 2
+
+                        ShowUmbraLine		 Off
+                        UmbraLineColor		 #000000
+                        UmbraLineStyle		 0
+                        UmbraLineWidth		 2
+                        FillUmbra		 On
+                        UmbraFillColor		 #000000
+                        ShowSunlightLine		 Off
+                        SunlightLineColor		 #ffff00
+                        SunlightLineStyle		 0
+                        SunlightLineWidth		 2
+                        FillSunlight		 On
+                        SunlightFillColor		 #ffffff
+                        SunlightMinOpacity		 0
+                        SunlightMaxOpacity		 0.2
+                        UmbraMaxOpacity		 0.7
+                        UmbraMinOpacity		 0.4
+                    END LightingData
+                END Map
+                BEGIN Map
+                    MapNum		 2
+                    TrackingMode		 LatLon
+                    PickEnabled		 On
+                    PanEnabled		 On
+
+                    BEGIN MapAttributes
+                        PrimaryBody		 Deimos
+                        SecondaryBody		 Sun
+                        CenterLatitude		 0
+                        CenterLongitude		 5.000000015797923e-06
+                        ProjectionAltitude		 63621860
+                        FieldOfView		 35
+                        OrthoDisplayDistance		 20000000
+                        TransformTrajectory		 On
+                        EquatorialRadius		 7800
+                        BackgroundColor		 #000000
+                        LatLonLines		 On
+                        LatSpacing		 30
+                        LonSpacing		 30
+                        LatLonLineColor		 #999999
+                        LatLonLineStyle		 2
+                        ShowOrthoDistGrid		 Off
+                        OrthoGridXSpacing		 5
+                        OrthoGridYSpacing		 5
+                        OrthoGridColor		 #ffffff
+                        ShowImageExtents		 Off
+                        ImageExtentLineColor		 #ffffff
+                        ImageExtentLineStyle		 0
+                        ImageExtentLineWidth		 1
+                        ShowImageNames		 Off
+                        ImageNameFont		 0
+                        Projection		 EquidistantCylindrical
+                        Resolution		 VeryLow
+                        CoordinateSys		 ECF
+                        UseBackgroundImage		 On
+                        UseBingForBackground		 Off
+                        BingType		 Aerial
+                        BingLogoHorizAlign		 Right
+                        BingLogoVertAlign		 Bottom
+                        BackgroundImageFile		 Deimos.bmp
+                        UseNightLights		 Off
+                        NightLightsFactor		 3.5
+                        UseCloudsFile		 Off
+                        BEGIN ZoomLocations
+                            BEGIN ZoomLocation
+                                CenterLat		 0
+                                CenterLon		 0
+                                ZoomWidth		 360
+                                ZoomHeight		 180
+                            END ZoomLocation
+                        END ZoomLocations
+                        UseVarAspectRatio		 No
+                        SwapMapResolution		 Yes
+                        NoneToVLowSwapDist		 2000000
+                        VLowToLowSwapDist		 20000
+                        LowToMediumSwapDist		 10000
+                        MediumToHighSwapDist		 5000
+                        HighToVHighSwapDist		 1000
+                        VHighToSHighSwapDist		 100
+                        BEGIN Axes
+                            DisplayAxes		 no
+                            CoordSys		 CBI
+                            2aryCB		 Sun
+                            Display+x		 yes
+                            Label+x		 yes
+                            Color+x		 #ffffff
+                            Scale+x		 3
+                            Display-x		 yes
+                            Label-x		 yes
+                            Color-x		 #ffffff
+                            Scale-x		 3
+                            Display+y		 yes
+                            Label+y		 yes
+                            Color+y		 #ffffff
+                            Scale+y		 3
+                            Display-y		 yes
+                            Label-y		 yes
+                            Color-y		 #ffffff
+                            Scale-y		 3
+                            Display+z		 yes
+                            Label+z		 yes
+                            Color+z		 #ffffff
+                            Scale+z		 3
+                            Display-z		 yes
+                            Label-z		 yes
+                            Color-z		 #ffffff
+                            Scale-z		 3
+                        END Axes
+
+                    END MapAttributes
+
+                    BEGIN MapList
+                    END MapList
+
+
+                    BEGIN MapAnnotations
+                    END MapAnnotations
+
+                    BEGIN DisplayFlags
+                        ShowLabels		 On
+                        ShowPassLabel		 Off
+                        ShowElsetNum		 Off
+                        ShowGndTracks		 On
+                        ShowGndMarkers		 On
+                        ShowOrbitMarkers		 On
+                        ShowPlanetOrbits		 Off
+                        ShowPlanetCBIPos		 On
+                        ShowPlanetCBILabel		 On
+                        ShowPlanetGndPos		 On
+                        ShowPlanetGndLabel		 On
+                        ShowSensors		 On
+                        ShowWayptMarkers		 Off
+                        ShowWayptTurnMarkers		 Off
+                        ShowOrbits		 On
+                        ShowDtedRegions		 Off
+                        ShowAreaTgtCentroids		 On
+                        ShowToolBar		 On
+                        ShowStatusBar		 On
+                        ShowScrollBars		 On
+                        AllowAnimUpdate		 Off
+                        AccShowLine		 On
+                        AccAnimHigh		 On
+                        AccStatHigh		 On
+                        ShowPrintButton		 On
+                        ShowAnimButtons		 On
+                        ShowAnimModeButtons		 On
+                        ShowZoomMsrButtons		 On
+                        ShowMapCbButton		 Off
+                    END DisplayFlags
+
+                    BEGIN RecordMovie
+                        OutputFormat		 WMV
+                        SdfSelected		 No
+                        BaseName		 Frame
+                        Digits		 4
+                        Frame		 0
+                        LastAnimTime		 0
+                        OutputMode		 Normal
+                        HiResAssembly		 Assemble
+                        HRWidth		 6000
+                        HRHeight		 4500
+                        HRDPI		 600
+                        UseSnapInterval		 No
+                        SnapInterval		 0
+                        WmvCodec		 "Windows Media Video 9"
+                        Framerate		 30
+                        Bitrate		 3000000
+                    END RecordMovie
+
+
+                    BEGIN TimeDisplay
+                        Show		 0
+                        TextColor		 #ffffff
+                        TextTranslucency		 0
+                        ShowBackground		 0
+                        BackColor		 #4d4d4d
+                        BackTranslucency		 0.4
+                        XPosition		 20
+                        YPosition		 -20
+                    END TimeDisplay
+
+                    BEGIN LightingData
+                        DisplayAltitude		 0
+                        SubsolarPoint		 Off
+                        SubsolarPointColor		 #ffff00
+                        SubsolarPointMarkerStyle		 2
+
+                        ShowUmbraLine		 Off
+                        UmbraLineColor		 #000000
+                        UmbraLineStyle		 0
+                        UmbraLineWidth		 2
+                        FillUmbra		 On
+                        UmbraFillColor		 #000000
+                        ShowSunlightLine		 Off
+                        SunlightLineColor		 #ffff00
+                        SunlightLineStyle		 0
+                        SunlightLineWidth		 2
+                        FillSunlight		 On
+                        SunlightFillColor		 #ffffff
+                        SunlightMinOpacity		 0
+                        SunlightMaxOpacity		 0.2
+                        UmbraMaxOpacity		 0.7
+                        UmbraMinOpacity		 0.4
+                    END LightingData
+                END Map
 
                 BEGIN MapStyles
 
@@ -1429,7 +1831,19 @@ BEGIN Scenario
             DST		
             EEV		
             EEV_Direct		
+            EEV_nr		
             EEV_Rendevous		
+
+        END Class
+
+        Class Target
+
+            ClustrillCrater		
+            FlimnapCrater		
+            GulliverCrater		
+            StickneyCrater		
+            SwiftCrater		
+            VoltaireCrater		
 
         END Class
 
@@ -1462,6 +1876,27 @@ BEGIN Scenario
         END Instance
         Instance Satellite/EEV_Rendevous
             Satellite/EEV_Rendevous		
+        END Instance
+        Instance Satellite/EEV_nr
+            Satellite/EEV_nr		
+        END Instance
+        Instance Target/ClustrillCrater
+            Target/ClustrillCrater		
+        END Instance
+        Instance Target/FlimnapCrater
+            Target/FlimnapCrater		
+        END Instance
+        Instance Target/GulliverCrater
+            Target/GulliverCrater		
+        END Instance
+        Instance Target/StickneyCrater
+            Target/StickneyCrater		
+        END Instance
+        Instance Target/SwiftCrater
+            Target/SwiftCrater		
+        END Instance
+        Instance Target/VoltaireCrater
+            Target/VoltaireCrater		
         END Instance
     END References
 
