@@ -64,6 +64,22 @@ class param{
             return hd;
         };
 
+        double get_larger(){
+            return r;
+        };
+
+        double get_smallr(){
+            return f*r;
+        };
+
+        double get_theta(){
+            return theta;
+        };
+
+        double get_ha(){
+            return ha;
+        };
+
         double taneq(){
             switch (type){
                 case 0:
@@ -93,6 +109,20 @@ class param{
             }
         };
 
+        double solveReferenceArea(){
+            return( 2*r*hd + r*(f+1)*hc );
+        };
+
+        double solveSurfaceArea(){
+            double cCH = r * tan(theta);
+            double dCH = cCH - hc;
+            double rS = f*r;
+            double lowerSA = (2*PI*r*hd) + PI*pow(r,2);
+            double upperSA = PI*( ( r*sqrt( pow(cCH,2)+pow(r,2) ) )  - ( rS*sqrt( pow(dCH,2)+pow(rS,2) ) ) + pow(rS,2) );
+            return( lowerSA + upperSA );
+        };
+        
+
         void print_param(){
             solve_secondary();
             std::cout << "Allowable height [uL]: " << ha << std::endl;
@@ -100,6 +130,9 @@ class param{
             std::cout << "Smaller Radius [uL]: " << f*r << std::endl;
             std::cout << "Larger Radius [uL]: " << r << std::endl;
             std::cout << "Radial Fraction: " << f << std::endl;
+            std::cout << "Front Face Projection Area [uL2]: " << solveReferenceArea() << std::endl;
+            std::cout << "Surface Area [uL2]: " << solveSurfaceArea() << std::endl;
+            
 
             if(ha != hd){
                 std::cout << "Convergence Angle (theta) [Degrees]: " << theta*180/PI << std::endl;
