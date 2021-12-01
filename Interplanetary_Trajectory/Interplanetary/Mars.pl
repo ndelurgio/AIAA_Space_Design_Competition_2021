@@ -12,7 +12,7 @@ BEGIN Planet
 
         BEGIN EphemerisData
 
-            EphemerisSource		 None
+            EphemerisSource		 JplDE
 
             JplIndex		 3
 
@@ -72,12 +72,6 @@ BEGIN Planet
         END AccessConstraints
 
         BEGIN Desc
-            BEGIN ShortText
-
-            END ShortText
-            BEGIN LongText
-
-            END LongText
         END Desc
 
         BEGIN Crdn
@@ -107,7 +101,7 @@ BEGIN Planet
                 ShowSubPlanetLabel		 On
                 ShowOrbit		 Off
                 NumOrbitPoints		 360
-                OrbitTime		  0.0000000000000000e+00
+                OrbitTime		  5.9352808371655308e+07
                 OrbitDisplay		                OneOrbit		
                 TransformTrajectory		 On
 

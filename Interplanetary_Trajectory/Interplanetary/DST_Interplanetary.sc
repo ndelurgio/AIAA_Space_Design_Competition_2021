@@ -5,10 +5,10 @@ BEGIN Scenario
 
     BEGIN Epoch
 
-        Epoch		 1 Jan 2039 00:00:00.000000000
+        Epoch		 1 Jan 2037 00:00:00.000000000
         SmartEpoch		
         BEGIN EVENT
-            Epoch		 1 Jan 2039 00:00:00.000000000
+            Epoch		 1 Jan 2037 00:00:00.000000000
             EventEpoch		
             BEGIN EVENT
                 Type		 EVENT_LINKTO
@@ -22,19 +22,19 @@ BEGIN Scenario
 
     BEGIN Interval
 
-        Start		 1 Jan 2039 00:00:00.000000000
+        Start		 1 Jan 2037 00:00:00.000000000
         Stop		 3 Jan 2040 00:00:00.000000000
         SmartInterval		
         BEGIN EVENTINTERVAL
             BEGIN Interval
-                Start		 1 Jan 2039 00:00:00.000000000
+                Start		 1 Jan 2037 00:00:00.000000000
                 Stop		 3 Jan 2040 00:00:00.000000000
             END Interval
             IntervalState		 Explicit
         END EVENTINTERVAL
 
         EpochUsesAnalStart		 No
-        AnimStartUsesAnalStart		 No
+        AnimStartUsesAnalStart		 Yes
         AnimStopUsesAnalStop		 Yes
 
     END Interval
@@ -130,8 +130,8 @@ BEGIN Scenario
             LaunchWindowUseEntireTraj		 Yes
             LaunchWindowTrajMETStart		 0
             LaunchWindowTrajMETStop		 900
-            LaunchWindowStart		 0
-            LaunchWindowStop		 0
+            LaunchWindowStart		 -539589600
+            LaunchWindowStop		 -571212000
             LaunchMETOffset		 0
             LaunchWindowUseSecEphem		 No 
             LaunchWindowUseScenFolderForSecEphem		 Yes
@@ -866,11 +866,11 @@ BEGIN Scenario
 
             BEGIN Animation
 
-                StartTime		 1 Jan 2039 00:00:00.000000000
+                StartTime		 1 Jan 2037 00:00:00.000000000
                 EndTime		 3 Jan 2040 00:00:00.000000000
-                CurrentTime		 4 Jan 2040 19:59:50.000000000
+                CurrentTime		 6 Dec 2037 00:00:00.000000000
                 Direction		 Forward
-                UpdateDelta		 3600
+                UpdateDelta		 57600
                 RefreshDelta		 0.010000
                 XRealTimeMult		 1
                 RealTimeOffset		 0
@@ -949,7 +949,7 @@ BEGIN Scenario
 
                     BEGIN Style
                         Name		 DefaultWithBing
-                        Time		 -539589600
+                        Time		 -476517600
                         UpdateDelta		 10
 
                         BEGIN MapAttributes
@@ -1136,7 +1136,7 @@ BEGIN Scenario
 
                     BEGIN Style
                         Name		 DefaultWithoutBing
-                        Time		 -539589600
+                        Time		 -476517600
                         UpdateDelta		 10
 
                         BEGIN MapAttributes
@@ -1358,7 +1358,7 @@ BEGIN Scenario
 
         Class Satellite
 
-            DST		
+            EEV		
 
         END Class
 
@@ -1377,8 +1377,8 @@ BEGIN Scenario
         Instance Planet/Sun
             Planet/Sun		
         END Instance
-        Instance Satellite/DST
-            Satellite/DST		
+        Instance Satellite/EEV
+            Satellite/EEV		
         END Instance
     END References
 
