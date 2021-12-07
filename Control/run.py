@@ -22,7 +22,11 @@ m = 6000
 r = 4
 l = 8
 I = np.matrix([[0.25*m*r**2 + 1/12*m*l**2,0,0],[0,0.25*m*r**2 + 1/12*m*l**2,0],[0,0,m*r**2]])
-EEV = Vehicle(m,I,0,0,0,0,EEV_state)
+mdot = 0
+Idot = np.matrix([[0,0,0],[0,0,0],[0,0,0]])
+F = np.array([0,0,0])
+M = np.array([0,0,0])
+EEV = Vehicle(m,I,mdot,Idot,F,M,EEV_state)
 
 ## DEBUG: RUN SIMULATION
 t = t0
