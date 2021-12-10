@@ -3,6 +3,7 @@ from state import State
 from simulation import Simulation
 from vehicle import Vehicle
 from enviornment import Enviornment
+from eom import EOM
 #from eom import *
 
 ## CREATE SIMULATION PARAMETERS
@@ -28,15 +29,23 @@ F = np.array([0,0,0])
 M = np.array([0,0,0])
 EEV = Vehicle(m,I,mdot,Idot,F,M,EEV_state)
 
+## CREATE ENVIORNMENT
+env = Enviornment(0,10)
+
+## CREATE EQUATIONS OF MOTION
+eqm = EOM()
+
+sim = Simulation(dt,t0,tf,EEV,env,eqm)
+sim.run()
 ## DEBUG: RUN SIMULATION
-t = t0
-while t < tf:
-    qdot = np.array([0,0,0,0])
-    wdot = np.array([0,0,0])
-    xdot = np.array([0,0,0])
-    vdot = np.array([0,0,0])
-    EEV.state.propagate(qdot,wdot,xdot,vdot,dt)
-    print(EEV.state.x)
-    t += dt
+#t = t0
+#while t < tf:
+#    qdot = np.array([0,0,0,0])
+#    wdot = np.array([0,0,0])
+#    xdot = np.array([0,0,0])
+#    vdot = np.array([0,0,0])
+#    EEV.state.propagate(qdot,wdot,xdot,vdot,dt)
+#    print(EEV.state.x)
+#    t += dt
 
 
