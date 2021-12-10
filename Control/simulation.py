@@ -2,6 +2,7 @@ from state import State
 from vehicle import Vehicle
 from enviornment import Enviornment
 import numpy as np
+import matplotlib.pyplot as plt
 #from eom import EOM
 class Simulation():
     def __init__(self,dt,t0,tf,vehicle,enviornment,eom):
@@ -13,13 +14,45 @@ class Simulation():
         self.eom = eom
         
         #Create data collection arrays
-        #self.state_history = np.empty((tf-t0) / dt, dtype=State)
+        arr_length = int((tf-t0)/dt)
+        self.t_history = np.empty(arr_length)
+        self.q_history = np.empty((arr_length,4))
+        self.w_history = np.empty((arr_length,3))
+        self.x_history = np.empty((arr_length,3))
+        self.v_history = np.empty((arr_length,3))
     def run(self):
-        while self.t <= self.tf:
-            self.enviornment.update(self.vehicle.state,self.vehicle)
-            self.vehicle.update()
-            qdot, wdot, xdot, vdot = self.eom.solve(self.vehicle,self.enviornment)
-            self.vehicle.state.propagate(qdot,wdot,xdot,vdot,self.dt)
-            print(self.vehicle.state.w)
-            self.t += self.dt
+        for i in range(self.t_history.size):
+            self.t += self.dt                                                       # Begin new time step
+            self.enviornment.update(self.vehicle.state,self.vehicle)                # Update Environmental Forces/Moments
+            self.vehicle.update()                                                   # Update Vehicle Forces/Moments
+            qdot, wdot, xdot, vdot = self.eom.solve(self.vehicle,self.enviornment)  # Compute state derivates
+            self.vehicle.state.propagate(qdot,wdot,xdot,vdot,self.dt)               # Propogate vehicle state using state derivates
+            ## Assign new state to the state history
+            self.t_history[i] = self.t
+            self.q_history[i] = self.vehicle.state.q
+            self.w_history[i] = self.vehicle.state.w
+            self.x_history[i] = self.vehicle.state.x
+            self.v_history[i] = self.vehicle.state.v
+            #print(self.vehicle.state.w)
+            
+    def plot(self):
+        
+        plt.figure(figsize=[8,5])
+        plt.subplot(3,1,1)
+        plt.title("Vehicle Body Rates (rad/s)")
+        plt.plot(self.t_history,self.w_history[:,0],"r")
+        plt.ylabel("\u03C9x")
+        plt.xlim(left=self.t_history[0])
+        plt.subplot(3,1,2)
+        plt.plot(self.t_history,self.w_history[:,1],"g")
+        plt.ylabel("\u03C9y")
+        plt.xlim(left=self.t_history[0])
+        plt.subplot(3,1,3)
+        plt.plot(self.t_history,self.w_history[:,2],"b")
+        plt.ylabel("\u03C9z")
+        plt.xlim(left=self.t_history[0])
+        plt.xlabel("Time (s)")
+        plt.show()
+        
+
         

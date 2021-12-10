@@ -7,13 +7,13 @@ from eom import EOM
 #from eom import *
 
 ## CREATE SIMULATION PARAMETERS
-dt = 0.1
+dt = 0.001
 t0 = 0
 tf = 10
 
 ## INITIALIZE STATE
 q0 = np.array([1,0,0,0])
-w0 = np.array([0,0,0])
+w0 = np.array([0.1,0,6])
 x0 = np.array([0,0,0])
 v0 = np.array([0,0,0])
 EEV_state = State(q0,w0,x0,v0)
@@ -30,13 +30,19 @@ M = np.array([0,0,0])
 EEV = Vehicle(m,I,mdot,Idot,F,M,EEV_state)
 
 ## CREATE ENVIORNMENT
-env = Enviornment(0,10)
+disturbance_F = np.array([0,0,0])
+disturbance_M = np.array([0,0,0])
+env = Enviornment(disturbance_F,disturbance_M)
 
 ## CREATE EQUATIONS OF MOTION
 eqm = EOM()
 
 sim = Simulation(dt,t0,tf,EEV,env,eqm)
 sim.run()
+sim.plot()
+
+
+#print(sim.w_history)
 ## DEBUG: RUN SIMULATION
 #t = t0
 #while t < tf:
