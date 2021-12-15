@@ -20,6 +20,7 @@ class Simulation():
         self.w_history = np.empty((arr_length,3))
         self.x_history = np.empty((arr_length,3))
         self.v_history = np.empty((arr_length,3))
+        
     def run(self):
         for i in range(self.t_history.size):
             self.t += self.dt                                                       # Begin new time step

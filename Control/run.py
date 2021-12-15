@@ -7,13 +7,13 @@ from eom import EOM
 #from eom import *
 
 ## CREATE SIMULATION PARAMETERS
-dt = 0.001
+dt = 0.1
 t0 = 0
 tf = 10
 
 ## INITIALIZE STATE
 q0 = np.array([1,0,0,0])
-w0 = np.array([0.1,0,6])
+w0 = np.array([0,0,6])
 x0 = np.array([0,0,0])
 v0 = np.array([0,0,0])
 EEV_state = State(q0,w0,x0,v0)
