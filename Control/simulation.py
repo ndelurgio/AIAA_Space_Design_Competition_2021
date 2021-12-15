@@ -37,6 +37,7 @@ class Simulation():
             
     def plot(self):
         
+        ## Body Rates
         plt.figure(figsize=[8,5])
         plt.subplot(3,1,1)
         plt.title("Vehicle Body Rates (rad/s)")
@@ -52,6 +53,62 @@ class Simulation():
         plt.ylabel("\u03C9z")
         plt.xlim(left=self.t_history[0])
         plt.xlabel("Time (s)")
+        
+        ## Velocity
+        plt.figure(figsize=[8,5])
+        plt.subplot(3,1,1)
+        plt.title("Vehicle Inertial Velocity (m/s)")
+        plt.plot(self.t_history,self.v_history[:,0],"r")
+        plt.ylabel("Vel X")
+        plt.xlim(left=self.t_history[0])
+        plt.subplot(3,1,2)
+        plt.plot(self.t_history,self.v_history[:,1],"g")
+        plt.ylabel("Vel Y")
+        plt.xlim(left=self.t_history[0])
+        plt.subplot(3,1,3)
+        plt.plot(self.t_history,self.v_history[:,2],"b")
+        plt.ylabel("Vel Z")
+        plt.xlim(left=self.t_history[0])
+        plt.xlabel("Time (s)")
+        
+        ## Position
+        plt.figure(figsize=[8,5])
+        plt.subplot(3,1,1)
+        plt.title("Vehicle Inertial Position (m)")
+        plt.plot(self.t_history,self.x_history[:,0],"r")
+        plt.ylabel("Pos X")
+        plt.xlim(left=self.t_history[0])
+        plt.subplot(3,1,2)
+        plt.plot(self.t_history,self.x_history[:,1],"g")
+        plt.ylabel("Pos Y")
+        plt.xlim(left=self.t_history[0])
+        plt.subplot(3,1,3)
+        plt.plot(self.t_history,self.x_history[:,2],"b")
+        plt.ylabel("Pos Z")
+        plt.xlim(left=self.t_history[0])
+        plt.xlabel("Time (s)")
+        
+        ## Position
+        plt.figure(figsize=[8,5])
+        plt.subplot(4,1,1)
+        plt.title("Vehicle Inerital to Body Quaternion (m)")
+        plt.plot(self.t_history,self.q_history[:,0],"r")
+        plt.ylabel("q0 (scalar)")
+        plt.xlim(left=self.t_history[0])
+        plt.subplot(4,1,2)
+        plt.plot(self.t_history,self.q_history[:,1],"g")
+        plt.ylabel("q1")
+        plt.xlim(left=self.t_history[0])
+        plt.subplot(4,1,3)
+        plt.plot(self.t_history,self.q_history[:,2],"b")
+        plt.ylabel("q2")
+        plt.xlim(left=self.t_history[0])
+        plt.subplot(4,1,4)
+        plt.plot(self.t_history,self.q_history[:,3],"y")
+        plt.ylabel("q3")
+        plt.xlim(left=self.t_history[0])
+        plt.xlabel("Time (s)")
+        
         plt.show()
         
 
