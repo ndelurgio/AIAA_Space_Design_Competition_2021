@@ -20,6 +20,7 @@ class Simulation():
         self.w_history = np.empty((arr_length,3))
         self.x_history = np.empty((arr_length,3))
         self.v_history = np.empty((arr_length,3))
+        self.e_history = np.empty((arr_length,3))
         
     def run(self):
         for i in range(self.t_history.size):
@@ -34,6 +35,7 @@ class Simulation():
             self.w_history[i] = self.vehicle.state.w
             self.x_history[i] = self.vehicle.state.x
             self.v_history[i] = self.vehicle.state.v
+            self.e_history[i] = self.vehicle.state.e
             #print(self.vehicle.state.w)
             
     def plot(self):
@@ -89,10 +91,10 @@ class Simulation():
         plt.xlim(left=self.t_history[0])
         plt.xlabel("Time (s)")
         
-        ## Position
+        ## Quaternion
         plt.figure(figsize=[8,5])
         plt.subplot(4,1,1)
-        plt.title("Vehicle Inerital to Body Quaternion (m)")
+        plt.title("Vehicle Inerital to Body Quaternion")
         plt.plot(self.t_history,self.q_history[:,0],"r")
         plt.ylabel("q0 (scalar)")
         plt.xlim(left=self.t_history[0])
@@ -107,6 +109,23 @@ class Simulation():
         plt.subplot(4,1,4)
         plt.plot(self.t_history,self.q_history[:,3],"y")
         plt.ylabel("q3")
+        plt.xlim(left=self.t_history[0])
+        plt.xlabel("Time (s)")
+        
+        ## Euler Angles (3-2-1 Yaw-Pitch-Roll)
+        plt.figure(figsize=[8,5])
+        plt.subplot(3,1,1)
+        plt.title("Vehicle Inertial to Body Euler Angles (deg)")
+        plt.plot(self.t_history,self.e_history[:,2]*180/np.pi,"r")
+        plt.ylabel("Roll")
+        plt.xlim(left=self.t_history[0])
+        plt.subplot(3,1,2)
+        plt.plot(self.t_history,self.e_history[:,1]*180/np.pi,"g")
+        plt.ylabel("Pitch")
+        plt.xlim(left=self.t_history[0])
+        plt.subplot(3,1,3)
+        plt.plot(self.t_history,self.e_history[:,0]*180/np.pi,"b")
+        plt.ylabel("Yaw")
         plt.xlim(left=self.t_history[0])
         plt.xlabel("Time (s)")
         

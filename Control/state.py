@@ -5,8 +5,10 @@ class State():
         self.w = w0
         self.x = x0
         self.v = v0
-        #self.e = self.q2euler()
-        self.dcm = self.q2dcm()
+        self.e = np.array([0,0,0],dtype=np.float64)
+        self.dcm = np.array([[1,0,0],[0,1,0],[0,0,1]],dtype=np.float64)
+        self.q2dcm()
+        self.dcm2euler()
         
         ## Previous statedots
         self.qdot_prev = np.array([0,0,0,0])
@@ -31,15 +33,19 @@ class State():
         
         #Compute DCM and Euler Angles
         self.q2dcm()
-        print(self.dcm)
+        self.dcm2euler()
+        #print(self.dcm)
         
         # self.q = self.q + qdot*dt
         # self.q = self.q / np.linalg.norm(self.q)
         # self.w = self.w + wdot*dt
         # self.x = self.x + xdot*dt
         # self.v = self.v + vdot*dt
-    #def q2euler(self): #Roll, Pitch, Yaw
-    #    self.e[0] = np.arctan2(2*(self.))
+    def dcm2euler(self): #Roll, Pitch, Yaw
+        self.e[0] = np.arctan2(self.dcm[0][1], self.dcm[0][0]) # YAW
+        self.e[1] = -np.arcsin(self.dcm[0][2]) # PITCH
+        self.e[2] = np.arctan2(self.dcm[1][2], self.dcm[2][2]) # ROLL
+        
     def q2dcm(self):
         #(2*self.q[0]**2 - 1)*np.eye(3) + 2*np.transpose([self.q[1:3]])*self.q[1:3] - 2*self.q[0].dot(self.S(self.q[1:3]))
         self.dcm = np.array([[2*self.q[0]**2 - 1 + self.q[1]**2            , 2*self.q[1]*self.q[2] + 2*self.q[3]*self.q[0], 2*self.q[1]*self.q[3] - 2*self.q[2]*self.q[0]],
