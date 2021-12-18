@@ -1,7 +1,7 @@
 import numpy as np
-from state import State
-from vehicle import Vehicle
-from enviornment import Enviornment
+#from state import State
+#from vehicle import Vehicle
+#from enviornment import Enviornment
 class EOM():
     def solve(self,vehicle,enviornment):
         Fb = vehicle.F + enviornment.F
