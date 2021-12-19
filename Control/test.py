@@ -24,7 +24,16 @@ def rotate(q,va):
 va = np.array([1,0,0])
 q = np.array([0.707,0,0,0.707])
 vb = rotate(q,va)
-print(vb)
+#print(vb)
+m = 6000
+r = 4
+l = 8
+inertia = np.array([[0.25*m*r**2 + 1/12*m*l**2,0,0],[0,0.25*m*r**2 + 1/12*m*l**2,0],[0,0,m*r**2]])
+print(inertia)
+Mb = np.array([0,100,0])
+w = np.array([5,0,0])
+wdot = np.linalg.inv(inertia).dot((Mb - np.cross(w,(inertia.dot(w)))))# - vehicle.Idot.dot(vehicle.state.w))) # Check
+print(wdot)
 #x = np.array([1,2,3,4])
 #y = q_matrix(x)
 #z = y.dot(x)

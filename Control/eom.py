@@ -11,7 +11,7 @@ class EOM():
         vdot = Fi / vehicle.mass #Inertial Frame
         qdot = 0.5*self.omega(vehicle.state.w).dot(vehicle.state.q)
         wdot = np.linalg.inv(vehicle.inertia).dot((Mb - np.cross(vehicle.state.w,(vehicle.inertia.dot(vehicle.state.w))) - vehicle.Idot.dot(vehicle.state.w))) # Check
-        #print(wdot)
+        #print(Mb)
         return qdot, wdot, xdot, vdot
         
     def omega(self,w):

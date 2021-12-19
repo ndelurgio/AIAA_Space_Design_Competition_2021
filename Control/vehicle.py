@@ -5,14 +5,16 @@ from vehicle_objs.gnc.controller import Controller
 from vehicle_objs.gnc.gnc import GNC
 
 class Vehicle():
-    def __init__(self,mass,inertia,cg,mdot,Idot,F,M,state,actuators,sensors,guidance,estimator):
+    def __init__(self,mass,inertia,cg,mdot,Idot,state,actuators,sensors,guidance,estimator):
         self.mass = mass
         self.inertia = inertia
         self.cg = cg
         self.mdot = mdot
         self.Idot = Idot
-        self.F = F
-        self.M = M
+        #self.F = F
+        #self.M = M
+        #self.F_const = F
+        #self.M_const = M
         self.state = state
         self.actuators = actuators
         self.sensors = sensors
@@ -20,10 +22,12 @@ class Vehicle():
         control = Controller(self)
         self.gnc = GNC(guidance,estimator,control)
         
-    def setForce(self,F):
-        self.F = F
-    def setMoment(self,M):
-        self.M = M
+    #def setForce(self,F):
+    #    self.F = F
+    #    self.F_const = F
+    #def setMoment(self,M):
+    #    self.M = M
+    #    self.M_const = M
     def updateSensorMeasurements(self):
         for i in self.sensors:
             self.sensors[i].updateMeas(self.state)
@@ -45,7 +49,7 @@ class Vehicle():
         self.M = np.array([0.0,0.0,0.0])
         for i in self.actuators:
             self.F += self.actuators[i].getForce()
-            self.M += self.actuators[i].getMoment()
+            self.M += self.actuators[i].getMoment(self.cg)
         #print(self.F)
         
         

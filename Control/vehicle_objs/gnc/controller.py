@@ -8,4 +8,4 @@ class Controller():
         }
         self.vehicle = vehicle
     def updateCtrlCmd(self,estimator,guidance):
-        self.ctrl_cmd["main_engine"] = [True,0.85]
+        self.ctrl_cmd["main_engine"] = [True,1]

@@ -13,6 +13,6 @@ class Actuator():
     #    self.isOn = isOn
     def getForce(self):
         return self.F
-    def getMoment(self):
+    def getMoment(self,cg):
         return self.M
         

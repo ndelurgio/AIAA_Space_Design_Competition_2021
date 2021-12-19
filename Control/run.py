@@ -12,13 +12,13 @@ from enviornment import Enviornment
 from eom import EOM
 
 ## CREATE SIMULATION PARAMETERS
-dt = 0.1
+dt = 0.01
 t0 = 0
 tf = 10
 
 ## INITIALIZE STATE
 q0 = np.array([1,0,0,0])
-w0 = np.array([0,0,0])
+w0 = np.array([0,0,5])
 x0 = np.array([0,0,0])
 v0 = np.array([0,0,0])
 EEV_state = State(q0,w0,x0,v0)
@@ -28,18 +28,18 @@ m = 6000
 r = 4
 l = 8
 I = np.array([[0.25*m*r**2 + 1/12*m*l**2,0,0],[0,0.25*m*r**2 + 1/12*m*l**2,0],[0,0,m*r**2]])
-mdot = 0
+mdot = 0.0
 Idot = np.array([[0,0,0],[0,0,0],[0,0,0]])
-F = np.array([0,0,0])
-M = np.array([0,0,0])
-cg = np.array([0,0,0])
+F = np.array([0.0,0.0,0.0])
+M = np.array([0.0,0.0,0.0])
+cg = np.array([0.0,0.0,0.0])
 #Sensors
 state = Perfect(EEV_state)
 sensors = {
     "state": state
 }
 #Actuators
-main_engine = Thruster(300, 10, 0.40, np.array([1,0,0]), True, np.array([0,0,0]))
+main_engine = Thruster(300, 10, 0.40, np.array([0.0,0.0,1.0]), True, np.array([0.0,0.01,-2.0]))
 test_actuator = Actuator(True, np.array([0.0,0.0,0.0]), np.array([0.0,0.0,0.0]))
 actuators = {
     "main_engine": main_engine,
@@ -49,7 +49,7 @@ actuators = {
 est = Estimator(EEV_state)
 guidance = Guidance(EEV_state)
 #control = Controller(actuators)
-EEV = Vehicle(m,I,cg,mdot,Idot,F,M,EEV_state,actuators,sensors,guidance,est)
+EEV = Vehicle(m,I,cg,mdot,Idot,EEV_state,actuators,sensors,guidance,est)
 
 
 ## CREATE ENVIORNMENT
