@@ -2,13 +2,17 @@ import numpy as np
 from vehicle_objs.state import State
 from vehicle_objs.actuators.thruster import Thruster
 from vehicle_objs.actuators.actuator import Actuator
+from vehicle_objs.sensors.perfect import Perfect
+from vehicle_objs.gnc.estimator import Estimator
+from vehicle_objs.gnc.guidance import Guidance
+from vehicle_objs.gnc.controller import Controller
 from simulation import Simulation
 from vehicle import Vehicle
 from enviornment import Enviornment
 from eom import EOM
 
 ## CREATE SIMULATION PARAMETERS
-dt = 0.01
+dt = 0.1
 t0 = 0
 tf = 10
 
@@ -30,14 +34,23 @@ F = np.array([0,0,0])
 M = np.array([0,0,0])
 cg = np.array([0,0,0])
 #Sensors
+state = Perfect(EEV_state)
+sensors = {
+    "state": state
+}
 #Actuators
 main_engine = Thruster(300, 10, 0.40, np.array([1,0,0]), True, np.array([0,0,0]))
-test_actuator = Actuator(True, np.array([0.0,0.0,0.0]), np.array([100,0.0,0.0]))
+test_actuator = Actuator(True, np.array([0.0,0.0,0.0]), np.array([0.0,0.0,0.0]))
 actuators = {
     "main_engine": main_engine,
     "test_actuator": test_actuator
 }
-EEV = Vehicle(m,I,cg,mdot,Idot,F,M,EEV_state,actuators)
+#GNC
+est = Estimator(EEV_state)
+guidance = Guidance(EEV_state)
+#control = Controller(actuators)
+EEV = Vehicle(m,I,cg,mdot,Idot,F,M,EEV_state,actuators,sensors,guidance,est)
+
 
 ## CREATE ENVIORNMENT
 disturbance_F = np.array([0,0,0])

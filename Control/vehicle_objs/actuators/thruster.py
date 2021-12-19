@@ -2,7 +2,7 @@ import numpy as np
 from vehicle_objs.actuators.actuator import Actuator
 
 class Thruster(Actuator):
-    def __init__(self,isp,mdot_max,throttle_min,thrust_vector,isOn,pos): #p_axis = principal axis
+    def __init__(self,isp,mdot_max,throttle_min,thrust_vector,isOn,pos):
         self.isp = isp
         self.mdot_max = mdot_max
         self.g0 = 9.81
@@ -11,16 +11,17 @@ class Thruster(Actuator):
         self.throttle = 1
         self.isOn = isOn
         self.pos = pos
-    def setThrottle(self,throttle):
-        if(throttle > 1 or throttle < self.throttle_min):
+    def set(self,cmd):
+        self.isOn = cmd[0]
+        throttle = cmd[1]
+        if(throttle > 1.0 or throttle < self.throttle_min):
             print("Error setting throttle: outside bounds")
         else:
             self.throttle = throttle
-    #def toggle(self, isOn):
-    #    self.isOn = isOn
     def getForce(self):
         if self.isOn:
             thrust = (self.mdot_max*self.throttle) * (self.isp*self.g0) * self.thrust_vector
+            #print(thrust)
             return thrust
         else:
             return np.array([0.0,0.0,0.0])

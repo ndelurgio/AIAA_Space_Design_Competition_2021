@@ -16,7 +16,12 @@ class State():
         self.xdot_prev = np.array([0,0,0])
         self.vdot_prev = np.array([0,0,0])
         
+    def setState(self,q,w,x,v):
         
+        self.q = q
+        self.w = w
+        self.x = x
+        self.v = v
     #def __init__(self): # q = [w v1 v2 v3]
     #    self.q = np.array([1,0,0,0])
     #    self.w = np.array([0,0,0])
@@ -30,6 +35,11 @@ class State():
         self.w = self.w + 0.5*(self.wdot_prev + wdot)*dt
         self.x = self.x + 0.5*(self.xdot_prev + xdot)*dt
         self.v = self.v + 0.5*(self.vdot_prev + vdot)*dt
+        
+        self.qdot_prev = qdot
+        self.wdot_prev = wdot
+        self.xdot_prev = xdot
+        self.vdot_prev = vdot
         
         #Compute DCM and Euler Angles
         self.q2dcm()

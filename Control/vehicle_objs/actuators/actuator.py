@@ -5,8 +5,12 @@ class Actuator():
         self.isOn = isOn
         self.F = F
         self.M = M
-    def toggle(self,isOn):
-        self.isOn = isOn
+    def set(self,cmd):
+        self.isOn = cmd[0]
+        self.F = cmd[1]
+        self.M = cmd[2]
+    #def toggle(self,isOn):
+    #    self.isOn = isOn
     def getForce(self):
         return self.F
     def getMoment(self):
