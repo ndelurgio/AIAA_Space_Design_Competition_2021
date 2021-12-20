@@ -37,7 +37,6 @@ class Simulation():
             self.v_history[i] = self.vehicle.state.v
             self.e_history[i] = self.vehicle.state.e
             #print(self.vehicle.state.w)
-            
     def plot(self):
         
         ## Body Rates

@@ -29,6 +29,6 @@ class Thruster(Actuator):
         thrust = self.getForce()
         moment = np.cross(self.pos - cg,thrust)
         #print(self.pos - cg)
-        print(moment)
+        #print(moment)
         return moment
             

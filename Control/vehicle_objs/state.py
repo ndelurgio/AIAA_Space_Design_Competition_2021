@@ -1,4 +1,5 @@
 import numpy as np
+from eom import EOM
 class State():
     def __init__(self, q0, w0, x0, v0): # q = [w v1 v2 v3]
         self.q = q0
@@ -9,6 +10,7 @@ class State():
         self.dcm = np.array([[1,0,0],[0,1,0],[0,0,1]],dtype=np.float64)
         self.q2dcm()
         self.dcm2euler()
+        self.eom = EOM()
         
         ## Previous statedots
         self.qdot_prev = np.array([0,0,0,0])

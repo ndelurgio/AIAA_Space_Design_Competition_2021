@@ -13,7 +13,6 @@ class EOM():
         wdot = np.linalg.inv(vehicle.inertia).dot((Mb - np.cross(vehicle.state.w,(vehicle.inertia.dot(vehicle.state.w))) - vehicle.Idot.dot(vehicle.state.w))) # Check
         #print(Mb)
         return qdot, wdot, xdot, vdot
-        
     def omega(self,w):
         omega = np.array([[0,    -w[0], -w[1], -w[2]], 
                           [w[0],     0,  w[2], -w[1]],

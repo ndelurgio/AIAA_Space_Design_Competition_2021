@@ -14,11 +14,11 @@ from eom import EOM
 ## CREATE SIMULATION PARAMETERS
 dt = 0.01
 t0 = 0
-tf = 10
+tf = 50
 
 ## INITIALIZE STATE
 q0 = np.array([1,0,0,0])
-w0 = np.array([0,0,5])
+w0 = np.array([0,0,0])
 x0 = np.array([0,0,0])
 v0 = np.array([0,0,0])
 EEV_state = State(q0,w0,x0,v0)
@@ -39,7 +39,7 @@ sensors = {
     "state": state
 }
 #Actuators
-main_engine = Thruster(300, 10, 0.40, np.array([0.0,0.0,1.0]), True, np.array([0.0,0.01,-2.0]))
+main_engine = Thruster(300, 10, 0.40, np.array([0.0,0.0,1.0]), True, np.array([0.0,0.0,-2.0]))
 test_actuator = Actuator(True, np.array([0.0,0.0,0.0]), np.array([0.0,0.0,0.0]))
 actuators = {
     "main_engine": main_engine,
@@ -47,13 +47,13 @@ actuators = {
 }
 #GNC
 est = Estimator(EEV_state)
-guidance = Guidance(EEV_state)
+guidance = Guidance(State(q0,w0,x0,v0))
 #control = Controller(actuators)
 EEV = Vehicle(m,I,cg,mdot,Idot,EEV_state,actuators,sensors,guidance,est)
 
 
 ## CREATE ENVIORNMENT
-disturbance_F = np.array([0,0,0])
+disturbance_F = np.array([0,0,-100])
 disturbance_M = np.array([0,0,0])
 env = Enviornment(disturbance_F,disturbance_M)
 
