@@ -4,7 +4,37 @@ class Controller():
     def __init__(self,vehicle):
         self.ctrl_cmd = {
             "main_engine": [False,1.0],
-            "test_actuator": [False,np.array([0.0,0.0,0.0]),np.array([0.0,0.0,0.0])]
+            "rcs_pz_px_mz": [False,1.0],
+            "rcs_pz_px_my": [False,1.0],
+            "rcs_pz_px_py": [False,1.0],
+            
+            "rcs_pz_mx_mz": [False,1.0],
+            "rcs_pz_mx_my": [False,1.0],
+            "rcs_pz_mx_py": [False,1.0],
+            
+            "rcs_pz_py_mz": [False,1.0],
+            "rcs_pz_py_mx": [False,1.0],
+            "rcs_pz_py_px": [False,1.0],
+            
+            "rcs_pz_my_mz": [False,1.0],
+            "rcs_pz_my_mx": [False,1.0],
+            "rcs_pz_my_px": [False,1.0],
+            
+            "rcs_mz_px_pz": [False,1.0],
+            "rcs_mz_px_my": [False,1.0],
+            "rcs_mz_px_py": [False,1.0],
+            
+            "rcs_mz_mx_pz": [False,1.0],
+            "rcs_mz_mx_my": [False,1.0],
+            "rcs_mz_mx_py": [False,1.0],
+            
+            "rcs_mz_py_pz": [False,1.0],
+            "rcs_mz_py_mx": [False,1.0],
+            "rcs_mz_py_px": [False,1.0],
+            
+            "rcs_mz_my_pz": [False,1.0],
+            "rcs_mz_my_mx": [False,1.0],
+            "rcs_mz_my_px": [False,1.0]
         }
         self.vehicle = vehicle
     
@@ -23,7 +53,14 @@ class Controller():
         posErrorZ = posError[2]
         #print(guidance.state_cmd.x)
         if abs(posErrorZ) > 5.0:
-            self.ctrl_cmd["main_engine"] = [True,1.0]
+            #self.ctrl_cmd["main_engine"] = [True,1.0]
+            self.ctrl_cmd["rcs_mz_px_pz"] = [True,1.0]
+            self.ctrl_cmd["rcs_mz_mx_pz"] = [True,1.0]
+            self.ctrl_cmd["rcs_mz_py_pz"] = [True,1.0]
+            self.ctrl_cmd["rcs_mz_my_pz"] = [True,1.0]
         else:
-            self.ctrl_cmd["main_engine"] = [False, 1.0]
+            self.ctrl_cmd["rcs_mz_px_pz"] = [False,1.0]
+            self.ctrl_cmd["rcs_mz_mx_pz"] = [False,1.0]
+            self.ctrl_cmd["rcs_mz_py_pz"] = [False,1.0]
+            self.ctrl_cmd["rcs_mz_my_pz"] = [False,1.0]
         #self.ctrl_cmd["main_engine"] = [False,1]
