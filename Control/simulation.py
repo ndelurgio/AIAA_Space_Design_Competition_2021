@@ -21,8 +21,11 @@ class Simulation():
         self.x_history = np.empty((arr_length,3))
         self.v_history = np.empty((arr_length,3))
         self.e_history = np.empty((arr_length,3))
+        print("Simulation Initialized")
         
     def run(self):
+        print("Running...")
+        progress = 0 #counter
         for i in range(self.t_history.size):
             self.t += self.dt                                                       # Begin new time step
             self.enviornment.update(self.vehicle.state,self.vehicle)                # Update Environmental Forces/Moments
@@ -36,7 +39,18 @@ class Simulation():
             self.x_history[i] = self.vehicle.state.x
             self.v_history[i] = self.vehicle.state.v
             self.e_history[i] = self.vehicle.state.e
+            ## Simple progress tracker
+            if self.t >= 0.25*self.tf and progress == 0:
+                print("25%")
+                progress += 1
+            if self.t >= 0.5*self.tf and progress == 1:
+                print("50%")
+                progress += 1
+            if self.t >= 0.75*self.tf and progress == 2:
+                print("75%")
+                progress += 1
             #print(self.vehicle.state.w)
+        print("Complete")
     def plot(self):
         
         ## Body Rates

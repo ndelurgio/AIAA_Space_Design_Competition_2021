@@ -1,7 +1,8 @@
 import numpy as np
 from vehicle_objs.gnc.estimator import Estimator
 from vehicle_objs.gnc.guidance import Guidance
-from vehicle_objs.gnc.controller import Controller
+#from vehicle_objs.gnc.controller import Controller
+from vehicle_objs.gnc.controllers.controller_rcs_lp import Controller
 from vehicle_objs.gnc.gnc import GNC
 
 class Vehicle():
