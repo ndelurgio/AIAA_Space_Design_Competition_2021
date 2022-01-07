@@ -1,5 +1,5 @@
 import numpy as np
-import scipy as sp
+import scipy.optimize as opt
 
 class Controller():
     def __init__(self,vehicle):
@@ -38,13 +38,30 @@ class Controller():
             "rcs_mz_my_px": [False,1.0]
         }
         self.vehicle = vehicle
-        self.kp = 10
+        self.kp = np.pi / 180
         
         self.curr_linmomentum = np.array([0.0,0.0,0.0])
-        self.curr_angmomentum = np.array([0.0,0.0,0.0])
-        
-        self.A = np.zeros((6,24)) # For LP
+        self.curr_angmomentum = np.array([0.0,0.0,0.0])        
+        ## Compute current time A matrix, which is used to store forces/torques of the RCS configuration
+        F = 580.0 #580.080015
+        r = 4.0
+        l = 8.0
+        R = F * r
+        L = F * l / 2
+        self.A = np.array([[0,0,0,0,0,0,0,-F,F,0,-F,F,0,0,0,0,0,0,0,-F,F,0,-F,F],
+                          [0,-F,F,0,-F,F,0,0,0,0,0,0,0,-F,F,0,-F,F,0,0,0,0,0,0],
+                          [-F,0,0,-F,0,0,-F,0,0,-F,0,0,F,0,0,F,0,0,F,0,0,F,0,0],
+                          [0,L,-L,0,L,-L,-R,0,0,R,0,0,0,-L,L,0,-L,L,R,0,0,-R,0,0],
+                          [R,0,0,-R,0,0,0,-L,L,0,-L,L,-R,0,0,R,0,0,0,L,-L,0,L,-L],
+                          [0,-R,R,0,R,-R,0,R,-R,0,-R,R,0,-R,R,0,R,-R,0,R,-R,0,-R,R]])
         self.c = np.ones(24)
+        self.dt = np.zeros(24) # For storing thruster on time commands
+        ## Vector to store thruster on time
+        self.timer = 0.0
+        self.cmd_on = False # Is a command being executed?
+        self.hCmd_prev = np.zeros(3)
+        self.pCmd_prev = np.zeros(3)
+        self.angError_prev = np.zeros(3)
     def q_matrix(self,q):
         qmat = np.array([[q[0],-q[1],-q[2],-q[3]],
                          [q[1], q[0], q[3],-q[2]],
@@ -75,7 +92,7 @@ class Controller():
         return guidance.state_cmd.w - estimator.state_est.w
     def updateMomentum(self,estimator):
         self.curr_linmomentum = self.vehicle.mass * estimator.state_est.v
-        self.curr_angmomentum = self.vehicle.inertia * estimator.state_est.w
+        self.curr_angmomentum = self.vehicle.inertia.dot(estimator.state_est.w)
         
     def updateCtrlCmd(self,estimator,guidance):
         ## Compute new position and angular error
@@ -88,40 +105,57 @@ class Controller():
         self.updateMomentum(estimator)
         
         ## Principal Angle Proportional Rate Controller
-        rateCmd = self.kp * angError * l
+        rateCmd = self.kp * l #self.kp * angError * l
         ## Bang-Bang Controller for rateCmd -> ang. momentum command
-        if angError < 1 * np.pi/180:
-            hCmd = self.vehicle.inertia.dot(rateCmd)
+        if self.cmd_on == False:
+            if angError > 1 * np.pi/180:
+                hCmd = self.vehicle.inertia.dot(rateCmd)
+            else:
+                hCmd = np.array([0.0,0.0,0.0])
+            ## Temporary zero linear momentum command
+            pCmd = np.array([0.0,0.0,0.0])
         else:
-            hCmd = np.array([0.0,0.0,0.0])
-        ## Temporary zero linear momentum command
-        pCmd = np.array([0.0,0.0,0.0])
-        
-        ## Compute Required change in momentum
-        delta_h = hCmd - self.curr_angmomentum
-        delta_p = pCmd - self.curr_linmomentum
-        
-        ## Compute current time A matrix, which is used to store forces/torques of the RCS configuration
-        F = 580.0 #580.080015
-        r = 4.0
-        l = 8.0
-        R = F * r
-        L = F * l / 2
-        self.A = np.array([[0,0,0,0,0,0,0,-F,F,0,-F,F,0,0,0,0,0,0,0,-F,F,0,-F,F],
-                          [0,-F,F,0,-F,F,0,0,0,0,0,0,0,-F,F,0,-F,F,0,0,0,0,0,0],
-                          [-F,0,0,-F,0,0,-F,0,0,-F,0,0,F,0,0,F,0,0,F,0,0,F,0,0],
-                          [0,L,-L,0,L,-L,-R,0,0,R,0,0,0,-L,L,0,-L,L,R,0,0,-R,0,0],
-                          [R,0,0,-R,0,0,0,-L,L,0,-L,L,-R,0,0,R,0,0,0,L,-L,0,L,-L],
-                          [0,-R,R,0,R,-R,0,R,-R,0,-R,R,0,-R,R,0,R,-R,0,R,-R,0,-R,R]])
-        if abs(angError) > 1 * np.pi/180:
-            #self.ctrl_cmd["main_engine"] = [True,1.0]
-            self.ctrl_cmd["rcs_pz_px_py"] = [True,1.0]
-            self.ctrl_cmd["rcs_pz_mx_py"] = [True,1.0]
-            self.ctrl_cmd["rcs_mz_px_my"] = [True,1.0]
-            self.ctrl_cmd["rcs_mz_mx_my"] = [True,1.0]
-        else:
-            self.ctrl_cmd["rcs_pz_px_py"] = [False,1.0]
-            self.ctrl_cmd["rcs_pz_mx_py"] = [False,1.0]
-            self.ctrl_cmd["rcs_mz_px_my"] = [False,1.0]
-            self.ctrl_cmd["rcs_mz_mx_my"] = [False,1.0]
+            hCmd = self.hCmd_prev
+            pCmd = self.pCmd_prev
+
+        ## Determine if a LP needs to be solved
+        if self.cmd_on == False and (any(hCmd - self.curr_angmomentum > 1e-5) or any(pCmd - self.curr_linmomentum > 1e-5)):#(hCmd != self.hCmd_prev or pCmd != self.pCmd_prev):
+            ## Compute Required change in momentum
+            delta_h = hCmd - self.curr_angmomentum
+            delta_p = pCmd - self.curr_linmomentum
+            b = np.concatenate((delta_p,delta_h))
+            ## Solve for dt via linear program
+            res = opt.linprog(self.c,None,None,self.A,b,)
+            self.dt = res.x
+            self.cmd_on = True
+            print("Controller On")
+            self.timer = 0.0
+            
+        if self.cmd_on == True:
+            self.timer += 0.01 # From Simulation Time step
+            for indx,val in enumerate(self.ctrl_cmd):#range(0, len(self.ctrl_cmd) - 1):
+                if val == "main_engine":
+                    continue
+                elif self.timer < self.dt[indx - 1]:
+                    self.ctrl_cmd[val] = [True,1.0]
+                else:
+                    self.ctrl_cmd[val] = [False,1.0]
+            if self.timer > max(self.dt):
+                self.cmd_on = False
+                print("Controller Off")
+            
+        ## Update previous hCmd and pCmd
+        self.hCmd_prev = hCmd
+        self.pCmd_prev = pCmd
+        #if abs(angError) > 1 * np.pi/180:
+        #    #self.ctrl_cmd["main_engine"] = [True,1.0]
+        #    self.ctrl_cmd["rcs_pz_px_py"] = [True,1.0]
+        #    self.ctrl_cmd["rcs_pz_mx_py"] = [True,1.0]
+        #    self.ctrl_cmd["rcs_mz_px_my"] = [True,1.0]
+        #    self.ctrl_cmd["rcs_mz_mx_my"] = [True,1.0]
+        #else:
+        #    self.ctrl_cmd["rcs_pz_px_py"] = [False,1.0]
+        #    self.ctrl_cmd["rcs_pz_mx_py"] = [False,1.0]
+        #    self.ctrl_cmd["rcs_mz_px_my"] = [False,1.0]
+        #    self.ctrl_cmd["rcs_mz_mx_my"] = [False,1.0]
         #self.ctrl_cmd["main_engine"] = [False,1]

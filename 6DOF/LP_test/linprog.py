@@ -19,7 +19,7 @@ A = np.array([[0,0,0,0,0,0,0,-F,F,0,-F,F,0,0,0,0,0,0,0,-F,F,0,-F,F],
             [R,0,0,-R,0,0,0,-L,L,0,-L,L,-R,0,0,R,0,0,0,L,-L,0,L,-L],
             [0,-R,R,0,R,-R,0,R,-R,0,-R,R,0,-R,R,0,R,-R,0,R,-R,0,-R,R]])
 c = np.ones(24)
-b = np.array([0,0,0,0,0,0])
+b = np.array([0,0,0,1000,1500,1430])
 bounds = (0,None)
 
 res = opt.linprog(c,None,None,A,b,bounds)

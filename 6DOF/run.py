@@ -118,7 +118,7 @@ EEV = Vehicle(m,I,cg,mdot,Idot,EEV_state,actuators,sensors,guidance,est)
 
 ## CREATE ENVIORNMENT
 disturbance_F = np.array([0,0,0])
-disturbance_M = np.array([50,0,0])
+disturbance_M = np.array([-100,0,0])
 env = Enviornment(disturbance_F,disturbance_M)
 
 ## CREATE EQUATIONS OF MOTION
