@@ -25,6 +25,8 @@ class Thruster(Actuator):
             return thrust
         else:
             return np.array([0.0,0.0,0.0])
+    def getMaxThrust(self):
+        return self.mdot_max * self.isp * self.g0
     def getMoment(self,cg):
         thrust = self.getForce()
         moment = np.cross(self.pos - cg,thrust)

@@ -38,6 +38,11 @@ class Controller():
         }
         self.vehicle = vehicle
         self.kp = 10
+        
+        self.curr_linmomentum = np.array([0.0,0.0,0.0])
+        self.curr_angmomentum = np.array([0.0,0.0,0.0])
+        
+        self.A = np.zeros((6,24)) # For LP
     def q_matrix(self,q):
         qmat = np.array([[q[0],-q[1],-q[2],-q[3]],
                          [q[1], q[0], q[3],-q[2]],
@@ -66,12 +71,20 @@ class Controller():
         return theta_error, l
     def rateError(self,estimator,guidance):
         return guidance.state_cmd.w - estimator.state_est.w
+    def updateMomentum(self,estimator):
+        self.curr_linmomentum = self.vehicle.mass * estimator.state_est.v
+        self.curr_angmomentum = self.vehicle.inertia * estimator.state_est.w
+        
     def updateCtrlCmd(self,estimator,guidance):
         ## Compute new position and angular error
         posError = self.posError(estimator,guidance)
+        velError = self.velError(estimator,guidance)
         angError, l = self.angError(estimator,guidance)
         qError = self.qError(estimator,guidance)
         rateError = self.rateError(estimator,guidance)
+        ## Update Momentum State
+        self.updateMomentum(estimator)
+        
         ## Principal Angle Proportional Rate Controller
         rateCmd = self.kp * angError * l
         ## Bang-Bang Controller for rateCmd -> ang. momentum command
@@ -81,6 +94,23 @@ class Controller():
             hCmd = np.array([0.0,0.0,0.0])
         ## Temporary zero linear momentum command
         pCmd = np.array([0.0,0.0,0.0])
+        
+        ## Compute Required change in momentum
+        delta_h = hCmd - self.curr_angmomentum
+        delta_p = pCmd - self.curr_linmomentum
+        
+        ## Compute current time A matrix, which is used to store forces/torques of the RCS configuration
+        F = 580.0 #580.080015
+        r = 4.0
+        l = 8.0
+        R = F * r
+        L = F * l / 2
+        self.A = np.array([0,0,0,0,0,0,0,-F,F,0,-F,F,0,0,0,0,0,0,0,-F,F,0,-F,F],
+                          [0,-F,F,0,-F,F,0,0,0,0,0,0,0,-F,F,0,-F,F,0,0,0,0,0,0],
+                          [-F,0,0,-F,0,0,-F,0,0,-F,0,0,F,0,0,F,0,0,F,0,0,F,0,0],
+                          [0,L,-L,0,L,-L,-R,0,0,R,0,0,0,-L,L,0,-L,L,R,0,0,-R,0,0],
+                          [R,0,0,-R,0,0,0,-L,L,0,-L,L,-R,0,0,R,0,0,0,L,-L,0,L,-L],
+                          [0,-R,R,0,R,-R,0,R,-R,0,-R,R,0,-R,R,0,R,-R,0,R,-R,0,-R,R])
         if abs(angError) > 1 * np.pi/180:
             #self.ctrl_cmd["main_engine"] = [True,1.0]
             self.ctrl_cmd["rcs_pz_px_py"] = [True,1.0]
