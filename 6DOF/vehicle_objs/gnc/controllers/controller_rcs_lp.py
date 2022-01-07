@@ -1,4 +1,5 @@
 import numpy as np
+import scipy as sp
 
 class Controller():
     def __init__(self,vehicle):
@@ -43,6 +44,7 @@ class Controller():
         self.curr_angmomentum = np.array([0.0,0.0,0.0])
         
         self.A = np.zeros((6,24)) # For LP
+        self.c = np.ones(24)
     def q_matrix(self,q):
         qmat = np.array([[q[0],-q[1],-q[2],-q[3]],
                          [q[1], q[0], q[3],-q[2]],
@@ -105,12 +107,12 @@ class Controller():
         l = 8.0
         R = F * r
         L = F * l / 2
-        self.A = np.array([0,0,0,0,0,0,0,-F,F,0,-F,F,0,0,0,0,0,0,0,-F,F,0,-F,F],
+        self.A = np.array([[0,0,0,0,0,0,0,-F,F,0,-F,F,0,0,0,0,0,0,0,-F,F,0,-F,F],
                           [0,-F,F,0,-F,F,0,0,0,0,0,0,0,-F,F,0,-F,F,0,0,0,0,0,0],
                           [-F,0,0,-F,0,0,-F,0,0,-F,0,0,F,0,0,F,0,0,F,0,0,F,0,0],
                           [0,L,-L,0,L,-L,-R,0,0,R,0,0,0,-L,L,0,-L,L,R,0,0,-R,0,0],
                           [R,0,0,-R,0,0,0,-L,L,0,-L,L,-R,0,0,R,0,0,0,L,-L,0,L,-L],
-                          [0,-R,R,0,R,-R,0,R,-R,0,-R,R,0,-R,R,0,R,-R,0,R,-R,0,-R,R])
+                          [0,-R,R,0,R,-R,0,R,-R,0,-R,R,0,-R,R,0,R,-R,0,R,-R,0,-R,R]])
         if abs(angError) > 1 * np.pi/180:
             #self.ctrl_cmd["main_engine"] = [True,1.0]
             self.ctrl_cmd["rcs_pz_px_py"] = [True,1.0]
