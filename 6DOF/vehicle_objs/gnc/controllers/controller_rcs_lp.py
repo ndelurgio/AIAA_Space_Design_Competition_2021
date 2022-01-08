@@ -38,7 +38,7 @@ class Controller():
             "rcs_mz_my_px": [False,1.0]
         }
         self.vehicle = vehicle
-        self.kp = 1 * np.pi / 180
+        self.kp = 2 * np.pi / 180
         
         self.curr_linmomentum = np.array([0.0,0.0,0.0])
         self.curr_angmomentum = np.array([0.0,0.0,0.0])        
@@ -61,8 +61,8 @@ class Controller():
         self.cmd_on = False # Is a command being executed?
         self.hCmd_prev = np.zeros(3)
         self.pCmd_prev = np.zeros(3)
-        self.angError_prev = np.zeros(3)
-        self.ang_threshold = 1.0
+        self.angError_prev = 0.0
+        self.ang_threshold = 2.5
         self.over = False
     def q_matrix(self,q):
         qmat = np.array([[q[0],-q[1],-q[2],-q[3]],
@@ -110,10 +110,10 @@ class Controller():
         rateCmd = -self.kp * l #self.kp * angError * l
         ## Bang-Bang Controller for rateCmd -> ang. momentum command
         if self.cmd_on == False:
-            if angError > self.ang_threshold * np.pi/180 and self.over == False:
+            if angError > self.ang_threshold * np.pi/180 and (self.over == False or angError > self.angError_prev):
                 hCmd = self.vehicle.inertia.dot(rateCmd)
                 self.over = True
-                self.ang_threshold = 0.1
+                self.ang_threshold = 0.5
             elif angError > self.ang_threshold * np.pi/180 and self.over == True:
                 hCmd = self.hCmd_prev
                 pCmd = self.pCmd_prev
@@ -154,3 +154,4 @@ class Controller():
         ## Update previous hCmd and pCmd
         self.hCmd_prev = hCmd
         self.pCmd_prev = pCmd
+        self.angError_prev = angError

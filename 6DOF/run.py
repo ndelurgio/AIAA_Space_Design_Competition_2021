@@ -17,8 +17,8 @@ t0 = 0
 tf = 50
 
 ## INITIALIZE STATE
-q0 = np.array([1,0,0,0])
-w0 = np.array([-0.3,0,0])
+q0 = np.array([1.0,0.0,0.0,0.0])#np.array([0.866,0.5,0,0])
+w0 = np.array([0.3,0.2,0.1])
 x0 = np.array([0,0,0])
 v0 = np.array([0,0,0])
 EEV_state = State(q0,w0,x0,v0)
@@ -113,7 +113,11 @@ actuators = {
 #"test_actuator": test_actuator,
 #GNC
 est = Estimator(EEV_state)
-guidance = Guidance(State(q0,w0,x0,v0))
+qcmd = np.array([1.0,0.0,0.0,0.0])
+wcmd = np.array([0.0,0.0,0.0])
+xcmd = np.array([0.0,0.0,0.0])
+vcmd = np.array([0.0,0.0,0.0])
+guidance = Guidance(State(qcmd,wcmd,xcmd,vcmd))
 #control = Controller(actuators)
 EEV = Vehicle(m,I,cg,mdot,Idot,EEV_state,actuators,sensors,guidance,est)
 
