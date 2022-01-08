@@ -51,6 +51,6 @@ class Vehicle():
         for i in self.actuators:
             self.F += self.actuators[i].getForce()
             self.M += self.actuators[i].getMoment(self.cg)
-        #print(self.F)
+
         
         

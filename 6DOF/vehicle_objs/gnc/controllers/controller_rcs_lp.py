@@ -38,7 +38,7 @@ class Controller():
             "rcs_mz_my_px": [False,1.0]
         }
         self.vehicle = vehicle
-        self.kp = np.pi / 180
+        self.kp = 1 * np.pi / 180
         
         self.curr_linmomentum = np.array([0.0,0.0,0.0])
         self.curr_angmomentum = np.array([0.0,0.0,0.0])        
@@ -62,6 +62,8 @@ class Controller():
         self.hCmd_prev = np.zeros(3)
         self.pCmd_prev = np.zeros(3)
         self.angError_prev = np.zeros(3)
+        self.ang_threshold = 1.0
+        self.over = False
     def q_matrix(self,q):
         qmat = np.array([[q[0],-q[1],-q[2],-q[3]],
                          [q[1], q[0], q[3],-q[2]],
@@ -105,21 +107,28 @@ class Controller():
         self.updateMomentum(estimator)
         
         ## Principal Angle Proportional Rate Controller
-        rateCmd = self.kp * l #self.kp * angError * l
+        rateCmd = -self.kp * l #self.kp * angError * l
         ## Bang-Bang Controller for rateCmd -> ang. momentum command
         if self.cmd_on == False:
-            if angError > 1 * np.pi/180:
+            if angError > self.ang_threshold * np.pi/180 and self.over == False:
                 hCmd = self.vehicle.inertia.dot(rateCmd)
+                self.over = True
+                self.ang_threshold = 0.1
+            elif angError > self.ang_threshold * np.pi/180 and self.over == True:
+                hCmd = self.hCmd_prev
+                pCmd = self.pCmd_prev
             else:
                 hCmd = np.array([0.0,0.0,0.0])
+                self.ang_threshold = 1
+                self.over = False
             ## Temporary zero linear momentum command
             pCmd = np.array([0.0,0.0,0.0])
         else:
             hCmd = self.hCmd_prev
             pCmd = self.pCmd_prev
-
+            
         ## Determine if a LP needs to be solved
-        if self.cmd_on == False and (any(hCmd - self.curr_angmomentum > 1e-5) or any(pCmd - self.curr_linmomentum > 1e-5)):#(hCmd != self.hCmd_prev or pCmd != self.pCmd_prev):
+        if self.cmd_on == False and (any(hCmd != self.hCmd_prev) or any(pCmd != self.pCmd_prev)):#(any(hCmd - self.curr_angmomentum > 1e-5) or any(pCmd - self.curr_linmomentum > 1e-5)):
             ## Compute Required change in momentum
             delta_h = hCmd - self.curr_angmomentum
             delta_p = pCmd - self.curr_linmomentum
@@ -128,12 +137,11 @@ class Controller():
             res = opt.linprog(self.c,None,None,self.A,b,)
             self.dt = res.x
             self.cmd_on = True
-            print("Controller On")
             self.timer = 0.0
             
-        if self.cmd_on == True:
+        if self.cmd_on == True and max(self.dt) > 0.01:
             self.timer += 0.01 # From Simulation Time step
-            for indx,val in enumerate(self.ctrl_cmd):#range(0, len(self.ctrl_cmd) - 1):
+            for indx, val in enumerate(self.ctrl_cmd):
                 if val == "main_engine":
                     continue
                 elif self.timer < self.dt[indx - 1]:
@@ -142,20 +150,7 @@ class Controller():
                     self.ctrl_cmd[val] = [False,1.0]
             if self.timer > max(self.dt):
                 self.cmd_on = False
-                print("Controller Off")
             
         ## Update previous hCmd and pCmd
         self.hCmd_prev = hCmd
         self.pCmd_prev = pCmd
-        #if abs(angError) > 1 * np.pi/180:
-        #    #self.ctrl_cmd["main_engine"] = [True,1.0]
-        #    self.ctrl_cmd["rcs_pz_px_py"] = [True,1.0]
-        #    self.ctrl_cmd["rcs_pz_mx_py"] = [True,1.0]
-        #    self.ctrl_cmd["rcs_mz_px_my"] = [True,1.0]
-        #    self.ctrl_cmd["rcs_mz_mx_my"] = [True,1.0]
-        #else:
-        #    self.ctrl_cmd["rcs_pz_px_py"] = [False,1.0]
-        #    self.ctrl_cmd["rcs_pz_mx_py"] = [False,1.0]
-        #    self.ctrl_cmd["rcs_mz_px_my"] = [False,1.0]
-        #    self.ctrl_cmd["rcs_mz_mx_my"] = [False,1.0]
-        #self.ctrl_cmd["main_engine"] = [False,1]
