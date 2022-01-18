@@ -18,9 +18,9 @@ tf = 50
 
 ## INITIALIZE STATE
 q0 = np.array([1.0,0.0,0.0,0.0])#np.array([0.866,0.5,0,0])
-w0 = np.array([0.3,0.2,0.1])
-x0 = np.array([0,0,0])
-v0 = np.array([0,0,0])
+w0 = np.array([0.2,0.1,0.05])
+x0 = np.array([0.0,0.0,0.0])
+v0 = np.array([0.0,0.0,0.0])
 EEV_state = State(q0,w0,x0,v0)
 
 ## CREATE VEHICLE

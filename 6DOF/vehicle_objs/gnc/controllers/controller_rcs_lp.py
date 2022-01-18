@@ -128,7 +128,7 @@ class Controller():
             pCmd = self.pCmd_prev
             
         ## Determine if a LP needs to be solved
-        if self.cmd_on == False and (any(hCmd != self.hCmd_prev) or any(pCmd != self.pCmd_prev)):#(any(hCmd - self.curr_angmomentum > 1e-5) or any(pCmd - self.curr_linmomentum > 1e-5)):
+        if self.cmd_on == False and (any(hCmd != self.hCmd_prev) or any(pCmd != self.pCmd_prev)):
             ## Compute Required change in momentum
             delta_h = hCmd - self.curr_angmomentum
             delta_p = pCmd - self.curr_linmomentum
