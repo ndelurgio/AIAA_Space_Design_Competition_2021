@@ -3,3 +3,7 @@
 
 # ignore mac stuff
 .DS_Store 
+
+# # Add the Python cache files when ready (Nick)
+# __pycache__/
+
