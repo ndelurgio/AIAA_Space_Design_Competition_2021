@@ -1,2 +1,5 @@
 # ignore microsoft backup files
 [~][$]*
+
+# ignore mac stuff
+.DS_Store 
