@@ -7,3 +7,6 @@
 # # Add the Python cache files when ready (Nick)
 # __pycache__/
 
+# Remove the unziped spacenet folder, only keep the compressed/zipped 
+# file (.zip)
+spacenet_2-5r1457_jar/
