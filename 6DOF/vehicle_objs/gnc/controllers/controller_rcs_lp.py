@@ -134,7 +134,7 @@ class Controller():
             delta_p = pCmd - self.curr_linmomentum
             b = np.concatenate((delta_p,delta_h))
             ## Solve for dt via linear program
-            res = opt.linprog(self.c,None,None,self.A,b,)
+            res = opt.linprog(self.c,None,None,self.A,b)
             self.dt = res.x
             self.cmd_on = True
             self.timer = 0.0
