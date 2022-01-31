@@ -147,8 +147,12 @@ double SolvePartialCone(double ri, param param1, double Vexp){
     double hc = param1.get_hc();
     double hd = param1.get_hd();
     double taneqi = param1.taneq(); 
-    double V = PI * ( ((hc/3) * ( (3*(pow(ri,2))) - (3*hc*ri/taneqi) + (pow(hc,2)/pow(taneqi,2)))) + (pow(ri,2)*hd) );
-    return(V-Vexp);
+    double V1 = 0;
+    if(taneqi!=0){
+        V1 = PI * ( ((hc/3) * ( (3*(pow(ri,2))) - (3*hc*ri/taneqi) + (pow(hc,2)/pow(taneqi,2)))));
+    }
+    double V2 = PI * (pow(ri,2)*hd) ;
+    return(V1+V2-Vexp);
 };
 
 
@@ -157,7 +161,7 @@ void find_zero( param& param1, double Vexp, double h = 0.001){
     double rx = rxint;
     param1.set_r(rx);
     // Newton Method
-    while ( abs( SolvePartialCone(rx,param1,Vexp) ) > 1.e-10 ) {
+    while ( abs( SolvePartialCone(rx,param1,Vexp) ) > 1.e-20 ) {
         double g = ( SolvePartialCone(rx+h,param1,Vexp)-SolvePartialCone(rx,param1,Vexp) )/h;
         rx = rx - (SolvePartialCone(rx,param1,Vexp)/g);
         if(rx<0){rxint = rxint*1.5; rx = rxint;} //Throw the initial condition out further if solution approches negative solution
