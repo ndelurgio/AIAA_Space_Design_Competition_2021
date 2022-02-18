@@ -5,8 +5,8 @@
         <OBJECT Class = "link" Name = "CentralBody">
             <OBJECT Class = "string" Name = ""> &quot;Mars&quot; </OBJECT>
         </OBJECT>
-        <OBJECT Class = "double" Name = "RadiusScaleFactor"> 4 &quot;&quot; </OBJECT>
-        <OBJECT Class = "string" Name = "AltLabel"> &quot;10266.570000&quot; </OBJECT>
+        <OBJECT Class = "double" Name = "RadiusScaleFactor"> 1.1 &quot;&quot; </OBJECT>
+        <OBJECT Class = "string" Name = "AltLabel"> &quot;342.219000&quot; </OBJECT>
         <OBJECT Class = "double" Name = "Angle"> 1.570796326794897 rad </OBJECT>
         <OBJECT Class = "bool" Name = "UseCircVel"> True </OBJECT>
     </OBJECT>
@@ -84,42 +84,42 @@
     </OBJECT>
     <OBJECT Class = "link" Name = "LambertResult">
         <OBJECT Class = "LambertResult" Name = "LambertResult">
-            <OBJECT Class = "double" Name = "C3"> 19578308.1743613 m^2*sec^-2 </OBJECT>
+            <OBJECT Class = "double" Name = "C3"> 19488408.39840391 m^2*sec^-2 </OBJECT>
             <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
-            <OBJECT Class = "double" Name = "Dec"> 0.7413543683617336 rad </OBJECT>
-            <OBJECT Class = "double" Name = "DeltaTime"> 19526400 sec </OBJECT>
-            <OBJECT Class = "double" Name = "DeltaV1"> 4002.3879918012 m*sec^-1 </OBJECT>
-            <OBJECT Class = "double" Name = "DeltaV2"> 820.026985253912 m*sec^-1 </OBJECT>
-            <OBJECT Class = "double" Name = "DeltaVT"> 4822.414977055112 m*sec^-1 </OBJECT>
+            <OBJECT Class = "double" Name = "Dec"> 0.7352167675824843 rad </OBJECT>
+            <OBJECT Class = "double" Name = "DeltaTime"> 19440000 sec </OBJECT>
+            <OBJECT Class = "double" Name = "DeltaV1"> 3998.490384279372 m*sec^-1 </OBJECT>
+            <OBJECT Class = "double" Name = "DeltaV2"> 778.3097116846884 m*sec^-1 </OBJECT>
+            <OBJECT Class = "double" Name = "DeltaVT"> 4776.80009596406 m*sec^-1 </OBJECT>
             <OBJECT Class = "string" Name = "Description"> &quot;Lambert Result&quot; </OBJECT>
             <OBJECT Class = "container" Name = "FinlDeltaV">
-                <OBJECT Class = "double" Name = "DVx"> -265.5530364610386 m*sec^-1 </OBJECT>
-                <OBJECT Class = "double" Name = "DVy"> -771.0360591677891 m*sec^-1 </OBJECT>
-                <OBJECT Class = "double" Name = "DVz"> 86.19302079604495 m*sec^-1 </OBJECT>
+                <OBJECT Class = "double" Name = "DVx"> 250.2554679642417 m*sec^-1 </OBJECT>
+                <OBJECT Class = "double" Name = "DVy"> 733.1379373683576 m*sec^-1 </OBJECT>
+                <OBJECT Class = "double" Name = "DVz"> -75.14634287822173 m*sec^-1 </OBJECT>
             </OBJECT>
             <OBJECT Class = "container" Name = "FinlPosVel">
-                <OBJECT Class = "double" Name = "Rx"> -153415368133.9321 m </OBJECT>
-                <OBJECT Class = "double" Name = "Ry"> 173570839158.0278 m </OBJECT>
-                <OBJECT Class = "double" Name = "Rz"> 83752773263.36494 m </OBJECT>
-                <OBJECT Class = "double" Name = "Vx"> -17199.51328858418 m*sec^-1 </OBJECT>
-                <OBJECT Class = "double" Name = "Vy"> -9591.306257385226 m*sec^-1 </OBJECT>
-                <OBJECT Class = "double" Name = "Vz"> -5301.600624738746 m*sec^-1 </OBJECT>
+                <OBJECT Class = "double" Name = "Rx"> -151860911882.8344 m </OBJECT>
+                <OBJECT Class = "double" Name = "Ry"> 174606929331.6564 m </OBJECT>
+                <OBJECT Class = "double" Name = "Rz"> 84181986986.17865 m </OBJECT>
+                <OBJECT Class = "double" Name = "Vx"> -17322.72227180436 m*sec^-1 </OBJECT>
+                <OBJECT Class = "double" Name = "Vy"> -9446.943272677765 m*sec^-1 </OBJECT>
+                <OBJECT Class = "double" Name = "Vz"> -5213.982519923811 m*sec^-1 </OBJECT>
             </OBJECT>
             <OBJECT Class = "container" Name = "InitDeltaV">
-                <OBJECT Class = "double" Name = "DVx"> 3863.081027199554 m*sec^-1 </OBJECT>
-                <OBJECT Class = "double" Name = "DVy"> -775.8052543290505 m*sec^-1 </OBJECT>
-                <OBJECT Class = "double" Name = "DVz"> 702.738088878581 m*sec^-1 </OBJECT>
+                <OBJECT Class = "double" Name = "DVx"> 3857.091850450634 m*sec^-1 </OBJECT>
+                <OBJECT Class = "double" Name = "DVy"> -786.4543883773549 m*sec^-1 </OBJECT>
+                <OBJECT Class = "double" Name = "DVz"> 701.6105083049333 m*sec^-1 </OBJECT>
             </OBJECT>
             <OBJECT Class = "container" Name = "InitPosVel">
-                <OBJECT Class = "double" Name = "Rx"> 140378862589.2041 m </OBJECT>
-                <OBJECT Class = "double" Name = "Ry"> -51009202876.56406 m </OBJECT>
-                <OBJECT Class = "double" Name = "Rz"> -22113760037.64315 m </OBJECT>
-                <OBJECT Class = "double" Name = "Vx"> 21625.63725309111 m*sec^-1 </OBJECT>
-                <OBJECT Class = "double" Name = "Vy"> 23066.4454577616 m*sec^-1 </OBJECT>
-                <OBJECT Class = "double" Name = "Vz"> 12992.06949305817 m*sec^-1 </OBJECT>
+                <OBJECT Class = "double" Name = "Rx"> 140378829039.9755 m </OBJECT>
+                <OBJECT Class = "double" Name = "Ry"> -51009255474.62133 m </OBJECT>
+                <OBJECT Class = "double" Name = "Rz"> -22113713295.038 m </OBJECT>
+                <OBJECT Class = "double" Name = "Vx"> 21615.45248226979 m*sec^-1 </OBJECT>
+                <OBJECT Class = "double" Name = "Vy"> 23034.31259218586 m*sec^-1 </OBJECT>
+                <OBJECT Class = "double" Name = "Vz"> 12990.10694933512 m*sec^-1 </OBJECT>
             </OBJECT>
-            <OBJECT Class = "double" Name = "RA"> 0.5126907173180603 rad </OBJECT>
+            <OBJECT Class = "double" Name = "RA"> 0.5164237376046155 rad </OBJECT>
             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
             <OBJECT Class = "container" Name = "ShooterControls" />
             <OBJECT Class = "string" Name = "SolutionStatus"> &quot;Body to body solution&quot; </OBJECT>
@@ -130,7 +130,7 @@
         </OBJECT>
     </OBJECT>
     <OBJECT Class = "link" Name = "LambertSequence">
-        <OBJECT Class = "MCSSegment" Name = "ToMars">
+        <OBJECT Class = "MCSSegment" Name = "ToMarsNew">
             <OBJECT Class = "bool" Name = "BeenRun"> False </OBJECT>
             <OBJECT Class = "container" Name = "BPlanes" />
             <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
@@ -286,12 +286,12 @@
                     <OBJECT Class = "AttrCon" Name = "InitialState">
                         <OBJECT Class = "Orbit_State" Name = "Orbit_State">
                             <OBJECT Class = "container" Name = "Cartesian">
-                                <OBJECT Class = "double" Name = "X"> 140378862589.2041 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Y"> -51009202876.56406 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Z"> -22113760037.64315 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Vx"> 17762.55622589155 m*sec^-1 </OBJECT>
-                                <OBJECT Class = "double" Name = "Vy"> 23842.25071209065 m*sec^-1 </OBJECT>
-                                <OBJECT Class = "double" Name = "Vz"> 12289.33140417959 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "X"> 140378829039.9755 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Y"> -51009255474.62133 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Z"> -22113713295.038 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Vx"> 17758.36063181915 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "Vy"> 23820.76698056321 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "Vz"> 12288.49644103019 m*sec^-1 </OBJECT>
                             </OBJECT>
                             <OBJECT Class = "double" Name = "Cd"> 2.2 &quot;&quot; </OBJECT>
                             <OBJECT Class = "link" Name = "CoordSysRep">
@@ -343,7 +343,7 @@
                     <OBJECT Class = "bool" Name = "ContinueOnFailure"> False </OBJECT>
                     <OBJECT Class = "string" Name = "Description"> &quot;Sequence that runs targeting profiles&quot; </OBJECT>
                     <OBJECT Class = "link" Name = "DisplayCoordSystem">
-                        <OBJECT Class = "string" Name = ""> &quot;CentralBody/Sun Inertial&quot; </OBJECT>
+                        <OBJECT Class = "string" Name = ""> &quot;CentralBody/Earth Inertial&quot; </OBJECT>
                     </OBJECT>
                     <OBJECT Class = "AttrCon" Name = "FinalState">
                         <OBJECT Class = "Orbit_State" Name = "Orbit_State">
@@ -644,7 +644,7 @@
                                     <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
                                     <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                     <OBJECT Class = "string" Name = "Description"> &quot;X component of position&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "Desired"> -153415368133.9321 m </OBJECT>
+                                    <OBJECT Class = "double" Name = "Desired"> -151860911882.8344 m </OBJECT>
                                     <OBJECT Class = "string" Name = "Dimension"> &quot;DistanceUnit&quot; </OBJECT>
                                     <OBJECT Class = "string" Name = "ParentSegmentName"> &quot;Propagate&quot; </OBJECT>
                                     <OBJECT Class = "string" Name = "ParentType"> &quot;Propagate&quot; </OBJECT>
@@ -669,7 +669,7 @@
                                     <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
                                     <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                     <OBJECT Class = "string" Name = "Description"> &quot;Y component of position&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "Desired"> 173570839158.0278 m </OBJECT>
+                                    <OBJECT Class = "double" Name = "Desired"> 174606929331.6564 m </OBJECT>
                                     <OBJECT Class = "string" Name = "Dimension"> &quot;DistanceUnit&quot; </OBJECT>
                                     <OBJECT Class = "string" Name = "ParentSegmentName"> &quot;Propagate&quot; </OBJECT>
                                     <OBJECT Class = "string" Name = "ParentType"> &quot;Propagate&quot; </OBJECT>
@@ -694,7 +694,7 @@
                                     <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
                                     <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                     <OBJECT Class = "string" Name = "Description"> &quot;Z component of position&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "Desired"> 83752773263.36494 m </OBJECT>
+                                    <OBJECT Class = "double" Name = "Desired"> 84181986986.17865 m </OBJECT>
                                     <OBJECT Class = "string" Name = "Dimension"> &quot;DistanceUnit&quot; </OBJECT>
                                     <OBJECT Class = "string" Name = "ParentSegmentName"> &quot;Propagate&quot; </OBJECT>
                                     <OBJECT Class = "string" Name = "ParentType"> &quot;Propagate&quot; </OBJECT>
@@ -719,7 +719,7 @@
                                     <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
                                     <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                     <OBJECT Class = "string" Name = "Description"> &quot;X component of velocity&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "Desired"> -17465.06632504522 m*sec^-1 </OBJECT>
+                                    <OBJECT Class = "double" Name = "Desired"> -17072.46680384012 m*sec^-1 </OBJECT>
                                     <OBJECT Class = "string" Name = "Dimension"> &quot;Rate&quot; </OBJECT>
                                     <OBJECT Class = "string" Name = "ParentSegmentName"> &quot;Maneuver1&quot; </OBJECT>
                                     <OBJECT Class = "string" Name = "ParentType"> &quot;Maneuver&quot; </OBJECT>
@@ -744,7 +744,7 @@
                                     <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
                                     <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                     <OBJECT Class = "string" Name = "Description"> &quot;Y component of velocity&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "Desired"> -10362.34231655301 m*sec^-1 </OBJECT>
+                                    <OBJECT Class = "double" Name = "Desired"> -8713.805335309407 m*sec^-1 </OBJECT>
                                     <OBJECT Class = "string" Name = "Dimension"> &quot;Rate&quot; </OBJECT>
                                     <OBJECT Class = "string" Name = "ParentSegmentName"> &quot;Maneuver1&quot; </OBJECT>
                                     <OBJECT Class = "string" Name = "ParentType"> &quot;Maneuver&quot; </OBJECT>
@@ -769,7 +769,7 @@
                                     <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
                                     <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                     <OBJECT Class = "string" Name = "Description"> &quot;Z component of velocity&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "Desired"> -5215.407603942701 m*sec^-1 </OBJECT>
+                                    <OBJECT Class = "double" Name = "Desired"> -5289.128862802033 m*sec^-1 </OBJECT>
                                     <OBJECT Class = "string" Name = "Dimension"> &quot;Rate&quot; </OBJECT>
                                     <OBJECT Class = "string" Name = "ParentSegmentName"> &quot;Maneuver1&quot; </OBJECT>
                                     <OBJECT Class = "string" Name = "ParentType"> &quot;Maneuver&quot; </OBJECT>
@@ -866,12 +866,12 @@
                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                             <OBJECT Class = "link" Name = "CollocationMnvr">
                                 <OBJECT Class = "MCSSegment" Name = "CollocationMnvr">
-                                    <OBJECT Class = "double" Name = "aEqFinalLowerBound"> 1.110144562019479e-311 m </OBJECT>
-                                    <OBJECT Class = "double" Name = "aEqFinalUpperBound"> 1.110144562019479e-311 m </OBJECT>
-                                    <OBJECT Class = "double" Name = "aEqInitLowerBound"> 1.110144562019479e-311 m </OBJECT>
-                                    <OBJECT Class = "double" Name = "aEqInitUpperBound"> 1.110144562019479e-311 m </OBJECT>
-                                    <OBJECT Class = "double" Name = "aEqLowerBound"> 1.110144562019479e-311 m </OBJECT>
-                                    <OBJECT Class = "double" Name = "aEqUpperBound"> 1.110144562019479e-311 m </OBJECT>
+                                    <OBJECT Class = "double" Name = "aEqFinalLowerBound"> 1.144618994612903e-311 m </OBJECT>
+                                    <OBJECT Class = "double" Name = "aEqFinalUpperBound"> 1.144618994612903e-311 m </OBJECT>
+                                    <OBJECT Class = "double" Name = "aEqInitLowerBound"> 1.144618994612903e-311 m </OBJECT>
+                                    <OBJECT Class = "double" Name = "aEqInitUpperBound"> 1.144618994612903e-311 m </OBJECT>
+                                    <OBJECT Class = "double" Name = "aEqLowerBound"> 1.144618994612903e-311 m </OBJECT>
+                                    <OBJECT Class = "double" Name = "aEqUpperBound"> 1.144618994612903e-311 m </OBJECT>
                                     <OBJECT Class = "double" Name = "AverageStep"> 0 sec </OBJECT>
                                     <OBJECT Class = "double" Name = "AzLowerBound"> -3.141592653589793 rad </OBJECT>
                                     <OBJECT Class = "double" Name = "AzUpperBound"> 3.141592653589793 rad </OBJECT>
@@ -943,12 +943,12 @@
                                     <OBJECT Class = "double" Name = "FinalThrustY"> 0 N </OBJECT>
                                     <OBJECT Class = "double" Name = "FinalThrustZ"> 0 N </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelUsed"> 0 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "hEqFinalLowerBound"> 5.9301791650392e-313 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "hEqFinalUpperBound"> 5.9301791650392e-313 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "hEqInitLowerBound"> 5.9301791650392e-313 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "hEqInitUpperBound"> 5.9301791650392e-313 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "hEqLowerBound"> 5.9301791650392e-313 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "hEqUpperBound"> 5.9301791650392e-313 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "hEqFinalLowerBound"> 2.973824596340398e-312 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "hEqFinalUpperBound"> 2.973824596340398e-312 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "hEqInitLowerBound"> 2.973824596340398e-312 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "hEqInitUpperBound"> 2.973824596340398e-312 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "hEqLowerBound"> 2.973824596340398e-312 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "hEqUpperBound"> 2.973824596340398e-312 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "string" Name = "InitialGuessInterpolationMethod"> &quot;Lagrange polynomial&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "InitialMassFlowRate"> 0 kg*sec^-1 </OBJECT>
                                     <OBJECT Class = "double" Name = "InitialQs"> 1 &quot;&quot; </OBJECT>
@@ -988,56 +988,56 @@
                                     <OBJECT Class = "double" Name = "InitialThrustX"> 0 N </OBJECT>
                                     <OBJECT Class = "double" Name = "InitialThrustY"> 0 N </OBJECT>
                                     <OBJECT Class = "double" Name = "InitialThrustZ"> 0 N </OBJECT>
-                                    <OBJECT Class = "double" Name = "kEqFinalLowerBound"> 1.110144513379704e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "kEqFinalUpperBound"> 1.110144513379704e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "kEqInitLowerBound"> 1.110144513379704e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "kEqInitUpperBound"> 1.110144513379704e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "kEqLowerBound"> 1.110144513379704e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "kEqUpperBound"> 1.110144513379704e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "kEqFinalLowerBound"> 1.144622581055189e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "kEqFinalUpperBound"> 1.144622581055189e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "kEqInitLowerBound"> 1.144622581055189e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "kEqInitUpperBound"> 1.144622581055189e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "kEqLowerBound"> 1.144622581055189e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "kEqUpperBound"> 1.144622581055189e-311 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "LargestStep"> 0 sec </OBJECT>
                                     <OBJECT Class = "string" Name = "LastRunCode"> &quot;Marching&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "lEqFinalLowerBound"> 5.930179946848678e-313 rad </OBJECT>
-                                    <OBJECT Class = "double" Name = "lEqFinalUpperBound"> 5.930179946848678e-313 rad </OBJECT>
-                                    <OBJECT Class = "double" Name = "lEqInitLowerBound"> 5.930179946848678e-313 rad </OBJECT>
-                                    <OBJECT Class = "double" Name = "lEqInitUpperBound"> 5.930179946848678e-313 rad </OBJECT>
-                                    <OBJECT Class = "double" Name = "lEqLowerBound"> 5.930179946848678e-313 rad </OBJECT>
-                                    <OBJECT Class = "double" Name = "lEqUpperBound"> 5.930179946848678e-313 rad </OBJECT>
+                                    <OBJECT Class = "double" Name = "lEqFinalLowerBound"> 2.973824674521346e-312 rad </OBJECT>
+                                    <OBJECT Class = "double" Name = "lEqFinalUpperBound"> 2.973824674521346e-312 rad </OBJECT>
+                                    <OBJECT Class = "double" Name = "lEqInitLowerBound"> 2.973824674521346e-312 rad </OBJECT>
+                                    <OBJECT Class = "double" Name = "lEqInitUpperBound"> 2.973824674521346e-312 rad </OBJECT>
+                                    <OBJECT Class = "double" Name = "lEqLowerBound"> 2.973824674521346e-312 rad </OBJECT>
+                                    <OBJECT Class = "double" Name = "lEqUpperBound"> 2.973824674521346e-312 rad </OBJECT>
                                     <OBJECT Class = "double" Name = "MajFeasible"> 0.0001 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "int" Name = "MajIterations"> 500 </OBJECT>
                                     <OBJECT Class = "double" Name = "MajOptimal"> 0.0001 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "MaxPropTime"> 8640000 sec </OBJECT>
-                                    <OBJECT Class = "double" Name = "MdFinalLowerBound"> 9.960264607030362e-319 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MdFinalUpperBound"> 9.963130187776241e-319 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MdInitLowerBound"> 1.327602314743076e-317 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MdFinalLowerBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MdFinalUpperBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MdInitLowerBound"> 0 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "MdInitUpperBound"> 0 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MdLowerBound"> 9.964711197842933e-319 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MdUpperBound"> 9.943762814459264e-319 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MdLowerBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MdUpperBound"> 0 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "MinFeasible"> 1e-06 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "int" Name = "MinIterations"> 1000 </OBJECT>
                                     <OBJECT Class = "double" Name = "MinPropTime"> 0 sec </OBJECT>
-                                    <OBJECT Class = "double" Name = "MtFinalLowerBound"> 9.960066980772026e-319 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MtFinalUpperBound"> 9.962932561517905e-319 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MtInitLowerBound"> 1.602149602277087e-306 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MtInitUpperBound"> 1.602212075573872e-306 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MtLowerBound"> 9.965007637230438e-319 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MtUpperBound"> 9.915107007000472e-319 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MwFinalLowerBound"> 9.960165793901194e-319 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MwFinalUpperBound"> 9.963031374647073e-319 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MwInitLowerBound"> 1.780201687368213e-306 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MwInitUpperBound"> 4.99006302299659e-322 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MwLowerBound"> 9.964810010972102e-319 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MwUpperBound"> 1.313147436142699e-318 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MtFinalLowerBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MtFinalUpperBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MtInitLowerBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MtInitUpperBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MtLowerBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MtUpperBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MwFinalLowerBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MwFinalUpperBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MwInitLowerBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MwInitUpperBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MwLowerBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MwUpperBound"> 0 kg </OBJECT>
                                     <OBJECT Class = "string" Name = "NodeStatusMessage"> &quot; -not initialized- &quot; </OBJECT>
                                     <OBJECT Class = "ListLink" Name = "Nodes" />
                                     <OBJECT Class = "bool" Name = "NormPrimalInf"> True </OBJECT>
                                     <OBJECT Class = "int" Name = "NumSteps"> 0 </OBJECT>
                                     <OBJECT Class = "bool" Name = "OverrideMaxPropTime"> True </OBJECT>
-                                    <OBJECT Class = "double" Name = "pEqFinalLowerBound"> 1.110140896613645e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "pEqFinalUpperBound"> 1.110140896613645e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "pEqInitLowerBound"> 1.110140896613645e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "pEqInitUpperBound"> 1.110140896613645e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "pEqLowerBound"> 1.110140896613645e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "pEqUpperBound"> 1.110140896613645e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "pEqFinalLowerBound"> 1.144623448365691e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "pEqFinalUpperBound"> 1.144623448365691e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "pEqInitLowerBound"> 1.144623448365691e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "pEqInitUpperBound"> 1.144623448365691e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "pEqLowerBound"> 1.144623448365691e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "pEqUpperBound"> 1.144623448365691e-311 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "link" Name = "Pointing">
                                         <OBJECT Class = "ManeuverPointing" Name = "ManeuverPointingOFM">
                                             <OBJECT Class = "double" Name = "AttitudeLeadDuration"> 0 sec </OBJECT>
@@ -1074,12 +1074,12 @@
                                         </OBJECT>
                                     </OBJECT>
                                     <OBJECT Class = "string" Name = "PressureMode"> &quot;Pressure-Regulated&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "qEqFinalLowerBound"> 1.11014065867163e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "qEqFinalUpperBound"> 1.11014065867163e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "qEqInitLowerBound"> 1.11014065867163e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "qEqInitUpperBound"> 1.11014065867163e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "qEqLowerBound"> 1.11014065867163e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "qEqUpperBound"> 1.11014065867163e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "qEqFinalLowerBound"> 1.144618818638578e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "qEqFinalUpperBound"> 1.144618818638578e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "qEqInitLowerBound"> 1.144618818638578e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "qEqInitUpperBound"> 1.144618818638578e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "qEqLowerBound"> 1.144618818638578e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "qEqUpperBound"> 1.144618818638578e-311 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                     <OBJECT Class = "container" Name = "ResultsSelected" />
                                     <OBJECT Class = "ListLink" Name = "Results" />
@@ -1598,9 +1598,9 @@
                                                 <OBJECT Class = "container" Name = "Spherical" />
                                             </OBJECT>
                                             <OBJECT Class = "container" Name = "Cartesian">
-                                                <OBJECT Class = "double" Name = "X"> 3863.081027199554 m*sec^-1 </OBJECT>
-                                                <OBJECT Class = "double" Name = "Y"> -775.8052543290505 m*sec^-1 </OBJECT>
-                                                <OBJECT Class = "double" Name = "Z"> 702.738088878581 m*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "X"> 3857.091850450634 m*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Y"> -786.4543883773549 m*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Z"> 701.6105083049333 m*sec^-1 </OBJECT>
                                             </OBJECT>
                                             <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
@@ -1622,7 +1622,7 @@
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                             <OBJECT Class = "container" Name = "ShooterControls" />
                                             <OBJECT Class = "container" Name = "Spherical">
-                                                <OBJECT Class = "double" Name = "Magnitude"> 4002.3879918012 m*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Magnitude"> 3998.490384279372 m*sec^-1 </OBJECT>
                                             </OBJECT>
                                             <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
                                             <OBJECT Class = "link" Name = "ThrustAxes">
@@ -1920,7 +1920,7 @@
                                     <OBJECT Class = "container" Name = "ShooterControls" />
                                     <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
                                     <OBJECT Class = "double" Name = "Tolerance"> 1e-08 sec </OBJECT>
-                                    <OBJECT Class = "double" Name = "TripValue"> 19526400 sec </OBJECT>
+                                    <OBJECT Class = "double" Name = "TripValue"> 19440000 sec </OBJECT>
                                     <OBJECT Class = "string" Name = "Type"> &quot;Duration&quot; </OBJECT>
                                     <OBJECT Class = "string" Name = "UserComment"> &quot;Stop after a specified duration&quot; </OBJECT>
                                     <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
@@ -1943,12 +1943,12 @@
                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                             <OBJECT Class = "link" Name = "CollocationMnvr">
                                 <OBJECT Class = "MCSSegment" Name = "CollocationMnvr">
-                                    <OBJECT Class = "double" Name = "aEqFinalLowerBound"> 1.110144562019479e-311 m </OBJECT>
-                                    <OBJECT Class = "double" Name = "aEqFinalUpperBound"> 1.110144562019479e-311 m </OBJECT>
-                                    <OBJECT Class = "double" Name = "aEqInitLowerBound"> 1.110144562019479e-311 m </OBJECT>
-                                    <OBJECT Class = "double" Name = "aEqInitUpperBound"> 1.110144562019479e-311 m </OBJECT>
-                                    <OBJECT Class = "double" Name = "aEqLowerBound"> 1.110144562019479e-311 m </OBJECT>
-                                    <OBJECT Class = "double" Name = "aEqUpperBound"> 1.110144562019479e-311 m </OBJECT>
+                                    <OBJECT Class = "double" Name = "aEqFinalLowerBound"> 1.144618994612903e-311 m </OBJECT>
+                                    <OBJECT Class = "double" Name = "aEqFinalUpperBound"> 1.144618994612903e-311 m </OBJECT>
+                                    <OBJECT Class = "double" Name = "aEqInitLowerBound"> 1.144618994612903e-311 m </OBJECT>
+                                    <OBJECT Class = "double" Name = "aEqInitUpperBound"> 1.144618994612903e-311 m </OBJECT>
+                                    <OBJECT Class = "double" Name = "aEqLowerBound"> 1.144618994612903e-311 m </OBJECT>
+                                    <OBJECT Class = "double" Name = "aEqUpperBound"> 1.144618994612903e-311 m </OBJECT>
                                     <OBJECT Class = "double" Name = "AverageStep"> 0 sec </OBJECT>
                                     <OBJECT Class = "double" Name = "AzLowerBound"> -3.141592653589793 rad </OBJECT>
                                     <OBJECT Class = "double" Name = "AzUpperBound"> 3.141592653589793 rad </OBJECT>
@@ -2020,12 +2020,12 @@
                                     <OBJECT Class = "double" Name = "FinalThrustY"> 0 N </OBJECT>
                                     <OBJECT Class = "double" Name = "FinalThrustZ"> 0 N </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelUsed"> 0 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "hEqFinalLowerBound"> 5.9301791650392e-313 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "hEqFinalUpperBound"> 5.9301791650392e-313 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "hEqInitLowerBound"> 5.9301791650392e-313 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "hEqInitUpperBound"> 5.9301791650392e-313 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "hEqLowerBound"> 5.9301791650392e-313 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "hEqUpperBound"> 5.9301791650392e-313 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "hEqFinalLowerBound"> 2.973824596340398e-312 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "hEqFinalUpperBound"> 2.973824596340398e-312 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "hEqInitLowerBound"> 2.973824596340398e-312 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "hEqInitUpperBound"> 2.973824596340398e-312 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "hEqLowerBound"> 2.973824596340398e-312 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "hEqUpperBound"> 2.973824596340398e-312 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "string" Name = "InitialGuessInterpolationMethod"> &quot;Lagrange polynomial&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "InitialMassFlowRate"> 0 kg*sec^-1 </OBJECT>
                                     <OBJECT Class = "double" Name = "InitialQs"> 1 &quot;&quot; </OBJECT>
@@ -2065,56 +2065,56 @@
                                     <OBJECT Class = "double" Name = "InitialThrustX"> 0 N </OBJECT>
                                     <OBJECT Class = "double" Name = "InitialThrustY"> 0 N </OBJECT>
                                     <OBJECT Class = "double" Name = "InitialThrustZ"> 0 N </OBJECT>
-                                    <OBJECT Class = "double" Name = "kEqFinalLowerBound"> 1.110144513379704e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "kEqFinalUpperBound"> 1.110144513379704e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "kEqInitLowerBound"> 1.110144513379704e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "kEqInitUpperBound"> 1.110144513379704e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "kEqLowerBound"> 1.110144513379704e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "kEqUpperBound"> 1.110144513379704e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "kEqFinalLowerBound"> 1.144622581055189e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "kEqFinalUpperBound"> 1.144622581055189e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "kEqInitLowerBound"> 1.144622581055189e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "kEqInitUpperBound"> 1.144622581055189e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "kEqLowerBound"> 1.144622581055189e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "kEqUpperBound"> 1.144622581055189e-311 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "LargestStep"> 0 sec </OBJECT>
                                     <OBJECT Class = "string" Name = "LastRunCode"> &quot;Marching&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "lEqFinalLowerBound"> 5.930179946848678e-313 rad </OBJECT>
-                                    <OBJECT Class = "double" Name = "lEqFinalUpperBound"> 5.930179946848678e-313 rad </OBJECT>
-                                    <OBJECT Class = "double" Name = "lEqInitLowerBound"> 5.930179946848678e-313 rad </OBJECT>
-                                    <OBJECT Class = "double" Name = "lEqInitUpperBound"> 5.930179946848678e-313 rad </OBJECT>
-                                    <OBJECT Class = "double" Name = "lEqLowerBound"> 5.930179946848678e-313 rad </OBJECT>
-                                    <OBJECT Class = "double" Name = "lEqUpperBound"> 5.930179946848678e-313 rad </OBJECT>
+                                    <OBJECT Class = "double" Name = "lEqFinalLowerBound"> 2.973824674521346e-312 rad </OBJECT>
+                                    <OBJECT Class = "double" Name = "lEqFinalUpperBound"> 2.973824674521346e-312 rad </OBJECT>
+                                    <OBJECT Class = "double" Name = "lEqInitLowerBound"> 2.973824674521346e-312 rad </OBJECT>
+                                    <OBJECT Class = "double" Name = "lEqInitUpperBound"> 2.973824674521346e-312 rad </OBJECT>
+                                    <OBJECT Class = "double" Name = "lEqLowerBound"> 2.973824674521346e-312 rad </OBJECT>
+                                    <OBJECT Class = "double" Name = "lEqUpperBound"> 2.973824674521346e-312 rad </OBJECT>
                                     <OBJECT Class = "double" Name = "MajFeasible"> 0.0001 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "int" Name = "MajIterations"> 500 </OBJECT>
                                     <OBJECT Class = "double" Name = "MajOptimal"> 0.0001 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "MaxPropTime"> 8640000 sec </OBJECT>
-                                    <OBJECT Class = "double" Name = "MdFinalLowerBound"> 6.951737945155665e-310 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MdFinalUpperBound"> 1.110844971158624e-311 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MdInitLowerBound"> 6.951737945155665e-310 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MdInitUpperBound"> 6.047688005461487e-312 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MdLowerBound"> 3.477314502654742e-310 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MdFinalLowerBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MdFinalUpperBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MdInitLowerBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MdInitUpperBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MdLowerBound"> 0 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "MdUpperBound"> 0 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "MinFeasible"> 1e-06 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "int" Name = "MinIterations"> 1000 </OBJECT>
                                     <OBJECT Class = "double" Name = "MinPropTime"> 0 sec </OBJECT>
                                     <OBJECT Class = "double" Name = "MtFinalLowerBound"> 0 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MtFinalUpperBound"> 6.951737945155665e-310 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MtInitLowerBound"> 6.951737945155665e-310 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MtInitUpperBound"> 6.026468047546894e-312 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MtFinalUpperBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MtInitLowerBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MtInitUpperBound"> 0 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "MtLowerBound"> 0 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "MtUpperBound"> 0 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MwFinalLowerBound"> 2.121995790965272e-314 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MwFinalUpperBound"> 1.110844971285105e-311 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MwInitLowerBound"> 6.951737945155665e-310 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MwInitUpperBound"> 6.005248088436661e-312 kg </OBJECT>
-                                    <OBJECT Class = "double" Name = "MwLowerBound"> -nan kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MwFinalLowerBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MwFinalUpperBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MwInitLowerBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MwInitUpperBound"> 0 kg </OBJECT>
+                                    <OBJECT Class = "double" Name = "MwLowerBound"> 0 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "MwUpperBound"> 0 kg </OBJECT>
                                     <OBJECT Class = "string" Name = "NodeStatusMessage"> &quot; -not initialized- &quot; </OBJECT>
                                     <OBJECT Class = "ListLink" Name = "Nodes" />
                                     <OBJECT Class = "bool" Name = "NormPrimalInf"> True </OBJECT>
                                     <OBJECT Class = "int" Name = "NumSteps"> 0 </OBJECT>
                                     <OBJECT Class = "bool" Name = "OverrideMaxPropTime"> True </OBJECT>
-                                    <OBJECT Class = "double" Name = "pEqFinalLowerBound"> 1.110140896613645e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "pEqFinalUpperBound"> 1.110140896613645e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "pEqInitLowerBound"> 1.110140896613645e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "pEqInitUpperBound"> 1.110140896613645e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "pEqLowerBound"> 1.110140896613645e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "pEqUpperBound"> 1.110140896613645e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "pEqFinalLowerBound"> 1.144623448365691e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "pEqFinalUpperBound"> 1.144623448365691e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "pEqInitLowerBound"> 1.144623448365691e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "pEqInitUpperBound"> 1.144623448365691e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "pEqLowerBound"> 1.144623448365691e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "pEqUpperBound"> 1.144623448365691e-311 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "link" Name = "Pointing">
                                         <OBJECT Class = "ManeuverPointing" Name = "ManeuverPointingOFM">
                                             <OBJECT Class = "double" Name = "AttitudeLeadDuration"> 0 sec </OBJECT>
@@ -2151,12 +2151,12 @@
                                         </OBJECT>
                                     </OBJECT>
                                     <OBJECT Class = "string" Name = "PressureMode"> &quot;Pressure-Regulated&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "qEqFinalLowerBound"> 1.11014065867163e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "qEqFinalUpperBound"> 1.11014065867163e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "qEqInitLowerBound"> 1.11014065867163e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "qEqInitUpperBound"> 1.11014065867163e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "qEqLowerBound"> 1.11014065867163e-311 &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "qEqUpperBound"> 1.11014065867163e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "qEqFinalLowerBound"> 1.144618818638578e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "qEqFinalUpperBound"> 1.144618818638578e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "qEqInitLowerBound"> 1.144618818638578e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "qEqInitUpperBound"> 1.144618818638578e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "qEqLowerBound"> 1.144618818638578e-311 &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "qEqUpperBound"> 1.144618818638578e-311 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                     <OBJECT Class = "container" Name = "ResultsSelected" />
                                     <OBJECT Class = "ListLink" Name = "Results" />
@@ -2675,9 +2675,9 @@
                                                 <OBJECT Class = "container" Name = "Spherical" />
                                             </OBJECT>
                                             <OBJECT Class = "container" Name = "Cartesian">
-                                                <OBJECT Class = "double" Name = "X"> -265.5530364610386 m*sec^-1 </OBJECT>
-                                                <OBJECT Class = "double" Name = "Y"> -771.0360591677891 m*sec^-1 </OBJECT>
-                                                <OBJECT Class = "double" Name = "Z"> 86.19302079604495 m*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "X"> 250.2554679642417 m*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Y"> 733.1379373683576 m*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Z"> -75.14634287822173 m*sec^-1 </OBJECT>
                                             </OBJECT>
                                             <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
@@ -2699,7 +2699,7 @@
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                             <OBJECT Class = "container" Name = "ShooterControls" />
                                             <OBJECT Class = "container" Name = "Spherical">
-                                                <OBJECT Class = "double" Name = "Magnitude"> 820.026985253912 m*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Magnitude"> 778.3097116846884 m*sec^-1 </OBJECT>
                                             </OBJECT>
                                             <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
                                             <OBJECT Class = "link" Name = "ThrustAxes">
@@ -3057,23 +3057,23 @@
     </OBJECT>
     <OBJECT Class = "string" Name = "LambertToolMode"> &quot;Specify initial and final central bodies&quot; </OBJECT>
     <OBJECT Class = "string" Name = "LambertToolOption"> &quot;Fixed time&quot; </OBJECT>
-    <OBJECT Class = "double" Name = "MinimumTOF"> 19526400 sec </OBJECT>
+    <OBJECT Class = "double" Name = "MinimumTOF"> 19440000 sec </OBJECT>
     <OBJECT Class = "link" Name = "Propagator">
         <OBJECT Class = "string" Name = ""> &quot;Earth_HPOP_Default_v10&quot; </OBJECT>
     </OBJECT>
     <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
     <OBJECT Class = "container" Name = "Result">
         <OBJECT Class = "string" Name = "StatusLabel"> &quot;Body to body solution&quot; </OBJECT>
-        <OBJECT Class = "string" Name = "InitDeltaVLabel"> &quot;4002.387992&quot; </OBJECT>
-        <OBJECT Class = "string" Name = "FinlDeltaVLabel"> &quot;820.026985&quot; </OBJECT>
-        <OBJECT Class = "string" Name = "TotlDeltaVLabel"> &quot;4822.414977&quot; </OBJECT>
-        <OBJECT Class = "string" Name = "TOFLabel"> &quot;226.000000&quot; </OBJECT>
-        <OBJECT Class = "string" Name = "C3Label"> &quot;19.578308&quot; </OBJECT>
-        <OBJECT Class = "string" Name = "RALabel"> &quot;29.375014&quot; </OBJECT>
-        <OBJECT Class = "string" Name = "DecLabel"> &quot;42.476476&quot; </OBJECT>
+        <OBJECT Class = "string" Name = "InitDeltaVLabel"> &quot;3998.490384&quot; </OBJECT>
+        <OBJECT Class = "string" Name = "FinlDeltaVLabel"> &quot;778.309712&quot; </OBJECT>
+        <OBJECT Class = "string" Name = "TotlDeltaVLabel"> &quot;4776.800096&quot; </OBJECT>
+        <OBJECT Class = "string" Name = "TOFLabel"> &quot;225.000000&quot; </OBJECT>
+        <OBJECT Class = "string" Name = "C3Label"> &quot;19.488408&quot; </OBJECT>
+        <OBJECT Class = "string" Name = "RALabel"> &quot;29.588901&quot; </OBJECT>
+        <OBJECT Class = "string" Name = "DecLabel"> &quot;42.124818&quot; </OBJECT>
         <OBJECT Class = "string" Name = "PropReqDepGravity"> &quot;(Propagator Requires Departure Body&apos;s Gravity)&quot; </OBJECT>
     </OBJECT>
-    <OBJECT Class = "string" Name = "SequenceName"> &quot;ToMars&quot; </OBJECT>
+    <OBJECT Class = "string" Name = "SequenceName"> &quot;ToMarsNew&quot; </OBJECT>
     <OBJECT Class = "container" Name = "ShooterControls" />
     <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
     <OBJECT Class = "string" Name = "Type"> &quot;DesignLambert&quot; </OBJECT>

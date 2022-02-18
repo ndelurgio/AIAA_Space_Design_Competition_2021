@@ -130,7 +130,7 @@ BEGIN Scenario
             LaunchWindowUseEntireTraj		 Yes
             LaunchWindowTrajMETStart		 0
             LaunchWindowTrajMETStop		 900
-            LaunchWindowStart		 -539589600
+            LaunchWindowStart		 -476517600
             LaunchWindowStop		 -571212000
             LaunchMETOffset		 0
             LaunchWindowUseSecEphem		 No 
@@ -530,12 +530,6 @@ BEGIN Scenario
         END ExportDataFile
 
         BEGIN Desc
-            BEGIN ShortText
-
-            END ShortText
-            BEGIN LongText
-
-            END LongText
         END Desc
 
         BEGIN RfEnv
@@ -868,9 +862,9 @@ BEGIN Scenario
 
                 StartTime		 1 Jan 2037 00:00:00.000000000
                 EndTime		 3 Jan 2040 00:00:00.000000000
-                CurrentTime		 6 Dec 2037 00:00:00.000000000
+                CurrentTime		 9 Apr 2038 16:00:00.000000000
                 Direction		 Forward
-                UpdateDelta		 57600
+                UpdateDelta		 14400
                 RefreshDelta		 0.010000
                 XRealTimeMult		 1
                 RealTimeOffset		 0
@@ -1352,6 +1346,7 @@ BEGIN Scenario
 
             Earth		
             Mars		
+            Phobos		
             Sun		
 
         END Class
@@ -1373,6 +1368,9 @@ BEGIN Scenario
         END Instance
         Instance Planet/Mars
             Planet/Mars		
+        END Instance
+        Instance Planet/Phobos
+            Planet/Phobos		
         END Instance
         Instance Planet/Sun
             Planet/Sun		
