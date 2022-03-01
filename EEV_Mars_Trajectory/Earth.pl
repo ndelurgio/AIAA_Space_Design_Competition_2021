@@ -12,7 +12,7 @@ BEGIN Planet
 
         BEGIN EphemerisData
 
-            EphemerisSource		 None
+            EphemerisSource		 JplDE
 
             JplIndex		 2
 
@@ -32,9 +32,9 @@ BEGIN Planet
             OrbitMeanLong		  1.0046457166000002e+02
             OrbitMeanDistDot		  2.3018207620369612e+01
             OrbitEccDot		 -1.2024640657084188e-09
-            OrbitIncDot		 -3.5446078028747439e-07
+            OrbitIncDot		 -3.5446078028747444e-07
             OrbitRAANDot		  0.0000000000000000e+00
-            OrbitPerLongDot		  8.8507498973305960e-06
+            OrbitPerLongDot		  8.8507498973305977e-06
             OrbitMeanLongDot		  9.8560910197973994e-01
 
         END EphemerisData
@@ -72,12 +72,6 @@ BEGIN Planet
         END AccessConstraints
 
         BEGIN Desc
-            BEGIN ShortText
-
-            END ShortText
-            BEGIN LongText
-
-            END LongText
         END Desc
 
         BEGIN Crdn
@@ -107,7 +101,7 @@ BEGIN Planet
                 ShowSubPlanetLabel		 Off
                 ShowOrbit		 On
                 NumOrbitPoints		 360
-                OrbitTime		  0.0000000000000000e+00
+                OrbitTime		  3.1568884236888289e+07
                 OrbitDisplay		                OneOrbit		
                 TransformTrajectory		 On
 

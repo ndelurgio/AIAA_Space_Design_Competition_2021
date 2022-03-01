@@ -168,9 +168,9 @@ BEGIN Scenario
             DockCircleID		 0
             DockID		 0
             WindowRectLeft		 332
-            WindowRectTop		 1115
-            WindowRectRight		 531
-            WindowRectBottom		 1162
+            WindowRectTop		 1124
+            WindowRectRight		 656
+            WindowRectBottom		 1212
         END Report
 
         BEGIN Report
@@ -198,9 +198,9 @@ BEGIN Scenario
             DockCircleID		 0
             DockID		 0
             WindowRectLeft		 531
-            WindowRectTop		 1119
-            WindowRectRight		 730
-            WindowRectBottom		 1153
+            WindowRectTop		 1128
+            WindowRectRight		 855
+            WindowRectBottom		 1216
         END Report
     END QuickReports
 
@@ -436,12 +436,7 @@ BEGIN Scenario
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 Install
-                    Style		 Astrogator Log
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
-                    BaseDir		 Install
-                    Style		 Astrogator Script Summary
+                    Style		 Segment Summary
                 END Favorite
                 BEGIN Favorite
                     Type		 Report
@@ -451,7 +446,12 @@ BEGIN Scenario
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 Install
-                    Style		 Segment Summary
+                    Style		 Astrogator Script Summary
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Astrogator Log
                 END Favorite
             END Class
         END ReportFavorites
@@ -1903,6 +1903,7 @@ BEGIN Scenario
             Satellite/DST		
         END Instance
         Instance Satellite/EEV
+            *		
             Satellite/EEV		
         END Instance
         Instance Satellite/EEV_Direct

@@ -694,22 +694,22 @@ BEGIN SceneWindow
             BEGIN ViewCrdnAxes
                 BEGIN AXES
                     Type		 AXES_LINKTO
-                    Name		 Inertial
-                    AbsolutePath		 CentralBody/Mars
+                    Name		 ICR
+                    RelativePath		 Satellite/EEV
                 END AXES
             END
             BEGIN FromViewCrdnPoint
                 BEGIN POINT
                     Type		 POINT_LINKTO
                     Name		 Center
-                    AbsolutePath		 CentralBody/Mars
+                    RelativePath		 Satellite/EEV
                 END POINT
             END
             BEGIN ToViewCrdnPoint
                 BEGIN POINT
                     Type		 POINT_LINKTO
                     Name		 Center
-                    AbsolutePath		 CentralBody/Mars
+                    RelativePath		 Satellite/EEV
                 END POINT
             END
             fov		 0.7853981633974483
@@ -725,27 +725,27 @@ BEGIN SceneWindow
             ZoomUseDistanceToCb		 Yes
             GlobeDetailLevel		 1
             UseLayer		 Yes
-            FromName		 "Mars"
+            FromName		 "Satellite/EEV"
             FromRegPosAttView		 "Point"
-            FromPosition		 -2.7851858678281087e+08 -1.0788175822800766e+08  8.7748468654041693e+07
-            FromOffset		 -2.7851858678281087e+08 -1.0788175822800766e+08  8.7748468654041693e+07
-            FromOffsetLLR		  2.8574558620080365e-01 -2.7720463323523830e+00  3.1130510868437380e+08
-            ToName		 "Mars"
+            FromPosition		  2.2892899295843504e+06  9.2215562046180069e+06  5.5689745828984946e+04
+            FromOffset		  2.9817083738744259e+00  1.5509885340929031e+01 -3.5818916571442969e+00
+            FromOffsetLLR		  1.0788030525042007e+00 -2.9161883351298949e+00  1.6194970699544911e+01
+            ToName		 "Satellite/EEV"
             ToRegPosAttView		 "Point"
-            ToPosition		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
+            ToPosition		  2.2892869478759766e+06  9.2215406947326660e+06  5.5693327720642090e+04
             ToOffset		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
             ToOffsetLLR		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
             ConstantDistanceType		 None
             ConstantDistanceValue		 1
-            UpVector		  2.6284401357555864e-01  1.0181034828512066e-01  9.5945175882352429e-01
-            ViewRad		  3.1130510868437380e+08
-            ViewQuat		  9.7296242093478424e-01 -2.6159887086724603e-02  1.3996349844101405e-01  1.8185160670306380e-01
+            UpVector		  8.2100277822124890e-01 -2.7356328755891257e-01 -5.0111631968331594e-01
+            ViewRad		  1.6194970700065067e+01
+            ViewQuat		  7.4123300717070484e-01 -4.2519491976944346e-01  4.1660650472462779e-01  3.1019659815036571e-01
             ViewCoordSystem		 From
             ViewFromToMode		 FromTo
-            ViewToCBIMtx		  1.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  1.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  1.0000000000000000e+00
+            ViewToCBIMtx		  6.4568913543430795e-01 -4.6502834296781487e-01  6.0566837511851712e-01  4.6925151062162412e-01 -3.8408913214612689e-01 -7.9515945466714999e-01  6.0240232416668194e-01  7.9763662077655628e-01 -2.9786927245628425e-02
             UseUpAxis		 Yes
-            UpAxisType		 Z
-            UserDefinedUpAxis		 -5.8757508271516889e-01  5.1586861876742529e-01  6.2340603970706876e-01
+            UpAxisType		 UserDefined
+            UserDefinedUpAxis		  5.2076171600430793e-02  6.9391495337155085e-01  7.1817136523171932e-01
             OverUpAxis		 No
             LockInViewDir		 No
             NoZoom		 No
@@ -753,9 +753,9 @@ BEGIN SceneWindow
             MinAngleToUpAxis		  8.7266462599716477e-03
             InitUpAxisUp		 Yes
             TempUpAxisUp		 Yes
-            CrossAxis		 -3.6119241764834609e-01  9.3249130689424808e-01  0.0000000000000000e+00
-            DefaultOffset		  1.8679045000000000e+07
-            BaseDefaultOffset		  3.3961900000000000e+06
+            CrossAxis		 -8.1413385322586906e-01  4.4597470139639450e-01 -3.7187717696303441e-01
+            DefaultOffset		  2.8558108210563660e+01
+            BaseDefaultOffset		  2.2846486568450928e+01
         END View
 
         BEGIN ViewPathManagerSceneInfo
