@@ -260,7 +260,7 @@
                             </OBJECT>
                             <OBJECT Class = "double" Name = "Cd"> 2.2 &quot;&quot; </OBJECT>
                             <OBJECT Class = "link" Name = "CoordSysRep">
-                                <OBJECT Class = "string" Name = ""> &quot;None&quot; </OBJECT>
+                                <OBJECT Class = "string" Name = ""> &quot;CentralBody/Sun Inertial&quot; </OBJECT>
                             </OBJECT>
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
@@ -588,7 +588,144 @@
                                     <OBJECT Class = "string" Name = "IndependentVariableSaveName"> &quot;Iteration&quot; </OBJECT>
                                     <OBJECT Class = "bool" Name = "LabelIterations"> False </OBJECT>
                                     <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
-                                    <OBJECT Class = "ListLink" Name = "ResultOptions" />
+                                    <OBJECT Class = "ListLink" Name = "ResultOptions">
+                                        <OBJECT Class = "AgTargeterGraphResultOptions" Name = "Maneuver_:_DeltaV1">
+                                            <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
+                                            <OBJECT Class = "string" Name = "Description"> &quot;Result graph options&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "GraphDesired"> False </OBJECT>
+                                            <OBJECT Class = "int" Name = "GraphLineColor"> 0 </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphOption"> &quot;Don&apos;t graph&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphPointStyle"> &quot;Solid Dot&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "GraphTolerance"> False </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphYAxis"> &quot;Y1&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
+                                            <OBJECT Class = "container" Name = "ShooterControls" />
+                                            <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+                                            <OBJECT Class = "string" Name = "Type"> &quot;AgTargeterGraphResultOptions&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "UserComment"> &quot;Result graph options&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
+                                        </OBJECT>
+                                        <OBJECT Class = "AgTargeterGraphResultOptions" Name = "Propagate_:_Rx">
+                                            <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
+                                            <OBJECT Class = "string" Name = "Description"> &quot;Result graph options&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "GraphDesired"> False </OBJECT>
+                                            <OBJECT Class = "int" Name = "GraphLineColor"> 0 </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphOption"> &quot;Don&apos;t graph&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphPointStyle"> &quot;Solid Dot&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "GraphTolerance"> False </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphYAxis"> &quot;Y1&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
+                                            <OBJECT Class = "container" Name = "ShooterControls" />
+                                            <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+                                            <OBJECT Class = "string" Name = "Type"> &quot;AgTargeterGraphResultOptions&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "UserComment"> &quot;Result graph options&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
+                                        </OBJECT>
+                                        <OBJECT Class = "AgTargeterGraphResultOptions" Name = "Propagate_:_Ry">
+                                            <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
+                                            <OBJECT Class = "string" Name = "Description"> &quot;Result graph options&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "GraphDesired"> False </OBJECT>
+                                            <OBJECT Class = "int" Name = "GraphLineColor"> 0 </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphOption"> &quot;Don&apos;t graph&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphPointStyle"> &quot;Solid Dot&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "GraphTolerance"> False </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphYAxis"> &quot;Y1&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
+                                            <OBJECT Class = "container" Name = "ShooterControls" />
+                                            <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+                                            <OBJECT Class = "string" Name = "Type"> &quot;AgTargeterGraphResultOptions&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "UserComment"> &quot;Result graph options&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
+                                        </OBJECT>
+                                        <OBJECT Class = "AgTargeterGraphResultOptions" Name = "Propagate_:_Rz">
+                                            <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
+                                            <OBJECT Class = "string" Name = "Description"> &quot;Result graph options&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "GraphDesired"> False </OBJECT>
+                                            <OBJECT Class = "int" Name = "GraphLineColor"> 0 </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphOption"> &quot;Don&apos;t graph&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphPointStyle"> &quot;Solid Dot&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "GraphTolerance"> False </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphYAxis"> &quot;Y1&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
+                                            <OBJECT Class = "container" Name = "ShooterControls" />
+                                            <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+                                            <OBJECT Class = "string" Name = "Type"> &quot;AgTargeterGraphResultOptions&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "UserComment"> &quot;Result graph options&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
+                                        </OBJECT>
+                                        <OBJECT Class = "AgTargeterGraphResultOptions" Name = "Maneuver1_:_DeltaV2">
+                                            <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
+                                            <OBJECT Class = "string" Name = "Description"> &quot;Result graph options&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "GraphDesired"> False </OBJECT>
+                                            <OBJECT Class = "int" Name = "GraphLineColor"> 0 </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphOption"> &quot;Don&apos;t graph&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphPointStyle"> &quot;Solid Dot&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "GraphTolerance"> False </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphYAxis"> &quot;Y1&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
+                                            <OBJECT Class = "container" Name = "ShooterControls" />
+                                            <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+                                            <OBJECT Class = "string" Name = "Type"> &quot;AgTargeterGraphResultOptions&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "UserComment"> &quot;Result graph options&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
+                                        </OBJECT>
+                                        <OBJECT Class = "AgTargeterGraphResultOptions" Name = "Maneuver1_:_Vx">
+                                            <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
+                                            <OBJECT Class = "string" Name = "Description"> &quot;Result graph options&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "GraphDesired"> False </OBJECT>
+                                            <OBJECT Class = "int" Name = "GraphLineColor"> 0 </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphOption"> &quot;Don&apos;t graph&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphPointStyle"> &quot;Solid Dot&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "GraphTolerance"> False </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphYAxis"> &quot;Y1&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
+                                            <OBJECT Class = "container" Name = "ShooterControls" />
+                                            <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+                                            <OBJECT Class = "string" Name = "Type"> &quot;AgTargeterGraphResultOptions&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "UserComment"> &quot;Result graph options&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
+                                        </OBJECT>
+                                        <OBJECT Class = "AgTargeterGraphResultOptions" Name = "Maneuver1_:_Vy">
+                                            <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
+                                            <OBJECT Class = "string" Name = "Description"> &quot;Result graph options&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "GraphDesired"> False </OBJECT>
+                                            <OBJECT Class = "int" Name = "GraphLineColor"> 0 </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphOption"> &quot;Don&apos;t graph&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphPointStyle"> &quot;Solid Dot&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "GraphTolerance"> False </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphYAxis"> &quot;Y1&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
+                                            <OBJECT Class = "container" Name = "ShooterControls" />
+                                            <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+                                            <OBJECT Class = "string" Name = "Type"> &quot;AgTargeterGraphResultOptions&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "UserComment"> &quot;Result graph options&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
+                                        </OBJECT>
+                                        <OBJECT Class = "AgTargeterGraphResultOptions" Name = "Maneuver1_:_Vz">
+                                            <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
+                                            <OBJECT Class = "string" Name = "Description"> &quot;Result graph options&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "GraphDesired"> False </OBJECT>
+                                            <OBJECT Class = "int" Name = "GraphLineColor"> 0 </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphOption"> &quot;Don&apos;t graph&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphPointStyle"> &quot;Solid Dot&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "GraphTolerance"> False </OBJECT>
+                                            <OBJECT Class = "string" Name = "GraphYAxis"> &quot;Y1&quot; </OBJECT>
+                                            <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
+                                            <OBJECT Class = "container" Name = "ShooterControls" />
+                                            <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+                                            <OBJECT Class = "string" Name = "Type"> &quot;AgTargeterGraphResultOptions&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "UserComment"> &quot;Result graph options&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
+                                        </OBJECT>
+                                    </OBJECT>
                                     <OBJECT Class = "container" Name = "ShooterControls" />
                                     <OBJECT Class = "bool" Name = "ShowDesired"> False </OBJECT>
                                     <OBJECT Class = "bool" Name = "ShowTolerance"> False </OBJECT>
@@ -620,7 +757,7 @@
                                     <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                     <OBJECT Class = "string" Name = "Description"> &quot;DeltaV integrated along path&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "Desired"> 0 m*sec^-1 </OBJECT>
-                                    <OBJECT Class = "string" Name = "Dimension"> &quot;Speed Change&quot; </OBJECT>
+                                    <OBJECT Class = "string" Name = "Dimension"> &quot;Rate&quot; </OBJECT>
                                     <OBJECT Class = "string" Name = "ParentSegmentName"> &quot;Maneuver&quot; </OBJECT>
                                     <OBJECT Class = "string" Name = "ParentType"> &quot;Maneuver&quot; </OBJECT>
                                     <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
@@ -630,8 +767,8 @@
                                     <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
                                     <OBJECT Class = "double" Name = "Tolerance"> 0.1 m*sec^-1 </OBJECT>
                                     <OBJECT Class = "string" Name = "Type"> &quot;ShooterResult&quot; </OBJECT>
-                                    <OBJECT Class = "string" Name = "Unit"> &quot;m/sec&quot; </OBJECT>
-                                    <OBJECT Class = "bool" Name = "UseCustomUnit"> True </OBJECT>
+                                    <OBJECT Class = "string" Name = "Unit"> &quot;km/sec&quot; </OBJECT>
+                                    <OBJECT Class = "bool" Name = "UseCustomUnit"> False </OBJECT>
                                     <OBJECT Class = "string" Name = "UserComment"> &quot;DeltaV integrated along path&quot; </OBJECT>
                                     <OBJECT Class = "bool" Name = "Valid"> False </OBJECT>
                                     <OBJECT Class = "container" Name = "Values" />
@@ -713,6 +850,31 @@
                                     <OBJECT Class = "string" Name = "Version"> &quot;1.0.1 a&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "Weight"> 1 &quot;&quot; </OBJECT>
                                 </OBJECT>
+                                <OBJECT Class = "ShooterResult" Name = "Maneuver1_:_DeltaV2">
+                                    <OBJECT Class = "bool" Name = "Active"> False </OBJECT>
+                                    <OBJECT Class = "string" Name = "CalcType"> &quot;CAgAsStateCalcDeltaV&quot; </OBJECT>
+                                    <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
+                                    <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
+                                    <OBJECT Class = "string" Name = "Description"> &quot;DeltaV integrated along path&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "Desired"> 0 m*sec^-1 </OBJECT>
+                                    <OBJECT Class = "string" Name = "Dimension"> &quot;Rate&quot; </OBJECT>
+                                    <OBJECT Class = "string" Name = "ParentSegmentName"> &quot;Maneuver1&quot; </OBJECT>
+                                    <OBJECT Class = "string" Name = "ParentType"> &quot;Maneuver&quot; </OBJECT>
+                                    <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
+                                    <OBJECT Class = "string" Name = "ResultName"> &quot;DeltaV2&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "Scale"> 1 m*sec^-1 </OBJECT>
+                                    <OBJECT Class = "container" Name = "ShooterControls" />
+                                    <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+                                    <OBJECT Class = "double" Name = "Tolerance"> 0.1 m*sec^-1 </OBJECT>
+                                    <OBJECT Class = "string" Name = "Type"> &quot;ShooterResult&quot; </OBJECT>
+                                    <OBJECT Class = "string" Name = "Unit"> &quot;km/sec&quot; </OBJECT>
+                                    <OBJECT Class = "bool" Name = "UseCustomUnit"> False </OBJECT>
+                                    <OBJECT Class = "string" Name = "UserComment"> &quot;DeltaV integrated along path&quot; </OBJECT>
+                                    <OBJECT Class = "bool" Name = "Valid"> False </OBJECT>
+                                    <OBJECT Class = "container" Name = "Values" />
+                                    <OBJECT Class = "string" Name = "Version"> &quot;1.0.1 a&quot; </OBJECT>
+                                    <OBJECT Class = "double" Name = "Weight"> 1 &quot;&quot; </OBJECT>
+                                </OBJECT>
                                 <OBJECT Class = "ShooterResult" Name = "Maneuver1_:_Vx">
                                     <OBJECT Class = "bool" Name = "Active"> True </OBJECT>
                                     <OBJECT Class = "string" Name = "CalcType"> &quot;AsStateCalcVx&quot; </OBJECT>
@@ -783,31 +945,6 @@
                                     <OBJECT Class = "string" Name = "Unit"> &quot;km/sec&quot; </OBJECT>
                                     <OBJECT Class = "bool" Name = "UseCustomUnit"> False </OBJECT>
                                     <OBJECT Class = "string" Name = "UserComment"> &quot;Z component of velocity&quot; </OBJECT>
-                                    <OBJECT Class = "bool" Name = "Valid"> False </OBJECT>
-                                    <OBJECT Class = "container" Name = "Values" />
-                                    <OBJECT Class = "string" Name = "Version"> &quot;1.0.1 a&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "Weight"> 1 &quot;&quot; </OBJECT>
-                                </OBJECT>
-                                <OBJECT Class = "ShooterResult" Name = "Maneuver1_:_DeltaV2">
-                                    <OBJECT Class = "bool" Name = "Active"> False </OBJECT>
-                                    <OBJECT Class = "string" Name = "CalcType"> &quot;CAgAsStateCalcDeltaV&quot; </OBJECT>
-                                    <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
-                                    <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
-                                    <OBJECT Class = "string" Name = "Description"> &quot;DeltaV integrated along path&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "Desired"> 0 m*sec^-1 </OBJECT>
-                                    <OBJECT Class = "string" Name = "Dimension"> &quot;Speed Change&quot; </OBJECT>
-                                    <OBJECT Class = "string" Name = "ParentSegmentName"> &quot;Maneuver1&quot; </OBJECT>
-                                    <OBJECT Class = "string" Name = "ParentType"> &quot;Maneuver&quot; </OBJECT>
-                                    <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
-                                    <OBJECT Class = "string" Name = "ResultName"> &quot;DeltaV2&quot; </OBJECT>
-                                    <OBJECT Class = "double" Name = "Scale"> 1 m*sec^-1 </OBJECT>
-                                    <OBJECT Class = "container" Name = "ShooterControls" />
-                                    <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
-                                    <OBJECT Class = "double" Name = "Tolerance"> 0.1 m*sec^-1 </OBJECT>
-                                    <OBJECT Class = "string" Name = "Type"> &quot;ShooterResult&quot; </OBJECT>
-                                    <OBJECT Class = "string" Name = "Unit"> &quot;m/sec&quot; </OBJECT>
-                                    <OBJECT Class = "bool" Name = "UseCustomUnit"> True </OBJECT>
-                                    <OBJECT Class = "string" Name = "UserComment"> &quot;DeltaV integrated along path&quot; </OBJECT>
                                     <OBJECT Class = "bool" Name = "Valid"> False </OBJECT>
                                     <OBJECT Class = "container" Name = "Values" />
                                     <OBJECT Class = "string" Name = "Version"> &quot;1.0.1 a&quot; </OBJECT>
@@ -1040,9 +1177,30 @@
                                     <OBJECT Class = "double" Name = "pEqUpperBound"> 1.119917675057883e-311 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "link" Name = "Pointing">
                                         <OBJECT Class = "ManeuverPointing" Name = "ManeuverPointingOFM">
+                                            <OBJECT Class = "double" Name = "AttFileTimeOffset"> 0 sec </OBJECT>
+                                            <OBJECT Class = "int" Name = "AttInterpOrder"> 1 </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeControl"> &quot;Along Velocity Vector&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeFile"> &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "AttitudeLeadDuration"> 0 sec </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeRep"> &quot;Quaternion&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "AttitudeTrailDuration"> 0 sec </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeUpdate"> &quot;Update during burn&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "AttitudeUse"> &quot;Apply&quot; </OBJECT>
+                                            <OBJECT Class = "link" Name = "AttPlugin">
+                                                <OBJECT Class = "AttCtrlPlugin" Name = "Plugin_Attitude_Controller">
+                                                    <OBJECT Class = "string" Name = "Category"> &quot;@Top&quot; </OBJECT>
+                                                    <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
+                                                    <OBJECT Class = "string" Name = "Description"> &quot;Attitude controller that uses a COM interface to compute attitude&quot; </OBJECT>
+                                                    <OBJECT Class = "AttrCon" Name = "PluginConfig" />
+                                                    <OBJECT Class = "string" Name = "PluginIdentifier"> &quot;&lt;servername&gt;.&lt;objectname&gt;.&lt;version&gt;&quot; </OBJECT>
+                                                    <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
+                                                    <OBJECT Class = "container" Name = "ShooterControls" />
+                                                    <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+                                                    <OBJECT Class = "string" Name = "Type"> &quot;AttCtrlPlugin&quot; </OBJECT>
+                                                    <OBJECT Class = "string" Name = "UserComment"> &quot;Attitude controller that uses a COM interface to compute attitude&quot; </OBJECT>
+                                                    <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
+                                                </OBJECT>
+                                            </OBJECT>
                                             <OBJECT Class = "bool" Name = "BeenRun"> False </OBJECT>
                                             <OBJECT Class = "string" Name = "BodyConstraintVectorRepresentation"> &quot;Cartesian&quot; </OBJECT>
                                             <OBJECT Class = "AttrCon" Name = "BodyConstraintVector">
@@ -1053,21 +1211,53 @@
                                                 </OBJECT>
                                                 <OBJECT Class = "container" Name = "Spherical" />
                                             </OBJECT>
-                                            <OBJECT Class = "container" Name = "Cartesian" />
+                                            <OBJECT Class = "container" Name = "Cartesian">
+                                                <OBJECT Class = "double" Name = "X"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "Y"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "Z"> 0 &quot;&quot; </OBJECT>
+                                            </OBJECT>
                                             <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                             <OBJECT Class = "string" Name = "ConstraintSign"> &quot;+&quot; </OBJECT>
                                             <OBJECT Class = "link" Name = "ConstraintVector">
                                                 <OBJECT Class = "string" Name = ""> &quot;CentralBody/Earth ICRF-X&quot; </OBJECT>
                                             </OBJECT>
+                                            <OBJECT Class = "string" Name = "CoordType"> &quot;Cartesian&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "Description"> &quot;Finite maneuver pointing definitions&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EngineDirection"> &quot;+X&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "EulerSequence"> &quot;313&quot; </OBJECT>
                                             <OBJECT Class = "AttrCon" Name = "LastRun" />
-                                            <OBJECT Class = "container" Name = "Quaternion" />
+                                            <OBJECT Class = "container" Name = "Quaternion">
+                                                <OBJECT Class = "double" Name = "qx"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "qy"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "qz"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "qs"> 1 &quot;&quot; </OBJECT>
+                                            </OBJECT>
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                             <OBJECT Class = "container" Name = "ShooterControls" />
                                             <OBJECT Class = "container" Name = "Spherical" />
                                             <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+                                            <OBJECT Class = "link" Name = "ThrustAxes">
+                                                <OBJECT Class = "string" Name = ""> &quot;Satellite VNC(Earth)&quot; </OBJECT>
+                                            </OBJECT>
+                                            <OBJECT Class = "container" Name = "TimeVarying">
+                                                <OBJECT Class = "double" Name = "Az0"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az1"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az2"> 0 rad*sec^-2 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az3"> 0 rad*sec^-3 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az4"> 0 rad*sec^-4 </OBJECT>
+                                                <OBJECT Class = "double" Name = "AzA"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "AzF"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "AzP"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "El0"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "El1"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "El2"> 0 rad*sec^-2 </OBJECT>
+                                                <OBJECT Class = "double" Name = "El3"> 0 rad*sec^-3 </OBJECT>
+                                                <OBJECT Class = "double" Name = "El4"> 0 rad*sec^-4 </OBJECT>
+                                                <OBJECT Class = "double" Name = "ElA"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "ElF"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "ElP"> 0 rad </OBJECT>
+                                            </OBJECT>
                                             <OBJECT Class = "string" Name = "Type"> &quot;ManeuverPointingFinite&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "UserComment"> &quot;Finite maneuver pointing definitions&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
@@ -1268,7 +1458,7 @@
                                     <OBJECT Class = "double" Name = "LargestStep"> 0 sec </OBJECT>
                                     <OBJECT Class = "string" Name = "LastRunCode"> &quot;Marching&quot; </OBJECT>
                                     <OBJECT Class = "link" Name = "LastRunPropagator">
-                                        <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
+                                        <OBJECT Class = "string" Name = ""> &quot;Earth_HPOP_Default_v10&quot; </OBJECT>
                                     </OBJECT>
                                     <OBJECT Class = "AttrCon" Name = "LastRun" />
                                     <OBJECT Class = "double" Name = "MaxPropTime"> 86400 sec </OBJECT>
@@ -1598,8 +1788,8 @@
                                                 <OBJECT Class = "container" Name = "Spherical" />
                                             </OBJECT>
                                             <OBJECT Class = "container" Name = "Cartesian">
-                                                <OBJECT Class = "double" Name = "X"> 3383.198004712106 m*sec^-1 </OBJECT>
-                                                <OBJECT Class = "double" Name = "Y"> 2093.102780799629 m*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "X"> 3383.198004712105 m*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Y"> 2093.102780799628 m*sec^-1 </OBJECT>
                                                 <OBJECT Class = "double" Name = "Z"> 1146.273712252372 m*sec^-1 </OBJECT>
                                             </OBJECT>
                                             <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
@@ -1826,7 +2016,7 @@
                             <OBJECT Class = "double" Name = "LargestStep"> 0 sec </OBJECT>
                             <OBJECT Class = "string" Name = "LastRunCode"> &quot;Marching&quot; </OBJECT>
                             <OBJECT Class = "link" Name = "LastRunPropagator">
-                                <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
+                                <OBJECT Class = "string" Name = ""> &quot;Earth_HPOP_Default_v10&quot; </OBJECT>
                             </OBJECT>
                             <OBJECT Class = "double" Name = "MaxPropTime"> 8640000 sec </OBJECT>
                             <OBJECT Class = "double" Name = "MinPropTime"> 0 sec </OBJECT>
@@ -2117,9 +2307,30 @@
                                     <OBJECT Class = "double" Name = "pEqUpperBound"> 1.119917675057883e-311 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "link" Name = "Pointing">
                                         <OBJECT Class = "ManeuverPointing" Name = "ManeuverPointingOFM">
+                                            <OBJECT Class = "double" Name = "AttFileTimeOffset"> 0 sec </OBJECT>
+                                            <OBJECT Class = "int" Name = "AttInterpOrder"> 1 </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeControl"> &quot;Along Velocity Vector&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeFile"> &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "AttitudeLeadDuration"> 0 sec </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeRep"> &quot;Quaternion&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "AttitudeTrailDuration"> 0 sec </OBJECT>
+                                            <OBJECT Class = "string" Name = "AttitudeUpdate"> &quot;Update during burn&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "AttitudeUse"> &quot;Apply&quot; </OBJECT>
+                                            <OBJECT Class = "link" Name = "AttPlugin">
+                                                <OBJECT Class = "AttCtrlPlugin" Name = "Plugin_Attitude_Controller">
+                                                    <OBJECT Class = "string" Name = "Category"> &quot;@Top&quot; </OBJECT>
+                                                    <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
+                                                    <OBJECT Class = "string" Name = "Description"> &quot;Attitude controller that uses a COM interface to compute attitude&quot; </OBJECT>
+                                                    <OBJECT Class = "AttrCon" Name = "PluginConfig" />
+                                                    <OBJECT Class = "string" Name = "PluginIdentifier"> &quot;&lt;servername&gt;.&lt;objectname&gt;.&lt;version&gt;&quot; </OBJECT>
+                                                    <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
+                                                    <OBJECT Class = "container" Name = "ShooterControls" />
+                                                    <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+                                                    <OBJECT Class = "string" Name = "Type"> &quot;AttCtrlPlugin&quot; </OBJECT>
+                                                    <OBJECT Class = "string" Name = "UserComment"> &quot;Attitude controller that uses a COM interface to compute attitude&quot; </OBJECT>
+                                                    <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
+                                                </OBJECT>
+                                            </OBJECT>
                                             <OBJECT Class = "bool" Name = "BeenRun"> False </OBJECT>
                                             <OBJECT Class = "string" Name = "BodyConstraintVectorRepresentation"> &quot;Cartesian&quot; </OBJECT>
                                             <OBJECT Class = "AttrCon" Name = "BodyConstraintVector">
@@ -2130,21 +2341,53 @@
                                                 </OBJECT>
                                                 <OBJECT Class = "container" Name = "Spherical" />
                                             </OBJECT>
-                                            <OBJECT Class = "container" Name = "Cartesian" />
+                                            <OBJECT Class = "container" Name = "Cartesian">
+                                                <OBJECT Class = "double" Name = "X"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "Y"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "Z"> 0 &quot;&quot; </OBJECT>
+                                            </OBJECT>
                                             <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                             <OBJECT Class = "string" Name = "ConstraintSign"> &quot;+&quot; </OBJECT>
                                             <OBJECT Class = "link" Name = "ConstraintVector">
                                                 <OBJECT Class = "string" Name = ""> &quot;CentralBody/Earth ICRF-X&quot; </OBJECT>
                                             </OBJECT>
+                                            <OBJECT Class = "string" Name = "CoordType"> &quot;Cartesian&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "Description"> &quot;Finite maneuver pointing definitions&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "EngineDirection"> &quot;+X&quot; </OBJECT>
+                                            <OBJECT Class = "string" Name = "EulerSequence"> &quot;313&quot; </OBJECT>
                                             <OBJECT Class = "AttrCon" Name = "LastRun" />
-                                            <OBJECT Class = "container" Name = "Quaternion" />
+                                            <OBJECT Class = "container" Name = "Quaternion">
+                                                <OBJECT Class = "double" Name = "qx"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "qy"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "qz"> 0 &quot;&quot; </OBJECT>
+                                                <OBJECT Class = "double" Name = "qs"> 1 &quot;&quot; </OBJECT>
+                                            </OBJECT>
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                             <OBJECT Class = "container" Name = "ShooterControls" />
                                             <OBJECT Class = "container" Name = "Spherical" />
                                             <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
+                                            <OBJECT Class = "link" Name = "ThrustAxes">
+                                                <OBJECT Class = "string" Name = ""> &quot;Satellite VNC(Earth)&quot; </OBJECT>
+                                            </OBJECT>
+                                            <OBJECT Class = "container" Name = "TimeVarying">
+                                                <OBJECT Class = "double" Name = "Az0"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az1"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az2"> 0 rad*sec^-2 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az3"> 0 rad*sec^-3 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Az4"> 0 rad*sec^-4 </OBJECT>
+                                                <OBJECT Class = "double" Name = "AzA"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "AzF"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "AzP"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "El0"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "El1"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "El2"> 0 rad*sec^-2 </OBJECT>
+                                                <OBJECT Class = "double" Name = "El3"> 0 rad*sec^-3 </OBJECT>
+                                                <OBJECT Class = "double" Name = "El4"> 0 rad*sec^-4 </OBJECT>
+                                                <OBJECT Class = "double" Name = "ElA"> 0 rad </OBJECT>
+                                                <OBJECT Class = "double" Name = "ElF"> 0 rad*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "ElP"> 0 rad </OBJECT>
+                                            </OBJECT>
                                             <OBJECT Class = "string" Name = "Type"> &quot;ManeuverPointingFinite&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "UserComment"> &quot;Finite maneuver pointing definitions&quot; </OBJECT>
                                             <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
@@ -2345,7 +2588,7 @@
                                     <OBJECT Class = "double" Name = "LargestStep"> 0 sec </OBJECT>
                                     <OBJECT Class = "string" Name = "LastRunCode"> &quot;Marching&quot; </OBJECT>
                                     <OBJECT Class = "link" Name = "LastRunPropagator">
-                                        <OBJECT Class = "string" Name = ""> &quot;Unresolved-Link&quot; </OBJECT>
+                                        <OBJECT Class = "string" Name = ""> &quot;Earth_HPOP_Default_v10&quot; </OBJECT>
                                     </OBJECT>
                                     <OBJECT Class = "AttrCon" Name = "LastRun" />
                                     <OBJECT Class = "double" Name = "MaxPropTime"> 86400 sec </OBJECT>
@@ -2676,8 +2919,8 @@
                                             </OBJECT>
                                             <OBJECT Class = "container" Name = "Cartesian">
                                                 <OBJECT Class = "double" Name = "X"> 1165.869049526987 m*sec^-1 </OBJECT>
-                                                <OBJECT Class = "double" Name = "Y"> -2386.779424368215 m*sec^-1 </OBJECT>
-                                                <OBJECT Class = "double" Name = "Z"> 51.96527054360013 m*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Y"> -2386.779424368214 m*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Z"> 51.96527054360011 m*sec^-1 </OBJECT>
                                             </OBJECT>
                                             <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
@@ -3071,7 +3314,7 @@
         <OBJECT Class = "string" Name = "C3Label"> &quot;22.775946&quot; </OBJECT>
         <OBJECT Class = "string" Name = "RALabel"> &quot;63.245327&quot; </OBJECT>
         <OBJECT Class = "string" Name = "DecLabel"> &quot;54.563804&quot; </OBJECT>
-        <OBJECT Class = "string" Name = "PropReqDepGravity"> &quot;(Propagator Requires Departure Body&apos;s Gravity)&quot; </OBJECT>
+        <OBJECT Class = "string" Name = "PropReqDepGravity"> &quot;&quot; </OBJECT>
     </OBJECT>
     <OBJECT Class = "string" Name = "SequenceName"> &quot;MarsTransfer&quot; </OBJECT>
     <OBJECT Class = "container" Name = "ShooterControls" />

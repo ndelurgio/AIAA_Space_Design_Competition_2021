@@ -71,12 +71,6 @@ BEGIN Planet
         END AccessConstraints
 
         BEGIN Desc
-            BEGIN ShortText
-
-            END ShortText
-            BEGIN LongText
-
-            END LongText
         END Desc
 
         BEGIN Crdn

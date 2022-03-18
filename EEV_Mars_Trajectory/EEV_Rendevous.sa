@@ -11,7 +11,7 @@ BEGIN Satellite
         BEGIN Interval
 
             StartTime		 1 Jan 2040 00:00:00.000000000
-            StopTime		 22 Jan 2040 15:38:09.656405285
+            StopTime		 22 Jan 2040 15:38:09.656405283
 
         END Interval
 
@@ -9560,7 +9560,7 @@ BEGIN Satellite
         BEGIN Profile
             Name		 ECIVVLH
             UserNamed		 No
-            StartTime		  9.8496000000000000e+06
+            StartTime		  0.0000000000000000e+00
             BEGIN ECIVVLH
                 Azimuth		  0.0000000000000000e+00
             END ECIVVLH
@@ -9893,7 +9893,7 @@ BEGIN Satellite
             LaunchWindowTrajMETStart		 0
             LaunchWindowTrajMETStop		 900
             LaunchWindowStart		 0
-            LaunchWindowStop		 -1870689.656405284
+            LaunchWindowStop		 -1870689.656405283
             LaunchMETOffset		 0
             LaunchWindowUseSecEphem		 No 
             LaunchWindowUseScenFolderForSecEphem		 Yes
