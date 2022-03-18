@@ -17,10 +17,10 @@ BEGIN ModelReflectionEnvironment
 END ModelReflectionEnvironment
 IsSwapped		 Yes
 Level0SwapDistance		 700.0000000000001
-Level1SwapDistance		 31622776601.68379
-Level2SwapDistance		 31622776601.68379
-Level3SwapDistance		 31622776601.68379
-Level4SwapDistance		 31622776601.68379
+Level1SwapDistance		 1000000000000000
+Level2SwapDistance		 1000000000000000
+Level3SwapDistance		 1000000000000000
+Level4SwapDistance		 1000000000000000
 ShowMarker		 Yes
 BEGIN Marker
     Show		 Yes
@@ -422,7 +422,7 @@ VaporOutputRate		  5.0000000000000003e-02
 VaporRadius		 20
 VaporExpansionRate		 0.01
 VaporStartTime		 0
-VaporEndTime		 2592000
+VaporEndTime		 33436800
 VaporIntervalPtr		
 BEGIN EVENTINTERVAL
     EventInterval		

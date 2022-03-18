@@ -71,6 +71,12 @@ BEGIN Planet
         END AccessConstraints
 
         BEGIN Desc
+            BEGIN ShortText
+
+            END ShortText
+            BEGIN LongText
+
+            END LongText
         END Desc
 
         BEGIN Crdn
@@ -80,8 +86,8 @@ BEGIN Planet
 
             BEGIN Attributes
 
-                MarkerColor		 #00ffff
-                LabelColor		 #00ffff
+                MarkerColor		 #c42000
+                LabelColor		 #c42000
                 LineColor		 #00ffff
                 LineStyle		 0
                 LineWidth		 1

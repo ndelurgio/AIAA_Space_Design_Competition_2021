@@ -19,7 +19,7 @@ Level3SwapDistance		 400000000
 Level4SwapDistance		 600000000
 ShowMarker		 Yes
 BEGIN Marker
-    Show		 Yes
+    Show		 No
     Type		 Texture
     Shape		 Point
     IsTransparent		 Yes
@@ -360,7 +360,7 @@ VaporOutputRate		  5.0000000000000003e-02
 VaporRadius		 20
 VaporExpansionRate		 0.01
 VaporStartTime		 0
-VaporEndTime		 2592000
+VaporEndTime		 33436800
 VaporIntervalPtr		
 BEGIN EVENTINTERVAL
     EventInterval		

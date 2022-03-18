@@ -12,7 +12,7 @@ BEGIN Planet
 
         BEGIN EphemerisData
 
-            EphemerisSource		 JplDE
+            EphemerisSource		 None
 
             JplIndex		 3
 
@@ -72,6 +72,12 @@ BEGIN Planet
         END AccessConstraints
 
         BEGIN Desc
+            BEGIN ShortText
+
+            END ShortText
+            BEGIN LongText
+
+            END LongText
         END Desc
 
         BEGIN Crdn
@@ -172,9 +178,9 @@ BEGIN Planet
 
             BEGIN Attributes
 
-                MarkerColor		 #fff0f5
-                LabelColor		 #fff0f5
-                LineColor		 #fff0f5
+                MarkerColor		 #ff0e0e
+                LabelColor		 #ff0e0e
+                LineColor		 #ff0e0e
                 LineStyle		 0
                 LineWidth		 1
                 MarkerStyle		 2
@@ -184,10 +190,10 @@ BEGIN Planet
 
             BEGIN Graphics
 
-                Show		 On
+                Show		 Off
                 Inherit		 Off
-                ShowLabel		 Off
-                ShowPlanetPoint		 Off
+                ShowLabel		 On
+                ShowPlanetPoint		 On
                 ShowSubPlanetPoint		 Off
                 ShowSubPlanetLabel		 Off
                 ShowOrbit		 On

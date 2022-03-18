@@ -417,7 +417,7 @@ VaporOutputRate		  5.0000000000000003e-02
 VaporRadius		 20
 VaporExpansionRate		 0.01
 VaporStartTime		 0
-VaporEndTime		 2592000
+VaporEndTime		 33436800
 VaporIntervalPtr		
 BEGIN EVENTINTERVAL
     EventInterval		
@@ -480,7 +480,7 @@ BEGIN AttitudeSphere
             BEGIN AXES
                 Type		 AXES_LINKTO
                 Name		 VVLH
-                RelativePath		 Satellite/EEV
+                RelativePath		 Satellite/EEV_old
             END AXES
         END
     END
