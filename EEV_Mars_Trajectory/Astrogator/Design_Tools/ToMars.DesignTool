@@ -343,7 +343,7 @@
                     <OBJECT Class = "bool" Name = "ContinueOnFailure"> False </OBJECT>
                     <OBJECT Class = "string" Name = "Description"> &quot;Sequence that runs targeting profiles&quot; </OBJECT>
                     <OBJECT Class = "link" Name = "DisplayCoordSystem">
-                        <OBJECT Class = "string" Name = ""> &quot;CentralBody/Sun Inertial&quot; </OBJECT>
+                        <OBJECT Class = "string" Name = ""> &quot;CentralBody/Earth Inertial&quot; </OBJECT>
                     </OBJECT>
                     <OBJECT Class = "AttrCon" Name = "FinalState">
                         <OBJECT Class = "Orbit_State" Name = "Orbit_State">

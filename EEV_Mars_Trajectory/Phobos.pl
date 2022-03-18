@@ -88,7 +88,7 @@ BEGIN Planet
 
                 MarkerColor		 #c42000
                 LabelColor		 #c42000
-                LineColor		 #00ffff
+                LineColor		 #c42000
                 LineStyle		 0
                 LineWidth		 1
                 MarkerStyle		 2
