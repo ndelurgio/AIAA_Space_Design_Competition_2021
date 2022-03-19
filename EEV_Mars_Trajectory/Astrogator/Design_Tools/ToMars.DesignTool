@@ -2920,7 +2920,7 @@
                                             <OBJECT Class = "container" Name = "Cartesian">
                                                 <OBJECT Class = "double" Name = "X"> 1165.869049526987 m*sec^-1 </OBJECT>
                                                 <OBJECT Class = "double" Name = "Y"> -2386.779424368214 m*sec^-1 </OBJECT>
-                                                <OBJECT Class = "double" Name = "Z"> 51.96527054360011 m*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Z"> 51.96527054360013 m*sec^-1 </OBJECT>
                                             </OBJECT>
                                             <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>

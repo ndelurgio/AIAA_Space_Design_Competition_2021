@@ -875,7 +875,7 @@ BEGIN Satellite
         BEGIN Profile
             Name		 ECIVVLH
             UserNamed		 No
-            StartTime		  2.5259505133000001e+07
+            StartTime		  0.0000000000000000e+00
             BEGIN ECIVVLH
                 Azimuth		  0.0000000000000000e+00
             END ECIVVLH
@@ -960,7 +960,7 @@ BEGIN Satellite
             LaunchWindowTrajMETStart		 0
             LaunchWindowTrajMETStop		 900
             LaunchWindowStart		 -25259505.133
-            LaunchWindowStop		 -27851505.133
+            LaunchWindowStop		 -28259505.133
             LaunchMETOffset		 0
             LaunchWindowUseSecEphem		 No 
             LaunchWindowUseScenFolderForSecEphem		 Yes
@@ -1154,12 +1154,6 @@ BEGIN Satellite
         END ObjectCoverage
 
         BEGIN Desc
-            BEGIN ShortText
-
-            END ShortText
-            BEGIN LongText
-
-            END LongText
         END Desc
 
         BEGIN RadarCrossSection

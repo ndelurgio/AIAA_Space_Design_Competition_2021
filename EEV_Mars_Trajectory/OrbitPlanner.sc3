@@ -189,6 +189,52 @@ BEGIN SceneWindow
 
         BEGIN Globe
             AA		 Yes
+            BeginCentralBody "Sun"
+                Show		 Yes
+                Textured		 No
+                AltOffset		 0
+                Color		 #ffff00
+                SpecularColor		 #545454
+                Shininess		 40
+                ShowWater		 No
+                _AGI_PIBEGINTERRAINIMAGECALLDATA "SRC"
+                    BlendMode		 Value
+                    BlendFactor		 1
+                    BlendAltitudeLowerFactor		 1
+                    BlendAltitudeUpperFactor		 0
+                    BlendAltitudeLowerAltitude		 500000
+                    BlendAltitudeUpperAltitude		 2500000
+                    TextureRole		 Day
+                    URI		 "file:///Sun.jp2"
+                    BeginImageSetDefOn
+                    END
+                    InBase		 Yes
+                    BaseOn		 Yes
+                END
+            EndCentralBody
+            BeginCentralBody "Moon"
+                Show		 Yes
+                Textured		 Yes
+                AltOffset		 0
+                Color		 #ffffff
+                SpecularColor		 #545454
+                Shininess		 40
+                ShowWater		 No
+                _AGI_PIBEGINTERRAINIMAGECALLDATA "SRC"
+                    BlendMode		 Value
+                    BlendFactor		 1
+                    BlendAltitudeLowerFactor		 1
+                    BlendAltitudeUpperFactor		 0
+                    BlendAltitudeLowerAltitude		 500000
+                    BlendAltitudeUpperAltitude		 2500000
+                    TextureRole		 Day
+                    URI		 "file:///Moon.jp2"
+                    BeginImageSetDefOn
+                    END
+                    InBase		 Yes
+                    BaseOn		 Yes
+                END
+            EndCentralBody
             BeginCentralBody "Earth"
                 Show		 Yes
                 Textured		 Yes
@@ -229,52 +275,6 @@ BEGIN SceneWindow
                     BlendAltitudeLowerAltitude		 500000
                     BlendAltitudeUpperAltitude		 2500000
                     URI		 "virtual_earth://virtualearth.net/Aerial.ve"
-                    BeginImageSetDefOn
-                    END
-                    InBase		 Yes
-                    BaseOn		 Yes
-                END
-            EndCentralBody
-            BeginCentralBody "Moon"
-                Show		 Yes
-                Textured		 Yes
-                AltOffset		 0
-                Color		 #ffffff
-                SpecularColor		 #545454
-                Shininess		 40
-                ShowWater		 No
-                _AGI_PIBEGINTERRAINIMAGECALLDATA "SRC"
-                    BlendMode		 Value
-                    BlendFactor		 1
-                    BlendAltitudeLowerFactor		 1
-                    BlendAltitudeUpperFactor		 0
-                    BlendAltitudeLowerAltitude		 500000
-                    BlendAltitudeUpperAltitude		 2500000
-                    TextureRole		 Day
-                    URI		 "file:///Moon.jp2"
-                    BeginImageSetDefOn
-                    END
-                    InBase		 Yes
-                    BaseOn		 Yes
-                END
-            EndCentralBody
-            BeginCentralBody "Sun"
-                Show		 Yes
-                Textured		 No
-                AltOffset		 0
-                Color		 #ffff00
-                SpecularColor		 #545454
-                Shininess		 40
-                ShowWater		 No
-                _AGI_PIBEGINTERRAINIMAGECALLDATA "SRC"
-                    BlendMode		 Value
-                    BlendFactor		 1
-                    BlendAltitudeLowerFactor		 1
-                    BlendAltitudeUpperFactor		 0
-                    BlendAltitudeLowerAltitude		 500000
-                    BlendAltitudeUpperAltitude		 2500000
-                    TextureRole		 Day
-                    URI		 "file:///Sun.jp2"
                     BeginImageSetDefOn
                     END
                     InBase		 Yes
@@ -387,7 +387,7 @@ BEGIN SceneWindow
         END
         BEGIN CentralBodyOpts
             BeginCentralBody
-                Name		 "Earth"
+                Name		 "Sun"
                 ShowLabel		 No
             EndCentralBody
             BeginCentralBody
@@ -395,7 +395,7 @@ BEGIN SceneWindow
                 ShowLabel		 Yes
             EndCentralBody
             BeginCentralBody
-                Name		 "Sun"
+                Name		 "Earth"
                 ShowLabel		 No
             EndCentralBody
             BeginCentralBody
@@ -753,9 +753,9 @@ BEGIN SceneWindow
             UseLayer		 Yes
             FromName		 "Mars"
             FromRegPosAttView		 "Point"
-            FromPosition		  6.1588807142657362e+07 -5.0600544346357584e+07  4.5164902862725452e+07
-            FromOffset		  6.1588807142657362e+07 -5.0600544346357584e+07  4.5164902862725452e+07
-            FromOffsetLLR		  5.1551306465851476e-01 -6.8776566364845337e-01  9.1615853999199107e+07
+            FromPosition		  1.1526063102517384e+08 -1.1334872419391575e+08  1.4415253164448652e+08
+            FromOffset		  1.1526063102517384e+08 -1.1334872419391575e+08  1.4415253164448652e+08
+            FromOffsetLLR		  7.2822115408643051e-01 -7.7703515368447995e-01  2.1659385660776332e+08
             ToName		 "Mars"
             ToRegPosAttView		 "Point"
             ToPosition		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
@@ -763,9 +763,9 @@ BEGIN SceneWindow
             ToOffsetLLR		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
             ConstantDistanceType		 None
             ConstantDistanceValue		 1
-            UpVector		 -3.8091005076243412e-01  3.1295062869026113e-01  8.7003990553912536e-01
-            ViewRad		  9.1615853999199122e+07
-            ViewQuat		  3.2600730078608148e-01 -2.3998743888224466e-01  8.5942285338349092e-02  9.1035113698162429e-01
+            UpVector		 -4.7452920272908533e-01  4.6665786265173459e-01  7.4635948106968775e-01
+            ViewRad		  2.1659385660776332e+08
+            ViewQuat		  3.5398198565283584e-01 -3.2957740899660104e-01  1.3490363577103212e-01  8.6479852819493130e-01
             ViewCoordSystem		 From
             ViewFromToMode		 FromTo
             ViewToCBIMtx		  1.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  1.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  1.0000000000000000e+00
@@ -779,7 +779,7 @@ BEGIN SceneWindow
             MinAngleToUpAxis		  8.7266462599716477e-03
             InitUpAxisUp		 Yes
             TempUpAxisUp		 Yes
-            CrossAxis		 -6.3481237176991445e-01 -7.7266632684999037e-01  0.0000000000000000e+00
+            CrossAxis		 -7.0116858188345932e-01 -7.1299552577806458e-01  0.0000000000000000e+00
             DefaultOffset		  1.8679045000000000e+07
             BaseDefaultOffset		  3.3961900000000000e+06
         END View
@@ -870,6 +870,52 @@ BEGIN SceneWindow
 
         BEGIN Globe
             AA		 Yes
+            BeginCentralBody "Sun"
+                Show		 Yes
+                Textured		 No
+                AltOffset		 0
+                Color		 #ffff00
+                SpecularColor		 #545454
+                Shininess		 40
+                ShowWater		 No
+                _AGI_PIBEGINTERRAINIMAGECALLDATA "SRC"
+                    BlendMode		 Value
+                    BlendFactor		 1
+                    BlendAltitudeLowerFactor		 1
+                    BlendAltitudeUpperFactor		 0
+                    BlendAltitudeLowerAltitude		 500000
+                    BlendAltitudeUpperAltitude		 2500000
+                    TextureRole		 Day
+                    URI		 "file:///Sun.jp2"
+                    BeginImageSetDefOn
+                    END
+                    InBase		 Yes
+                    BaseOn		 Yes
+                END
+            EndCentralBody
+            BeginCentralBody "Moon"
+                Show		 Yes
+                Textured		 Yes
+                AltOffset		 0
+                Color		 #ffffff
+                SpecularColor		 #545454
+                Shininess		 40
+                ShowWater		 No
+                _AGI_PIBEGINTERRAINIMAGECALLDATA "SRC"
+                    BlendMode		 Value
+                    BlendFactor		 1
+                    BlendAltitudeLowerFactor		 1
+                    BlendAltitudeUpperFactor		 0
+                    BlendAltitudeLowerAltitude		 500000
+                    BlendAltitudeUpperAltitude		 2500000
+                    TextureRole		 Day
+                    URI		 "file:///Moon.jp2"
+                    BeginImageSetDefOn
+                    END
+                    InBase		 Yes
+                    BaseOn		 Yes
+                END
+            EndCentralBody
             BeginCentralBody "Earth"
                 Show		 Yes
                 Textured		 Yes
@@ -910,52 +956,6 @@ BEGIN SceneWindow
                     BlendAltitudeLowerAltitude		 500000
                     BlendAltitudeUpperAltitude		 2500000
                     URI		 "virtual_earth://virtualearth.net/Aerial.ve"
-                    BeginImageSetDefOn
-                    END
-                    InBase		 Yes
-                    BaseOn		 Yes
-                END
-            EndCentralBody
-            BeginCentralBody "Moon"
-                Show		 Yes
-                Textured		 Yes
-                AltOffset		 0
-                Color		 #ffffff
-                SpecularColor		 #545454
-                Shininess		 40
-                ShowWater		 No
-                _AGI_PIBEGINTERRAINIMAGECALLDATA "SRC"
-                    BlendMode		 Value
-                    BlendFactor		 1
-                    BlendAltitudeLowerFactor		 1
-                    BlendAltitudeUpperFactor		 0
-                    BlendAltitudeLowerAltitude		 500000
-                    BlendAltitudeUpperAltitude		 2500000
-                    TextureRole		 Day
-                    URI		 "file:///Moon.jp2"
-                    BeginImageSetDefOn
-                    END
-                    InBase		 Yes
-                    BaseOn		 Yes
-                END
-            EndCentralBody
-            BeginCentralBody "Sun"
-                Show		 Yes
-                Textured		 No
-                AltOffset		 0
-                Color		 #ffff00
-                SpecularColor		 #545454
-                Shininess		 40
-                ShowWater		 No
-                _AGI_PIBEGINTERRAINIMAGECALLDATA "SRC"
-                    BlendMode		 Value
-                    BlendFactor		 1
-                    BlendAltitudeLowerFactor		 1
-                    BlendAltitudeUpperFactor		 0
-                    BlendAltitudeLowerAltitude		 500000
-                    BlendAltitudeUpperAltitude		 2500000
-                    TextureRole		 Day
-                    URI		 "file:///Sun.jp2"
                     BeginImageSetDefOn
                     END
                     InBase		 Yes
@@ -1045,7 +1045,7 @@ BEGIN SceneWindow
         END
         BEGIN CentralBodyOpts
             BeginCentralBody
-                Name		 "Earth"
+                Name		 "Sun"
                 ShowLabel		 No
             EndCentralBody
             BeginCentralBody
@@ -1053,7 +1053,7 @@ BEGIN SceneWindow
                 ShowLabel		 Yes
             EndCentralBody
             BeginCentralBody
-                Name		 "Sun"
+                Name		 "Earth"
                 ShowLabel		 No
             EndCentralBody
         END CentralBodyOpts
