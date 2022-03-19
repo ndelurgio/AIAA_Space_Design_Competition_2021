@@ -993,8 +993,8 @@ BEGIN Scenario
 
                 StartTime		 9 Sep 2039 00:00:00.000000000
                 EndTime		 30 Sep 2040 00:00:00.000000000
-                CurrentTime		 14 Jul 2040 23:15:20.000000000
-                Direction		 Reverse
+                CurrentTime		 27 Jul 2040 04:22:20.000000000
+                Direction		 Forward
                 UpdateDelta		 600
                 RefreshDelta		 0.010000
                 XRealTimeMult		 1
