@@ -12,7 +12,7 @@ ptn_Child1=MainFrame
 ptn_Child2=ChildFrames
 [WorkState_v1_2.Frames.MainFrame]
 WindowPlacement=MCAAAAAACAAAAAAADAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAIPPPPPPPKKFAAAAAIBEAAAAA
-Title=OrbitPlanner - STK 12 - EEV_PD_Direct : Basic Orbit
+Title=OrbitPlanner - STK 12 - 3D Graphics 1 - Mars
 [WorkState_v1_2.Frames.ChildFrames]
 ptn_Child1=Document-0
 ptn_Child2=Document-1
@@ -26,7 +26,7 @@ DocPathName=\\austin.utexas.edu\disk\engrstu\ase\npd429\My Documents\AIAA_Space_
 DocumentString=AgUi3DGfxView.AgUiPi3DGfxView.1
 DocTemplateIndex=0
 WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPGPPPPPPPPNPPPPPPPPPPPPPPPPPPPPPPIOCAAAAAGHDAAAAA
-IsActiveChildFrame=False
+IsActiveChildFrame=True
 IsFrameVisible=True
 ptn_Child1=AGI Custom Node Data
 [WorkState_v1_2.Frames.ChildFrames.Document-0.ViewFrame-0.AGI Custom Node Data]

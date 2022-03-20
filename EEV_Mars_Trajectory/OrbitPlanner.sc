@@ -993,9 +993,9 @@ BEGIN Scenario
 
                 StartTime		 9 Sep 2039 00:00:00.000000000
                 EndTime		 30 Sep 2040 00:00:00.000000000
-                CurrentTime		 26 Jul 2040 16:01:40.000000000
-                Direction		 Reverse
-                UpdateDelta		 1800
+                CurrentTime		 22 Jul 2040 23:26:40.000000000
+                Direction		 Forward
+                UpdateDelta		 180
                 RefreshDelta		 0.010000
                 XRealTimeMult		 1
                 RealTimeOffset		 0
@@ -1489,8 +1489,9 @@ BEGIN Scenario
 
             DST		
             DST_old		
-            EEV		
             EEV_Direct		
+            EEV_DP		
+            EEV_DP_Direct		
             EEV_nr		
             EEV_old		
             EEV_PD		
@@ -1537,8 +1538,11 @@ BEGIN Scenario
         Instance Satellite/DST_old
             Satellite/DST_old		
         END Instance
-        Instance Satellite/EEV
-            Satellite/EEV		
+        Instance Satellite/EEV_DP
+            Satellite/EEV_DP		
+        END Instance
+        Instance Satellite/EEV_DP_Direct
+            Satellite/EEV_DP_Direct		
         END Instance
         Instance Satellite/EEV_Direct
             Satellite/EEV_Direct		
