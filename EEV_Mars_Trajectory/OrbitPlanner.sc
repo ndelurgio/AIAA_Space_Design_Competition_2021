@@ -436,12 +436,7 @@ BEGIN Scenario
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 Install
-                    Style		 Astrogator Log
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
-                    BaseDir		 Install
-                    Style		 Astrogator Script Summary
+                    Style		 Segment Summary
                 END Favorite
                 BEGIN Favorite
                     Type		 Report
@@ -451,7 +446,12 @@ BEGIN Scenario
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 Install
-                    Style		 Segment Summary
+                    Style		 Astrogator Script Summary
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Astrogator Log
                 END Favorite
             END Class
         END ReportFavorites
@@ -993,9 +993,9 @@ BEGIN Scenario
 
                 StartTime		 9 Sep 2039 00:00:00.000000000
                 EndTime		 30 Sep 2040 00:00:00.000000000
-                CurrentTime		 27 Jul 2040 04:22:20.000000000
-                Direction		 Forward
-                UpdateDelta		 600
+                CurrentTime		 26 Jul 2040 16:01:40.000000000
+                Direction		 Reverse
+                UpdateDelta		 1800
                 RefreshDelta		 0.010000
                 XRealTimeMult		 1
                 RealTimeOffset		 0
@@ -1494,6 +1494,7 @@ BEGIN Scenario
             EEV_nr		
             EEV_old		
             EEV_PD		
+            EEV_PD_Direct		
             EEV_Rendevous		
 
         END Class
@@ -1544,6 +1545,9 @@ BEGIN Scenario
         END Instance
         Instance Satellite/EEV_PD
             Satellite/EEV_PD		
+        END Instance
+        Instance Satellite/EEV_PD_Direct
+            Satellite/EEV_PD_Direct		
         END Instance
         Instance Satellite/EEV_Rendevous
             Satellite/EEV_Rendevous		
