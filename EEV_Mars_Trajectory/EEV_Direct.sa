@@ -2708,7 +2708,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 10 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;9 Jan 2040 08:49:24.815346000&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;9 Jan 2040 08:49:24.815346001&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -3855,7 +3855,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 10 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;8 Jan 2040 08:49:24.815346000&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;8 Jan 2040 08:49:24.815346001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -3984,7 +3984,7 @@ BEGIN Satellite
                                     <OBJECT Class = "bool" Name = "CausedTermination"> True </OBJECT>
                                     <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                     <OBJECT Class = "string" Name = "Description"> &quot;Trigger Log Information&quot; </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;8 Jan 2040 08:49:24.815346000&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;8 Jan 2040 08:49:24.815346001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                     <OBJECT Class = "container" Name = "ShooterControls" />
                                     <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
@@ -4354,7 +4354,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 10 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;8 Jan 2040 08:49:24.815346000&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;8 Jan 2040 08:49:24.815346001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -4715,7 +4715,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 10 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;8 Jan 2040 08:49:24.815346000&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;8 Jan 2040 08:49:24.815346001&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -4753,7 +4753,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 10 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;8 Jan 2040 08:49:24.815346000&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;8 Jan 2040 08:49:24.815346001&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -4897,7 +4897,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 10 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;8 Jan 2040 08:49:24.815346000&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;8 Jan 2040 08:49:24.815346001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -4966,7 +4966,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 10 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;9 Jan 2040 08:49:24.815346000&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;9 Jan 2040 08:49:24.815346001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -4996,7 +4996,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 10 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;8 Jan 2040 08:49:24.815346000&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;8 Jan 2040 08:49:24.815346001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -5076,7 +5076,7 @@ BEGIN Satellite
                                     <OBJECT Class = "bool" Name = "CausedTermination"> True </OBJECT>
                                     <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                     <OBJECT Class = "string" Name = "Description"> &quot;Trigger Log Information&quot; </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;9 Jan 2040 08:49:24.815346000&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;9 Jan 2040 08:49:24.815346001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                     <OBJECT Class = "container" Name = "ShooterControls" />
                                     <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
@@ -5120,7 +5120,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 10 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;9 Jan 2040 08:49:24.815346000&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;9 Jan 2040 08:49:24.815346001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -5150,7 +5150,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 10 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;9 Jan 2040 08:49:24.815346000&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;9 Jan 2040 08:49:24.815346001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -5218,7 +5218,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 10 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;10 Jan 2040 02:39:46.700340000&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;10 Jan 2040 02:39:46.700340001&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -5248,7 +5248,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 10 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;9 Jan 2040 08:49:24.815346000&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;9 Jan 2040 08:49:24.815346001&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -5349,7 +5349,7 @@ BEGIN Satellite
                             <OBJECT Class = "bool" Name = "CausedTermination"> True </OBJECT>
                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                             <OBJECT Class = "string" Name = "Description"> &quot;Trigger Log Information&quot; </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;10 Jan 2040 02:39:46.700340000&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;10 Jan 2040 02:39:46.700340001&quot; TAIG </OBJECT>
                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                             <OBJECT Class = "container" Name = "ShooterControls" />
                             <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
@@ -5425,7 +5425,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 10 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;10 Jan 2040 02:39:46.700340000&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;10 Jan 2040 02:39:46.700340001&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -5898,7 +5898,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 10 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;10 Jan 2040 02:39:46.700340000&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;10 Jan 2040 02:39:46.700340001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -6259,7 +6259,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 10 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;10 Jan 2040 02:39:46.700340000&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;10 Jan 2040 02:39:46.700340001&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -6297,7 +6297,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 10 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;10 Jan 2040 02:39:46.700340000&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;10 Jan 2040 02:39:46.700340001&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -6441,7 +6441,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 10 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;10 Jan 2040 02:39:46.700340000&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;10 Jan 2040 02:39:46.700340001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -6540,7 +6540,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 10 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;10 Jan 2040 02:39:46.700340000&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;10 Jan 2040 02:39:46.700340001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -7971,9 +7971,9 @@ BEGIN Satellite
             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
             <OBJECT Class = "string" Name = "Segment"> &quot;To_Phobos.Phobos_Circularization&quot; </OBJECT>
             <OBJECT Class = "container" Name = "ShooterControls" />
-            <OBJECT Class = "date" Name = "Start"> &quot;8 Jan 2040 08:49:24.815346000&quot; TAIG </OBJECT>
+            <OBJECT Class = "date" Name = "Start"> &quot;8 Jan 2040 08:49:24.815346001&quot; TAIG </OBJECT>
             <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
-            <OBJECT Class = "date" Name = "Stop"> &quot;8 Jan 2040 08:49:24.815346000&quot; TAIG </OBJECT>
+            <OBJECT Class = "date" Name = "Stop"> &quot;8 Jan 2040 08:49:24.815346001&quot; TAIG </OBJECT>
             <OBJECT Class = "string" Name = "Type"> &quot;ManeuverSummary&quot; </OBJECT>
             <OBJECT Class = "string" Name = "UserComment"> &quot;Maneuver Summary Information&quot; </OBJECT>
             <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
@@ -7990,9 +7990,9 @@ BEGIN Satellite
             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
             <OBJECT Class = "string" Name = "Segment"> &quot;To_DST.Maneuver&quot; </OBJECT>
             <OBJECT Class = "container" Name = "ShooterControls" />
-            <OBJECT Class = "date" Name = "Start"> &quot;10 Jan 2040 02:39:46.700340000&quot; TAIG </OBJECT>
+            <OBJECT Class = "date" Name = "Start"> &quot;10 Jan 2040 02:39:46.700340001&quot; TAIG </OBJECT>
             <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
-            <OBJECT Class = "date" Name = "Stop"> &quot;10 Jan 2040 02:39:46.700340000&quot; TAIG </OBJECT>
+            <OBJECT Class = "date" Name = "Stop"> &quot;10 Jan 2040 02:39:46.700340001&quot; TAIG </OBJECT>
             <OBJECT Class = "string" Name = "Type"> &quot;ManeuverSummary&quot; </OBJECT>
             <OBJECT Class = "string" Name = "UserComment"> &quot;Maneuver Summary Information&quot; </OBJECT>
             <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
@@ -8057,10 +8057,10 @@ BEGIN Satellite
             RangeFirstPass		 1
             RangeLastPass		 2147483647
             DisplayScheme		 AllEphemeris
-            ScenarioEpoch		 1 Jan 2040 00:00:00.000000
+            ScenarioEpoch		 9 Sep 2039 00:00:00.000000
             Periods
                 Rev		 1 0 0 0 0 0 0 1 0 1 0
-                 0.0000000000000000e+00  1.3189492070050049e+06  0.0000000000000000e+00  1.3189492070050049e+06
+                 9.8496000000000000e+06  1.1168549207005005e+07  9.8496000000000000e+06  1.1168549207005005e+07
             END Periods
         END PassDefn
 
@@ -8080,7 +8080,7 @@ BEGIN Satellite
 
     BEGIN Attitude
 
-        ScenarioEpoch		 1 Jan 2040 00:00:00.000000
+        ScenarioEpoch		 9 Sep 2039 00:00:00.000000
 
         BEGIN Profile
             Name		 ECIVVLH
@@ -8093,8 +8093,8 @@ BEGIN Satellite
 
         BEGIN OverrideTrajectory
             Enabled		 Yes
-            StartTime		  4.3200000000000000e+05
-            StopTime		  4.3200000000000000e+05
+            StartTime		  1.0281600000000000e+07
+            StopTime		  1.0281600000000000e+07
             BEGIN QuatData
                 BlockingFactor		 25
                 LeadExtensionMethod		 Hold
@@ -8111,10 +8111,10 @@ BEGIN Satellite
 
                     AttitudeDeviations		 Rapid
 
-                    ScenarioEpoch		 1 Jan 2040 00:00:00.000000
+                    ScenarioEpoch		 9 Sep 2039 00:00:00.000000
 
-# Epoch in JDate format:	2466154.50000000000000
-# Epoch in YYDDD format:	  40001.00000000000000
+# Epoch in JDate format:	2466040.50000000000000
+# Epoch in YYDDD format:	  39252.00000000000000
 
 
 # Time of first point: 6 Jan 2040 00:00:00.000000000 UTCG = 2466159.50000000000000 JDate = 40006.00000000000000 YYDDD
@@ -8122,7 +8122,7 @@ BEGIN Satellite
                     CoordinateAxes		 Inertial
 
                     AttitudeTimeQuaternions		
- 4.3200000000000000e+05 -2.2387809560424984e-01  4.2891436890292339e-01 -8.6814558583909940e-01  1.1060878918652042e-01
+ 1.0281600000000000e+07 -2.2387809560424984e-01  4.2891436890292339e-01 -8.6814558583909940e-01  1.1060878918652042e-01
 
 
                 END AttitudeData
@@ -8132,8 +8132,8 @@ BEGIN Satellite
 
         BEGIN OverrideTrajectory
             Enabled		 Yes
-            StartTime		  6.0369781039283355e+05
-            StopTime		  6.0369781039283355e+05
+            StartTime		  1.0453297810392834e+07
+            StopTime		  1.0453297810392834e+07
             BEGIN QuatData
                 BlockingFactor		 25
                 LeadExtensionMethod		 Hold
@@ -8150,18 +8150,18 @@ BEGIN Satellite
 
                     AttitudeDeviations		 Rapid
 
-                    ScenarioEpoch		 1 Jan 2040 00:00:00.000000
+                    ScenarioEpoch		 9 Sep 2039 00:00:00.000000
 
-# Epoch in JDate format:	2466154.50000000000000
-# Epoch in YYDDD format:	  40001.00000000000000
+# Epoch in JDate format:	2466040.50000000000000
+# Epoch in YYDDD format:	  39252.00000000000000
 
 
-# Time of first point: 7 Jan 2040 23:41:37.810392834 UTCG = 2466161.48724317584298 JDate = 40007.98724317584298 YYDDD
+# Time of first point: 7 Jan 2040 23:41:37.810392834 UTCG = 2466161.48724317584299 JDate = 40007.98724317584299 YYDDD
 
                     CoordinateAxes		 Inertial
 
                     AttitudeTimeQuaternions		
- 6.0369781039283355e+05  5.9964769370592608e-01  2.5751028020299876e-01  2.1229816633129162e-01  7.2735176331353468e-01
+ 1.0453297810392834e+07  5.9964769370592608e-01  2.5751028020299876e-01  2.1229816633129162e-01  7.2735176331353468e-01
 
 
                 END AttitudeData
@@ -8171,8 +8171,8 @@ BEGIN Satellite
 
         BEGIN OverrideTrajectory
             Enabled		 Yes
-            StartTime		  6.3652781534592540e+05
-            StopTime		  6.3652781534592540e+05
+            StartTime		  1.0486127815345926e+07
+            StopTime		  1.0486127815345926e+07
             BEGIN QuatData
                 BlockingFactor		 25
                 LeadExtensionMethod		 Hold
@@ -8189,18 +8189,18 @@ BEGIN Satellite
 
                     AttitudeDeviations		 Rapid
 
-                    ScenarioEpoch		 1 Jan 2040 00:00:00.000000
+                    ScenarioEpoch		 9 Sep 2039 00:00:00.000000
 
-# Epoch in JDate format:	2466154.50000000000000
-# Epoch in YYDDD format:	  40001.00000000000000
+# Epoch in JDate format:	2466040.50000000000000
+# Epoch in YYDDD format:	  39252.00000000000000
 
 
-# Time of first point: 8 Jan 2040 08:48:47.815345925 UTCG = 2466161.86722008502228 JDate = 40008.36722008502228 YYDDD
+# Time of first point: 8 Jan 2040 08:48:47.815345926 UTCG = 2466161.86722008502229 JDate = 40008.36722008502229 YYDDD
 
                     CoordinateAxes		 Inertial
 
                     AttitudeTimeQuaternions		
- 6.3652781534592540e+05 -2.5757985018071394e-01  5.9982119564625491e-01 -7.2713046894531230e-01  2.1248161135907423e-01
+ 1.0486127815345926e+07 -2.5757985018071394e-01  5.9982119564625491e-01 -7.2713046894531230e-01  2.1248161135907423e-01
 
 
                 END AttitudeData
@@ -8210,8 +8210,8 @@ BEGIN Satellite
 
         BEGIN OverrideTrajectory
             Enabled		 Yes
-            StartTime		  7.8714970034014340e+05
-            StopTime		  7.8714970034014340e+05
+            StartTime		  1.0636749700340144e+07
+            StopTime		  1.0636749700340144e+07
             BEGIN QuatData
                 BlockingFactor		 25
                 LeadExtensionMethod		 Hold
@@ -8228,18 +8228,18 @@ BEGIN Satellite
 
                     AttitudeDeviations		 Rapid
 
-                    ScenarioEpoch		 1 Jan 2040 00:00:00.000000
+                    ScenarioEpoch		 9 Sep 2039 00:00:00.000000
 
-# Epoch in JDate format:	2466154.50000000000000
-# Epoch in YYDDD format:	  40001.00000000000000
+# Epoch in JDate format:	2466040.50000000000000
+# Epoch in YYDDD format:	  39252.00000000000000
 
 
-# Time of first point: 10 Jan 2040 02:39:09.700340143 UTCG = 2466163.61052893912203 JDate = 40010.11052893912203 YYDDD
+# Time of first point: 10 Jan 2040 02:39:09.700340144 UTCG = 2466163.61052893912204 JDate = 40010.11052893912204 YYDDD
 
                     CoordinateAxes		 Inertial
 
                     AttitudeTimeQuaternions		
- 7.8714970034014340e+05 -2.2372778787288206e-01  4.2696907492815911e-01 -8.6923314249560701e-01  1.0989554120031782e-01
+ 1.0636749700340144e+07 -2.2372778787288206e-01  4.2696907492815911e-01 -8.6923314249560701e-01  1.0989554120031782e-01
 
 
                 END AttitudeData
@@ -8249,8 +8249,8 @@ BEGIN Satellite
 
         BEGIN OverrideTrajectory
             Enabled		 Yes
-            StartTime		  8.1894920700500475e+05
-            StopTime		  8.1894920700500475e+05
+            StartTime		  1.0668549207005005e+07
+            StopTime		  1.0668549207005005e+07
             BEGIN QuatData
                 BlockingFactor		 25
                 LeadExtensionMethod		 Hold
@@ -8267,10 +8267,10 @@ BEGIN Satellite
 
                     AttitudeDeviations		 Rapid
 
-                    ScenarioEpoch		 1 Jan 2040 00:00:00.000000
+                    ScenarioEpoch		 9 Sep 2039 00:00:00.000000
 
-# Epoch in JDate format:	2466154.50000000000000
-# Epoch in YYDDD format:	  40001.00000000000000
+# Epoch in JDate format:	2466040.50000000000000
+# Epoch in YYDDD format:	  39252.00000000000000
 
 
 # Time of first point: 10 Jan 2040 11:29:09.207005005 UTCG = 2466163.97857878478015 JDate = 40010.47857878478015 YYDDD
@@ -8278,7 +8278,7 @@ BEGIN Satellite
                     CoordinateAxes		 Inertial
 
                     AttitudeTimeQuaternions		
- 8.1894920700500475e+05  4.2683136284127593e-01  2.2371637602015290e-01  1.0984476378405472e-01  8.6931012801226115e-01
+ 1.0668549207005005e+07  4.2683136284127593e-01  2.2371637602015290e-01  1.0984476378405472e-01  8.6931012801226115e-01
 
 
                 END AttitudeData
@@ -8329,7 +8329,7 @@ BEGIN Satellite
     END Eclipse
 
     BEGIN GetState
-        OrbitEpoch		 1 Jan 2040 00:00:00.000
+        OrbitEpoch		 9 Sep 2039 00:00:00.000
         OrbitEpochPtr		
         BEGIN EVENT
             Epoch		 1 Jan 2040 00:00:00.000000000
@@ -8718,55 +8718,55 @@ BEGIN Satellite
                         SpecSwathLineStyle		 1
                     END DefaultAttributes
                     BEGIN GraphicsInterval
-                        StartTime		  0.0000000000000000e+00
-                        StopTime		  4.3200000000000000e+05
+                        StartTime		  9.8496000000000000e+06
+                        StopTime		  1.0281600000000000e+07
                         BEGIN Attributes
                             AllColors		 #ffffff
                         END Attributes
                     END GraphicsInterval
                     BEGIN GraphicsInterval
-                        StartTime		  4.3200000000000000e+05
-                        StopTime		  5.1840000000000000e+05
+                        StartTime		  1.0281600000000000e+07
+                        StopTime		  1.0368000000000000e+07
                         BEGIN Attributes
                         END Attributes
                     END GraphicsInterval
                     BEGIN GraphicsInterval
-                        StartTime		  5.1840000000000000e+05
-                        StopTime		  6.0369781039283355e+05
+                        StartTime		  1.0368000000000000e+07
+                        StopTime		  1.0453297810392834e+07
                         BEGIN Attributes
                         END Attributes
                     END GraphicsInterval
                     BEGIN GraphicsInterval
-                        StartTime		  6.0369781039283355e+05
-                        StopTime		  6.3652781534592540e+05
+                        StartTime		  1.0453297810392834e+07
+                        StopTime		  1.0486127815345926e+07
                         BEGIN Attributes
                             AllColors		 #00ff00
                         END Attributes
                     END GraphicsInterval
                     BEGIN GraphicsInterval
-                        StartTime		  6.3652781534592540e+05
-                        StopTime		  7.2292781534592540e+05
+                        StartTime		  1.0486127815345926e+07
+                        StopTime		  1.0572527815345926e+07
                         BEGIN Attributes
                             AllColors		 #8fbc8f
                         END Attributes
                     END GraphicsInterval
                     BEGIN GraphicsInterval
-                        StartTime		  7.2292781534592540e+05
-                        StopTime		  7.8714970034014340e+05
+                        StartTime		  1.0572527815345926e+07
+                        StopTime		  1.0636749700340144e+07
                         BEGIN Attributes
                             AllColors		 #8fbc8f
                         END Attributes
                     END GraphicsInterval
                     BEGIN GraphicsInterval
-                        StartTime		  7.8714970034014340e+05
-                        StopTime		  8.1894920700500475e+05
+                        StartTime		  1.0636749700340144e+07
+                        StopTime		  1.0668549207005005e+07
                         BEGIN Attributes
                             AllColors		 #00ced1
                         END Attributes
                     END GraphicsInterval
                     BEGIN GraphicsInterval
-                        StartTime		  8.1894920700500475e+05
-                        StopTime		  1.3189492070050049e+06
+                        StartTime		  1.0668549207005005e+07
+                        StopTime		  1.1168549207005005e+07
                         BEGIN Attributes
                             AllColors		 #fff0f5
                         END Attributes

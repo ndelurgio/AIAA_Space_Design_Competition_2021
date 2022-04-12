@@ -1,6 +1,6 @@
 VO_V120		
 InitializeSolarPanels		 Yes
-ModelPath		 Space\satellite.glb
+Modelfile		 Space\satellite.glb
 UseCatalogModelFile		 Yes
 ModelDefaultColorFromMarker		 No
 IsShowingModel		 Yes
@@ -10,20 +10,15 @@ UseModelPosOffset		 No
 ModelPosOffset		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
 UseModelRotation		 No
 ModelRotation		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
-BEGIN ModelReflectionEnvironment
-    StarMap		 "milkyway.jpg"
-    IsStarmapGalacticReferenceFrame		 Yes
-    Resolution		 256
-END ModelReflectionEnvironment
 IsSwapped		 Yes
 Level0SwapDistance		 700.0000000000001
-Level1SwapDistance		 31622776601.68379
-Level2SwapDistance		 31622776601.68379
-Level3SwapDistance		 31622776601.68379
-Level4SwapDistance		 31622776601.68379
+Level1SwapDistance		 1000000000000000
+Level2SwapDistance		 1000000000000000
+Level3SwapDistance		 1000000000000000
+Level4SwapDistance		 1000000000000000
 ShowMarker		 Yes
 BEGIN Marker
-    Show		 Yes
+    Show		 No
     Type		 LineGraphic
     Shape		 Point
     IsTransparent		 No
@@ -422,7 +417,7 @@ VaporOutputRate		  5.0000000000000003e-02
 VaporRadius		 20
 VaporExpansionRate		 0.01
 VaporStartTime		 0
-VaporEndTime		 2592000
+VaporEndTime		 33436800
 VaporIntervalPtr		
 BEGIN EVENTINTERVAL
     EventInterval		

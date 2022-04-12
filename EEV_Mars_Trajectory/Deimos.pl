@@ -80,8 +80,8 @@ BEGIN Planet
 
             BEGIN Attributes
 
-                MarkerColor		 #7fff00
-                LabelColor		 #7fff00
+                MarkerColor		 #c47600
+                LabelColor		 #c47600
                 LineColor		 #7fff00
                 LineStyle		 0
                 LineWidth		 1
