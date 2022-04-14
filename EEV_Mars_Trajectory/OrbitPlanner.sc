@@ -436,12 +436,7 @@ BEGIN Scenario
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 Install
-                    Style		 Segment Summary
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
-                    BaseDir		 Install
-                    Style		 MCS Summary
+                    Style		 Astrogator Log
                 END Favorite
                 BEGIN Favorite
                     Type		 Report
@@ -451,7 +446,12 @@ BEGIN Scenario
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 Install
-                    Style		 Astrogator Log
+                    Style		 MCS Summary
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Segment Summary
                 END Favorite
             END Class
         END ReportFavorites
@@ -661,6 +661,12 @@ BEGIN Scenario
         END ExportDataFile
 
         BEGIN Desc
+            BEGIN ShortText
+
+            END ShortText
+            BEGIN LongText
+
+            END LongText
         END Desc
 
         BEGIN RfEnv
@@ -993,8 +999,8 @@ BEGIN Scenario
 
                 StartTime		 9 Sep 2039 00:00:00.000000000
                 EndTime		 30 Sep 2040 00:00:00.000000000
-                CurrentTime		 22 Jul 2040 23:26:40.000000000
-                Direction		 Forward
+                CurrentTime		 2 Jul 2040 15:25:40.000000000
+                Direction		 Reverse
                 UpdateDelta		 180
                 RefreshDelta		 0.010000
                 XRealTimeMult		 1

@@ -17,8 +17,8 @@ DisableDefKbdActions		 No
 DisableViewErrMsgs		 No
 KMLListView		 0
 UseModelShaders		 Yes
-ChunkTerrainTextureCacheSizeMb		 128
-ChunkTerrainCacheSizeMb		 64
+ChunkTerrainTextureCacheSizeMb		 256
+ChunkTerrainCacheSizeMb		 128
 ReadAllNeededTextures		 No
 UseStoredViewTime		 Yes
 UseStoredViewImageSets		 No
@@ -179,6 +179,7 @@ BEGIN SceneWindow
             END Detail
         END MapList
 
+        SnapDirectory		 \\austin.utexas.edu\disk\engrstu\ase\npd429\My Documents\AIAA_Space_Design_Competition_2021\EEV_Mars_Trajectory\images
         SnapFileType		 BMP
         SnapOutputMode		 Normal
         OutputSnapToClipboard		 No
@@ -189,7 +190,7 @@ BEGIN SceneWindow
 
         BEGIN Globe
             AA		 Yes
-            BeginCentralBody "Moon"
+            BeginCentralBody "Mars"
                 Show		 Yes
                 Textured		 Yes
                 AltOffset		 0
@@ -205,7 +206,7 @@ BEGIN SceneWindow
                     BlendAltitudeLowerAltitude		 500000
                     BlendAltitudeUpperAltitude		 2500000
                     TextureRole		 Day
-                    URI		 "file:///Moon.jp2"
+                    URI		 "file:///Mars.jp2"
                     BeginImageSetDefOn
                     END
                     InBase		 Yes
@@ -229,6 +230,29 @@ BEGIN SceneWindow
                     BlendAltitudeUpperAltitude		 2500000
                     TextureRole		 Day
                     URI		 "file:///Sun.jp2"
+                    BeginImageSetDefOn
+                    END
+                    InBase		 Yes
+                    BaseOn		 Yes
+                END
+            EndCentralBody
+            BeginCentralBody "Moon"
+                Show		 Yes
+                Textured		 Yes
+                AltOffset		 0
+                Color		 #ffffff
+                SpecularColor		 #545454
+                Shininess		 40
+                ShowWater		 No
+                _AGI_PIBEGINTERRAINIMAGECALLDATA "SRC"
+                    BlendMode		 Value
+                    BlendFactor		 1
+                    BlendAltitudeLowerFactor		 1
+                    BlendAltitudeUpperFactor		 0
+                    BlendAltitudeLowerAltitude		 500000
+                    BlendAltitudeUpperAltitude		 2500000
+                    TextureRole		 Day
+                    URI		 "file:///Moon.jp2"
                     BeginImageSetDefOn
                     END
                     InBase		 Yes
@@ -275,29 +299,6 @@ BEGIN SceneWindow
                     BlendAltitudeLowerAltitude		 500000
                     BlendAltitudeUpperAltitude		 2500000
                     URI		 "virtual_earth://virtualearth.net/Aerial.ve"
-                    BeginImageSetDefOn
-                    END
-                    InBase		 Yes
-                    BaseOn		 Yes
-                END
-            EndCentralBody
-            BeginCentralBody "Mars"
-                Show		 Yes
-                Textured		 Yes
-                AltOffset		 0
-                Color		 #ffffff
-                SpecularColor		 #545454
-                Shininess		 40
-                ShowWater		 No
-                _AGI_PIBEGINTERRAINIMAGECALLDATA "SRC"
-                    BlendMode		 Value
-                    BlendFactor		 1
-                    BlendAltitudeLowerFactor		 1
-                    BlendAltitudeUpperFactor		 0
-                    BlendAltitudeLowerAltitude		 500000
-                    BlendAltitudeUpperAltitude		 2500000
-                    TextureRole		 Day
-                    URI		 "file:///Mars.jp2"
                     BeginImageSetDefOn
                     END
                     InBase		 Yes
@@ -387,19 +388,19 @@ BEGIN SceneWindow
         END
         BEGIN CentralBodyOpts
             BeginCentralBody
-                Name		 "Moon"
-                ShowLabel		 Yes
+                Name		 "Mars"
+                ShowLabel		 No
             EndCentralBody
             BeginCentralBody
                 Name		 "Sun"
                 ShowLabel		 No
             EndCentralBody
             BeginCentralBody
-                Name		 "Earth"
-                ShowLabel		 No
+                Name		 "Moon"
+                ShowLabel		 Yes
             EndCentralBody
             BeginCentralBody
-                Name		 "Mars"
+                Name		 "Earth"
                 ShowLabel		 No
             EndCentralBody
         END CentralBodyOpts
@@ -714,8 +715,8 @@ BEGIN SceneWindow
         RubberBandRGB		 0.6600000262260437 0.6600000262260437 0.6600000262260437
         BEGIN View
             ViewName		 STKVOInitialView
-            ViewTime		 0
-            ViewUpdateDelta		 10
+            ViewTime		 27473200
+            ViewUpdateDelta		 180
             CentralBody		 Mars
             BEGIN ViewCrdnAxes
                 BEGIN AXES
@@ -753,9 +754,9 @@ BEGIN SceneWindow
             UseLayer		 Yes
             FromName		 "Mars"
             FromRegPosAttView		 "Point"
-            FromPosition		  4.1615557368142478e+07 -3.5982881501448743e+07  1.7659193826430136e+08
-            FromOffset		  4.1615557368142478e+07 -3.5982881501448743e+07  1.7659193826430136e+08
-            FromOffsetLLR		  1.2687899299407537e+00 -7.1293775883980925e-01  1.8496306397805828e+08
+            FromPosition		 -2.0070591492713164e+06 -2.5163114849506351e+06  3.0735314184131634e+08
+            FromOffset		 -2.0070591492713164e+06 -2.5163114849506351e+06  3.0735314184131634e+08
+            FromOffsetLLR		  1.5603243505349469e+00 -2.2440840680630516e+00  3.0736999513557971e+08
             ToName		 "Mars"
             ToRegPosAttView		 "Point"
             ToPosition		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
@@ -763,9 +764,9 @@ BEGIN SceneWindow
             ToOffsetLLR		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
             ConstantDistanceType		 None
             ConstantDistanceValue		 1
-            UpVector		 -7.2220827245062680e-01  6.2445720616133271e-01  2.9743639467466670e-01
-            ViewRad		  1.8496306397805831e+08
-            ViewQuat		  2.8106887017688764e-01 -5.5543077909013661e-01  2.0682952473472083e-01  7.5479698433076770e-01
+            UpVector		  6.2352543886570855e-01  7.8173292677811890e-01  1.0471784864188531e-02
+            ViewRad		  3.0736999513557971e+08
+            ViewQuat		  6.4042196952286656e-01 -3.0516322205519159e-01  6.3375035737488894e-01  3.0837573410459318e-01
             ViewCoordSystem		 From
             ViewFromToMode		 FromTo
             ViewToCBIMtx		  1.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  1.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  1.0000000000000000e+00
@@ -779,7 +780,7 @@ BEGIN SceneWindow
             MinAngleToUpAxis		  8.7266462599716477e-03
             InitUpAxisUp		 Yes
             TempUpAxisUp		 Yes
-            CrossAxis		 -6.5405883932203890e-01 -7.5644367583099481e-01  0.0000000000000000e+00
+            CrossAxis		 -7.8177579204694747e-01  6.2355962904069406e-01  0.0000000000000000e+00
             DefaultOffset		  1.8679045000000000e+07
             BaseDefaultOffset		  3.3961900000000000e+06
         END View
@@ -870,29 +871,6 @@ BEGIN SceneWindow
 
         BEGIN Globe
             AA		 Yes
-            BeginCentralBody "Moon"
-                Show		 Yes
-                Textured		 Yes
-                AltOffset		 0
-                Color		 #ffffff
-                SpecularColor		 #545454
-                Shininess		 40
-                ShowWater		 No
-                _AGI_PIBEGINTERRAINIMAGECALLDATA "SRC"
-                    BlendMode		 Value
-                    BlendFactor		 1
-                    BlendAltitudeLowerFactor		 1
-                    BlendAltitudeUpperFactor		 0
-                    BlendAltitudeLowerAltitude		 500000
-                    BlendAltitudeUpperAltitude		 2500000
-                    TextureRole		 Day
-                    URI		 "file:///Moon.jp2"
-                    BeginImageSetDefOn
-                    END
-                    InBase		 Yes
-                    BaseOn		 Yes
-                END
-            EndCentralBody
             BeginCentralBody "Sun"
                 Show		 Yes
                 Textured		 No
@@ -910,6 +888,29 @@ BEGIN SceneWindow
                     BlendAltitudeUpperAltitude		 2500000
                     TextureRole		 Day
                     URI		 "file:///Sun.jp2"
+                    BeginImageSetDefOn
+                    END
+                    InBase		 Yes
+                    BaseOn		 Yes
+                END
+            EndCentralBody
+            BeginCentralBody "Moon"
+                Show		 Yes
+                Textured		 Yes
+                AltOffset		 0
+                Color		 #ffffff
+                SpecularColor		 #545454
+                Shininess		 40
+                ShowWater		 No
+                _AGI_PIBEGINTERRAINIMAGECALLDATA "SRC"
+                    BlendMode		 Value
+                    BlendFactor		 1
+                    BlendAltitudeLowerFactor		 1
+                    BlendAltitudeUpperFactor		 0
+                    BlendAltitudeLowerAltitude		 500000
+                    BlendAltitudeUpperAltitude		 2500000
+                    TextureRole		 Day
+                    URI		 "file:///Moon.jp2"
                     BeginImageSetDefOn
                     END
                     InBase		 Yes
@@ -1045,12 +1046,12 @@ BEGIN SceneWindow
         END
         BEGIN CentralBodyOpts
             BeginCentralBody
-                Name		 "Moon"
-                ShowLabel		 Yes
-            EndCentralBody
-            BeginCentralBody
                 Name		 "Sun"
                 ShowLabel		 No
+            EndCentralBody
+            BeginCentralBody
+                Name		 "Moon"
+                ShowLabel		 Yes
             EndCentralBody
             BeginCentralBody
                 Name		 "Earth"
@@ -1381,9 +1382,9 @@ BEGIN SceneWindow
             UseLayer		 Yes
             FromName		 "Sun"
             FromRegPosAttView		 "Point"
-            FromPosition		  1.5537136041410809e+11 -5.8892198034948254e+11  8.6423181465534387e+11
-            FromOffset		  1.5537136041410809e+11 -5.8892198034948254e+11  8.6423181465534387e+11
-            FromOffsetLLR		  9.5688555615230775e-01 -1.3128503727986109e+00  1.0572918178242731e+12
+            FromPosition		  2.2866694857745297e+11 -8.6674269851136902e+11  1.2719284390255449e+12
+            FromOffset		  2.2866694857745297e+11 -8.6674269851136902e+11  1.2719284390255449e+12
+            FromOffsetLLR		  9.5688555615230775e-01 -1.3128503727986103e+00  1.5560634411220042e+12
             ToName		 "Sun"
             ToRegPosAttView		 "Point"
             ToPosition		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
@@ -1391,9 +1392,9 @@ BEGIN SceneWindow
             ToOffsetLLR		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
             ConstantDistanceType		 None
             ConstantDistanceValue		 1
-            UpVector		 -2.0851501196843883e-01  7.9035848983850820e-01  5.7606852658689345e-01
-            ViewRad		  1.0572918178242729e+12
-            ViewQuat		  5.4176132278150491e-01 -3.6471710724044432e-01  2.8097538752124818e-01  7.0322751114520599e-01
+            UpVector		 -2.0851501196843938e-01  7.9035848983850832e-01  5.7606852658689356e-01
+            ViewRad		  1.5560634411220042e+12
+            ViewQuat		  5.4176132278150468e-01 -3.6471710724044432e-01  2.8097538752124801e-01  7.0322751114520610e-01
             ViewCoordSystem		 From
             ViewFromToMode		 FromTo
             ViewToCBIMtx		  1.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  1.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  1.0000000000000000e+00
@@ -1407,7 +1408,7 @@ BEGIN SceneWindow
             MinAngleToUpAxis		  8.7266462599716477e-03
             InitUpAxisUp		 Yes
             TempUpAxisUp		 Yes
-            CrossAxis		 -9.6691599439376952e-01 -2.5509500149063691e-01  0.0000000000000000e+00
+            CrossAxis		 -9.6691599439376918e-01 -2.5509500149063746e-01  0.0000000000000000e+00
             DefaultOffset		  3.8263500000000000e+09
             BaseDefaultOffset		  6.9570000000000000e+08
         END View
@@ -1490,77 +1491,6 @@ BEGIN View
     CrossAxis		  1.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
     DefaultOffset		  3.5079753500000000e+07
     BaseDefaultOffset		  6.3781370000000000e+06
-END View
-BEGIN View
-    ViewName		 HomeView
-    ViewTime		 9849600
-    ViewUpdateDelta		 10
-    CentralBody		 Mars
-    BEGIN ViewCrdnAxes
-        BEGIN AXES
-            Type		 AXES_LINKTO
-            Name		 Inertial
-            AbsolutePath		 CentralBody/Mars
-        END AXES
-    END
-    BEGIN FromViewCrdnPoint
-        BEGIN POINT
-            Type		 POINT_LINKTO
-            Name		 Center
-            AbsolutePath		 CentralBody/Mars
-        END POINT
-    END
-    BEGIN ToViewCrdnPoint
-        BEGIN POINT
-            Type		 POINT_LINKTO
-            Name		 Center
-            AbsolutePath		 CentralBody/Mars
-        END POINT
-    END
-    fov		 0.7853981633974483
-    FarNearPlaneDistanceRatio		 1000
-    NearPlaneDistance		 1
-    FarPlaneDistance		 10000000000
-    PanOnCentralBodies		 Yes
-    UseArcBallRotateSpeedOpt		 No
-    ArcBallRotateSpeed		 0
-    ArcBallRadius		 0.9
-    ArcBallRotateMode		 From
-    ZoomSpeed		 0
-    ZoomUseDistanceToCb		 Yes
-    GlobeDetailLevel		 1
-    UseLayer		 Yes
-    FromName		 "Mars"
-    FromRegPosAttView		 "Point"
-    FromPosition		  1.8679045000000000e+07  0.0000000000000000e+00  0.0000000000000000e+00
-    FromOffset		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
-    FromOffsetLLR		  0.0000000000000000e+00  0.0000000000000000e+00  1.8679045000000000e+07
-    ToName		 "Mars"
-    ToRegPosAttView		 "Point"
-    ToPosition		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
-    ToOffset		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
-    ToOffsetLLR		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
-    ConstantDistanceType		 None
-    ConstantDistanceValue		 1
-    UpVector		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
-    ViewRad		  1.8679045000000000e+07
-    ViewQuat		  6.1232339957367660e-17  0.0000000000000000e+00  0.0000000000000000e+00 -1.0000000000000000e+00
-    ViewCoordSystem		 From
-    ViewFromToMode		 FromTo
-    ViewToCBIMtx		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
-    UseUpAxis		 Yes
-    UpAxisType		 Z
-    UserDefinedUpAxis		  0.0000000000000000e+00  0.0000000000000000e+00  1.0000000000000000e+00
-    OverUpAxis		 No
-    LockInViewDir		 No
-    NoZoom		 No
-    NoPan		 No
-    MinAngleToUpAxis		  8.7266462599716477e-03
-    InitUpAxisUp		 Yes
-    TempUpAxisUp		 Yes
-    CrossAxis		  1.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
-    DefaultOffset		  1.8679045000000000e+07
-    BaseDefaultOffset		  3.3961900000000000e+06
 END View
 BEGIN View
     ViewName		 HomeView
@@ -1774,4 +1704,146 @@ BEGIN View
     CrossAxis		  1.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
     DefaultOffset		  3.8263500000000000e+09
     BaseDefaultOffset		  6.9570000000000000e+08
+END View
+BEGIN View
+    ViewName		 HomeView
+    ViewTime		 9849600
+    ViewUpdateDelta		 10
+    CentralBody		 Mars
+    BEGIN ViewCrdnAxes
+        BEGIN AXES
+            Type		 AXES_LINKTO
+            Name		 Inertial
+            AbsolutePath		 CentralBody/Mars
+        END AXES
+    END
+    BEGIN FromViewCrdnPoint
+        BEGIN POINT
+            Type		 POINT_LINKTO
+            Name		 Center
+            AbsolutePath		 CentralBody/Mars
+        END POINT
+    END
+    BEGIN ToViewCrdnPoint
+        BEGIN POINT
+            Type		 POINT_LINKTO
+            Name		 Center
+            AbsolutePath		 CentralBody/Mars
+        END POINT
+    END
+    fov		 0.7853981633974483
+    FarNearPlaneDistanceRatio		 1000
+    NearPlaneDistance		 1
+    FarPlaneDistance		 10000000000
+    PanOnCentralBodies		 Yes
+    UseArcBallRotateSpeedOpt		 No
+    ArcBallRotateSpeed		 0
+    ArcBallRadius		 0.9
+    ArcBallRotateMode		 From
+    ZoomSpeed		 0
+    ZoomUseDistanceToCb		 Yes
+    GlobeDetailLevel		 1
+    UseLayer		 Yes
+    FromName		 "Mars"
+    FromRegPosAttView		 "Point"
+    FromPosition		  1.8679045000000000e+07  0.0000000000000000e+00  0.0000000000000000e+00
+    FromOffset		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
+    FromOffsetLLR		  0.0000000000000000e+00  0.0000000000000000e+00  1.8679045000000000e+07
+    ToName		 "Mars"
+    ToRegPosAttView		 "Point"
+    ToPosition		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
+    ToOffset		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
+    ToOffsetLLR		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
+    ConstantDistanceType		 None
+    ConstantDistanceValue		 1
+    UpVector		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
+    ViewRad		  1.8679045000000000e+07
+    ViewQuat		  6.1232339957367660e-17  0.0000000000000000e+00  0.0000000000000000e+00 -1.0000000000000000e+00
+    ViewCoordSystem		 From
+    ViewFromToMode		 FromTo
+    ViewToCBIMtx		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
+    UseUpAxis		 Yes
+    UpAxisType		 Z
+    UserDefinedUpAxis		  0.0000000000000000e+00  0.0000000000000000e+00  1.0000000000000000e+00
+    OverUpAxis		 No
+    LockInViewDir		 No
+    NoZoom		 No
+    NoPan		 No
+    MinAngleToUpAxis		  8.7266462599716477e-03
+    InitUpAxisUp		 Yes
+    TempUpAxisUp		 Yes
+    CrossAxis		  1.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
+    DefaultOffset		  1.8679045000000000e+07
+    BaseDefaultOffset		  3.3961900000000000e+06
+END View
+BEGIN View
+    ViewName		 trajecVIew
+    ViewTime		 27473200
+    ViewUpdateDelta		 180
+    CentralBody		 Mars
+    BEGIN ViewCrdnAxes
+        BEGIN AXES
+            Type		 AXES_LINKTO
+            Name		 Inertial
+            AbsolutePath		 CentralBody/Mars
+        END AXES
+    END
+    BEGIN FromViewCrdnPoint
+        BEGIN POINT
+            Type		 POINT_LINKTO
+            Name		 Center
+            AbsolutePath		 CentralBody/Mars
+        END POINT
+    END
+    BEGIN ToViewCrdnPoint
+        BEGIN POINT
+            Type		 POINT_LINKTO
+            Name		 Center
+            AbsolutePath		 CentralBody/Mars
+        END POINT
+    END
+    fov		 0.7853981633974483
+    FarNearPlaneDistanceRatio		 1000
+    NearPlaneDistance		 1
+    FarPlaneDistance		 100000000000
+    PanOnCentralBodies		 Yes
+    UseArcBallRotateSpeedOpt		 No
+    ArcBallRotateSpeed		 0
+    ArcBallRadius		 0.9
+    ArcBallRotateMode		 From
+    ZoomSpeed		 0
+    ZoomUseDistanceToCb		 Yes
+    GlobeDetailLevel		 1
+    UseLayer		 Yes
+    FromName		 "Mars"
+    FromRegPosAttView		 "Point"
+    FromPosition		 -2.0070591492733355e+06 -2.5163114849531660e+06  3.0735314184131634e+08
+    FromOffset		 -2.0070591492733355e+06 -2.5163114849531660e+06  3.0735314184131634e+08
+    FromOffsetLLR		  1.5603243505349469e+00 -2.2440840680630516e+00  3.0736999513557971e+08
+    ToName		 "Mars"
+    ToRegPosAttView		 "Point"
+    ToPosition		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
+    ToOffset		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
+    ToOffsetLLR		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
+    ConstantDistanceType		 None
+    ConstantDistanceValue		 1
+    UpVector		  6.2352543886570855e-01  7.8173292677811879e-01  1.0471784864199066e-02
+    ViewRad		  3.0736999513557976e+08
+    ViewQuat		  6.4042196952286989e-01 -3.0516322205518998e-01  6.3375035737488572e-01  3.0837573410459479e-01
+    ViewCoordSystem		 From
+    ViewFromToMode		 FromTo
+    ViewToCBIMtx		  1.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  1.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00  1.0000000000000000e+00
+    UseUpAxis		 Yes
+    UpAxisType		 Z
+    UserDefinedUpAxis		  5.3215236136276732e-02 -3.0112910500616413e-01  9.5209736936993317e-01
+    OverUpAxis		 No
+    LockInViewDir		 No
+    NoZoom		 No
+    NoPan		 No
+    MinAngleToUpAxis		  8.7266462599716477e-03
+    InitUpAxisUp		 Yes
+    TempUpAxisUp		 Yes
+    CrossAxis		 -7.8177579204694736e-01  6.2355962904069406e-01  0.0000000000000000e+00
+    DefaultOffset		  1.8679045000000000e+07
+    BaseDefaultOffset		  3.3961900000000000e+06
 END View

@@ -12,7 +12,7 @@ BEGIN Planet
 
         BEGIN EphemerisData
 
-            EphemerisSource		 JplDE
+            EphemerisSource		 None
 
             JplIndex		 3
 
@@ -72,6 +72,12 @@ BEGIN Planet
         END AccessConstraints
 
         BEGIN Desc
+            BEGIN ShortText
+
+            END ShortText
+            BEGIN LongText
+
+            END LongText
         END Desc
 
         BEGIN Crdn
