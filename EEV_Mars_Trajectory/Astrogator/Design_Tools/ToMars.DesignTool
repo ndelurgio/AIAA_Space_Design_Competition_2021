@@ -8,7 +8,7 @@
         <OBJECT Class = "double" Name = "RadiusScaleFactor"> 4 &quot;&quot; </OBJECT>
         <OBJECT Class = "string" Name = "AltLabel"> &quot;10266.570000&quot; </OBJECT>
         <OBJECT Class = "double" Name = "Angle"> 1.570796326794897 rad </OBJECT>
-        <OBJECT Class = "bool" Name = "UseCircVel"> False </OBJECT>
+        <OBJECT Class = "bool" Name = "UseCircVel"> True </OBJECT>
     </OBJECT>
     <OBJECT Class = "bool" Name = "AutoAddToCB"> True </OBJECT>
     <OBJECT Class = "string" Name = "Category"> &quot;@Top&quot; </OBJECT>
@@ -84,19 +84,19 @@
     </OBJECT>
     <OBJECT Class = "link" Name = "LambertResult">
         <OBJECT Class = "LambertResult" Name = "LambertResult">
-            <OBJECT Class = "double" Name = "C3"> 22775946.09735216 m^2*sec^-2 </OBJECT>
+            <OBJECT Class = "double" Name = "C3"> 22775946.09735212 m^2*sec^-2 </OBJECT>
             <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
-            <OBJECT Class = "double" Name = "Dec"> 0.9523180389190911 rad </OBJECT>
+            <OBJECT Class = "double" Name = "Dec"> 0.9523180389190924 rad </OBJECT>
             <OBJECT Class = "double" Name = "DeltaTime"> 22118400 sec </OBJECT>
-            <OBJECT Class = "double" Name = "DeltaV1"> 4140.175287772239 m*sec^-1 </OBJECT>
-            <OBJECT Class = "double" Name = "DeltaV2"> 2656.81520820984 m*sec^-1 </OBJECT>
-            <OBJECT Class = "double" Name = "DeltaVT"> 6796.99049598208 m*sec^-1 </OBJECT>
+            <OBJECT Class = "double" Name = "DeltaV1"> 4140.175287772238 m*sec^-1 </OBJECT>
+            <OBJECT Class = "double" Name = "DeltaV2"> 887.9949975524933 m*sec^-1 </OBJECT>
+            <OBJECT Class = "double" Name = "DeltaVT"> 5028.170285324732 m*sec^-1 </OBJECT>
             <OBJECT Class = "string" Name = "Description"> &quot;Lambert Result&quot; </OBJECT>
             <OBJECT Class = "container" Name = "FinlDeltaV">
-                <OBJECT Class = "double" Name = "DVx"> 1165.869049526987 m*sec^-1 </OBJECT>
-                <OBJECT Class = "double" Name = "DVy"> -2386.779424368215 m*sec^-1 </OBJECT>
-                <OBJECT Class = "double" Name = "DVz"> 51.96527054360013 m*sec^-1 </OBJECT>
+                <OBJECT Class = "double" Name = "DVx"> 389.9089830145076 m*sec^-1 </OBJECT>
+                <OBJECT Class = "double" Name = "DVy"> -797.6338021739903 m*sec^-1 </OBJECT>
+                <OBJECT Class = "double" Name = "DVz"> 16.9238964871729 m*sec^-1 </OBJECT>
             </OBJECT>
             <OBJECT Class = "container" Name = "FinlPosVel">
                 <OBJECT Class = "double" Name = "Rx"> -247186543769.6693 m </OBJECT>
@@ -107,19 +107,19 @@
                 <OBJECT Class = "double" Name = "Vz"> -9290.481392982183 m*sec^-1 </OBJECT>
             </OBJECT>
             <OBJECT Class = "container" Name = "InitDeltaV">
-                <OBJECT Class = "double" Name = "DVx"> 3383.198004712106 m*sec^-1 </OBJECT>
+                <OBJECT Class = "double" Name = "DVx"> 3383.198004712104 m*sec^-1 </OBJECT>
                 <OBJECT Class = "double" Name = "DVy"> 2093.102780799629 m*sec^-1 </OBJECT>
-                <OBJECT Class = "double" Name = "DVz"> 1146.273712252372 m*sec^-1 </OBJECT>
+                <OBJECT Class = "double" Name = "DVz"> 1146.273712252374 m*sec^-1 </OBJECT>
             </OBJECT>
             <OBJECT Class = "container" Name = "InitPosVel">
                 <OBJECT Class = "double" Name = "Rx"> 142864416174.8273 m </OBJECT>
                 <OBJECT Class = "double" Name = "Ry"> 40059256689.40587 m </OBJECT>
                 <OBJECT Class = "double" Name = "Rz"> 17356246404.1962 m </OBJECT>
-                <OBJECT Class = "double" Name = "Vx"> 357.0441158153117 m*sec^-1 </OBJECT>
-                <OBJECT Class = "double" Name = "Vy"> 31941.65953455115 m*sec^-1 </OBJECT>
+                <OBJECT Class = "double" Name = "Vx"> 357.044115815308 m*sec^-1 </OBJECT>
+                <OBJECT Class = "double" Name = "Vy"> 31941.65953455116 m*sec^-1 </OBJECT>
                 <OBJECT Class = "double" Name = "Vz"> 14518.11299970881 m*sec^-1 </OBJECT>
             </OBJECT>
-            <OBJECT Class = "double" Name = "RA"> 1.103839192330739 rad </OBJECT>
+            <OBJECT Class = "double" Name = "RA"> 1.103839192330742 rad </OBJECT>
             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
             <OBJECT Class = "container" Name = "ShooterControls" />
             <OBJECT Class = "string" Name = "SolutionStatus"> &quot;Body to body solution&quot; </OBJECT>
@@ -3308,13 +3308,13 @@
     <OBJECT Class = "container" Name = "Result">
         <OBJECT Class = "string" Name = "StatusLabel"> &quot;Body to body solution&quot; </OBJECT>
         <OBJECT Class = "string" Name = "InitDeltaVLabel"> &quot;4140.175288&quot; </OBJECT>
-        <OBJECT Class = "string" Name = "FinlDeltaVLabel"> &quot;2656.815208&quot; </OBJECT>
-        <OBJECT Class = "string" Name = "TotlDeltaVLabel"> &quot;6796.990496&quot; </OBJECT>
+        <OBJECT Class = "string" Name = "FinlDeltaVLabel"> &quot;887.994998&quot; </OBJECT>
+        <OBJECT Class = "string" Name = "TotlDeltaVLabel"> &quot;5028.170285&quot; </OBJECT>
         <OBJECT Class = "string" Name = "TOFLabel"> &quot;256.000000&quot; </OBJECT>
         <OBJECT Class = "string" Name = "C3Label"> &quot;22.775946&quot; </OBJECT>
         <OBJECT Class = "string" Name = "RALabel"> &quot;63.245327&quot; </OBJECT>
         <OBJECT Class = "string" Name = "DecLabel"> &quot;54.563804&quot; </OBJECT>
-        <OBJECT Class = "string" Name = "PropReqDepGravity"> &quot;&quot; </OBJECT>
+        <OBJECT Class = "string" Name = "PropReqDepGravity"> &quot;(Propagator Requires Departure Body&apos;s Gravity)&quot; </OBJECT>
     </OBJECT>
     <OBJECT Class = "string" Name = "SequenceName"> &quot;MarsTransfer&quot; </OBJECT>
     <OBJECT Class = "container" Name = "ShooterControls" />

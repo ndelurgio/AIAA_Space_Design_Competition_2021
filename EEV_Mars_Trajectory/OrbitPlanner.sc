@@ -202,6 +202,33 @@ BEGIN Scenario
             WindowRectRight		 1811
             WindowRectBottom		 886
         END Report
+
+        BEGIN Report
+            Name		 Segment Summary
+            Type		 Report
+            BaseDir		 Install
+            Style		 Segment Summary
+            AGIViewer		 Yes
+            Instance		 Satellite/EEV_PD
+            BEGIN TimeData
+                BEGIN Section
+                    SectionNumber		 1
+                    SectionType		 0
+                    ShowIntervals		 No
+                    TimeType		 Availability
+                    SamplingType		 Default
+                    TimeBound		 0
+                END Section
+            END TimeData
+            DisplayOnLoad		 Yes
+            FrameType		 0
+            DockCircleID		 0
+            DockID		 0
+            WindowRectLeft		 391
+            WindowRectTop		 316
+            WindowRectRight		 2393
+            WindowRectBottom		 1023
+        END Report
     END QuickReports
 
     BEGIN Extensions
@@ -435,13 +462,23 @@ BEGIN Scenario
                 Name		 Satellite
                 BEGIN Favorite
                     Type		 Report
-                    BaseDir		 Install
-                    Style		 Astrogator Log
+                    BaseDir		 User
+                    Style		 eccen
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 User
+                    Style		 New Report
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 User
+                    Style		 apogee
                 END Favorite
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 Install
-                    Style		 Astrogator Script Summary
+                    Style		 Segment Summary
                 END Favorite
                 BEGIN Favorite
                     Type		 Report
@@ -451,7 +488,12 @@ BEGIN Scenario
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 Install
-                    Style		 Segment Summary
+                    Style		 Astrogator Script Summary
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Astrogator Log
                 END Favorite
             END Class
         END ReportFavorites
@@ -661,12 +703,6 @@ BEGIN Scenario
         END ExportDataFile
 
         BEGIN Desc
-            BEGIN ShortText
-
-            END ShortText
-            BEGIN LongText
-
-            END LongText
         END Desc
 
         BEGIN RfEnv
@@ -999,9 +1035,9 @@ BEGIN Scenario
 
                 StartTime		 9 Sep 2039 00:00:00.000000000
                 EndTime		 30 Sep 2040 00:00:00.000000000
-                CurrentTime		 2 Jul 2040 15:25:40.000000000
-                Direction		 Reverse
-                UpdateDelta		 180
+                CurrentTime		 27 Jun 2040 21:47:40.000000000
+                Direction		 Forward
+                UpdateDelta		 1800
                 RefreshDelta		 0.010000
                 XRealTimeMult		 1
                 RealTimeOffset		 0
