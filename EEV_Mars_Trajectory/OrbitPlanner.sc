@@ -220,7 +220,7 @@ BEGIN Scenario
                     TimeBound		 0
                 END Section
             END TimeData
-            DisplayOnLoad		 Yes
+            DisplayOnLoad		 No
             FrameType		 0
             DockCircleID		 0
             DockID		 0
@@ -462,28 +462,8 @@ BEGIN Scenario
                 Name		 Satellite
                 BEGIN Favorite
                     Type		 Report
-                    BaseDir		 User
-                    Style		 eccen
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
-                    BaseDir		 User
-                    Style		 New Report
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
-                    BaseDir		 User
-                    Style		 apogee
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
                     BaseDir		 Install
-                    Style		 Segment Summary
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
-                    BaseDir		 Install
-                    Style		 MCS Summary
+                    Style		 Astrogator Log
                 END Favorite
                 BEGIN Favorite
                     Type		 Report
@@ -493,7 +473,27 @@ BEGIN Scenario
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 Install
-                    Style		 Astrogator Log
+                    Style		 MCS Summary
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Segment Summary
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 User
+                    Style		 apogee
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 User
+                    Style		 New Report
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 User
+                    Style		 eccen
                 END Favorite
             END Class
         END ReportFavorites
@@ -1549,6 +1549,7 @@ BEGIN Scenario
             GulliverCrater		
             StickneyCrater		
             SwiftCrater		
+            Target1		
             VoltaireCrater		
 
         END Class
@@ -1618,6 +1619,9 @@ BEGIN Scenario
         END Instance
         Instance Target/SwiftCrater
             Target/SwiftCrater		
+        END Instance
+        Instance Target/Target1
+            Target/Target1		
         END Instance
         Instance Target/VoltaireCrater
             Target/VoltaireCrater		

@@ -364,7 +364,7 @@ BEGIN Satellite
                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                    <OBJECT Class = "date" Name = "Epoch"> &quot;27 Jun 2040 08:32:22.579510663&quot; TAIG </OBJECT>
+                    <OBJECT Class = "date" Name = "Epoch"> &quot;27 Jun 2040 08:32:22.579511002&quot; TAIG </OBJECT>
                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -466,7 +466,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045004439&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045003999&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -671,7 +671,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045004439&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045003999&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -2531,7 +2531,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045004439&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045003999&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -2758,7 +2758,7 @@ BEGIN Satellite
                                             <OBJECT Class = "bool" Name = "CausedTermination"> True </OBJECT>
                                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                             <OBJECT Class = "string" Name = "Description"> &quot;Trigger Log Information&quot; </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045004439&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045003999&quot; TAIG </OBJECT>
                                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                             <OBJECT Class = "container" Name = "ShooterControls" />
                                             <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
@@ -2802,7 +2802,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045004439&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045003999&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -2832,7 +2832,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045004439&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045003999&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -2897,7 +2897,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045004439&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045003999&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -2927,7 +2927,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045004439&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045003999&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -3859,7 +3859,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045004439&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045003999&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -4220,7 +4220,7 @@ BEGIN Satellite
                                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                                    <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045004439&quot; TAIG </OBJECT>
+                                                    <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045003999&quot; TAIG </OBJECT>
                                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -4258,7 +4258,7 @@ BEGIN Satellite
                                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                                    <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045004439&quot; TAIG </OBJECT>
+                                                    <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045003999&quot; TAIG </OBJECT>
                                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -4402,7 +4402,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045004439&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045003999&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -4501,7 +4501,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045004439&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045003999&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -4531,7 +4531,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045004439&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045003999&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -4594,7 +4594,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045004439&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045003999&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -4624,7 +4624,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045004439&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045003999&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -4692,7 +4692,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;24 Jun 2040 19:44:11.004760224&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;24 Jun 2040 19:44:11.004760001&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -4722,7 +4722,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045004439&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;22 Jun 2040 08:27:48.045003999&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -4880,7 +4880,7 @@ BEGIN Satellite
                             <OBJECT Class = "bool" Name = "CausedTermination"> True </OBJECT>
                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                             <OBJECT Class = "string" Name = "Description"> &quot;Trigger Log Information&quot; </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;24 Jun 2040 19:44:11.004760224&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;24 Jun 2040 19:44:11.004760001&quot; TAIG </OBJECT>
                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                             <OBJECT Class = "container" Name = "ShooterControls" />
                             <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
@@ -4926,7 +4926,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;27 Jun 2040 08:32:22.579510663&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;27 Jun 2040 08:32:22.579511002&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -4956,7 +4956,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;24 Jun 2040 19:44:11.004760224&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;24 Jun 2040 19:44:11.004760001&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -5504,7 +5504,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;24 Jun 2040 19:44:11.004760224&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;24 Jun 2040 19:44:11.004760001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -5865,7 +5865,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;24 Jun 2040 19:44:11.004760224&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;24 Jun 2040 19:44:11.004760001&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -5903,7 +5903,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;24 Jun 2040 19:44:11.004760224&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;24 Jun 2040 19:44:11.004760001&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -6047,7 +6047,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;24 Jun 2040 19:44:11.004760224&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;24 Jun 2040 19:44:11.004760001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -6134,7 +6134,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;27 Jun 2040 08:32:22.579510663&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;27 Jun 2040 08:32:22.579511002&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -6164,7 +6164,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;24 Jun 2040 19:44:11.004760224&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;24 Jun 2040 19:44:11.004760001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -6283,7 +6283,7 @@ BEGIN Satellite
                                     <OBJECT Class = "bool" Name = "CausedTermination"> True </OBJECT>
                                     <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                     <OBJECT Class = "string" Name = "Description"> &quot;Trigger Log Information&quot; </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;27 Jun 2040 08:32:22.579510663&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;27 Jun 2040 08:32:22.579511002&quot; TAIG </OBJECT>
                                     <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                     <OBJECT Class = "container" Name = "ShooterControls" />
                                     <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
@@ -6327,7 +6327,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;27 Jun 2040 08:32:22.579510663&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;27 Jun 2040 08:32:22.579511002&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -6357,7 +6357,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;27 Jun 2040 08:32:22.579510663&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;27 Jun 2040 08:32:22.579511002&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -6421,7 +6421,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;27 Jun 2040 08:32:22.579510663&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;27 Jun 2040 08:32:22.579511002&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -6451,7 +6451,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;27 Jun 2040 08:32:22.579510663&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;27 Jun 2040 08:32:22.579511002&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -6509,7 +6509,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;29 Jun 2040 21:20:55.733671580&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;29 Jun 2040 21:20:55.733672000&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -6542,7 +6542,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;27 Jun 2040 08:32:22.579510663&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;27 Jun 2040 08:32:22.579511002&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -6696,7 +6696,7 @@ BEGIN Satellite
                             <OBJECT Class = "bool" Name = "CausedTermination"> True </OBJECT>
                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                             <OBJECT Class = "string" Name = "Description"> &quot;Trigger Log Information&quot; </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;29 Jun 2040 21:20:55.733671580&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;29 Jun 2040 21:20:55.733672000&quot; TAIG </OBJECT>
                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                             <OBJECT Class = "container" Name = "ShooterControls" />
                             <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
@@ -6745,7 +6745,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 10:09:32.774929795&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 10:09:32.774930000&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -6778,7 +6778,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;29 Jun 2040 21:20:55.733671580&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;29 Jun 2040 21:20:55.733672000&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -6932,7 +6932,7 @@ BEGIN Satellite
                             <OBJECT Class = "bool" Name = "CausedTermination"> True </OBJECT>
                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                             <OBJECT Class = "string" Name = "Description"> &quot;Trigger Log Information&quot; </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 10:09:32.774929795&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 10:09:32.774930000&quot; TAIG </OBJECT>
                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                             <OBJECT Class = "container" Name = "ShooterControls" />
                             <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
@@ -6978,7 +6978,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 21:17:33.493213240&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 21:17:33.493213002&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -7008,7 +7008,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 10:09:32.774929795&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 10:09:32.774930000&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -8106,7 +8106,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 10:09:32.774929795&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 10:09:32.774930000&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -8467,7 +8467,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 10:09:32.774929795&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 10:09:32.774930000&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -8505,7 +8505,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 10:09:32.774929795&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 10:09:32.774930000&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -8649,7 +8649,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 10:09:32.774929795&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 10:09:32.774930000&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -8722,7 +8722,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 15:42:52.774929795&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 15:42:52.774930000&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -8752,7 +8752,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 10:09:32.774929795&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 10:09:32.774930000&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -8873,7 +8873,7 @@ BEGIN Satellite
                                     <OBJECT Class = "bool" Name = "CausedTermination"> True </OBJECT>
                                     <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                     <OBJECT Class = "string" Name = "Description"> &quot;Trigger Log Information&quot; </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 15:42:52.774929795&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 15:42:52.774930000&quot; TAIG </OBJECT>
                                     <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                     <OBJECT Class = "container" Name = "ShooterControls" />
                                     <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
@@ -9243,7 +9243,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 15:42:52.774929795&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 15:42:52.774930000&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -9604,7 +9604,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 15:42:52.774929795&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 15:42:52.774930000&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -9642,7 +9642,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 15:42:52.774929795&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 15:42:52.774930000&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -9786,7 +9786,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 15:42:52.774929795&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 15:42:52.774930000&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -9859,7 +9859,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 21:17:33.493213240&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 21:17:33.493213002&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -9889,7 +9889,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 15:42:52.774929795&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 15:42:52.774930000&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -10025,7 +10025,7 @@ BEGIN Satellite
                                     <OBJECT Class = "bool" Name = "CausedTermination"> True </OBJECT>
                                     <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                     <OBJECT Class = "string" Name = "Description"> &quot;Trigger Log Information&quot; </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 21:17:33.493213240&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 21:17:33.493213002&quot; TAIG </OBJECT>
                                     <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                     <OBJECT Class = "container" Name = "ShooterControls" />
                                     <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
@@ -10395,7 +10395,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 21:17:33.493213240&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 21:17:33.493213002&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -10756,7 +10756,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 21:17:33.493213240&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 21:17:33.493213002&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -10794,7 +10794,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 21:17:33.493213240&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 21:17:33.493213002&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -10938,7 +10938,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 21:17:33.493213240&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 21:17:33.493213002&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -11049,7 +11049,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 21:17:33.493213240&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 21:17:33.493213002&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -11079,7 +11079,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 21:17:33.493213240&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 21:17:33.493213002&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -11147,7 +11147,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 03:03:09.493213240&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 03:03:09.493213002&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -11180,7 +11180,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 21:17:33.493213240&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;2 Jul 2040 21:17:33.493213002&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -11256,7 +11256,7 @@ BEGIN Satellite
                             <OBJECT Class = "bool" Name = "CausedTermination"> True </OBJECT>
                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                             <OBJECT Class = "string" Name = "Description"> &quot;Trigger Log Information&quot; </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 03:03:09.493213240&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 03:03:09.493213002&quot; TAIG </OBJECT>
                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                             <OBJECT Class = "container" Name = "ShooterControls" />
                             <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
@@ -11302,7 +11302,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 13:44:19.968706351&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 13:44:19.968706001&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -11332,7 +11332,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 03:03:09.493213240&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 03:03:09.493213002&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -12459,7 +12459,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 03:03:09.493213240&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 03:03:09.493213002&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -12820,7 +12820,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 03:03:09.493213240&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 03:03:09.493213002&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -12858,7 +12858,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 03:03:09.493213240&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 03:03:09.493213002&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -13002,7 +13002,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 03:03:09.493213240&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 03:03:09.493213002&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -13075,7 +13075,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 08:11:29.665149316&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 08:11:29.665149000&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -13105,7 +13105,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 03:03:09.493213240&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 03:03:09.493213002&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -13224,7 +13224,7 @@ BEGIN Satellite
                                     <OBJECT Class = "bool" Name = "CausedTermination"> True </OBJECT>
                                     <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                     <OBJECT Class = "string" Name = "Description"> &quot;Trigger Log Information&quot; </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 08:11:29.665149316&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 08:11:29.665149000&quot; TAIG </OBJECT>
                                     <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                     <OBJECT Class = "container" Name = "ShooterControls" />
                                     <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
@@ -13594,7 +13594,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 08:11:29.665149316&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 08:11:29.665149000&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -13955,7 +13955,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 08:11:29.665149316&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 08:11:29.665149000&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -13993,7 +13993,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 08:11:29.665149316&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 08:11:29.665149000&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -14137,7 +14137,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 08:11:29.665149316&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 08:11:29.665149000&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -14210,7 +14210,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 13:44:19.968706351&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 13:44:19.968706001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -14240,7 +14240,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 08:11:29.665149316&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 08:11:29.665149000&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -14404,7 +14404,7 @@ BEGIN Satellite
                                     <OBJECT Class = "bool" Name = "CausedTermination"> True </OBJECT>
                                     <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                     <OBJECT Class = "string" Name = "Description"> &quot;Trigger Log Information&quot; </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 13:44:19.968706351&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 13:44:19.968706001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                     <OBJECT Class = "container" Name = "ShooterControls" />
                                     <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
@@ -14774,7 +14774,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 13:44:19.968706351&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 13:44:19.968706001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -15135,7 +15135,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 13:44:19.968706351&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 13:44:19.968706001&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -15173,7 +15173,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 13:44:19.968706351&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 13:44:19.968706001&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -15317,7 +15317,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 13:44:19.968706351&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 13:44:19.968706001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -15428,7 +15428,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 13:44:19.968706351&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 13:44:19.968706001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -15458,7 +15458,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 13:44:19.968706351&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 13:44:19.968706001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -15526,7 +15526,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;15 Jul 2040 02:07:49.361734048&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;15 Jul 2040 02:07:49.361733999&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -15559,7 +15559,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 13:44:19.968706351&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;12 Jul 2040 13:44:19.968706001&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -15674,7 +15674,7 @@ BEGIN Satellite
                             <OBJECT Class = "bool" Name = "CausedTermination"> True </OBJECT>
                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                             <OBJECT Class = "string" Name = "Description"> &quot;Trigger Log Information&quot; </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;15 Jul 2040 02:07:49.361734048&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;15 Jul 2040 02:07:49.361733999&quot; TAIG </OBJECT>
                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                             <OBJECT Class = "container" Name = "ShooterControls" />
                             <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
@@ -15720,7 +15720,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;18 Jul 2040 05:44:16.808831565&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;18 Jul 2040 05:44:16.808832001&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -15750,7 +15750,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;15 Jul 2040 02:07:49.361734048&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;15 Jul 2040 02:07:49.361733999&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -16796,7 +16796,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;15 Jul 2040 02:07:49.361734048&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;15 Jul 2040 02:07:49.361733999&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -17157,7 +17157,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;15 Jul 2040 02:07:49.361734048&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;15 Jul 2040 02:07:49.361733999&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -17195,7 +17195,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;15 Jul 2040 02:07:49.361734048&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;15 Jul 2040 02:07:49.361733999&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -17244,7 +17244,7 @@ BEGIN Satellite
                                             <OBJECT Class = "container" Name = "Cartesian">
                                                 <OBJECT Class = "double" Name = "X"> 117.0465383011861 m*sec^-1 </OBJECT>
                                                 <OBJECT Class = "double" Name = "Y"> -0.002502238807061168 m*sec^-1 </OBJECT>
-                                                <OBJECT Class = "double" Name = "Z"> 23.0280123615799 m*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Z"> 23.02801236157991 m*sec^-1 </OBJECT>
                                             </OBJECT>
                                             <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
@@ -17339,7 +17339,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;15 Jul 2040 02:07:49.361734048&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;15 Jul 2040 02:07:49.361733999&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -17412,7 +17412,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;18 Jul 2040 05:44:16.808831565&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;18 Jul 2040 05:44:16.808832001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -17442,7 +17442,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;15 Jul 2040 02:07:49.361734048&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;15 Jul 2040 02:07:49.361733999&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -17620,7 +17620,7 @@ BEGIN Satellite
                                     <OBJECT Class = "bool" Name = "CausedTermination"> True </OBJECT>
                                     <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                     <OBJECT Class = "string" Name = "Description"> &quot;Trigger Log Information&quot; </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;18 Jul 2040 05:44:16.808831565&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;18 Jul 2040 05:44:16.808832001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                     <OBJECT Class = "container" Name = "ShooterControls" />
                                     <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
@@ -17990,7 +17990,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;18 Jul 2040 05:44:16.808831565&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;18 Jul 2040 05:44:16.808832001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -18351,7 +18351,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;18 Jul 2040 05:44:16.808831565&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;18 Jul 2040 05:44:16.808832001&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -18389,7 +18389,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;18 Jul 2040 05:44:16.808831565&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;18 Jul 2040 05:44:16.808832001&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -18533,7 +18533,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;18 Jul 2040 05:44:16.808831565&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;18 Jul 2040 05:44:16.808832001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -18644,7 +18644,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;18 Jul 2040 05:44:16.808831565&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;18 Jul 2040 05:44:16.808832001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -18674,7 +18674,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;18 Jul 2040 05:44:16.808831565&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;18 Jul 2040 05:44:16.808832001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -18742,7 +18742,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;23 Jul 2040 02:57:36.808831565&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;23 Jul 2040 02:57:36.808832001&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -18775,7 +18775,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;18 Jul 2040 05:44:16.808831565&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;18 Jul 2040 05:44:16.808832001&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -18851,7 +18851,7 @@ BEGIN Satellite
                             <OBJECT Class = "bool" Name = "CausedTermination"> True </OBJECT>
                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                             <OBJECT Class = "string" Name = "Description"> &quot;Trigger Log Information&quot; </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;23 Jul 2040 02:57:36.808831565&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;23 Jul 2040 02:57:36.808832001&quot; TAIG </OBJECT>
                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                             <OBJECT Class = "container" Name = "ShooterControls" />
                             <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
@@ -18897,7 +18897,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;26 Jul 2040 23:34:07.486490700&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;26 Jul 2040 23:34:07.486490998&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -18927,7 +18927,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;23 Jul 2040 02:57:36.808831565&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;23 Jul 2040 02:57:36.808832001&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -19696,7 +19696,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;23 Jul 2040 03:32:06.445772249&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;23 Jul 2040 03:32:06.445772000&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -19729,7 +19729,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;23 Jul 2040 02:57:36.808831565&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;23 Jul 2040 02:57:36.808832001&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -19807,7 +19807,7 @@ BEGIN Satellite
                                     <OBJECT Class = "bool" Name = "CausedTermination"> True </OBJECT>
                                     <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                     <OBJECT Class = "string" Name = "Description"> &quot;Trigger Log Information&quot; </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;23 Jul 2040 03:32:06.445772249&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;23 Jul 2040 03:32:06.445772000&quot; TAIG </OBJECT>
                                     <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                     <OBJECT Class = "container" Name = "ShooterControls" />
                                     <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
@@ -20177,7 +20177,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;23 Jul 2040 03:32:06.445772249&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;23 Jul 2040 03:32:06.445772000&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -20538,7 +20538,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;23 Jul 2040 03:32:06.445772249&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;23 Jul 2040 03:32:06.445772000&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -20576,7 +20576,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;23 Jul 2040 03:32:06.445772249&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;23 Jul 2040 03:32:06.445772000&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -20720,7 +20720,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;23 Jul 2040 03:32:06.445772249&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;23 Jul 2040 03:32:06.445772000&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -20793,7 +20793,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;26 Jul 2040 23:34:07.486490700&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;26 Jul 2040 23:34:07.486490998&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -20823,7 +20823,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;23 Jul 2040 03:32:06.445772249&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;23 Jul 2040 03:32:06.445772000&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -20948,7 +20948,7 @@ BEGIN Satellite
                                     <OBJECT Class = "bool" Name = "CausedTermination"> True </OBJECT>
                                     <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                                     <OBJECT Class = "string" Name = "Description"> &quot;Trigger Log Information&quot; </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;26 Jul 2040 23:34:07.486490700&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;26 Jul 2040 23:34:07.486490998&quot; TAIG </OBJECT>
                                     <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                                     <OBJECT Class = "container" Name = "ShooterControls" />
                                     <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
@@ -21318,7 +21318,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;26 Jul 2040 23:34:07.486490700&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;26 Jul 2040 23:34:07.486490998&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -21679,7 +21679,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;26 Jul 2040 23:34:07.486490700&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;26 Jul 2040 23:34:07.486490998&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -21717,7 +21717,7 @@ BEGIN Satellite
                                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                            <OBJECT Class = "date" Name = "Epoch"> &quot;26 Jul 2040 23:34:07.486490700&quot; TAIG </OBJECT>
+                                            <OBJECT Class = "date" Name = "Epoch"> &quot;26 Jul 2040 23:34:07.486490998&quot; TAIG </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -21861,7 +21861,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;26 Jul 2040 23:34:07.486490700&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;26 Jul 2040 23:34:07.486490998&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -21972,7 +21972,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;26 Jul 2040 23:34:07.486490700&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;26 Jul 2040 23:34:07.486490998&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -22002,7 +22002,7 @@ BEGIN Satellite
                                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                                     <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                                    <OBJECT Class = "date" Name = "Epoch"> &quot;26 Jul 2040 23:34:07.486490700&quot; TAIG </OBJECT>
+                                    <OBJECT Class = "date" Name = "Epoch"> &quot;26 Jul 2040 23:34:07.486490998&quot; TAIG </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                                     <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                                     <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -22070,7 +22070,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;27 Jul 2040 11:34:07.486490700&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;27 Jul 2040 11:34:07.486490998&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -22103,7 +22103,7 @@ BEGIN Satellite
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
                             <OBJECT Class = "double" Name = "DryMass"> 500 kg </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;26 Jul 2040 23:34:07.486490700&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;26 Jul 2040 23:34:07.486490998&quot; TAIG </OBJECT>
                             <OBJECT Class = "double" Name = "FuelDensity"> 1000 kg*m^-3 </OBJECT>
                             <OBJECT Class = "double" Name = "FuelMass"> 500 kg </OBJECT>
                             <OBJECT Class = "double" Name = "K1"> 1 &quot;&quot; </OBJECT>
@@ -22179,7 +22179,7 @@ BEGIN Satellite
                             <OBJECT Class = "bool" Name = "CausedTermination"> True </OBJECT>
                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
                             <OBJECT Class = "string" Name = "Description"> &quot;Trigger Log Information&quot; </OBJECT>
-                            <OBJECT Class = "date" Name = "Epoch"> &quot;27 Jul 2040 11:34:07.486490700&quot; TAIG </OBJECT>
+                            <OBJECT Class = "date" Name = "Epoch"> &quot;27 Jul 2040 11:34:07.486490998&quot; TAIG </OBJECT>
                             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
                             <OBJECT Class = "container" Name = "ShooterControls" />
                             <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
@@ -22323,9 +22323,9 @@ BEGIN Satellite
             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
             <OBJECT Class = "string" Name = "Segment"> &quot;MarsTransfer5.OrbitInsertion.Maneuver&quot; </OBJECT>
             <OBJECT Class = "container" Name = "ShooterControls" />
-            <OBJECT Class = "date" Name = "Start"> &quot;22 Jun 2040 08:27:48.045004439&quot; TAIG </OBJECT>
+            <OBJECT Class = "date" Name = "Start"> &quot;22 Jun 2040 08:27:48.045003999&quot; TAIG </OBJECT>
             <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
-            <OBJECT Class = "date" Name = "Stop"> &quot;22 Jun 2040 08:27:48.045004439&quot; TAIG </OBJECT>
+            <OBJECT Class = "date" Name = "Stop"> &quot;22 Jun 2040 08:27:48.045003999&quot; TAIG </OBJECT>
             <OBJECT Class = "string" Name = "Type"> &quot;ManeuverSummary&quot; </OBJECT>
             <OBJECT Class = "string" Name = "UserComment"> &quot;Maneuver Summary Information&quot; </OBJECT>
             <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
@@ -22342,9 +22342,9 @@ BEGIN Satellite
             <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
             <OBJECT Class = "string" Name = "Segment"> &quot;RaisePeriapse.Maneuver&quot; </OBJECT>
             <OBJECT Class = "container" Name = "ShooterControls" />
-            <OBJECT Class = "date" Name = "Start"> &quot;24 Jun 2040 19:44:11.004760224&quot; TAIG </OBJECT>
+            <OBJECT Class = "date" Name = "Start"> &quot;24 Jun 2040 19:44:11.004760001&quot; TAIG </OBJECT>
             <OBJECT Class = "int" Name = "STKVersion"> 1201 </OBJECT>
-            <OBJECT Class = "date" Name = "Stop"> &quot;24 Jun 2040 19:44:11.004760224&quot; TAIG </OBJECT>
+            <OBJECT Class = "date" Name = "Stop"> &quot;24 Jun 2040 19:44:11.004760001&quot; TAIG </OBJECT>
             <OBJECT Class = "string" Name = "Type"> &quot;ManeuverSummary&quot; </OBJECT>
             <OBJECT Class = "string" Name = "UserComment"> &quot;Maneuver Summary Information&quot; </OBJECT>
             <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
@@ -22418,7 +22418,7 @@ BEGIN Satellite
         BEGIN Profile
             Name		 ECIVVLH
             UserNamed		 No
-            StartTime		  2.7648000000000000e+06
+            StartTime		  0.0000000000000000e+00
             BEGIN ECIVVLH
                 Azimuth		  0.0000000000000000e+00
             END ECIVVLH
@@ -22620,7 +22620,7 @@ BEGIN Satellite
             LaunchWindowTrajMETStart		 0
             LaunchWindowTrajMETStop		 900
             LaunchWindowStart		 7084800
-            LaunchWindowStop		 -15887816.49321324
+            LaunchWindowStop		 -15409905.57951066
             LaunchMETOffset		 0
             LaunchWindowUseSecEphem		 No 
             LaunchWindowUseScenFolderForSecEphem		 Yes
@@ -22814,12 +22814,6 @@ BEGIN Satellite
         END ObjectCoverage
 
         BEGIN Desc
-            BEGIN ShortText
-
-            END ShortText
-            BEGIN LongText
-
-            END LongText
         END Desc
 
         BEGIN RadarCrossSection

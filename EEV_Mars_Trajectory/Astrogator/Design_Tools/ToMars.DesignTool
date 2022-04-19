@@ -3314,7 +3314,7 @@
         <OBJECT Class = "string" Name = "C3Label"> &quot;22.775946&quot; </OBJECT>
         <OBJECT Class = "string" Name = "RALabel"> &quot;63.245327&quot; </OBJECT>
         <OBJECT Class = "string" Name = "DecLabel"> &quot;54.563804&quot; </OBJECT>
-        <OBJECT Class = "string" Name = "PropReqDepGravity"> &quot;(Propagator Requires Departure Body&apos;s Gravity)&quot; </OBJECT>
+        <OBJECT Class = "string" Name = "PropReqDepGravity"> &quot;&quot; </OBJECT>
     </OBJECT>
     <OBJECT Class = "string" Name = "SequenceName"> &quot;MarsTransfer&quot; </OBJECT>
     <OBJECT Class = "container" Name = "ShooterControls" />
