@@ -71,6 +71,12 @@ BEGIN Planet
         END AccessConstraints
 
         BEGIN Desc
+            BEGIN ShortText
+
+            END ShortText
+            BEGIN LongText
+
+            END LongText
         END Desc
 
         BEGIN Crdn
@@ -82,7 +88,7 @@ BEGIN Planet
 
                 MarkerColor		 #c47600
                 LabelColor		 #c47600
-                LineColor		 #7fff00
+                LineColor		 #c47600
                 LineStyle		 0
                 LineWidth		 1
                 MarkerStyle		 2
@@ -92,7 +98,7 @@ BEGIN Planet
 
             BEGIN Graphics
 
-                Show		 On
+                Show		 Off
                 Inherit		 Off
                 ShowLabel		 On
                 ShowPlanetPoint		 On

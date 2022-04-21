@@ -17244,7 +17244,7 @@ BEGIN Satellite
                                             <OBJECT Class = "container" Name = "Cartesian">
                                                 <OBJECT Class = "double" Name = "X"> 117.0465383011861 m*sec^-1 </OBJECT>
                                                 <OBJECT Class = "double" Name = "Y"> -0.002502238807061168 m*sec^-1 </OBJECT>
-                                                <OBJECT Class = "double" Name = "Z"> 23.02801236157991 m*sec^-1 </OBJECT>
+                                                <OBJECT Class = "double" Name = "Z"> 23.02801236157992 m*sec^-1 </OBJECT>
                                             </OBJECT>
                                             <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
                                             <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>

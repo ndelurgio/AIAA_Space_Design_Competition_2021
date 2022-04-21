@@ -122,8 +122,8 @@ BEGIN Target
 
             BEGIN Attributes
 
-                MarkerColor		 #ffffff
-                LabelColor		 #ffffff
+                MarkerColor		 #57ffff
+                LabelColor		 #57ffff
                 LineStyle		 0
                 MarkerStyle		 14
                 FontStyle		 0
