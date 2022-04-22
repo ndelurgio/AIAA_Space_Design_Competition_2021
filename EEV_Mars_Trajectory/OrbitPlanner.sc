@@ -462,28 +462,8 @@ BEGIN Scenario
                 Name		 Satellite
                 BEGIN Favorite
                     Type		 Report
-                    BaseDir		 Install
-                    Style		 Astrogator Log
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
-                    BaseDir		 Install
-                    Style		 Astrogator Script Summary
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
-                    BaseDir		 Install
-                    Style		 MCS Summary
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
-                    BaseDir		 Install
-                    Style		 Segment Summary
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
                     BaseDir		 User
-                    Style		 apogee
+                    Style		 eccen
                 END Favorite
                 BEGIN Favorite
                     Type		 Report
@@ -493,7 +473,27 @@ BEGIN Scenario
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 User
-                    Style		 eccen
+                    Style		 apogee
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Segment Summary
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 MCS Summary
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Astrogator Script Summary
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Astrogator Log
                 END Favorite
             END Class
         END ReportFavorites

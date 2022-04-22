@@ -42,12 +42,6 @@ BEGIN Target
         END ObjectCoverage
 
         BEGIN Desc
-            BEGIN ShortText
-
-            END ShortText
-            BEGIN LongText
-
-            END LongText
         END Desc
 
         BEGIN Atmosphere
@@ -137,7 +131,7 @@ BEGIN Target
 
             BEGIN Graphics
 
-                Show		 On
+                Show		 Off
                 Inherit		 On
                 IsDynamic		 Off
                 ShowLabel		 On

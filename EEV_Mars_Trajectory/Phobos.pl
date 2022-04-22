@@ -71,6 +71,12 @@ BEGIN Planet
         END AccessConstraints
 
         BEGIN Desc
+            BEGIN ShortText
+
+            END ShortText
+            BEGIN LongText
+
+            END LongText
         END Desc
 
         BEGIN Crdn
@@ -92,7 +98,7 @@ BEGIN Planet
 
             BEGIN Graphics
 
-                Show		 On
+                Show		 Off
                 Inherit		 Off
                 ShowLabel		 On
                 ShowPlanetPoint		 On

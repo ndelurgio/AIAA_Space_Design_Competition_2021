@@ -2,6 +2,6 @@ VO_V120
 IsShowingPlanetPoint		 Yes
 IsShowingSubPlanetPoint		 No
 Inherit2DGfx		 No
-IsShowingPlanetLabel		 Yes
+IsShowingPlanetLabel		 No
 IsShowingSubPlanetLabel		 No
-IsShowingOrbit		 Yes
+IsShowingOrbit		 No
