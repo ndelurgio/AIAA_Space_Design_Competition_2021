@@ -93,7 +93,7 @@ BEGIN Planet
 
             BEGIN Graphics
 
-                Show		 Off
+                Show		 On
                 Inherit		 Off
                 ShowLabel		 On
                 ShowPlanetPoint		 On

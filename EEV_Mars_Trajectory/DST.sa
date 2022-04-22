@@ -350,12 +350,12 @@ BEGIN Satellite
             <OBJECT Class = "AttrCon" Name = "FinalState">
                 <OBJECT Class = "Orbit_State" Name = "Orbit_State">
                     <OBJECT Class = "container" Name = "Cartesian">
-                        <OBJECT Class = "double" Name = "X"> -65805777.71488814 m </OBJECT>
-                        <OBJECT Class = "double" Name = "Y"> 16193624.02445052 m </OBJECT>
-                        <OBJECT Class = "double" Name = "Z"> -277390.326544715 m </OBJECT>
-                        <OBJECT Class = "double" Name = "Vx"> 501.6445539718327 m*sec^-1 </OBJECT>
-                        <OBJECT Class = "double" Name = "Vy"> -537.6622944228457 m*sec^-1 </OBJECT>
-                        <OBJECT Class = "double" Name = "Vz"> -0.6100000237706421 m*sec^-1 </OBJECT>
+                        <OBJECT Class = "double" Name = "X"> -65805777.71557894 m </OBJECT>
+                        <OBJECT Class = "double" Name = "Y"> 16193624.025105 m </OBJECT>
+                        <OBJECT Class = "double" Name = "Z"> -277390.3265429446 m </OBJECT>
+                        <OBJECT Class = "double" Name = "Vx"> 501.6445539600259 m*sec^-1 </OBJECT>
+                        <OBJECT Class = "double" Name = "Vy"> -537.6622944197547 m*sec^-1 </OBJECT>
+                        <OBJECT Class = "double" Name = "Vz"> -0.6100000238196345 m*sec^-1 </OBJECT>
                     </OBJECT>
                     <OBJECT Class = "double" Name = "Cd"> 2.2 &quot;&quot; </OBJECT>
                     <OBJECT Class = "link" Name = "CoordSysRep">
@@ -381,16 +381,16 @@ BEGIN Satellite
             <OBJECT Class = "AttrCon" Name = "InitialState">
                 <OBJECT Class = "Orbit_State" Name = "Orbit_State">
                     <OBJECT Class = "container" Name = "Cartesian">
-                        <OBJECT Class = "double" Name = "X"> -262220983132.7256 m </OBJECT>
-                        <OBJECT Class = "double" Name = "Y"> 135826216114.4028 m </OBJECT>
-                        <OBJECT Class = "double" Name = "Z"> 65445841652.80642 m </OBJECT>
-                        <OBJECT Class = "double" Name = "Vx"> -28139.37509973882 m*sec^-1 </OBJECT>
-                        <OBJECT Class = "double" Name = "Vy"> -20171.87796236741 m*sec^-1 </OBJECT>
-                        <OBJECT Class = "double" Name = "Vz"> -9098.985340627967 m*sec^-1 </OBJECT>
+                        <OBJECT Class = "double" Name = "X"> 6956710.293197632 m </OBJECT>
+                        <OBJECT Class = "double" Name = "Y"> -6277331.385803223 m </OBJECT>
+                        <OBJECT Class = "double" Name = "Z"> -0.04498291015625 m </OBJECT>
+                        <OBJECT Class = "double" Name = "Vx"> 1943.914181784676 m*sec^-1 </OBJECT>
+                        <OBJECT Class = "double" Name = "Vy"> 2154.300840522675 m*sec^-1 </OBJECT>
+                        <OBJECT Class = "double" Name = "Vz"> 3.364396239006965 m*sec^-1 </OBJECT>
                     </OBJECT>
                     <OBJECT Class = "double" Name = "Cd"> 2.2 &quot;&quot; </OBJECT>
                     <OBJECT Class = "link" Name = "CoordSysRep">
-                        <OBJECT Class = "string" Name = ""> &quot;CentralBody/Earth Inertial&quot; </OBJECT>
+                        <OBJECT Class = "string" Name = ""> &quot;Planet/Mars Inertial4&quot; </OBJECT>
                     </OBJECT>
                     <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                     <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
@@ -458,16 +458,16 @@ BEGIN Satellite
                     <OBJECT Class = "AttrCon" Name = "FinalState">
                         <OBJECT Class = "Orbit_State" Name = "Orbit_State">
                             <OBJECT Class = "container" Name = "Cartesian">
-                                <OBJECT Class = "double" Name = "X"> -262220983132.7256 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Y"> 135826216114.4028 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Z"> 65445841652.80642 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Vx"> -28139.37509973882 m*sec^-1 </OBJECT>
-                                <OBJECT Class = "double" Name = "Vy"> -20171.87796236741 m*sec^-1 </OBJECT>
-                                <OBJECT Class = "double" Name = "Vz"> -9098.985340627967 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "X"> 6956710.293197632 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Y"> -6277331.385803223 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Z"> -0.04498291015625 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Vx"> 1943.914181784676 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "Vy"> 2154.300840522675 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "Vz"> 3.364396239006965 m*sec^-1 </OBJECT>
                             </OBJECT>
                             <OBJECT Class = "double" Name = "Cd"> 2.2 &quot;&quot; </OBJECT>
                             <OBJECT Class = "link" Name = "CoordSysRep">
-                                <OBJECT Class = "string" Name = ""> &quot;CentralBody/Earth Inertial&quot; </OBJECT>
+                                <OBJECT Class = "string" Name = ""> &quot;Planet/Mars Inertial4&quot; </OBJECT>
                             </OBJECT>
                             <OBJECT Class = "double" Name = "Cr"> 1 &quot;&quot; </OBJECT>
                             <OBJECT Class = "double" Name = "DragArea"> 20 m^2 </OBJECT>
@@ -542,7 +542,7 @@ BEGIN Satellite
                     <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
                 </OBJECT>
                 <OBJECT Class = "MCSSegment" Name = "Propagate">
-                    <OBJECT Class = "double" Name = "AverageStep"> 3233.631519956847 sec </OBJECT>
+                    <OBJECT Class = "double" Name = "AverageStep"> 3226.564980624327 sec </OBJECT>
                     <OBJECT Class = "bool" Name = "BeenRun"> True </OBJECT>
                     <OBJECT Class = "container" Name = "BPlanes" />
                     <OBJECT Class = "string" Name = "Category"> &quot;@Top&quot; </OBJECT>
@@ -558,12 +558,12 @@ BEGIN Satellite
                     <OBJECT Class = "AttrCon" Name = "FinalState">
                         <OBJECT Class = "Orbit_State" Name = "Orbit_State">
                             <OBJECT Class = "container" Name = "Cartesian">
-                                <OBJECT Class = "double" Name = "X"> -65805777.71488814 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Y"> 16193624.02445052 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Z"> -277390.326544715 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Vx"> 501.6445539718327 m*sec^-1 </OBJECT>
-                                <OBJECT Class = "double" Name = "Vy"> -537.6622944228457 m*sec^-1 </OBJECT>
-                                <OBJECT Class = "double" Name = "Vz"> -0.6100000237706421 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "X"> -65805777.71557894 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Y"> 16193624.025105 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Z"> -277390.3265429446 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Vx"> 501.6445539600259 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "Vy"> -537.6622944197547 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "Vz"> -0.6100000238196345 m*sec^-1 </OBJECT>
                             </OBJECT>
                             <OBJECT Class = "double" Name = "Cd"> 2.2 &quot;&quot; </OBJECT>
                             <OBJECT Class = "link" Name = "CoordSysRep">
@@ -593,7 +593,7 @@ BEGIN Satellite
                                 <OBJECT Class = "double" Name = "Z"> -0.04498291015625 m </OBJECT>
                                 <OBJECT Class = "double" Name = "Vx"> 1943.914181784676 m*sec^-1 </OBJECT>
                                 <OBJECT Class = "double" Name = "Vy"> 2154.300840522675 m*sec^-1 </OBJECT>
-                                <OBJECT Class = "double" Name = "Vz"> 3.364396239006965 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "Vz"> 3.364396239007647 m*sec^-1 </OBJECT>
                             </OBJECT>
                             <OBJECT Class = "double" Name = "Cd"> 2.2 &quot;&quot; </OBJECT>
                             <OBJECT Class = "link" Name = "CoordSysRep">
@@ -615,14 +615,14 @@ BEGIN Satellite
                             <OBJECT Class = "container" Name = "UserVariables" />
                         </OBJECT>
                     </OBJECT>
-                    <OBJECT Class = "double" Name = "LargestStep"> 13021.751 sec </OBJECT>
+                    <OBJECT Class = "double" Name = "LargestStep"> 13021.402 sec </OBJECT>
                     <OBJECT Class = "string" Name = "LastRunCode"> &quot;Marching&quot; </OBJECT>
                     <OBJECT Class = "link" Name = "LastRunPropagator">
                         <OBJECT Class = "string" Name = ""> &quot;Mars_HPOP&quot; </OBJECT>
                     </OBJECT>
                     <OBJECT Class = "double" Name = "MaxPropTime"> 8640000 sec </OBJECT>
                     <OBJECT Class = "double" Name = "MinPropTime"> 0 sec </OBJECT>
-                    <OBJECT Class = "int" Name = "NumSteps"> 927 </OBJECT>
+                    <OBJECT Class = "int" Name = "NumSteps"> 929 </OBJECT>
                     <OBJECT Class = "bool" Name = "OverrideMaxPropTime"> True </OBJECT>
                     <OBJECT Class = "link" Name = "Propagator">
                         <OBJECT Class = "string" Name = ""> &quot;Mars_HPOP&quot; </OBJECT>
@@ -712,12 +712,12 @@ BEGIN Satellite
                     <OBJECT Class = "AttrCon" Name = "FinalState">
                         <OBJECT Class = "Orbit_State" Name = "Orbit_State">
                             <OBJECT Class = "container" Name = "Cartesian">
-                                <OBJECT Class = "double" Name = "X"> -65805777.71488814 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Y"> 16193624.02445052 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Z"> -277390.326544715 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Vx"> 501.6445539718327 m*sec^-1 </OBJECT>
-                                <OBJECT Class = "double" Name = "Vy"> -537.6622944228457 m*sec^-1 </OBJECT>
-                                <OBJECT Class = "double" Name = "Vz"> -0.6100000237706421 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "X"> -65805777.71557894 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Y"> 16193624.025105 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Z"> -277390.3265429446 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Vx"> 501.6445539600259 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "Vy"> -537.6622944197547 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "Vz"> -0.6100000238196345 m*sec^-1 </OBJECT>
                             </OBJECT>
                             <OBJECT Class = "double" Name = "Cd"> 2.2 &quot;&quot; </OBJECT>
                             <OBJECT Class = "link" Name = "CoordSysRep">
@@ -742,12 +742,12 @@ BEGIN Satellite
                     <OBJECT Class = "AttrCon" Name = "InitialState">
                         <OBJECT Class = "Orbit_State" Name = "Orbit_State">
                             <OBJECT Class = "container" Name = "Cartesian">
-                                <OBJECT Class = "double" Name = "X"> -65805777.71488814 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Y"> 16193624.02445052 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Z"> -277390.326544715 m </OBJECT>
-                                <OBJECT Class = "double" Name = "Vx"> 501.6445539718327 m*sec^-1 </OBJECT>
-                                <OBJECT Class = "double" Name = "Vy"> -537.6622944228457 m*sec^-1 </OBJECT>
-                                <OBJECT Class = "double" Name = "Vz"> -0.6100000237706421 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "X"> -65805777.71557894 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Y"> 16193624.025105 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Z"> -277390.3265429446 m </OBJECT>
+                                <OBJECT Class = "double" Name = "Vx"> 501.6445539600259 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "Vy"> -537.6622944197547 m*sec^-1 </OBJECT>
+                                <OBJECT Class = "double" Name = "Vz"> -0.6100000238196345 m*sec^-1 </OBJECT>
                             </OBJECT>
                             <OBJECT Class = "double" Name = "Cd"> 2.2 &quot;&quot; </OBJECT>
                             <OBJECT Class = "link" Name = "CoordSysRep">
@@ -838,19 +838,19 @@ BEGIN Satellite
             ScenarioEpoch		 9 Sep 2039 00:00:00.000000
             Periods
                 Rev		 1 1 1 0 0 0 0 0 0 0 0
-                 2.5259505133000001e+07  2.5697335082882416e+07  2.5268771380702317e+07  2.5689625098539885e+07
+                 2.5259505133000001e+07  2.5697335082882386e+07  2.5268771380703550e+07  2.5689625098539714e+07
                 Rev		 2 1 1 0 0 0 0 0 0 0 0
-                 2.5697335082882416e+07  2.6135134378328413e+07  2.5705763263879020e+07  2.6127283381181881e+07
+                 2.5697335082882386e+07  2.6135134378328688e+07  2.5705763263878662e+07  2.6127283381182041e+07
                 Rev		 3 1 1 0 0 0 0 0 0 0 0
-                 2.6135134378328413e+07  2.6572841005671427e+07  2.6143415530757185e+07  2.6564923730254743e+07
+                 2.6135134378328688e+07  2.6572841005672093e+07  2.6143415530757550e+07  2.6564923730255354e+07
                 Rev		 4 1 1 0 0 0 0 0 0 0 0
-                 2.6572841005671427e+07  2.7010444503330424e+07  2.6581068219548069e+07  2.7002486686395355e+07
+                 2.6572841005672093e+07  2.7010444503331095e+07  2.6581068219548538e+07  2.7002486686395712e+07
                 Rev		 5 1 1 0 0 0 0 0 0 0 0
-                 2.7010444503330424e+07  2.7447994045776755e+07  2.7018652364349898e+07  2.7440007773024622e+07
+                 2.7010444503331095e+07  2.7447994045777671e+07  2.7018652364350468e+07  2.7440007773025513e+07
                 Rev		 6 1 1 0 0 0 0 0 0 0 0
-                 2.7447994045776755e+07  2.7885567775600132e+07  2.7456200867209900e+07  2.7877559107122257e+07
+                 2.7447994045777671e+07  2.7885567775601838e+07  2.7456200867210854e+07  2.7877559107123375e+07
                 Rev		 7 1 0 0 0 1 1 0 0 1 0
-                 2.7885567775600132e+07  2.8259505133000001e+07  2.7893784433886103e+07  0.0000000000000000e+00
+                 2.7885567775601838e+07  2.8259505133000001e+07  2.7893784433887288e+07  0.0000000000000000e+00
             END Periods
         END PassDefn
 
@@ -875,7 +875,7 @@ BEGIN Satellite
         BEGIN Profile
             Name		 ECIVVLH
             UserNamed		 No
-            StartTime		  0.0000000000000000e+00
+            StartTime		  2.5259505133000001e+07
             BEGIN ECIVVLH
                 Azimuth		  0.0000000000000000e+00
             END ECIVVLH
@@ -6719,7 +6719,7 @@ BEGIN Satellite
             END GenericGraphics
 
             BEGIN AttributeData
-                ShowGfx		 Off
+                ShowGfx		 On
                 AttributeType		                CustomIntervals		
                 BEGIN DefaultAttributes
                     Show		 On

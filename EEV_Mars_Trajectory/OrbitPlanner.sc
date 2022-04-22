@@ -229,6 +229,66 @@ BEGIN Scenario
             WindowRectRight		 2393
             WindowRectBottom		 1023
         END Report
+
+        BEGIN Report
+            Name		 Access3
+            Type		 Report
+            BaseDir		 Install
+            Style		 Access
+            AGIViewer		 Yes
+            Instance		 Target/FlimnapCrater
+            BEGIN InstanceList
+                Instance		 Satellite/DST
+            END InstanceList
+            BEGIN TimeData
+                BEGIN Section
+                    SectionNumber		 1
+                    SectionType		 4
+                    ShowIntervals		 No
+                    TimeType		 Availability
+                    SamplingType		 Default
+                    TimeBound		 0
+                END Section
+            END TimeData
+            DisplayOnLoad		 Yes
+            FrameType		 0
+            DockCircleID		 0
+            DockID		 0
+            WindowRectLeft		 481
+            WindowRectTop		 1142
+            WindowRectRight		 680
+            WindowRectBottom		 1176
+        END Report
+
+        BEGIN Report
+            Name		 Access4
+            Type		 Report
+            BaseDir		 Install
+            Style		 Access
+            AGIViewer		 Yes
+            Instance		 Target/VoltaireCrater
+            BEGIN InstanceList
+                Instance		 Planet/Sun
+            END InstanceList
+            BEGIN TimeData
+                BEGIN Section
+                    SectionNumber		 1
+                    SectionType		 4
+                    ShowIntervals		 No
+                    TimeType		 Availability
+                    SamplingType		 Default
+                    TimeBound		 0
+                END Section
+            END TimeData
+            DisplayOnLoad		 Yes
+            FrameType		 0
+            DockCircleID		 0
+            DockID		 0
+            WindowRectLeft		 680
+            WindowRectTop		 1152
+            WindowRectRight		 879
+            WindowRectBottom		 1186
+        END Report
     END QuickReports
 
     BEGIN Extensions
@@ -462,28 +522,8 @@ BEGIN Scenario
                 Name		 Satellite
                 BEGIN Favorite
                     Type		 Report
-                    BaseDir		 User
-                    Style		 eccen
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
-                    BaseDir		 User
-                    Style		 New Report
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
-                    BaseDir		 User
-                    Style		 apogee
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
                     BaseDir		 Install
-                    Style		 Segment Summary
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
-                    BaseDir		 Install
-                    Style		 MCS Summary
+                    Style		 Astrogator Log
                 END Favorite
                 BEGIN Favorite
                     Type		 Report
@@ -493,7 +533,27 @@ BEGIN Scenario
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 Install
-                    Style		 Astrogator Log
+                    Style		 MCS Summary
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Segment Summary
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 User
+                    Style		 apogee
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 User
+                    Style		 New Report
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 User
+                    Style		 eccen
                 END Favorite
             END Class
         END ReportFavorites
@@ -1021,6 +1081,13 @@ BEGIN Scenario
         END Gator
 
         BEGIN Crdn
+            BEGIN EVENTINTERVAL
+                Type		 EVENTINTERVAL_FIXED
+                Name		 MissionInterval
+                Description		 <Enter description (up to 300 chars)>
+                StartEpoch		 27 Jun 2040 09:00:00.000000000
+                StopEpoch		 27 Jul 2040 00:00:00.000000000
+            END EVENTINTERVAL
         END Crdn
 
         BEGIN SpiceExt
@@ -1035,7 +1102,7 @@ BEGIN Scenario
 
                 StartTime		 9 Sep 2039 00:00:00.000000000
                 EndTime		 30 Sep 2040 00:00:00.000000000
-                CurrentTime		 27 Jun 2040 21:47:40.000000000
+                CurrentTime		 26 Jun 2040 22:47:40.000000000
                 Direction		 Forward
                 UpdateDelta		 1800
                 RefreshDelta		 0.010000

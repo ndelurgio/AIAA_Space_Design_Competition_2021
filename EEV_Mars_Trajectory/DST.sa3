@@ -1,6 +1,6 @@
 VO_V120		
 InitializeSolarPanels		 Yes
-Modelfile		 Space\satellite.glb
+ModelPath		 Space\satellite.glb
 UseCatalogModelFile		 Yes
 ModelDefaultColorFromMarker		 No
 IsShowingModel		 Yes
@@ -10,6 +10,11 @@ UseModelPosOffset		 No
 ModelPosOffset		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
 UseModelRotation		 No
 ModelRotation		  0.0000000000000000e+00  0.0000000000000000e+00  0.0000000000000000e+00
+BEGIN ModelReflectionEnvironment
+    StarMap		 "milkyway.jpg"
+    IsStarmapGalacticReferenceFrame		 Yes
+    Resolution		 256
+END ModelReflectionEnvironment
 IsSwapped		 Yes
 Level0SwapDistance		 700.0000000000001
 Level1SwapDistance		 1000000000000000
