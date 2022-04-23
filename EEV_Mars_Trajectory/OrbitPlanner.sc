@@ -255,9 +255,9 @@ BEGIN Scenario
             DockCircleID		 0
             DockID		 0
             WindowRectLeft		 481
-            WindowRectTop		 1142
+            WindowRectTop		 1145
             WindowRectRight		 680
-            WindowRectBottom		 1176
+            WindowRectBottom		 1192
         END Report
 
         BEGIN Report
@@ -285,9 +285,9 @@ BEGIN Scenario
             DockCircleID		 0
             DockID		 0
             WindowRectLeft		 680
-            WindowRectTop		 1152
+            WindowRectTop		 1155
             WindowRectRight		 879
-            WindowRectBottom		 1186
+            WindowRectBottom		 1202
         END Report
     END QuickReports
 
@@ -522,28 +522,8 @@ BEGIN Scenario
                 Name		 Satellite
                 BEGIN Favorite
                     Type		 Report
-                    BaseDir		 Install
-                    Style		 Astrogator Log
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
-                    BaseDir		 Install
-                    Style		 Astrogator Script Summary
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
-                    BaseDir		 Install
-                    Style		 MCS Summary
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
-                    BaseDir		 Install
-                    Style		 Segment Summary
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
                     BaseDir		 User
-                    Style		 apogee
+                    Style		 eccen
                 END Favorite
                 BEGIN Favorite
                     Type		 Report
@@ -553,7 +533,27 @@ BEGIN Scenario
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 User
-                    Style		 eccen
+                    Style		 apogee
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Segment Summary
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 MCS Summary
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Astrogator Script Summary
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Astrogator Log
                 END Favorite
             END Class
         END ReportFavorites
@@ -1102,9 +1102,9 @@ BEGIN Scenario
 
                 StartTime		 9 Sep 2039 00:00:00.000000000
                 EndTime		 30 Sep 2040 00:00:00.000000000
-                CurrentTime		 26 Jun 2040 22:47:40.000000000
+                CurrentTime		 22 Jul 2040 23:26:40.000000000
                 Direction		 Forward
-                UpdateDelta		 1800
+                UpdateDelta		 180
                 RefreshDelta		 0.010000
                 XRealTimeMult		 1
                 RealTimeOffset		 0
