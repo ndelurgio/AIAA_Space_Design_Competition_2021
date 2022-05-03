@@ -10,3 +10,8 @@
 # Remove the unziped spacenet folder, only keep the compressed/zipped 
 # file (.zip)
 spacenet_2-5r1457_jar/
+
+
+# DONT push prefix
+DONT*.SLDASM
+DONT*.SLDPRT
