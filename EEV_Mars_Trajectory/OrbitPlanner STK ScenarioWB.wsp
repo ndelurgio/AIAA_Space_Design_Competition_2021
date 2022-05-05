@@ -4,7 +4,7 @@ Title=OrbitPlanner
 Description=
 ApplicationVersion=12.0.1
 Scenario=YES
-ActiveMDIState=TRUE
+ActiveMDIState=FALSE
 [WorkState_v1_2]
 ptn_Child1=Frames
 [WorkState_v1_2.Frames]
@@ -12,7 +12,7 @@ ptn_Child1=MainFrame
 ptn_Child2=ChildFrames
 [WorkState_v1_2.Frames.MainFrame]
 WindowPlacement=MCAAAAAACAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAPPPPPPPPPPPPPPPPAAAAAAAAHPPPPPPPKKFAAAAAHBEAAAAA
-Title=OrbitPlanner - STK 12 - [3D Graphics 3 - Mars]
+Title=OrbitPlanner - STK 12 - Report:  EEV_PD - DSTDist
 [WorkState_v1_2.Frames.ChildFrames]
 ptn_Child1=Document-0
 ptn_Child2=Document-1
@@ -27,10 +27,10 @@ ptn_Child10=Document-9
 [WorkState_v1_2.Frames.ChildFrames.Document-0]
 ptn_Child1=ViewFrame-0
 [WorkState_v1_2.Frames.ChildFrames.Document-0.ViewFrame-0]
-DocPathName=\\austin.utexas.edu\disk\engrstu\ase\npd429\My Documents\AIAA_Space_Design_Competition_2021\EEV_Mars_Trajectory\images\AgUi3DGfxView12.AgUiPi3DGfxView.1
+DocPathName=\\austin.utexas.edu\disk\engrstu\ase\npd429\My Documents\AIAA_Space_Design_Competition_2021\EEV_Mars_Trajectory\AgUi3DGfxView12.AgUiPi3DGfxView.1
 DocumentString=AgUi3DGfxView.AgUiPi3DGfxView.1
 DocTemplateIndex=0
-WindowPlacement=MCAAAAAACAAAAAAACAAAAAAAHMAAAAAABAEAAAAAFPPPPPPPINPPPPPPCNCAAAAAGAAAAAAABKFAAAAAAICAAAAA
+WindowPlacement=MCAAAAAACAAAAAAACAAAAAAAHMAAAAAAFAEAAAAAFPPPPPPPINPPPPPPCNCAAAAAGAAAAAAABKFAAAAAAICAAAAA
 IsActiveChildFrame=False
 IsFrameVisible=True
 ptn_Child1=AGI Custom Node Data
@@ -40,11 +40,11 @@ SceneType=1
 [WorkState_v1_2.Frames.ChildFrames.Document-1]
 ptn_Child1=ViewFrame-0
 [WorkState_v1_2.Frames.ChildFrames.Document-1.ViewFrame-0]
-DocPathName=\\austin.utexas.edu\disk\engrstu\ase\npd429\My Documents\AIAA_Space_Design_Competition_2021\EEV_Mars_Trajectory\images\AgUi3DGfxView12.AgUiPi3DGfxView.1
+DocPathName=\\austin.utexas.edu\disk\engrstu\ase\npd429\My Documents\AIAA_Space_Design_Competition_2021\EEV_Mars_Trajectory\AgUi3DGfxView12.AgUiPi3DGfxView.1
 DocumentString=AgUi3DGfxView.AgUiPi3DGfxView.1
 DocTemplateIndex=0
-WindowPlacement=MCAAAAAACAAAAAAADAAAAAAAOIBAAAAAFAEAAAAAFPPPPPPPINPPPPPPAABAAAAAAABAAAAANJDAAAAAJNDAAAAA
-IsActiveChildFrame=True
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAOIBAAAAAFAEAAAAAFPPPPPPPINPPPPPPAABAAAAAAABAAAAANJDAAAAAJNDAAAAA
+IsActiveChildFrame=False
 IsFrameVisible=True
 ptn_Child1=AGI Custom Node Data
 [WorkState_v1_2.Frames.ChildFrames.Document-1.ViewFrame-0.AGI Custom Node Data]
@@ -53,10 +53,10 @@ SceneType=1
 [WorkState_v1_2.Frames.ChildFrames.Document-2]
 ptn_Child1=ViewFrame-0
 [WorkState_v1_2.Frames.ChildFrames.Document-2.ViewFrame-0]
-DocPathName=\\austin.utexas.edu\disk\engrstu\ase\npd429\My Documents\AIAA_Space_Design_Competition_2021\EEV_Mars_Trajectory\images\AgUi3DGfxView12.AgUiPi3DGfxView.1
+DocPathName=\\austin.utexas.edu\disk\engrstu\ase\npd429\My Documents\AIAA_Space_Design_Competition_2021\EEV_Mars_Trajectory\AgUi3DGfxView12.AgUiPi3DGfxView.1
 DocumentString=AgUi3DGfxView.AgUiPi3DGfxView.1
 DocTemplateIndex=0
-WindowPlacement=MCAAAAAACAAAAAAACAAAAAAAAAAAAAAABAEAAAAAFPPPPPPPINPPPPPPMCPPPPPPDDAAAAAAGPFAAAAAJPCAAAAA
+WindowPlacement=MCAAAAAACAAAAAAACAAAAAAAAAAAAAAAFAEAAAAAFPPPPPPPINPPPPPPMCPPPPPPDDAAAAAAGPFAAAAAJPCAAAAA
 IsActiveChildFrame=False
 IsFrameVisible=True
 ptn_Child1=AGI Custom Node Data
@@ -66,10 +66,10 @@ SceneType=1
 [WorkState_v1_2.Frames.ChildFrames.Document-3]
 ptn_Child1=ViewFrame-0
 [WorkState_v1_2.Frames.ChildFrames.Document-3.ViewFrame-0]
-DocPathName=\\austin.utexas.edu\disk\engrstu\ase\npd429\My Documents\AIAA_Space_Design_Competition_2021\EEV_Mars_Trajectory\images\AgUiAttrBrowser12.AgUiPiAttrBrowser.1
+DocPathName=\\austin.utexas.edu\disk\engrstu\ase\npd429\My Documents\AIAA_Space_Design_Competition_2021\EEV_Mars_Trajectory\AgUiAttrBrowser12.AgUiPiAttrBrowser.1
 DocumentString=AgUiAttrBrowser.AgUiPiAttrBrowser.1
 DocTemplateIndex=0
-WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAABBBAAAAAJCEAAAAA
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAABBBAAAAAMCEAAAAA
 IsActiveChildFrame=False
 IsFrameVisible=True
 ProfUISBarID=63000
@@ -77,7 +77,7 @@ ptn_Child1=AGI Custom Node Data
 [WorkState_v1_2.Frames.ChildFrames.Document-6]
 ptn_Child1=ViewFrame-0
 [WorkState_v1_2.Frames.ChildFrames.Document-6.ViewFrame-0]
-DocPathName=\\austin.utexas.edu\disk\engrstu\ase\npd429\My Documents\AIAA_Space_Design_Competition_2021\EEV_Mars_Trajectory\images\AgUiMessageViewer12.AgUiPiMessageViewer.1
+DocPathName=\\austin.utexas.edu\disk\engrstu\ase\npd429\My Documents\AIAA_Space_Design_Competition_2021\EEV_Mars_Trajectory\AgUiMessageViewer12.AgUiPiMessageViewer.1
 DocumentString=AgUiMessageViewer.AgUiPiMessageViewer.1
 DocTemplateIndex=0
 WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAAAAKAAAAADHAAAAAA

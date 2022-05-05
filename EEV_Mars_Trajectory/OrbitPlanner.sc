@@ -250,14 +250,14 @@ BEGIN Scenario
                     TimeBound		 0
                 END Section
             END TimeData
-            DisplayOnLoad		 Yes
+            DisplayOnLoad		 No
             FrameType		 0
             DockCircleID		 0
             DockID		 0
-            WindowRectLeft		 481
-            WindowRectTop		 1145
-            WindowRectRight		 680
-            WindowRectBottom		 1192
+            WindowRectLeft		 442
+            WindowRectTop		 284
+            WindowRectRight		 2361
+            WindowRectBottom		 991
         END Report
 
         BEGIN Report
@@ -280,14 +280,58 @@ BEGIN Scenario
                     TimeBound		 0
                 END Section
             END TimeData
+            DisplayOnLoad		 No
+            FrameType		 0
+            DockCircleID		 0
+            DockID		 0
+            WindowRectLeft		 474
+            WindowRectTop		 316
+            WindowRectRight		 2397
+            WindowRectBottom		 1027
+        END Report
+
+        BEGIN Report
+            Name		 DSTDist
+            Type		 Report
+            BaseDir		 User
+            Style		 DSTDist
+            AGIViewer		 Yes
+            Instance		 Satellite/EEV_PD
+            BEGIN TimeData
+                BEGIN Section
+                    SectionNumber		 1
+                    SectionType		 2
+                    ShowIntervals		 No
+                    BEGIN IntervalList
+
+                        DateUnitAbrv		 UTCG
+
+                        BEGIN Intervals
+
+"27 Jun 2040 08:31:45.133000001" "1 Aug 2040 01:51:45.133000001"
+                        END Intervals
+
+                    END IntervalList
+
+                    TimeType		 Interval
+                    SamplingType		 Default
+                    TimeBound		 0
+                END Section
+            END TimeData
+            BEGIN PreDataList
+                BEGIN PreData
+                    ServiceName		 VectorChooseAxes
+                    Data		 Satellite/EEV_PD J2000.Axes
+                END PreData
+            END PreDataList
             DisplayOnLoad		 Yes
             FrameType		 0
             DockCircleID		 0
             DockID		 0
-            WindowRectLeft		 680
-            WindowRectTop		 1155
-            WindowRectRight		 879
-            WindowRectBottom		 1202
+            WindowRectLeft		 538
+            WindowRectTop		 380
+            WindowRectRight		 2461
+            WindowRectBottom		 1091
         END Report
     END QuickReports
 
@@ -523,12 +567,22 @@ BEGIN Scenario
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 User
-                    Style		 eccen
+                    Style		 DSTDist
                 END Favorite
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 User
-                    Style		 New Report
+                    Style		 EEVDistance
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 User
+                    Style		 MarsDist
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 User
+                    Style		 eccen
                 END Favorite
                 BEGIN Favorite
                     Type		 Report
@@ -538,12 +592,7 @@ BEGIN Scenario
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 Install
-                    Style		 Segment Summary
-                END Favorite
-                BEGIN Favorite
-                    Type		 Report
-                    BaseDir		 Install
-                    Style		 MCS Summary
+                    Style		 Astrogator Log
                 END Favorite
                 BEGIN Favorite
                     Type		 Report
@@ -553,7 +602,17 @@ BEGIN Scenario
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 Install
-                    Style		 Astrogator Log
+                    Style		 MCS Summary
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Segment Summary
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 User
+                    Style		 New Report
                 END Favorite
             END Class
         END ReportFavorites
